@@ -44,6 +44,7 @@ jobs:
           git add data/ README.md data/papers.csv
           git diff-index --quiet HEAD || git commit -m "update: daily arxiv papers $(date +'%Y-%m-%d')"
           git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/leoz32/arxiv-daily.git
+          git pull --rebase origin main
           git push origin main
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
