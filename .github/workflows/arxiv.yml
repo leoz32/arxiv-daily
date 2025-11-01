@@ -47,3 +47,27 @@ jobs:
           git push --force-with-lease origin main
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      # 7️⃣ 创建每日 Release，让 Watch 用户收到邮件
+      - name: Create daily release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "daily-$(date +'%Y-%m-%d')"
+          name: "Daily Arxiv Papers $(date +'%Y-%m-%d')"
+          body: "Latest papers updated in README.md and data/papers.csv"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 8️⃣ 自动删除超过 7 天的旧 Release
+      - name: Cleanup old releases
+        uses: actions/github-script@v7
+        with:
+          script: |
+            from datetime import datetime, timedelta
+            cutoff = datetime.utcnow() - timedelta(days=7)
+            releases = github.rest.repos.list_releases(owner=context.repo.owner, repo=context.repo.repo).json()
+            for r in releases:
+                created_at = datetime.strptime(r['created_at'], "%Y-%m-%dT%H:%M:%SZ")
+                if created_at < cutoff:
+                    github.rest.repos.delete_release(owner=context.repo.owner, repo=context.repo.repo, release_id=r['id'])
+                    github.rest.git.delete_ref(owner=context.repo.owner, repo=context.repo.repo, ref='tags/' + r['tag_name'])
