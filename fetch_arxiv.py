@@ -3,33 +3,19 @@ import json
 import os
 from datetime import datetime
 
-# Keywords to search
 KEYWORDS = ["RAG", "Retrieval-Augmented Generation", "Computer Vision"]
 DATA_PATH = "data/papers.json"
-MAX_RESULTS_PER_DAY = 15  # 每天每个关键词抓取最多15篇
+MAX_RESULTS_PER_DAY = 15  # 每个关键词每天最多抓取15篇
 
-def load_existing():
-    """Load previously fetched papers to avoid duplicates"""
-    if os.path.exists(DATA_PATH):
-        with open(DATA_PATH, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        existing_ids = set()
-        for papers in data.get("data", {}).values():
-            existing_ids.update(p["link"] for p in papers)
-        return data, existing_ids
-    return {"meta": {}, "data": {}}, set()
-
-def fetch_papers(keyword, existing_ids):
+def fetch_papers(keyword):
     """Fetch new papers by keyword from arXiv"""
     search = arxiv.Search(
         query=keyword,
-        max_results=50,  # 抓取更多用于筛选新论文
+        max_results=50,
         sort_by=arxiv.SortCriterion.SubmittedDate
     )
     papers = []
     for result in search.results():
-        if result.entry_id in existing_ids:
-            continue
         papers.append({
             "title": result.title.strip(),
             "authors": [a.name for a in result.authors],
@@ -42,7 +28,7 @@ def fetch_papers(keyword, existing_ids):
     return papers
 
 def save_results(all_papers):
-    """Save all keyword results to JSON"""
+    """Save papers to JSON"""
     meta = {
         "last_update": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "keywords": list(all_papers.keys()),
@@ -54,7 +40,7 @@ def save_results(all_papers):
         json.dump(out, f, ensure_ascii=False, indent=2)
 
 def update_readme(all_papers):
-    """Generate Markdown README file"""
+    """Generate README.md with only latest papers"""
     today = datetime.utcnow().strftime("%Y-%m-%d")
     md = [
         "# 📰 Daily Papers",
@@ -85,16 +71,13 @@ def update_readme(all_papers):
 
 if __name__ == "__main__":
     all_papers = {}
-    existing_data, existing_ids = load_existing()
-
     for kw in KEYWORDS:
         print(f"Fetching: {kw}")
         try:
-            new_papers = fetch_papers(kw, existing_ids)
-            all_papers[kw] = new_papers + existing_data.get("data", {}).get(kw, [])
+            all_papers[kw] = fetch_papers(kw)
         except Exception as e:
             print(f"Error fetching {kw}: {e}")
-            all_papers[kw] = existing_data.get("data", {}).get(kw, [])
+            all_papers[kw] = []
 
     save_results(all_papers)
     update_readme(all_papers)
