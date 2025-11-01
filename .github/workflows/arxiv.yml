@@ -12,13 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout 仓库，并用 GITHUB_TOKEN 授权
+      # 1️⃣ Checkout repo
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2️⃣ 设置 Python 环境
+      # 2️⃣ 设置 Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -42,7 +40,7 @@ jobs:
           git add .
           git diff-index --quiet HEAD || git commit -m "update: daily arxiv papers"
 
-      # 6️⃣ 推送到 main 分支（不依赖第三方 Action）
+      # 6️⃣ 推送到 main（使用 token URL）
       - name: Push changes
         run: |
-          git push origin main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/leoz32/arxiv-daily.git main
