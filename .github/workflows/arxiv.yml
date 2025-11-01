@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests feedparser tqdm
+          pip install requests feedparser tqdm arxiv
 
       - name: Run arxiv fetcher
         run: |
