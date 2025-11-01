@@ -3,16 +3,14 @@ name: Daily Arxiv Fetch
 on:
   schedule:
     - cron: "0 2 * * *"   # 每天 UTC+2 执行（北京时间早上10点）
-  workflow_dispatch:
-  push:
-    branches: [ main ]
+  workflow_dispatch:      # 支持手动触发
 
 jobs:
   update-arxiv:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout 仓库，用 PAT 授权
+      # 1️⃣ Checkout repo，用 PAT 授权
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
@@ -38,7 +36,7 @@ jobs:
         run: |
           python -c "import pandas as pd, json; data=json.load(open('data/papers.json','r',encoding='utf-8')); rows=[{'keyword':k,'title':p['title'],'authors':', '.join(p['authors']),'published':p['published'],'link':p['link'],'summary':p['summary']} for k,papers in data.get('data', {}).items() for p in papers]; pd.DataFrame(rows).to_csv('data/papers.csv', index=False, encoding='utf-8-sig')"
 
-      # 6️⃣ 提交并推送变动（只提交 data/ 文件夹、README.md、CSV）
+      # 6️⃣ 提交并推送变动（只提交 data/、README.md、CSV）
       - name: Commit and Push changes
         run: |
           git config user.name "github-actions[bot]"
