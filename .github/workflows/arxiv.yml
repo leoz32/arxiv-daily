@@ -1,0 +1,37 @@
+name: Daily Arxiv Fetch
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 每天 UTC+2 执行（北京时间早上10点）
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-arxiv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests feedparser tqdm
+
+      - name: Run arxiv fetcher
+        run: |
+          python fetch_arxiv.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "update: daily arxiv papers" || echo "No changes to commit"
+          git push
