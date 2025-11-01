@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
-      # 2️⃣ 设置 Python 环境
+      # 2️⃣ 设置 Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -27,25 +27,46 @@ jobs:
       # 3️⃣ 安装依赖
       - name: Install dependencies
         run: |
-          pip install requests feedparser tqdm arxiv
+          pip install requests feedparser tqdm arxiv pandas
 
       # 4️⃣ 运行抓取脚本
       - name: Run arxiv fetcher
         run: |
           python fetch_arxiv.py
 
-      # 5️⃣ 配置 Git 用户并提交变动
-      - name: Commit changes if any
+      # 5️⃣ 生成 CSV 文件
+      - name: Convert JSON to CSV
+        run: |
+          python - <<'EOF'
+import pandas as pd
+import json
+
+with open("data/papers.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+rows = []
+for kw, papers in data.get("data", {}).items():
+    for p in papers:
+        rows.append({
+            "keyword": kw,
+            "title": p["title"],
+            "authors": ", ".join(p["authors"]),
+            "published": p["published"],
+            "link": p["link"],
+            "summary": p["summary"]
+        })
+
+df = pd.DataFrame(rows)
+df.to_csv("data/papers.csv", index=False, encoding="utf-8-sig")
+EOF
+
+      # 6️⃣ 提交并推送变动（只提交 data/ 文件夹和 README.md、CSV）
+      - name: Commit and Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git diff-index --quiet HEAD || git commit -m "update: daily arxiv papers"
-
-      # 6️⃣ 推送到 main 分支（使用 PAT）
-      - name: Push changes
-        run: |
-          # 设置远程 URL 使用 PAT
+          git add data/ README.md data/papers.csv
+          git diff-index --quiet HEAD || git commit -m "update: daily arxiv papers $(date +'%Y-%m-%d')"
           git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/leoz32/arxiv-daily.git
           git push origin main
         env:
