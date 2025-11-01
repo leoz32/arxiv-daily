@@ -36,7 +36,7 @@ jobs:
         run: |
           python -c "import pandas as pd, json; data=json.load(open('data/papers.json','r',encoding='utf-8')); rows=[{'keyword':k,'title':p['title'],'authors':', '.join(p['authors']),'published':p['published'],'link':p['link'],'summary':p['summary']} for k,papers in data.get('data', {}).items() for p in papers]; pd.DataFrame(rows).to_csv('data/papers.csv', index=False, encoding='utf-8-sig')"
 
-      # 6️⃣ 提交并推送变动（只提交 data/、README.md、CSV）
+      # 6️⃣ 提交并推送变动（只提交 data/、README.md、CSV），使用 --force-with-lease
       - name: Commit and Push changes
         run: |
           git config user.name "github-actions[bot]"
@@ -44,7 +44,6 @@ jobs:
           git add data/ README.md data/papers.csv
           git diff-index --quiet HEAD || git commit -m "update: daily arxiv papers $(date +'%Y-%m-%d')"
           git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/leoz32/arxiv-daily.git
-          git pull --rebase origin main
-          git push origin main
+          git push --force-with-lease origin main
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
