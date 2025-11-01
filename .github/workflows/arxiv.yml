@@ -45,6 +45,8 @@ jobs:
       # 6️⃣ 推送到 main 分支（使用 PAT）
       - name: Push changes
         run: |
-          git push https://$PAT_TOKEN@github.com/leoz32/arxiv-daily.git main
+          # 设置远程 URL 使用 PAT
+          git remote set-url origin https://x-access-token:${PAT_TOKEN}@github.com/leoz32/arxiv-daily.git
+          git push origin main
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
