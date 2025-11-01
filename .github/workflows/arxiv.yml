@@ -48,17 +48,22 @@ jobs:
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
 
-      # 7️⃣ 创建每日 Release，让 Watch 用户收到邮件
+      # 7️⃣ 设置当天 tag
+      - name: Set tag name
+        id: tag
+        run: echo "tag_name=daily-$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      # 8️⃣ 创建每日 Release，用 PAT，保证 Watch 用户收到邮件
       - name: Create daily release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: "daily-$(date +'%Y-%m-%d')"
-          name: "Daily Arxiv Papers $(date +'%Y-%m-%d')"
+          tag_name: ${{ steps.tag.outputs.tag_name }}
+          name: "Daily Arxiv Papers ${{ steps.tag.outputs.tag_name }}"
           body: "Latest papers updated in README.md and data/papers.csv"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
-      # 8️⃣ 自动删除超过 7 天的旧 Release
+      # 9️⃣ 自动删除超过 7 天的旧 Release
       - name: Cleanup old releases
         uses: actions/github-script@v7
         with:
