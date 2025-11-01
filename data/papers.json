@@ -1,1 +1,2745 @@
-{}
+{
+  "meta": {
+    "last_update": "2025-11-01T08:18:27Z",
+    "keywords": [
+      "RAG",
+      "Retrieval-Augmented Generation",
+      "Computer Vision"
+    ],
+    "counts": {
+      "RAG": 100,
+      "Retrieval-Augmented Generation": 100,
+      "Computer Vision": 0
+    }
+  },
+  "data": {
+    "RAG": [
+      {
+        "title": "SecureReviewer: Enhancing Large Language Models for Secure Code Review through Secure-aware Fine-tuning",
+        "authors": [
+          "Fang Liu",
+          "Simiao Liu",
+          "Yinghao Zhu",
+          "Xiaoli Lian",
+          "Li Zhang"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26457v1",
+        "summary": "Identifying and addressing security issues during the early phase of the\ndevelopment lifecycle is critical for mitigating the long-term negative impacts\non software systems. Code review serves as an effective practice that enables\ndevelopers to check their teammates' code before integration into the codebase.\nTo streamline the generation of review comments, various automated code review\napproaches..."
+      },
+      {
+        "title": "MisSynth: Improving MISSCI Logical Fallacies Classification with Synthetic Data",
+        "authors": [
+          "Mykhailo Poliakov",
+          "Nadiya Shvai"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26345v1",
+        "summary": "Health-related misinformation is very prevalent and potentially harmful. It\nis difficult to identify, especially when claims distort or misinterpret\nscientific findings. We investigate the impact of synthetic data generation and\nlightweight fine-tuning techniques on the ability of large language models\n(LLMs) to recognize fallacious arguments using the MISSCI dataset and\nframework. In this work, w..."
+      },
+      {
+        "title": "GraphCompliance: Aligning Policy and Context Graphs for LLM-Based Regulatory Compliance",
+        "authors": [
+          "Jiseong Chung",
+          "Ronny Ko",
+          "Wonchul Yoo",
+          "Makoto Onizuka",
+          "Sungmok Kim",
+          "Tae-Wan Kim",
+          "Won-Yong Shin"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26309v1",
+        "summary": "Compliance at web scale poses practical challenges: each request may require\na regulatory assessment. Regulatory texts (e.g., the General Data Protection\nRegulation, GDPR) are cross-referential and normative, while runtime contexts\nare expressed in unstructured natural language. This setting motivates us to\nalign semantic information in unstructured text with the structured, normative\nelements of ..."
+      },
+      {
+        "title": "Retrieval Augmented Generation-Enhanced Distributed LLM Agents for Generalizable Traffic Signal Control with Emergency Vehicles",
+        "authors": [
+          "Xinhang Li",
+          "Qing Guo",
+          "Junyu Chen",
+          "Zheng Guo",
+          "Shengzhe Xu",
+          "Lei Li",
+          "Lin Zhang"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26242v1",
+        "summary": "With increasing urban traffic complexity, Traffic Signal Control (TSC) is\nessential for optimizing traffic flow and improving road safety. Large Language\nModels (LLMs) emerge as promising approaches for TSC. However, they are prone\nto hallucinations in emergencies, leading to unreliable decisions that may\ncause substantial delays for emergency vehicles. Moreover, diverse intersection\ntypes present..."
+      },
+      {
+        "title": "Towards Global Retrieval Augmented Generation: A Benchmark for Corpus-Level Reasoning",
+        "authors": [
+          "Qi Luo",
+          "Xiaonan Li",
+          "Tingshuo Fan",
+          "Xinchi Chen",
+          "Xipeng Qiu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26205v1",
+        "summary": "Retrieval-augmented generation (RAG) has emerged as a leading approach to\nreducing hallucinations in large language models (LLMs). Current RAG evaluation\nbenchmarks primarily focus on what we call local RAG: retrieving relevant\nchunks from a small subset of documents to answer queries that require only\nlocalized understanding within specific text chunks. However, many real-world\napplications requi..."
+      },
+      {
+        "title": "CRAG-MM: Multi-modal Multi-turn Comprehensive RAG Benchmark",
+        "authors": [
+          "Jiaqi Wang",
+          "Xiao Yang",
+          "Kai Sun",
+          "Parth Suresh",
+          "Sanat Sharma",
+          "Adam Czyzewski",
+          "Derek Andersen",
+          "Surya Appini",
+          "Arkav Banerjee",
+          "Sajal Choudhary",
+          "Shervin Ghasemlou",
+          "Ziqiang Guan",
+          "Akil Iyer",
+          "Haidar Khan",
+          "Lingkun Kong",
+          "Roy Luo",
+          "Tiffany Ma",
+          "Zhen Qiao",
+          "David Tran",
+          "Wenfang Xu",
+          "Skyler Yeatman",
+          "Chen Zhou",
+          "Gunveer Gujral",
+          "Yinglong Xia",
+          "Shane Moon",
+          "Nicolas Scheffer",
+          "Nirav Shah",
+          "Eun Chang",
+          "Yue Liu",
+          "Florian Metze",
+          "Tammy Stark",
+          "Zhaleh Feizollahi",
+          "Andrea Jessee",
+          "Mangesh Pujari",
+          "Ahmed Aly",
+          "Babak Damavandi",
+          "Rakesh Wanga",
+          "Anuj Kumar",
+          "Rohit Patel",
+          "Wen-tau Yih",
+          "Xin Luna Dong"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26160v1",
+        "summary": "Wearable devices such as smart glasses are transforming the way people\ninteract with their surroundings, enabling users to seek information regarding\nentities in their view. Multi-Modal Retrieval-Augmented Generation (MM-RAG)\nplays a key role in supporting such questions, yet there is still no\ncomprehensive benchmark for this task, especially regarding wearables\nscenarios. To fill this gap, we pre..."
+      },
+      {
+        "title": "FARSIQA: Faithful and Advanced RAG System for Islamic Question Answering",
+        "authors": [
+          "Mohammad Aghajani Asl",
+          "Behrooz Minaei Bidgoli"
+        ],
+        "published": "2025-10-29",
+        "link": "http://arxiv.org/abs/2510.25621v1",
+        "summary": "The advent of Large Language Models (LLMs) has revolutionized Natural\nLanguage Processing, yet their application in high-stakes, specialized domains\nlike religious question answering is hindered by challenges like hallucination\nand unfaithfulness to authoritative sources. This issue is particularly\ncritical for the Persian-speaking Muslim community, where accuracy and\ntrustworthiness are paramount..."
+      },
+      {
+        "title": "Retrieval Augmented Generation (RAG) for Fintech: Agentic Design and Evaluation",
+        "authors": [
+          "Thomas Cook",
+          "Richard Osuagwu",
+          "Liman Tsatiashvili",
+          "Vrynsia Vrynsia",
+          "Koustav Ghosal",
+          "Maraim Masoud",
+          "Riccardo Mattivi"
+        ],
+        "published": "2025-10-29",
+        "link": "http://arxiv.org/abs/2510.25518v1",
+        "summary": "Retrieval-Augmented Generation (RAG) systems often face limitations in\nspecialized domains such as fintech, where domain-specific ontologies, dense\nterminology, and acronyms complicate effective retrieval and synthesis. This\npaper introduces an agentic RAG architecture designed to address these\nchallenges through a modular pipeline of specialized agents. The proposed\nsystem supports intelligent qu..."
+      },
+      {
+        "title": "DIRC-RAG: Accelerating Edge RAG with Robust High-Density and High-Loading-Bandwidth Digital In-ReRAM Computation",
+        "authors": [
+          "Kunming Shao",
+          "Zhipeng Liao",
+          "Jiangnan Yu",
+          "Liang Zhao",
+          "Qiwei Li",
+          "Xijie Huang",
+          "Jingyu He",
+          "Fengshi Tian",
+          "Yi Zou",
+          "Xiaomeng Wang",
+          "Tim Kwang-Ting Cheng",
+          "Chi-Ying Tsui"
+        ],
+        "published": "2025-10-29",
+        "link": "http://arxiv.org/abs/2510.25278v1",
+        "summary": "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by\nintegrating external knowledge retrieval but faces challenges on edge devices\ndue to high storage, energy, and latency demands. Computing-in-Memory (CIM)\noffers a promising solution by storing document embeddings in CIM macros and\nenabling in-situ parallel retrievals but is constrained by either low memory\ndensity or lim..."
+      },
+      {
+        "title": "Secure Retrieval-Augmented Generation against Poisoning Attacks",
+        "authors": [
+          "Zirui Cheng",
+          "Jikai Sun",
+          "Anjun Gao",
+          "Yueyang Quan",
+          "Zhuqing Liu",
+          "Xiaohua Hu",
+          "Minghong Fang"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.25025v1",
+        "summary": "Large language models (LLMs) have transformed natural language processing\n(NLP), enabling applications from content generation to decision support.\nRetrieval-Augmented Generation (RAG) improves LLMs by incorporating external\nknowledge but also introduces security risks, particularly from data poisoning,\nwhere the attacker injects poisoned texts into the knowledge database to\nmanipulate system outp..."
+      },
+      {
+        "title": "Seeing Through the MiRAGE: Evaluating Multimodal Retrieval Augmented Generation",
+        "authors": [
+          "Alexander Martin",
+          "William Walden",
+          "Reno Kriz",
+          "Dengjia Zhang",
+          "Kate Sanders",
+          "Eugene Yang",
+          "Chihsheng Jin",
+          "Benjamin Van Durme"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24870v1",
+        "summary": "We introduce MiRAGE, an evaluation framework for retrieval-augmented\ngeneration (RAG) from multimodal sources. As audiovisual media becomes a\nprevalent source of information online, it is essential for RAG systems to\nintegrate information from these sources into generation. However, existing\nevaluations for RAG are text-centric, limiting their applicability to\nmultimodal, reasoning intensive setti..."
+      },
+      {
+        "title": "Optimizing Retrieval for RAG via Reinforced Contrastive Learning",
+        "authors": [
+          "Jiawei Zhou",
+          "Lei Chen"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24652v1",
+        "summary": "As retrieval-augmented generation (RAG) becomes increasingly widespread, the\nrole of information retrieval (IR) is shifting from retrieving information for\nhuman users to retrieving contextual knowledge for artificial intelligence (AI)\nsystems, where relevance becomes difficult to define or annotate beforehand. To\naddress this challenge, we propose R3, a Retrieval framework optimized for RAG\nthrou..."
+      },
+      {
+        "title": "Mitigating Hallucination in Large Language Models (LLMs): An Application-Oriented Survey on RAG, Reasoning, and Agentic Systems",
+        "authors": [
+          "Yihan Li",
+          "Xiyuan Fu",
+          "Ghanshyam Verma",
+          "Paul Buitelaar",
+          "Mingming Liu"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24476v1",
+        "summary": "Hallucination remains one of the key obstacles to the reliable deployment of\nlarge language models (LLMs), particularly in real-world applications. Among\nvarious mitigation strategies, Retrieval-Augmented Generation (RAG) and\nreasoning enhancement have emerged as two of the most effective and widely\nadopted approaches, marking a shift from merely suppressing hallucinations to\nbalancing creativity ..."
+      },
+      {
+        "title": "Metadata-Driven Retrieval-Augmented Generation for Financial Question Answering",
+        "authors": [
+          "Michail Dadopoulos",
+          "Anestis Ladas",
+          "Stratos Moschidis",
+          "Ioannis Negkakis"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24402v1",
+        "summary": "Retrieval-Augmented Generation (RAG) struggles on long, structured financial\nfilings where relevant evidence is sparse and cross-referenced. This paper\npresents a systematic investigation of advanced metadata-driven\nRetrieval-Augmented Generation (RAG) techniques, proposing and evaluating a\nnovel, multi-stage RAG architecture that leverages LLM-generated metadata. We\nintroduce a sophisticated inde..."
+      },
+      {
+        "title": "Retrieval and Argumentation Enhanced Multi-Agent LLMs for Judgmental Forecasting",
+        "authors": [
+          "Deniz Gorur",
+          "Antoni Rago",
+          "Francesca Toni"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24303v1",
+        "summary": "Judgmental forecasting is the task of making predictions about future events\nbased on human judgment. This task can be seen as a form of claim verification,\nwhere the claim corresponds to a future event and the task is to assess the\nplausibility of that event. In this paper, we propose a novel multi-agent\nframework for claim verification, whereby different agents may disagree on\nclaim veracity and..."
+      },
+      {
+        "title": "Enabling Near-realtime Remote Sensing via Satellite-Ground Collaboration of Large Vision-Language Models",
+        "authors": [
+          "Zihan Li",
+          "Jiahao Yang",
+          "Yuxin Zhang",
+          "Zhe Chen",
+          "Yue Gao"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24242v1",
+        "summary": "Large vision-language models (LVLMs) have recently demonstrated great\npotential in remote sensing (RS) tasks (e.g., disaster monitoring) conducted by\nlow Earth orbit (LEO) satellites. However, their deployment in real-world LEO\nsatellite systems remains largely unexplored, hindered by limited onboard\ncomputing resources and brief satellite-ground contacts. We propose Grace, a\nsatellite-ground coll..."
+      },
+      {
+        "title": "Graph-Guided Concept Selection for Efficient Retrieval-Augmented Generation",
+        "authors": [
+          "Ziyu Liu",
+          "Yijing Liu",
+          "Jianfei Yuan",
+          "Minzhi Yan",
+          "Le Yue",
+          "Honghui Xiong",
+          "Yi Yang"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24120v1",
+        "summary": "Graph-based RAG constructs a knowledge graph (KG) from text chunks to enhance\nretrieval in Large Language Model (LLM)-based question answering. It is\nespecially beneficial in domains such as biomedicine, law, and political\nscience, where effective retrieval often involves multi-hop reasoning over\nproprietary documents. However, these methods demand numerous LLM calls to\nextract entities and relati..."
+      },
+      {
+        "title": "META-RAG: Meta-Analysis-Inspired Evidence-Re-Ranking Method for Retrieval-Augmented Generation in Evidence-Based Medicine",
+        "authors": [
+          "Mengzhou Sun",
+          "Sendong Zhao",
+          "Jianyu Chen",
+          "Haochun Wang",
+          "Bin Qin"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.24003v1",
+        "summary": "Evidence-based medicine (EBM) holds a crucial role in clinical application.\nGiven suitable medical articles, doctors effectively reduce the incidence of\nmisdiagnoses. Researchers find it efficient to use large language models (LLMs)\ntechniques like RAG for EBM tasks. However, the EBM maintains stringent\nrequirements for evidence, and RAG applications in EBM struggle to efficiently\ndistinguish high..."
+      },
+      {
+        "title": "PICOs-RAG: PICO-supported Query Rewriting for Retrieval-Augmented Generation in Evidence-Based Medicine",
+        "authors": [
+          "Mengzhou Sun",
+          "Sendong Zhao",
+          "Jianyu Chen",
+          "Bin Qin"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.23998v1",
+        "summary": "Evidence-based medicine (EBM) research has always been of paramount\nimportance. It is important to find appropriate medical theoretical support for\nthe needs from physicians or patients to reduce the occurrence of medical\naccidents. This process is often carried out by human querying relevant\nliterature databases, which lacks objectivity and efficiency. Therefore,\nresearchers utilize retrieval-aug..."
+      },
+      {
+        "title": "M-Eval: A Heterogeneity-Based Framework for Multi-evidence Validation in Medical RAG Systems",
+        "authors": [
+          "Mengzhou Sun",
+          "Sendong Zhao",
+          "Jianyu Chen",
+          "Haochun Wang",
+          "Bin Qin"
+        ],
+        "published": "2025-10-28",
+        "link": "http://arxiv.org/abs/2510.23995v1",
+        "summary": "Retrieval-augmented Generation (RAG) has demonstrated potential in enhancing\nmedical question-answering systems through the integration of large language\nmodels (LLMs) with external medical literature. LLMs can retrieve relevant\nmedical articles to generate more professional responses efficiently. However,\ncurrent RAG applications still face problems. They generate incorrect\ninformation, such as h..."
+      },
+      {
+        "title": "Evaluating Long-Term Memory for Long-Context Question Answering",
+        "authors": [
+          "Alessandra Terranova",
+          "Björn Ross",
+          "Alexandra Birch"
+        ],
+        "published": "2025-10-27",
+        "link": "http://arxiv.org/abs/2510.23730v1",
+        "summary": "In order for large language models to achieve true conversational continuity\nand benefit from experiential learning, they need memory. While research has\nfocused on the development of complex memory systems, it remains unclear which\ntypes of memory are most effective for long-context conversational tasks. We\npresent a systematic evaluation of memory-augmented methods using LoCoMo, a\nbenchmark of s..."
+      },
+      {
+        "title": "Large language model-based task planning for service robots: A review",
+        "authors": [
+          "Shaohan Bian",
+          "Ying Zhang",
+          "Guohui Tian",
+          "Zhiqiang Miao",
+          "Edmond Q. Wu",
+          "Simon X. Yang",
+          "Changchun Hua"
+        ],
+        "published": "2025-10-27",
+        "link": "http://arxiv.org/abs/2510.23357v1",
+        "summary": "With the rapid advancement of large language models (LLMs) and robotics,\nservice robots are increasingly becoming an integral part of daily life,\noffering a wide range of services in complex environments. To deliver these\nservices intelligently and efficiently, robust and accurate task planning\ncapabilities are essential. This paper presents a comprehensive overview of the\nintegration of LLMs into..."
+      },
+      {
+        "title": "Mubeen AI: A Specialized Arabic Language Model for Heritage Preservation and User Intent Understanding",
+        "authors": [
+          "Mohammed Aljafari",
+          "Ismail Alturki",
+          "Ahmed Mori",
+          "Yehya Kadumi"
+        ],
+        "published": "2025-10-27",
+        "link": "http://arxiv.org/abs/2510.23271v1",
+        "summary": "Mubeen is a proprietary Arabic language model developed by MASARAT SA,\noptimized for deep understanding of Arabic linguistics, Islamic studies, and\ncultural heritage. Trained on an extensive collection of authentic Arabic\nsources significantly expanded by digitizing historical manuscripts via a\nproprietary Arabic OCR engine, the model incorporates seminal scholarly works\nin linguistics, jurisprude..."
+      },
+      {
+        "title": "Quality-Aware Translation Tagging in Multilingual RAG system",
+        "authors": [
+          "Hoyeon Moon",
+          "Byeolhee Kim",
+          "Nikhil Verma"
+        ],
+        "published": "2025-10-27",
+        "link": "http://arxiv.org/abs/2510.23070v1",
+        "summary": "Multilingual Retrieval-Augmented Generation (mRAG) often retrieves English\ndocuments and translates them into the query language for low-resource\nsettings. However, poor translation quality degrades response generation\nperformance. Existing approaches either assume sufficient translation quality\nor utilize the rewriting method, which introduces factual distortion and\nhallucinations. To mitigate th..."
+      },
+      {
+        "title": "RefleXGen:The unexamined code is not worth using",
+        "authors": [
+          "Bin Wang",
+          "Hui Li",
+          "AoFan Liu",
+          "BoTao Yang",
+          "Ao Yang",
+          "YiLu Zhong",
+          "Weixiang Huang",
+          "Yanping Zhang",
+          "Runhuai Huang",
+          "Weimin Zeng"
+        ],
+        "published": "2025-10-27",
+        "link": "http://arxiv.org/abs/2510.23674v1",
+        "summary": "Security in code generation remains a pivotal challenge when applying large\nlanguage models (LLMs). This paper introduces RefleXGen, an innovative method\nthat significantly enhances code security by integrating Retrieval-Augmented\nGeneration (RAG) techniques with guided self-reflection mechanisms inherent in\nLLMs. Unlike traditional approaches that rely on fine-tuning LLMs or developing\nspecialize..."
+      },
+      {
+        "title": "Tagging-Augmented Generation: Assisting Language Models in Finding Intricate Knowledge In Long Contexts",
+        "authors": [
+          "Anwesan Pal",
+          "Karen Hovsepian",
+          "Tinghao Guo",
+          "Mengnan Zhao",
+          "Somendra Tripathi",
+          "Nikos Kanakaris",
+          "George Mihaila",
+          "Sumit Nigam"
+        ],
+        "published": "2025-10-27",
+        "link": "http://arxiv.org/abs/2510.22956v1",
+        "summary": "Recent investigations into effective context lengths of modern flagship large\nlanguage models (LLMs) have revealed major limitations in effective question\nanswering (QA) and reasoning over long and complex contexts for even the\nlargest and most impressive cadre of models. While approaches like\nretrieval-augmented generation (RAG) and chunk-based re-ranking attempt to\nmitigate this issue, they are ..."
+      },
+      {
+        "title": "Batch Speculative Decoding Done Right",
+        "authors": [
+          "Ranran Haoran Zhang",
+          "Soumik Dey",
+          "Ashirbad Mishra",
+          "Hansi Wu",
+          "Binbin Li",
+          "Rui Zhang"
+        ],
+        "published": "2025-10-26",
+        "link": "http://arxiv.org/abs/2510.22876v1",
+        "summary": "Speculative decoding speeds up LLM inference by using a small draft model to\npropose multiple tokens that a target model verifies in parallel. Extending\nthis idea to batches is essential for production serving, but it introduces the\nragged tensor problem: sequences in the same batch accept different numbers of\ndraft tokens, breaking right-alignment and corrupting position IDs, attention\nmasks, and..."
+      },
+      {
+        "title": "Seeing the Unseen: Towards Zero-Shot Inspection for Wind Turbine Blades using Knowledge-Augmented Vision Language Models",
+        "authors": [
+          "Yang Zhang",
+          "Qianyu Zhou",
+          "Farhad Imani",
+          "Jiong Tang"
+        ],
+        "published": "2025-10-26",
+        "link": "http://arxiv.org/abs/2510.22868v1",
+        "summary": "Wind turbine blades operate in harsh environments, making timely damage\ndetection essential for preventing failures and optimizing maintenance.\nDrone-based inspection and deep learning are promising, but typically depend on\nlarge, labeled datasets, which limit their ability to detect rare or evolving\ndamage types. To address this, we propose a zero-shot-oriented inspection\nframework that integrate..."
+      },
+      {
+        "title": "RaCoT: Plug-and-Play Contrastive Example Generation Mechanism for Enhanced LLM Reasoning Reliability",
+        "authors": [
+          "Kaitong Cai",
+          "Jusheng Zhang",
+          "Yijia Fan",
+          "Jing Yang",
+          "Keze Wang"
+        ],
+        "published": "2025-10-26",
+        "link": "http://arxiv.org/abs/2510.22710v1",
+        "summary": "Retrieval-Augmented Generation (RAG) faces a core bottleneck with\nknowledge-sparse and semantically ambiguous long-tail queries, where retrieval\nnoise distorts reasoning and necessitates costly post-processing. To tackle\nthis, we propose RaCoT (Retrieval-aware Contrastive-of-Thought), a novel\nframework that shifts contrastive thinking to the pre-retrieval stage. By\nautomatically generating a seman..."
+      },
+      {
+        "title": "Rule-Based Explanations for Retrieval-Augmented LLM Systems",
+        "authors": [
+          "Joel Rorseth",
+          "Parke Godfrey",
+          "Lukasz Golab",
+          "Divesh Srivastava",
+          "Jarek Szlichta"
+        ],
+        "published": "2025-10-26",
+        "link": "http://arxiv.org/abs/2510.22689v1",
+        "summary": "If-then rules are widely used to explain machine learning models; e.g., \"if\nemployed = no, then loan application = rejected.\" We present the first proposal\nto apply rules to explain the emerging class of large language models (LLMs)\nwith retrieval-augmented generation (RAG). Since RAG enables LLM systems to\nincorporate retrieved information sources at inference time, rules linking the\npresence or ..."
+      },
+      {
+        "title": "FAIR-RAG: Faithful Adaptive Iterative Refinement for Retrieval-Augmented Generation",
+        "authors": [
+          "Mohammad Aghajani Asl",
+          "Majid Asgari-Bidhendi",
+          "Behrooz Minaei-Bidgoli"
+        ],
+        "published": "2025-10-25",
+        "link": "http://arxiv.org/abs/2510.22344v1",
+        "summary": "While Retrieval-Augmented Generation (RAG) mitigates hallucination and\nknowledge staleness in Large Language Models (LLMs), existing frameworks often\nfalter on complex, multi-hop queries that require synthesizing information from\ndisparate sources. Current advanced RAG methods, employing iterative or\nadaptive strategies, lack a robust mechanism to systematically identify and\nfill evidence gaps, of..."
+      },
+      {
+        "title": "From Slides to Chatbots: Enhancing Large Language Models with University Course Materials",
+        "authors": [
+          "Tu Anh Dinh",
+          "Philipp Nicolas Schumacher",
+          "Jan Niehues"
+        ],
+        "published": "2025-10-25",
+        "link": "http://arxiv.org/abs/2510.22272v1",
+        "summary": "Large Language Models (LLMs) have advanced rapidly in recent years. One\napplication of LLMs is to support student learning in educational settings.\nHowever, prior work has shown that LLMs still struggle to answer questions\naccurately within university-level computer science courses. In this work, we\ninvestigate how incorporating university course materials can enhance LLM\nperformance in this setti..."
+      },
+      {
+        "title": "LSPRAG: LSP-Guided RAG for Language-Agnostic Real-Time Unit Test Generation",
+        "authors": [
+          "Gwihwan Go",
+          "Quan Zhang",
+          "Chijin Zhou",
+          "Zhao Wei",
+          "Yu Jiang"
+        ],
+        "published": "2025-10-25",
+        "link": "http://arxiv.org/abs/2510.22210v1",
+        "summary": "Automated unit test generation is essential for robust software development,\nyet existing approaches struggle to generalize across multiple programming\nlanguages and operate within real-time development. While Large Language Models\n(LLMs) offer a promising solution, their ability to generate high coverage test\ncode depends on prompting a concise context of the focal method. Current\nsolutions, such..."
+      },
+      {
+        "title": "OlaMind: Towards Human-Like and Hallucination-Safe Customer Service for Retrieval-Augmented Dialogue",
+        "authors": [
+          "Tianhong Gao",
+          "Jundong Shen",
+          "Bei Shi",
+          "Jiapeng Wang",
+          "Ying Ju",
+          "Junfeng Yao",
+          "Jiao Ran",
+          "Yong Zhang",
+          "Lin Dong",
+          "Huiyu Yu",
+          "Tingting Ye"
+        ],
+        "published": "2025-10-25",
+        "link": "http://arxiv.org/abs/2510.22143v1",
+        "summary": "Intelligent customer service (ICS) systems via retrieval-augmented generation\n(RAG) have been widely adopted in Web-based domains such as social platforms\nand e-commerce, achieving remarkable improvements in automation and efficiency.\nHowever, notable limitations still remain: these systems are prone to\nhallucinations and often generate rigid, mechanical responses, which can\nintroduce business ris..."
+      },
+      {
+        "title": "A Comparison of Conversational Models and Humans in Answering Technical Questions: the Firefox Case",
+        "authors": [
+          "Joao Correia",
+          "Daniel Coutinho",
+          "Marco Castelluccio",
+          "Caio Barbosa",
+          "Rafael de Mello",
+          "Anita Sarma",
+          "Alessandro Garcia",
+          "Marco Gerosa",
+          "Igor Steinmacher"
+        ],
+        "published": "2025-10-24",
+        "link": "http://arxiv.org/abs/2510.21933v1",
+        "summary": "The use of Large Language Models (LLMs) to support tasks in software\ndevelopment has steadily increased over recent years. From assisting developers\nin coding activities to providing conversational agents that answer newcomers'\nquestions. In collaboration with the Mozilla Foundation, this study evaluates\nthe effectiveness of Retrieval-Augmented Generation (RAG) in assisting\ndevelopers within the M..."
+      },
+      {
+        "title": "InterpDetect: Interpretable Signals for Detecting Hallucinations in Retrieval-Augmented Generation",
+        "authors": [
+          "Likun Tan",
+          "Kuan-Wei Huang",
+          "Joy Shi",
+          "Kevin Wu"
+        ],
+        "published": "2025-10-24",
+        "link": "http://arxiv.org/abs/2510.21538v1",
+        "summary": "Retrieval-Augmented Generation (RAG) integrates external knowledge to\nmitigate hallucinations, yet models often generate outputs inconsistent with\nretrieved content. Accurate hallucination detection requires disentangling the\ncontributions of external context and parametric knowledge, which prior methods\ntypically conflate. We investigate the mechanisms underlying RAG hallucinations\nand find they ..."
+      },
+      {
+        "title": "SBASH: a Framework for Designing and Evaluating RAG vs. Prompt-Tuned LLM Honeypots",
+        "authors": [
+          "Adetayo Adebimpe",
+          "Helmut Neukirchen",
+          "Thomas Welsh"
+        ],
+        "published": "2025-10-24",
+        "link": "http://arxiv.org/abs/2510.21459v1",
+        "summary": "Honeypots are decoy systems used for gathering valuable threat intelligence\nor diverting attackers away from production systems. Maximising attacker\nengagement is essential to their utility. However research has highlighted that\ncontext-awareness, such as the ability to respond to new attack types, systems\nand attacker agents, is necessary to increase engagement. Large Language Models\n(LLMs) have ..."
+      },
+      {
+        "title": "Redefining Retrieval Evaluation in the Era of LLMs",
+        "authors": [
+          "Giovanni Trappolini",
+          "Florin Cuconasu",
+          "Simone Filice",
+          "Yoelle Maarek",
+          "Fabrizio Silvestri"
+        ],
+        "published": "2025-10-24",
+        "link": "http://arxiv.org/abs/2510.21440v1",
+        "summary": "Traditional Information Retrieval (IR) metrics, such as nDCG, MAP, and MRR,\nassume that human users sequentially examine documents with diminishing\nattention to lower ranks. This assumption breaks down in Retrieval Augmented\nGeneration (RAG) systems, where search results are consumed by Large Language\nModels (LLMs), which, unlike humans, process all retrieved documents as a whole\nrather than seque..."
+      },
+      {
+        "title": "NeuroGenPoisoning: Neuron-Guided Attacks on Retrieval-Augmented Generation of LLM via Genetic Optimization of External Knowledge",
+        "authors": [
+          "Hanyu Zhu",
+          "Lance Fiondella",
+          "Jiawei Yuan",
+          "Kai Zeng",
+          "Long Jiao"
+        ],
+        "published": "2025-10-24",
+        "link": "http://arxiv.org/abs/2510.21144v1",
+        "summary": "Retrieval-Augmented Generation (RAG) empowers Large Language Models (LLMs) to\ndynamically integrate external knowledge during inference, improving their\nfactual accuracy and adaptability. However, adversaries can inject poisoned\nexternal knowledge to override the model's internal memory. While existing\nattacks iteratively manipulate retrieval content or prompt structure of RAG,\nthey largely ignore..."
+      },
+      {
+        "title": "Bridging Language Gaps with Adaptive RAG: Improving Indonesian Language Question Answering",
+        "authors": [
+          "William Christian",
+          "Daniel Adamlu",
+          "Adrian Yu",
+          "Derwin Suhartono"
+        ],
+        "published": "2025-10-24",
+        "link": "http://arxiv.org/abs/2510.21068v1",
+        "summary": "Question Answering (QA) has seen significant improvements with the\nadvancement of machine learning models, further studies enhanced this question\nanswering system by retrieving external information, called Retrieval-Augmented\nGeneration (RAG) to produce more accurate and informative answers. However,\nthese state-of-the-art-performance is predominantly in English language. To\naddress this gap we ma..."
+      },
+      {
+        "title": "Simple Context Compression: Mean-Pooling and Multi-Ratio Training",
+        "authors": [
+          "Yair Feldman",
+          "Yoav Artzi"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20797v1",
+        "summary": "A common strategy to reduce the computational costs of using long contexts in\nretrieval-augmented generation (RAG) with large language models (LLMs) is soft\ncontext compression, where the input sequence is transformed into a shorter\ncontinuous representation. We develop a lightweight and simple mean-pooling\napproach that consistently outperforms the widely used compression-tokens\narchitecture, and..."
+      },
+      {
+        "title": "RAGRank: Using PageRank to Counter Poisoning in CTI LLM Pipelines",
+        "authors": [
+          "Austin Jia",
+          "Avaneesh Ramesh",
+          "Zain Shamsi",
+          "Daniel Zhang",
+          "Alex Liu"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20768v1",
+        "summary": "Retrieval-Augmented Generation (RAG) has emerged as the dominant\narchitectural pattern to operationalize Large Language Model (LLM) usage in\nCyber Threat Intelligence (CTI) systems. However, this design is susceptible to\npoisoning attacks, and previously proposed defenses can fail for CTI contexts\nas cyber threat information is often completely new for emerging attacks, and\nsophisticated threat ac..."
+      },
+      {
+        "title": "Practical Code RAG at Scale: Task-Aware Retrieval Design Choices under Compute Budgets",
+        "authors": [
+          "Timur Galimzyanov",
+          "Olga Kolomyttseva",
+          "Egor Bogomolov"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20609v1",
+        "summary": "We study retrieval design for code-focused generation tasks under realistic\ncompute budgets. Using two complementary tasks from Long Code Arena -- code\ncompletion and bug localization -- we systematically compare retrieval\nconfigurations across various context window sizes along three axes: (i)\nchunking strategy, (ii) similarity scoring, and (iii) splitting granularity.\n(1) For PL-PL, sparse BM25 ..."
+      },
+      {
+        "title": "GlobalRAG: Enhancing Global Reasoning in Multi-hop Question Answering via Reinforcement Learning",
+        "authors": [
+          "Jinchang Luo",
+          "Mingquan Cheng",
+          "Fan Wan",
+          "Ni Li",
+          "Xiaoling Xia",
+          "Shuangshuang Tian",
+          "Tingcheng Bian",
+          "Haiwei Wang",
+          "Haohuan Fu",
+          "Yan Tao"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20548v1",
+        "summary": "Reinforcement learning has recently shown promise in improving\nretrieval-augmented generation (RAG). Despite these advances, its effectiveness\nin multi-hop question answering (QA) remains limited by two fundamental\nlimitations: (i) global planning absence to structure multi-step reasoning, and\n(ii) unfaithful execution, which hinders effective query formulation and\nconsistent use of retrieved evid..."
+      },
+      {
+        "title": "Hierarchical Sequence Iteration for Heterogeneous Question Answering",
+        "authors": [
+          "Ruiyi Yang",
+          "Hao Xue",
+          "Imran Razzak",
+          "Hakim Hacid",
+          "Flora D. Salim"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20505v1",
+        "summary": "Retrieval-augmented generation (RAG) remains brittle on multi-step questions\nand heterogeneous evidence sources, trading accuracy against latency and\ntoken/tool budgets. This paper introducesHierarchical Sequence (HSEQ) Iteration\nfor Heterogeneous Question Answering, a unified framework that (i) linearize\ndocuments, tables, and knowledge graphs into a reversible hierarchical sequence\nwith lightwei..."
+      },
+      {
+        "title": "HA-RAG: Hotness-Aware RAG Acceleration via Mixed Precision and Data Placement",
+        "authors": [
+          "Danying Ge",
+          "Jianhua Gao",
+          "Yixue Yang",
+          "Weixing Ji"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20878v1",
+        "summary": "Retrieval-Augmented Generation (RAG) improves model output accuracy by\nleveraging external knowledge bases, serving as an effective solution to\naddress hallucination issues and knowledge-update delays in Large Language\nModels (LLMs). However, the introduction of external knowledge bases presents\nRAG with challenges in long-context processing, significantly increasing memory\nconsumption and inferen..."
+      },
+      {
+        "title": "FreeChunker: A Cross-Granularity Chunking Framework",
+        "authors": [
+          "Wenxuan Zhang",
+          "Yuan-Hao Jiang",
+          "Yonghe Wu"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20356v1",
+        "summary": "Chunking strategies significantly impact the effectiveness of\nRetrieval-Augmented Generation (RAG) systems. Existing methods operate within\nfixed-granularity paradigms that rely on static boundary identification,\nlimiting their adaptability to diverse query requirements. This paper presents\nFreeChunker, a Cross-Granularity Encoding Framework that fundamentally\ntransforms the traditional chunking p..."
+      },
+      {
+        "title": "Citation Failure: Definition, Analysis and Efficient Mitigation",
+        "authors": [
+          "Jan Buchmann",
+          "Iryna Gurevych"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20303v1",
+        "summary": "Citations from LLM-based RAG systems are supposed to simplify response\nverification. However, this does not hold for citation failure, when a model\ngenerates a helpful response, but fails to cite complete evidence. In contrast\nto previous work, we propose to disentangle this from response failure, where\nthe response itself is flawed, and citing complete evidence is impossible. To\naddress citation ..."
+      },
+      {
+        "title": "RAG-Stack: Co-Optimizing RAG Quality and Performance From the Vector Database Perspective",
+        "authors": [
+          "Wenqi Jiang"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20296v1",
+        "summary": "Retrieval-augmented generation (RAG) has emerged as one of the most prominent\napplications of vector databases. By integrating documents retrieved from a\ndatabase into the prompt of a large language model (LLM), RAG enables more\nreliable and informative content generation. While there has been extensive\nresearch on vector databases, many open research problems remain once they are\nconsidered in th..."
+      },
+      {
+        "title": "ResearchGPT: Benchmarking and Training LLMs for End-to-End Computer Science Research Workflows",
+        "authors": [
+          "Penghao Wang",
+          "Yuhao Zhou",
+          "Mengxuan Wu",
+          "Ziheng Qin",
+          "Bangyuan Zhu",
+          "Shengbin Huang",
+          "Xuanlei Zhao",
+          "Panpan Zhang",
+          "Xiaojiang Peng",
+          "Yuzhang Shang",
+          "Jianfei Yang",
+          "Zheng Zhu",
+          "Tianlong Chen",
+          "Zhangyang Wang",
+          "Kai Wang"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20279v2",
+        "summary": "As large language models (LLMs) advance, the ultimate vision for their role\nin science is emerging: we could build an AI collaborator to effectively assist\nhuman beings throughout the entire scientific research process. We refer to\nthis envisioned system as ResearchGPT. Given that scientific research\nprogresses through multiple interdependent phases, achieving this vision\nrequires rigorous benchma..."
+      },
+      {
+        "title": "Balancing Fine-tuning and RAG: A Hybrid Strategy for Dynamic LLM Recommendation Updates",
+        "authors": [
+          "Changping Meng",
+          "Hongyi Ling",
+          "Jianling Wang",
+          "Yifan Liu",
+          "Shuzhou Zhang",
+          "Dapeng Hong",
+          "Mingyan Gao",
+          "Onkar Dalal",
+          "Ed Chi",
+          "Lichan Hong",
+          "Haokai Lu",
+          "Ningren Han"
+        ],
+        "published": "2025-10-23",
+        "link": "http://arxiv.org/abs/2510.20260v1",
+        "summary": "Large Language Models (LLMs) empower recommendation systems through their\nadvanced reasoning and planning capabilities. However, the dynamic nature of\nuser interests and content poses a significant challenge: While initial\nfine-tuning aligns LLMs with domain knowledge and user preferences, it fails to\ncapture such real-time changes, necessitating robust update mechanisms. This\npaper investigates s..."
+      },
+      {
+        "title": "Automating Iconclass: LLMs and RAG for Large-Scale Classification of Religious Woodcuts",
+        "authors": [
+          "Drew B. Thomas"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19986v1",
+        "summary": "This paper presents a novel methodology for classifying early modern\nreligious images by using Large Language Models (LLMs) and vector databases in\ncombination with Retrieval-Augmented Generation (RAG). The approach leverages\nthe full-page context of book illustrations from the Holy Roman Empire,\nallowing the LLM to generate detailed descriptions that incorporate both visual\nand textual elements. ..."
+      },
+      {
+        "title": "Learning from Supervision with Semantic and Episodic Memory: A Reflective Approach to Agent Adaptation",
+        "authors": [
+          "Jackson Hassell",
+          "Dan Zhang",
+          "Hannah Kim",
+          "Tom Mitchell",
+          "Estevam Hruschka"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19897v1",
+        "summary": "We investigate how agents built on pretrained large language models can learn\ntarget classification functions from labeled examples without parameter\nupdates. While conventional approaches like fine-tuning are often costly,\ninflexible, and opaque, we propose a memory-augmented framework that leverages\nboth labeled data and LLM-generated critiques. Our framework uses episodic\nmemory to store instan..."
+      },
+      {
+        "title": "CoSense-LLM: Semantics at the Edge with Cost- and Uncertainty-Aware Cloud-Edge Cooperation",
+        "authors": [
+          "Hasan Akgul",
+          "Mari Eplik",
+          "Javier Rojas",
+          "Aina Binti Abdullah",
+          "Pieter van der Merwe"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19670v1",
+        "summary": "We present CoSense-LLM, an edge-first framework that turns continuous\nmultimodal sensor streams (for example Wi-Fi CSI, IMU, audio, RFID, and\nlightweight vision) into compact, verifiable semantic tokens and coordinates\nwith large language models under explicit latency, energy, bandwidth, and\nprivacy constraints. CoSense-LLM has four parts: (i) SenseFusion, a lightweight\nencoder that aligns sensor ..."
+      },
+      {
+        "title": "LLavaCode: Compressed Code Representations for Retrieval-Augmented Code Generation",
+        "authors": [
+          "Daria Cherniuk",
+          "Nikita Sukhorukov",
+          "Nikita Sushko",
+          "Daniil Gusak",
+          "Danil Sivtsov",
+          "Elena Tutubalina",
+          "Evgeny Frolov"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19644v1",
+        "summary": "Retrieval-augmented generation has emerged as one of the most effective\napproaches for code completion, particularly when context from a surrounding\nrepository is essential. However, incorporating context significantly extends\nsequence length, leading to slower inference - a critical limitation for\ninteractive settings such as IDEs. In this work, we introduce LlavaCode, a\nframework that compresses..."
+      },
+      {
+        "title": "FidelityGPT: Correcting Decompilation Distortions with Retrieval Augmented Generation",
+        "authors": [
+          "Zhiping Zhou",
+          "Xiaohong Li",
+          "Ruitao Feng",
+          "Yao Zhang",
+          "Yuekang Li",
+          "Wenbu Feng",
+          "Yunqian Wang",
+          "Yuqing Li"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19615v1",
+        "summary": "Decompilation converts machine code into human-readable form, enabling\nanalysis and debugging without source code. However, fidelity issues often\ndegrade the readability and semantic accuracy of decompiled output. Existing\nmethods, such as variable renaming or structural simplification, provide\npartial improvements but lack robust detection and correction, particularly for\ncomplex closed-source bi..."
+      },
+      {
+        "title": "Policy-Governed RAG - Research Design Study",
+        "authors": [
+          "Jean-Marie Le Ray"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19877v1",
+        "summary": "A policy-governed RAG architecture is specified for audit-ready generation in\nregulated workflows, organized as a triptych: (I) Contracts/Control\n(SHRDLU-like), which governs output adherence to legal and internal policies;\n(II) Manifests/Trails (Memex-like), which cryptographically anchors all cited\nsource evidence to ensure verifiable provenance; and (III)\nReceipts/Verification (Xanadu-like), wh..."
+      },
+      {
+        "title": "AutoMT: A Multi-Agent LLM Framework for Automated Metamorphic Testing of Autonomous Driving Systems",
+        "authors": [
+          "Linfeng Liang",
+          "Chenkai Tan",
+          "Yao Deng",
+          "Yingfeng Cai",
+          "T. Y Chen",
+          "Xi Zheng"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19438v1",
+        "summary": "Autonomous Driving Systems (ADS) are safety-critical, where failures can be\nsevere. While Metamorphic Testing (MT) is effective for fault detection in ADS,\nexisting methods rely heavily on manual effort and lack automation. We present\nAutoMT, a multi-agent MT framework powered by Large Language Models (LLMs) that\nautomates the extraction of Metamorphic Relations (MRs) from local traffic\nrules and ..."
+      },
+      {
+        "title": "Algorithmic Fairness in NLP: Persona-Infused LLMs for Human-Centric Hate Speech Detection",
+        "authors": [
+          "Ewelina Gajewska",
+          "Arda Derbent",
+          "Jaroslaw A Chudziak",
+          "Katarzyna Budzynska"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19331v1",
+        "summary": "In this paper, we investigate how personalising Large Language Models\n(Persona-LLMs) with annotator personas affects their sensitivity to hate\nspeech, particularly regarding biases linked to shared or differing identities\nbetween annotators and targets. To this end, we employ Google's Gemini and\nOpenAI's GPT-4.1-mini models and two persona-prompting methods: shallow persona\nprompting and a deeply ..."
+      },
+      {
+        "title": "Interpretable Question Answering with Knowledge Graphs",
+        "authors": [
+          "Kartikeya Aneja",
+          "Manasvi Srivastava",
+          "Subhayan Das",
+          "Nagender Aneja"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19181v1",
+        "summary": "This paper presents a question answering system that operates exclusively on\na knowledge graph retrieval without relying on retrieval augmented generation\n(RAG) with large language models (LLMs). Instead, a small paraphraser model is\nused to paraphrase the entity relationship edges retrieved from querying the\nknowledge graph. The proposed pipeline is divided into two main stages. The\nfirst stage i..."
+      },
+      {
+        "title": "Think Straight, Stop Smart: Structured Reasoning for Efficient Multi-Hop RAG",
+        "authors": [
+          "Jihwan Bang",
+          "Juntae Lee",
+          "Seunghan Yang",
+          "Sungha Choi"
+        ],
+        "published": "2025-10-22",
+        "link": "http://arxiv.org/abs/2510.19171v1",
+        "summary": "Multi-hop retrieval-augmented generation (RAG) is a promising strategy for\ncomplex reasoning, yet existing iterative prompting approaches remain\ninefficient. They often regenerate predictable token sequences at every step\nand rely on stochastic stopping, leading to excessive token usage and unstable\ntermination. We propose TSSS (Think Straight, Stop Smart), a structured\nmulti-hop RAG framework des..."
+      },
+      {
+        "title": "XGen-Q: An Explainable Domain-Adaptive LLM Framework with Retrieval-Augmented Generation for Software Security",
+        "authors": [
+          "Hamed Jelodar",
+          "Mohammad Meymani",
+          "Roozbeh Razavi-Far",
+          "Ali A. Ghorbani"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.19006v1",
+        "summary": "Generative AI and large language models (LLMs) have shown strong capabilities\nin code understanding, but their use in cybersecurity, particularly for malware\ndetection and analysis, remains limited. Existing detection systems often fail\nto generalize to obfuscated or previously unseen threats, underscoring the need\nfor more adaptable and explainable models. To address this challenge, we\nintroduce ..."
+      },
+      {
+        "title": "Search Self-play: Pushing the Frontier of Agent Capability without Supervision",
+        "authors": [
+          "Hongliang Lu",
+          "Yuhang Wen",
+          "Pengyu Cheng",
+          "Ruijin Ding",
+          "Haotian Xu",
+          "Jiaqi Guo",
+          "Chutian Wang",
+          "Haonan Chen",
+          "Xiaoxi Jiang",
+          "Guanjun Jiang"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18821v1",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) has become the\nmainstream technique for training LLM agents. However, RLVR highly depends on\nwell-crafted task queries and corresponding ground-truth answers to provide\naccurate rewards, which requires massive human efforts and hinders the RL\nscaling processes, especially under agentic scenarios. Although a few recent\nworks explore task synthes..."
+      },
+      {
+        "title": "Investigating LLM Capabilities on Long Context Comprehension for Medical Question Answering",
+        "authors": [
+          "Feras AlMannaa",
+          "Talia Tseriotou",
+          "Jenny Chim",
+          "Maria Liakata"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18691v1",
+        "summary": "This study is the first to investigate LLM comprehension capabilities over\nlong-context (LC) medical QA of clinical relevance. Our comprehensive\nassessment spans a range of content-inclusion settings based on their\nrelevance, LLM models of varying capabilities and datasets across task\nformulations, revealing insights on model size effects, limitations, underlying\nmemorization issues and the benefi..."
+      },
+      {
+        "title": "Query Decomposition for RAG: Balancing Exploration-Exploitation",
+        "authors": [
+          "Roxana Petcu",
+          "Kenton Murray",
+          "Daniel Khashabi",
+          "Evangelos Kanoulas",
+          "Maarten de Rijke",
+          "Dawn Lawrie",
+          "Kevin Duh"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18633v1",
+        "summary": "Retrieval-augmented generation (RAG) systems address complex user requests by\ndecomposing them into subqueries, retrieving potentially relevant documents for\neach, and then aggregating them to generate an answer. Efficiently selecting\ninformative documents requires balancing a key trade-off: (i) retrieving\nbroadly enough to capture all the relevant material, and (ii) limiting\nretrieval to avoid ex..."
+      },
+      {
+        "title": "Zero-Shot Vehicle Model Recognition via Text-Based Retrieval-Augmented Generation",
+        "authors": [
+          "Wei-Chia Chang",
+          "Yan-Ann Chen"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18502v1",
+        "summary": "Vehicle make and model recognition (VMMR) is an important task in intelligent\ntransportation systems, but existing approaches struggle to adapt to newly\nreleased models. Contrastive Language-Image Pretraining (CLIP) provides strong\nvisual-text alignment, yet its fixed pretrained weights limit performance\nwithout costly image-specific finetuning. We propose a pipeline that integrates\nvision languag..."
+      },
+      {
+        "title": "IMB: An Italian Medical Benchmark for Question Answering",
+        "authors": [
+          "Antonio Romano",
+          "Giuseppe Riccio",
+          "Mariano Barone",
+          "Marco Postiglione",
+          "Vincenzo Moscato"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18468v1",
+        "summary": "Online medical forums have long served as vital platforms where patients seek\nprofessional healthcare advice, generating vast amounts of valuable knowledge.\nHowever, the informal nature and linguistic complexity of forum interactions\npose significant challenges for automated question answering systems,\nespecially when dealing with non-English languages. We present two\ncomprehensive Italian medical..."
+      },
+      {
+        "title": "ChronoPlay: A Framework for Modeling Dual Dynamics and Authenticity in Game RAG Benchmarks",
+        "authors": [
+          "Liyang He",
+          "Yuren Zhang",
+          "Ziwei Zhu",
+          "Zhenghui Li",
+          "Shiwei Tong"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18455v1",
+        "summary": "Retrieval Augmented Generation (RAG) systems are increasingly vital in\ndynamic domains like online gaming, yet the lack of a dedicated benchmark has\nimpeded standardized evaluation in this area. The core difficulty lies in Dual\nDynamics: the constant interplay between game content updates and the shifting\nfocus of the player community. Furthermore, the necessity of automating such a\nbenchmark intr..."
+      },
+      {
+        "title": "Chain-of-Conceptual-Thought: Eliciting the Agent to Deeply Think within the Response",
+        "authors": [
+          "Qingqing Gu",
+          "Dan Wang",
+          "Yue Zhao",
+          "Xiaoyu Wang",
+          "Zhonglin Jiang",
+          "Yong Chen",
+          "Hongyan Li",
+          "Luo Ji"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18434v2",
+        "summary": "Chain-of-Thought (CoT) is widely applied to enhance the LLM capability in\nmath, coding and reasoning tasks. However, its performance is limited for\nopen-domain tasks, when there are no clearly defined reasoning steps or logical\ntransitions. To mitigate such challenges, we propose a new prompt-based\nparadigm called Chain of Conceptual Thoughts (CoCT), which suggests the LLM\nfirst to produce the tag..."
+      },
+      {
+        "title": "KrishokBondhu: A Retrieval-Augmented Voice-Based Agricultural Advisory Call Center for Bengali Farmers",
+        "authors": [
+          "Mohd Ruhul Ameen",
+          "Akif Islam",
+          "Farjana Aktar",
+          "M. Saifuzzaman Rafat"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18355v1",
+        "summary": "In Bangladesh, many farmers continue to face challenges in accessing timely,\nexpert-level agricultural guidance. This paper presents KrishokBondhu, a\nvoice-enabled, call-centre-integrated advisory platform built on a\nRetrieval-Augmented Generation (RAG) framework, designed specifically for\nBengali-speaking farmers. The system aggregates authoritative agricultural\nhandbooks, extension manuals, and ..."
+      },
+      {
+        "title": "ECG-LLM -- training and evaluation of domain-specific large language models for electrocardiography",
+        "authors": [
+          "Lara Ahrens",
+          "Wilhelm Haverkamp",
+          "Nils Strodthoff"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18339v1",
+        "summary": "Domain-adapted open-weight large language models (LLMs) offer promising\nhealthcare applications, from queryable knowledge bases to multimodal\nassistants, with the crucial advantage of local deployment for privacy\npreservation. However, optimal adaptation strategies, evaluation methodologies,\nand performance relative to general-purpose LLMs remain poorly characterized.\nWe investigated these questio..."
+      },
+      {
+        "title": "Proactive Reasoning-with-Retrieval Framework for Medical Multimodal Large Language Models",
+        "authors": [
+          "Lehan Wang",
+          "Yi Qin",
+          "Honglong Yang",
+          "Xiaomeng Li"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18303v1",
+        "summary": "Incentivizing the reasoning ability of Multimodal Large Language Models\n(MLLMs) is essential for medical applications to transparently analyze medical\nscans and provide reliable diagnosis. However, existing medical MLLMs rely\nsolely on internal knowledge during reasoning, leading to hallucinated\nreasoning and factual inaccuracies when encountering cases beyond their\ntraining scope. Although recent..."
+      },
+      {
+        "title": "From Retrieval to Generation: Unifying External and Parametric Knowledge for Medical Question Answering",
+        "authors": [
+          "Lei Li",
+          "Xiao Zhou",
+          "Yingying Zhang",
+          "Xian Wu"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18297v1",
+        "summary": "Medical question answering (QA) requires extensive access to domain-specific\nknowledge. A promising direction is to enhance large language models (LLMs)\nwith external knowledge retrieved from medical corpora or parametric knowledge\nstored in model parameters. Existing approaches typically fall into two\ncategories: Retrieval-Augmented Generation (RAG), which grounds model reasoning\non externally re..."
+      },
+      {
+        "title": "RESCUE: Retrieval Augmented Secure Code Generation",
+        "authors": [
+          "Jiahao Shi",
+          "Tianyi Zhang"
+        ],
+        "published": "2025-10-21",
+        "link": "http://arxiv.org/abs/2510.18204v1",
+        "summary": "Despite recent advances, Large Language Models (LLMs) still generate\nvulnerable code. Retrieval-Augmented Generation (RAG) has the potential to\nenhance LLMs for secure code generation by incorporating external security\nknowledge. However, the conventional RAG design struggles with the noise of raw\nsecurity-related documents, and existing retrieval methods overlook the\nsignificant security semantic..."
+      },
+      {
+        "title": "DynaQuery: A Self-Adapting Framework for Querying Structured and Multimodal Data",
+        "authors": [
+          "Aymane Hassini"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.18029v1",
+        "summary": "The rise of Large Language Models (LLMs) has accelerated the long-standing\ngoal of enabling natural language querying over complex, hybrid databases. Yet,\nthis ambition exposes a dual challenge: reasoning jointly over structured,\nmulti-relational schemas and the semantic content of linked unstructured\nassets. To overcome this, we present DynaQuery - a unified, self-adapting\nframework that serves a..."
+      },
+      {
+        "title": "Executable Knowledge Graphs for Replicating AI Research",
+        "authors": [
+          "Yujie Luo",
+          "Zhuoyun Yu",
+          "Xuehai Wang",
+          "Yuqi Zhu",
+          "Ningyu Zhang",
+          "Lanning Wei",
+          "Lun Du",
+          "Da Zheng",
+          "Huajun Chen"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17795v1",
+        "summary": "Replicating AI research is a crucial yet challenging task for large language\nmodel (LLM) agents. Existing approaches often struggle to generate executable\ncode, primarily due to insufficient background knowledge and the limitations of\nretrieval-augmented generation (RAG) methods, which fail to capture latent\ntechnical details hidden in referenced papers. Furthermore, previous approaches\ntend to ov..."
+      },
+      {
+        "title": "AtlasKV: Augmenting LLMs with Billion-Scale Knowledge Graphs in 20GB VRAM",
+        "authors": [
+          "Haoyu Huang",
+          "Hong Ting Tsang",
+          "Jiaxin Bai",
+          "Xi Peng",
+          "Gong Zhang",
+          "Yangqiu Song"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17934v1",
+        "summary": "Retrieval-augmented generation (RAG) has shown some success in augmenting\nlarge language models (LLMs) with external knowledge. However, as a\nnon-parametric knowledge integration paradigm for LLMs, RAG methods heavily\nrely on external retrieval modules and the retrieved textual context prior.\nEspecially for very large scale knowledge augmentation, they would introduce\nsubstantial inference latency..."
+      },
+      {
+        "title": "Disparities in Multilingual LLM-Based Healthcare Q&A",
+        "authors": [
+          "Ipek Baris Schlicht",
+          "Burcu Sayin",
+          "Zhixue Zhao",
+          "Frederik M. Labonté",
+          "Cesare Barbera",
+          "Marco Viviani",
+          "Paolo Rosso",
+          "Lucie Flek"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17476v1",
+        "summary": "Equitable access to reliable health information is vital when integrating AI\ninto healthcare. Yet, information quality varies across languages, raising\nconcerns about the reliability and consistency of multilingual Large Language\nModels (LLMs). We systematically examine cross-lingual disparities in\npre-training source and factuality alignment in LLM answers for multilingual\nhealthcare Q&A across E..."
+      },
+      {
+        "title": "Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation",
+        "authors": [
+          "Chenghao Zhang",
+          "Guanting Dong",
+          "Xinyu Yang",
+          "Zhicheng Dou"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17354v1",
+        "summary": "Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for\nenhancing large language models (LLMs) by retrieving relevant documents from an\nexternal corpus. However, existing RAG systems primarily focus on unimodal text\ndocuments, and often fall short in real-world scenarios where both queries and\ndocuments may contain mixed modalities (such as text and images). In this\npaper, we a..."
+      },
+      {
+        "title": "Comprehending Spatio-temporal Data via Cinematic Storytelling using Large Language Models",
+        "authors": [
+          "Panos Kalnis. Shuo Shang",
+          "Christian S. Jensen"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17301v1",
+        "summary": "Spatio-temporal data captures complex dynamics across both space and time,\nyet traditional visualizations are complex, require domain expertise and often\nfail to resonate with broader audiences. Here, we propose MapMuse, a\nstorytelling-based framework for interpreting spatio-temporal datasets,\ntransforming them into compelling, narrative-driven experiences. We utilize\nlarge language models and emp..."
+      },
+      {
+        "title": "Efficient Toxicity Detection in Gaming Chats: A Comparative Study of Embeddings, Fine-Tuned Transformers and LLMs",
+        "authors": [
+          "Yehor Tereshchenko",
+          "Mika Hämäläinen"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17924v1",
+        "summary": "This paper presents a comprehensive comparative analysis of Natural Language\nProcessing (NLP) methods for automated toxicity detection in online gaming\nchats. Traditional machine learning models with embeddings, large language\nmodels (LLMs) with zero-shot and few-shot prompting, fine-tuned transformer\nmodels, and retrieval-augmented generation (RAG) approaches are evaluated. The\nevaluation framewo..."
+      },
+      {
+        "title": "OmniVIC: A Self-Improving Variable Impedance Controller with Vision-Language In-Context Learning for Safe Robotic Manipulation",
+        "authors": [
+          "Heng Zhang",
+          "Wei-Hsing Huang",
+          "Gokhan Solak",
+          "Arash Ajoudani"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17150v2",
+        "summary": "We present OmniVIC, a universal variable impedance controller (VIC) enhanced\nby a vision language model (VLM), which improves safety and adaptation in any\ncontact-rich robotic manipulation task to enhance safe physical interaction.\nTraditional VIC have shown advantages when the robot physically interacts with\nthe environment, but lack generalization in unseen, complex, and unstructured\nsafe intera..."
+      },
+      {
+        "title": "ParaVul: A Parallel Large Language Model and Retrieval-Augmented Framework for Smart Contract Vulnerability Detection",
+        "authors": [
+          "Tenghui Huang",
+          "Jinbo Wen",
+          "Jiawen Kang",
+          "Siyong Chen",
+          "Zhengtao Li",
+          "Tao Zhang",
+          "Dongning Liu",
+          "Jiacheng Wang",
+          "Chengjun Cai",
+          "Yinqiu Liu",
+          "Dusit Niyato"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17919v1",
+        "summary": "Smart contracts play a significant role in automating blockchain services.\nNevertheless, vulnerabilities in smart contracts pose serious threats to\nblockchain security. Currently, traditional detection methods primarily rely on\nstatic analysis and formal verification, which can result in high\nfalse-positive rates and poor scalability. Large Language Models (LLMs) have\nrecently made significant pro..."
+      },
+      {
+        "title": "A Brain Cell Type Resource Created by Large Language Models and a Multi-Agent AI System for Collaborative Community Annotation",
+        "authors": [
+          "Rongbin Li",
+          "Wenbo Chen",
+          "Zhao Li",
+          "Rodrigo Munoz-Castaneda",
+          "Jinbo Li",
+          "Neha S. Maurya",
+          "Arnav Solanki",
+          "Huan He",
+          "Hanwen Xing",
+          "Meaghan Ramlakhan",
+          "Zachary Wise",
+          "Zhuhao Wu",
+          "Hua Xu",
+          "Michael Hawrylycz",
+          "W. Jim Zheng"
+        ],
+        "published": "2025-10-20",
+        "link": "http://arxiv.org/abs/2510.17064v2",
+        "summary": "Single-cell RNA sequencing has transformed our ability to identify diverse\ncell types and their transcriptomic signatures. However, annotating these\nsignatures-especially those involving poorly characterized genes-remains a\nmajor challenge. Traditional methods, such as Gene Set Enrichment Analysis\n(GSEA), depend on well-curated annotations and often perform poorly in these\ncontexts. Large Language..."
+      },
+      {
+        "title": "A Comprehensive Survey on Reinforcement Learning-based Agentic Search: Foundations, Roles, Optimizations, Evaluations, and Applications",
+        "authors": [
+          "Minhua Lin",
+          "Zongyu Wu",
+          "Zhichao Xu",
+          "Hui Liu",
+          "Xianfeng Tang",
+          "Qi He",
+          "Charu Aggarwal",
+          "Hui Liu",
+          "Xiang Zhang",
+          "Suhang Wang"
+        ],
+        "published": "2025-10-19",
+        "link": "http://arxiv.org/abs/2510.16724v2",
+        "summary": "The advent of large language models (LLMs) has transformed information access\nand reasoning through open-ended natural language interaction. However, LLMs\nremain limited by static knowledge, factual hallucinations, and the inability\nto retrieve real-time or domain-specific information. Retrieval-Augmented\nGeneration (RAG) mitigates these issues by grounding model outputs in external\nevidence, but ..."
+      },
+      {
+        "title": "Right Answer at the Right Time - Temporal Retrieval-Augmented Generation via Graph Summarization",
+        "authors": [
+          "Zulun Zhu",
+          "Haoyu Liu",
+          "Mengke He",
+          "Siqiang Luo"
+        ],
+        "published": "2025-10-19",
+        "link": "http://arxiv.org/abs/2510.16715v1",
+        "summary": "Question answering in temporal knowledge graphs requires retrieval that is\nboth time-consistent and efficient. Existing RAG methods are largely semantic\nand typically neglect explicit temporal constraints, which leads to\ntime-inconsistent answers and inflated token usage. We propose STAR-RAG, a\ntemporal GraphRAG framework that relies on two key ideas: building a\ntime-aligned rule graph and conduct..."
+      },
+      {
+        "title": "Prior Makes It Possible: From Sublinear Graph Algorithms to LLM Test-Time Methods",
+        "authors": [
+          "Avrim Blum",
+          "Daniel Hsu",
+          "Cyrus Rashtchian",
+          "Donya Saless"
+        ],
+        "published": "2025-10-18",
+        "link": "http://arxiv.org/abs/2510.16609v1",
+        "summary": "Test-time augmentation, such as Retrieval-Augmented Generation (RAG) or tool\nuse, critically depends on an interplay between a model's parametric knowledge\nand externally retrieved information. However, the theoretical underpinnings of\nthis relationship remain poorly understood. Specifically, it is not clear how\nmuch pre-training knowledge is required to answer queries with a small number\nof augme..."
+      },
+      {
+        "title": "Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need?",
+        "authors": [
+          "Junchi Yu",
+          "Yujie Liu",
+          "Jindong Gu",
+          "Philip Torr",
+          "Dongzhan Zhou"
+        ],
+        "published": "2025-10-18",
+        "link": "http://arxiv.org/abs/2510.16582v1",
+        "summary": "Retrieval-Augmented Generation (RAG) based on knowledge graphs (KGs) enhances\nlarge language models (LLMs) by providing structured and interpretable external\nknowledge. However, existing KG-based RAG methods struggle to retrieve accurate\nand diverse information from text-rich KGs for complex real-world queries.\nProcess Reward Models (PRMs) offer a way to align the retrieval process of\nKG-based RAG..."
+      },
+      {
+        "title": "CryoDyna: Multiscale end-to-end modeling of cryo-EM macromolecule dynamics with physics-aware neural network",
+        "authors": [
+          "Chengwei Zhang",
+          "Shimian Li",
+          "Yihao Niu",
+          "Zhen Zhu",
+          "Sihao Yuan",
+          "Sirui Liu",
+          "Yi Qin Gao"
+        ],
+        "published": "2025-10-18",
+        "link": "http://arxiv.org/abs/2510.16510v1",
+        "summary": "Single-particle cryo-EM has transformed structural biology but still faces\nchallenges in resolving conformational heterogeneity at atomic resolution.\nExisting cryo-EM heterogeneity analysis methods either lack atomic details or\ntend to subject to overfitting due to image noise and limited information in\nsingle views. To obtain atomic detailed multiple conformations and make full\nuse of particle im..."
+      },
+      {
+        "title": "RGMem: Renormalization Group-based Memory Evolution for Language Agent User Profile",
+        "authors": [
+          "Ao Tian",
+          "Yunfeng Lu",
+          "Xinxin Fan",
+          "Changhao Wang",
+          "Lanzhi Zhou",
+          "Yeyao Zhang",
+          "Yanfang Liu"
+        ],
+        "published": "2025-10-18",
+        "link": "http://arxiv.org/abs/2510.16392v1",
+        "summary": "Personalized and continuous interactions are the key to enhancing user\nexperience in today's large language model (LLM)-based conversational systems,\nhowever, the finite context windows and static parametric memory make it\ndifficult to model the cross-session long-term user states and behavioral\nconsistency. Currently, the existing solutions to this predicament, such as\nretrieval-augmented generat..."
+      },
+      {
+        "title": "DTKG: Dual-Track Knowledge Graph-Verified Reasoning Framework for Multi-Hop QA",
+        "authors": [
+          "Changhao Wang",
+          "Yanfang Liu",
+          "Xinxin Fan",
+          "Anzhi Zhou",
+          "Lao Tian",
+          "Yunfeng Lu"
+        ],
+        "published": "2025-10-18",
+        "link": "http://arxiv.org/abs/2510.16302v1",
+        "summary": "Multi-hop reasoning for question answering (QA) plays a critical role in\nretrieval-augmented generation (RAG) for modern large language models (LLMs).\nThe accurate answer can be obtained through retrieving relational structure of\nentities from knowledge graph (KG). Regarding the inherent relation-dependency\nand reasoning pattern, multi-hop reasoning can be in general classified into\ntwo categories..."
+      },
+      {
+        "title": "GENESIS: A Generative Model of Episodic-Semantic Interaction",
+        "authors": [
+          "Marco D'Alessandro",
+          "Leo D'Amato",
+          "Mikel Elkano",
+          "Mikel Uriz",
+          "Giovanni Pezzulo"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15828v1",
+        "summary": "A central challenge in cognitive neuroscience is to explain how semantic and\nepisodic memory, two major forms of declarative memory, typically associated\nwith cortical and hippocampal processing, interact to support learning, recall,\nand imagination. Despite significant advances, we still lack a unified\ncomputational framework that jointly accounts for core empirical phenomena\nacross both semantic..."
+      },
+      {
+        "title": "Demo: Guide-RAG: Evidence-Driven Corpus Curation for Retrieval-Augmented Generation in Long COVID",
+        "authors": [
+          "Philip DiGiacomo",
+          "Haoyang Wang",
+          "Jinrui Fang",
+          "Yan Leng",
+          "W Michael Brode",
+          "Ying Ding"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15782v1",
+        "summary": "As AI chatbots gain adoption in clinical medicine, developing effective\nframeworks for complex, emerging diseases presents significant challenges. We\ndeveloped and evaluated six Retrieval-Augmented Generation (RAG) corpus\nconfigurations for Long COVID (LC) clinical question answering, ranging from\nexpert-curated sources to large-scale literature databases. Our evaluation\nemployed an LLM-as-a-judge..."
+      },
+      {
+        "title": "The 3rd Place Solution of CCIR CUP 2025: A Framework for Retrieval-Augmented Generation in Multi-Turn Legal Conversation",
+        "authors": [
+          "Da Li",
+          "Zecheng Fang",
+          "Qiang Yan",
+          "Wei Huang",
+          "Xuanpu Luo"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15722v1",
+        "summary": "Retrieval-Augmented Generation has made significant progress in the field of\nnatural language processing. By combining the advantages of information\nretrieval and large language models, RAG can generate relevant and contextually\nappropriate responses based on items retrieved from reliable sources. This\ntechnology has demonstrated outstanding performance across multiple domains,\nbut its application..."
+      },
+      {
+        "title": "SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation",
+        "authors": [
+          "Ines Besrour",
+          "Jingbo He",
+          "Tobias Schreieder",
+          "Michael Färber"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15682v1",
+        "summary": "We present SQuAI (https://squai.scads.ai/), a scalable and trustworthy\nmulti-agent retrieval-augmented generation (RAG) framework for scientific\nquestion answering (QA) with large language models (LLMs). SQuAI addresses key\nlimitations of existing RAG systems in the scholarly domain, where complex,\nopen-domain questions demand accurate answers, explicit claims with citations,\nand retrieval across ..."
+      },
+      {
+        "title": "MalCVE: Malware Detection and CVE Association Using Large Language Models",
+        "authors": [
+          "Eduard Andrei Cristea",
+          "Petter Molnes",
+          "Jingyue Li"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15567v1",
+        "summary": "Malicious software attacks are having an increasingly significant economic\nimpact. Commercial malware detection software can be costly, and tools that\nattribute malware to the specific software vulnerabilities it exploits are\nlargely lacking. Understanding the connection between malware and the\nvulnerabilities it targets is crucial for analyzing past threats and\nproactively defending against curre..."
+      },
+      {
+        "title": "Think Parallax: Solving Multi-Hop Problems via Multi-View Knowledge-Graph-Based Retrieval-Augmented Generation",
+        "authors": [
+          "Jinliang Liu"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15552v1",
+        "summary": "Large language models (LLMs) excel at language understanding but often\nhallucinate and struggle with multi-hop reasoning. Knowledge-graph-based\nretrieval-augmented generation (KG-RAG) offers grounding, yet most methods rely\non flat embeddings and noisy path exploration. We propose ParallaxRAG, a\nframework that symmetrically decouples queries and graph triples into\nmulti-view spaces, enabling a rob..."
+      },
+      {
+        "title": "A Feasibility Study on Usability and Trust among Population Groups of a Medical Avatar Supported by Large Language Models with Retrieval Augmented Generation",
+        "authors": [
+          "Roel Boumans",
+          "Lisa Cramer",
+          "Sascha van de Poll",
+          "Henria Vermeulen"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15531v1",
+        "summary": "Healthcare professionals have limited time to support patients and their\nrelatives, but their information needs are high. Therefore, the Radboud\nUniversity together with the Canisius Wilhelmina Hospital hospital developed a\nspeaking virtual hu-man avatar which, contrary to many avatars, uses a Large\nLanguage Model (LLM) enhanced with Retrieval Augmented Generation (RAG). The\nRAG tech-nique enables..."
+      },
+      {
+        "title": "Fault Cause Identification across Manufacturing Lines through Ontology-Guided and Process-Aware FMEA Graph Learning with LLMs",
+        "authors": [
+          "Sho Okazaki",
+          "Kohei Kaminishi",
+          "Takuma Fujiu",
+          "Yusheng Wang",
+          "Jun Ota"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15428v1",
+        "summary": "Fault cause identification in automated manufacturing lines is challenging\ndue to the system's complexity, frequent reconfigurations, and the limited\nreusability of existing Failure Mode and Effects Analysis (FMEA) knowledge.\nAlthough FMEA worksheets contain valuable expert insights, their reuse across\nheterogeneous lines is hindered by natural language variability, inconsistent\nterminology, and p..."
+      },
+      {
+        "title": "Fine-Tuning MedGemma for Clinical Captioning to Enhance Multimodal RAG over Malaysia CPGs",
+        "authors": [
+          "Lee Qi Zun",
+          "Mohamad Zulhilmi Bin Abdul Halim",
+          "Goh Man Fye"
+        ],
+        "published": "2025-10-17",
+        "link": "http://arxiv.org/abs/2510.15418v1",
+        "summary": "Retrieval-Augmented Generation systems are essential for providing fact-based\nguidance from Malaysian Clinical Practice Guidelines. However, their\neffectiveness with image-based queries is limited, as general Vision-Language\nModel captions often lack clinical specificity and factual grounding. This\nstudy proposes and validates a framework to specialize the MedGemma model for\ngenerating high-fideli..."
+      }
+    ],
+    "Retrieval-Augmented Generation": [
+      {
+        "title": "Are Video Models Ready as Zero-Shot Reasoners? An Empirical Study with the MME-CoF Benchmark",
+        "authors": [
+          "Ziyu Guo",
+          "Xinyan Chen",
+          "Renrui Zhang",
+          "Ruichuan An",
+          "Yu Qi",
+          "Dongzhi Jiang",
+          "Xiangtai Li",
+          "Manyuan Zhang",
+          "Hongsheng Li",
+          "Pheng-Ann Heng"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26802v1",
+        "summary": "Recent video generation models can produce high-fidelity, temporally coherent\nvideos, indicating that they may encode substantial world knowledge. Beyond\nrealistic synthesis, they also exhibit emerging behaviors indicative of visual\nperception, modeling, and manipulation. Yet, an important question still\nremains: Are video models ready to serve as zero-shot reasoners in challenging\nvisual reasonin..."
+      },
+      {
+        "title": "OmniX: From Unified Panoramic Generation and Perception to Graphics-Ready 3D Scenes",
+        "authors": [
+          "Yukun Huang",
+          "Jiwen Yu",
+          "Yanning Zhou",
+          "Jianan Wang",
+          "Xintao Wang",
+          "Pengfei Wan",
+          "Xihui Liu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26800v1",
+        "summary": "There are two prevalent ways to constructing 3D scenes: procedural generation\nand 2D lifting. Among them, panorama-based 2D lifting has emerged as a\npromising technique, leveraging powerful 2D generative priors to produce\nimmersive, realistic, and diverse 3D environments. In this work, we advance\nthis technique to generate graphics-ready 3D scenes suitable for physically\nbased rendering (PBR), rel..."
+      },
+      {
+        "title": "Cavity-assisted single-shot T center spin readout",
+        "authors": [
+          "Yu-En Wong",
+          "Songtao Chen"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26797v1",
+        "summary": "High-fidelity spin readout is a crucial component for quantum information\nprocessing with optically interfaced solid-state spins. Here, we propose and\ninvestigate two theoretical protocols for fast single-shot readout of\ncavity-coupled single T center electronic spins. For fluorescence-based\nreadout, we selectively couple one of the T center spin-conserving transitions\nto a single-mode photonic ca..."
+      },
+      {
+        "title": "SEE4D: Pose-Free 4D Generation via Auto-Regressive Video Inpainting",
+        "authors": [
+          "Dongyue Lu",
+          "Ao Liang",
+          "Tianxin Huang",
+          "Xiao Fu",
+          "Yuyang Zhao",
+          "Baorui Ma",
+          "Liang Pan",
+          "Wei Yin",
+          "Lingdong Kong",
+          "Wei Tsang Ooi",
+          "Ziwei Liu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26796v1",
+        "summary": "Immersive applications call for synthesizing spatiotemporal 4D content from\ncasual videos without costly 3D supervision. Existing video-to-4D methods\ntypically rely on manually annotated camera poses, which are labor-intensive\nand brittle for in-the-wild footage. Recent warp-then-inpaint approaches\nmitigate the need for pose labels by warping input frames along a novel camera\ntrajectory and using ..."
+      },
+      {
+        "title": "The Quest for Generalizable Motion Generation: Data, Model, and Evaluation",
+        "authors": [
+          "Jing Lin",
+          "Ruisi Wang",
+          "Junzhe Lu",
+          "Ziqi Huang",
+          "Guorui Song",
+          "Ailing Zeng",
+          "Xian Liu",
+          "Chen Wei",
+          "Wanqi Yin",
+          "Qingping Sun",
+          "Zhongang Cai",
+          "Lei Yang",
+          "Ziwei Liu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26794v1",
+        "summary": "Despite recent advances in 3D human motion generation (MoGen) on standard\nbenchmarks, existing models still face a fundamental bottleneck in their\ngeneralization capability. In contrast, adjacent generative fields, most\nnotably video generation (ViGen), have demonstrated remarkable generalization\nin modeling human behaviors, highlighting transferable insights that MoGen can\nleverage. Motivated by ..."
+      },
+      {
+        "title": "Learning Pseudorandom Numbers with Transformers: Permuted Congruential Generators, Curricula, and Interpretability",
+        "authors": [
+          "Tao Tao",
+          "Maissam Barkeshli"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26792v1",
+        "summary": "We study the ability of Transformer models to learn sequences generated by\nPermuted Congruential Generators (PCGs), a widely used family of pseudo-random\nnumber generators (PRNGs). PCGs introduce substantial additional difficulty\nover linear congruential generators (LCGs) by applying a series of bit-wise\nshifts, XORs, rotations and truncations to the hidden state. We show that\nTransformers can nev..."
+      },
+      {
+        "title": "Gistify! Codebase-Level Understanding via Runtime Execution",
+        "authors": [
+          "Hyunji Lee",
+          "Minseon Kim",
+          "Chinmay Singh",
+          "Matheus Pereira",
+          "Atharv Sonwane",
+          "Isadora White",
+          "Elias Stengel-Eskin",
+          "Mohit Bansal",
+          "Zhengyan Shi",
+          "Alessandro Sordoni",
+          "Marc-Alexandre Côté",
+          "Xingdi Yuan",
+          "Lucas Caccia"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26790v1",
+        "summary": "As coding agents are increasingly deployed in large codebases, the need to\nautomatically design challenging, codebase-level evaluation is central. We\npropose Gistify, a task where a coding LLM must create a single, minimal,\nself-contained file that can reproduce a specific functionality of a codebase.\nThe coding LLM is given full access to a codebase along with a specific\nentrypoint (e.g., a pytho..."
+      },
+      {
+        "title": "Entanglement-assisted circuit knitting",
+        "authors": [
+          "Shao-Hua Hu",
+          "Po-Sung Liu",
+          "Jun-Yi Wu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26789v1",
+        "summary": "Distributed quantum computing (DQC) provides a promising route toward\nscalable quantum computation, where entanglement-assisted LOCC and circuit\nknitting represent two complementary approaches. The former deterministically\nrealizes nonlocal operations but demands extensive entanglement resources,\nwhereas the latter requires no entanglement yet suffers from exponential\nsampling overhead. Here, we p..."
+      },
+      {
+        "title": "HEIR: Learning Graph-Based Motion Hierarchies",
+        "authors": [
+          "Cheng Zheng",
+          "William Koch",
+          "Baiang Li",
+          "Felix Heide"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26786v1",
+        "summary": "Hierarchical structures of motion exist across research fields, including\ncomputer vision, graphics, and robotics, where complex dynamics typically arise\nfrom coordinated interactions among simpler motion components. Existing methods\nto model such dynamics typically rely on manually-defined or heuristic\nhierarchies with fixed motion primitives, limiting their generalizability\nacross different task..."
+      },
+      {
+        "title": "LLMs Process Lists With General Filter Heads",
+        "authors": [
+          "Arnab Sen Sharma",
+          "Giordano Rogers",
+          "Natalie Shapira",
+          "David Bau"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26784v1",
+        "summary": "We investigate the mechanisms underlying a range of list-processing tasks in\nLLMs, and we find that LLMs have learned to encode a compact, causal\nrepresentation of a general filtering operation that mirrors the generic\n\"filter\" function of functional programming. Using causal mediation analysis on\na diverse set of list-processing tasks, we find that a small number of\nattention heads, which we dub ..."
+      },
+      {
+        "title": "Clone Deterministic 3D Worlds with Geometrically-Regularized World Models",
+        "authors": [
+          "Zaishuo Xia",
+          "Yukuan Lu",
+          "Xinyi Li",
+          "Yifan Xu",
+          "Yubei Chen"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26782v1",
+        "summary": "A world model is an internal model that simulates how the world evolves.\nGiven past observations and actions, it predicts the future of both the\nembodied agent and its environment. Accurate world models are essential for\nenabling agents to think, plan, and reason effectively in complex, dynamic\nsettings. Despite rapid progress, current world models remain brittle and\ndegrade over long horizons. We..."
+      },
+      {
+        "title": "Pre-trained Forecasting Models: Strong Zero-Shot Feature Extractors for Time Series Classification",
+        "authors": [
+          "Andreas Auer",
+          "Daniel Klotz",
+          "Sebastinan Böck",
+          "Sepp Hochreiter"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26777v1",
+        "summary": "Recent research on time series foundation models has primarily focused on\nforecasting, leaving it unclear how generalizable their learned representations\nare. In this study, we examine whether frozen pre-trained forecasting models\ncan provide effective representations for classification. To this end, we\ncompare different representation extraction strategies and introduce two\nmodel-agnostic embeddi..."
+      },
+      {
+        "title": "Automated event generation for S-wave quarkonium and leptonium production in NRQCD and NRQED",
+        "authors": [
+          "Alice Colpani Serri",
+          "Chris A. Flett",
+          "Jean-Philippe Lansberg",
+          "Olivier Mattelaer",
+          "Hua-Sheng Shao",
+          "Lukas Simon"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26773v1",
+        "summary": "We present an extension of the MadGraph5_aMC@NLO framework that enables the\nautomated calculation of leading-order cross sections for S-wave quarkonium and\nleptonium production within the non-relativistic QCD (NRQCD) and\nnon-relativistic QED (NRQED) factorisation formalisms. The framework has been\nvalidated against a variety of benchmark processes, demonstrating robustness\nand flexibility for phen..."
+      },
+      {
+        "title": "Charged Rotating Black Hole and the First Law",
+        "authors": [
+          "S. D Campos"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26772v1",
+        "summary": "The thermodynamic properties of black holes have been extensively studied\nthrough analogies with classical systems, revealing fundamental connections\nbetween gravitation, entropy, and quantum mechanics. In this work, we extend\nthe thermodynamic framework of black holes by incorporating charge and\nanalyzing its role in entropy production. Using an analogy with charged\nrotating soap bubbles, we demo..."
+      },
+      {
+        "title": "STaMP: Sequence Transformation and Mixed Precision for Low-Precision Activation Quantization",
+        "authors": [
+          "Marco Federici",
+          "Riccardo Del Chiaro",
+          "Boris van Breugel",
+          "Paul Whatmough",
+          "Markus Nagel"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26771v1",
+        "summary": "Quantization is the key method for reducing inference latency, power and\nmemory footprint of generative AI models. However, accuracy often degrades\nsharply when activations are quantized below eight bits. Recent work suggests\nthat invertible linear transformations (e.g. rotations) can aid quantization,\nby reparameterizing feature channels and weights. In this paper, we propose\n\\textit{Sequence Tra..."
+      },
+      {
+        "title": "Geometry of the stability scattering diagram for $\\mathbb{P}^2$ and applications",
+        "authors": [
+          "Mark Gross",
+          "Fatemeh Rezaee"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26770v1",
+        "summary": "We give a detailed analysis of the stability scattering diagram for\n$\\mathbb{P}^2$ introduced by Bousseau. This scattering diagram lives in a\nsubset of $\\mathbb{R}^2$, and we decompose this subset into three regions,\n$R_{\\Delta},R_{\\Diamond}$ and $R_{\\mathrm{unbdd}}$. The region $R_{\\Delta}$ has\na chamber structure whose chambers are in one-to-one correspondence with strong\nexceptional triples. No..."
+      },
+      {
+        "title": "Unbiased Primordial Gravitational Wave Inference from the CMB with SMICA",
+        "authors": [
+          "Alexander Steier",
+          "Shamik Ghosh",
+          "Jacques Delabrouille"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26767v1",
+        "summary": "The detection of primordial gravitational waves in Cosmic Microwave\nBackground B-mode polarization observations requires accurate and robust\nsubtraction of astrophysical contamination. We show, using a blind Spectral\nMatching Independent Component Analysis, that it is possible to infer unbiased\nestimates of the primordial B-mode signal from ground-based observations of a\nsmall patch of sky even fo..."
+      },
+      {
+        "title": "The One-Loop QCD $β$-Function as an Index",
+        "authors": [
+          "Roland Bittleston",
+          "Kevin Costello"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26764v1",
+        "summary": "In this letter we show that the one-loop QCD $\\beta$-function can be obtained\nfrom an index theorem on twistor space. This is achieved by recalling that the\n$\\theta$-angle of self-dual gauge theory flows according the one-loop\n$\\beta$-function. Rewriting self-dual gauge theory as a holomorphic theory on\ntwistor space this flow can be computed as the anomaly to scale invariance. The\none-loop Weyl a..."
+      },
+      {
+        "title": "\"Enough\" Wigner negativity implies genuine multipartite entanglement",
+        "authors": [
+          "Lin Htoo Zaw",
+          "Jiajie Guo",
+          "Qiongyi He",
+          "Matteo Fadel",
+          "Shuheng Liu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26761v1",
+        "summary": "Wigner negativity and genuine multipartite entanglement (GME) are key\nnonclassical resources that enable computational advantages and broader\nquantum-information tasks. In this work, we prove two theorems for multimode\ncontinuous-variable systems that relate these nonclassical resources. Both\ntheorems show that \"enough\" Wigner negativity -- either a large-enough Wigner\nnegativity volume along a su..."
+      },
+      {
+        "title": "MORE: Multi-Organ Medical Image REconstruction Dataset",
+        "authors": [
+          "Shaokai Wu",
+          "Yapan Guo",
+          "Yanbiao Ji",
+          "Jing Tong",
+          "Yuxiang Lu",
+          "Mei Li",
+          "Suizhi Huang",
+          "Yue Ding",
+          "Hongtao Lu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26759v1",
+        "summary": "CT reconstruction provides radiologists with images for diagnosis and\ntreatment, yet current deep learning methods are typically limited to specific\nanatomies and datasets, hindering generalization ability to unseen anatomies\nand lesions. To address this, we introduce the Multi-Organ medical image\nREconstruction (MORE) dataset, comprising CT scans across 9 diverse anatomies\nwith 15 lesion types. T..."
+      },
+      {
+        "title": "Single-fluid model for rotating annular supersolids and its experimental implications",
+        "authors": [
+          "Niccolò Preti",
+          "Nicolò Antolini",
+          "Charles Drevon",
+          "Pietro Lombardi",
+          "Andrea Fioretti",
+          "Carlo Gabbanini",
+          "Giovanni Ferioli",
+          "Giovanni Modugno",
+          "Giulio Biagioni"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26753v1",
+        "summary": "The famous two-fluid model of finite-temperature superfluids has been\nrecently extended to describe the mixed classical-superfluid dynamics of the\nnewly discovered supersolid phase of matter. We show that for rigidly rotating\nsupersolids one can derive a more appropriate single-fluid model, in which the\nseemingly classical and superfluid contributions to the motion emerge from a\nspatially varying ..."
+      },
+      {
+        "title": "Tunable frequency conversion and comb generation with a superconducting artificial atom",
+        "authors": [
+          "Fahad Aziz",
+          "Zhengqi Niu",
+          "Tzu-Yen Hsieh",
+          "Kuan Ting Lin",
+          "Yu-Huan Huang",
+          "Yen-Hsiang Lin",
+          "Ching-Yeh Chen",
+          "Yu-Ting Cheng",
+          "Kai-Min Hsieh",
+          "Jeng-Chung Chen",
+          "Anton Frisk Kockum",
+          "Guin-Dar Lin",
+          "Zhi-Rong Lin",
+          "Ping-Yi Wen",
+          "Io-Chun Hoi"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26749v1",
+        "summary": "We investigate the power spectral density emitted by a superconducting\nartificial atom coupled to the end of a semi-infinite transmission line and\ndriven by two continuous radio-frequency fields. In this setup, we observe the\ngeneration of multiple frequency peaks and the formation of frequency combs\nwith equal detuning between those peaks. The frequency peaks originate from\nwave mixing of the dri..."
+      },
+      {
+        "title": "Ladder Symmetries of Higher Dimensional Black Holes",
+        "authors": [
+          "Roman Berens",
+          "Lam Hui",
+          "Daniel McLoughlin",
+          "Adam R. Solomon",
+          "John Staunton"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26748v1",
+        "summary": "We compute the ladder operators for static tidal perturbations to\nhigher-dimensional black holes. These operators map between solutions of the\nrelevant equation of motion at different multipole orders. We focus on spin 0,\n1 and 2 perturbations to the Schwarzschild-Tangherlini black hole and on spin 0\nperturbations to the 5D Myers-Perry black hole. The ladder structure, used in\nconjunction with the..."
+      },
+      {
+        "title": "Spectral Deconvolution without the Deconvolution: Extracting Temperature from X-ray Thomson Scattering Spectra without the Source-and-Instrument Function",
+        "authors": [
+          "Thomas Gawne",
+          "Alina Kononov",
+          "Andrew Baczewski",
+          "Hannah Bellenbaum",
+          "Maximilian P Böhme",
+          "Zhandos Moldabekov",
+          "Thomas R Preston",
+          "Sebastian Schwalbe",
+          "Jan Vorberger",
+          "Tobias Dornheim"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26747v1",
+        "summary": "X-ray Thomson scattering (XRTS) probes the dynamic structure factor of the\nsystem, but the measured spectrum is broadened by the combined\nsource-and-instrument function (SIF) of the setup. In order to extract\nproperties such as temperature from an XRTS spectrum, the broadening by the SIF\nneeds to be removed. Recent work [Dornheim et al. Nature Commun. 13, 7911\n(2022)] has suggested that the SIF ma..."
+      },
+      {
+        "title": "Gorenstein versions of type $Φ$ groups and some Gcd-cd, Ghd-hd coincidences",
+        "authors": [
+          "Rudradip Biswas",
+          "Dimitra-Dionysia Stergiopoulou"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26746v1",
+        "summary": "In this short note, we characterise some Gorenstein versions of the concept\nof a group being of type $\\Phi$ as introduced by Olympia Talelli. And, we also\ngeneralize a different Talelli result regarding the coincidence of the\nclassical and the Gorenstein cohomological dimension of torsion-free groups in\nKropholler's $\\LH\\mathscr{F}$ class...."
+      },
+      {
+        "title": "A General Incentives-Based Framework for Fairness in Multi-agent Resource Allocation",
+        "authors": [
+          "Ashwin Kumar",
+          "William Yeoh"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26740v1",
+        "summary": "We introduce the General Incentives-based Framework for Fairness (GIFF), a\nnovel approach for fair multi-agent resource allocation that infers fair\ndecision-making from standard value functions. In resource-constrained\nsettings, agents optimizing for efficiency often create inequitable outcomes.\nOur approach leverages the action-value (Q-)function to balance efficiency and\nfairness without requiri..."
+      },
+      {
+        "title": "Wavefront Curvature and Transverse Atomic Motion in Time-Resolved Atom Interferometry: Impact and Mitigation",
+        "authors": [
+          "Noam Mouelle",
+          "Jeremiah Mitchell",
+          "Valerie Gibson",
+          "Ulrich Schneider"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26739v1",
+        "summary": "Time-resolved atom interferometry, as employed in applications such as\ngravitational wave detection and searches for ultra-light dark matter, requires\nprecise control over systematic effects. In this work, we investigate phase\nnoise arising from shot-to-shot fluctuations in the atoms' transverse motion in\nthe presence of the wavefront curvature of the interferometer beam, and analyse\nits dependenc..."
+      },
+      {
+        "title": "Moments of parton distributions functions of the pion from lattice QCD using gradient flow",
+        "authors": [
+          "Anthony Francis",
+          "Patrick Fritzsch",
+          "Rohith Karur",
+          "Jangho Kim",
+          "Giovanni Pederiva",
+          "Dimitra A. Pefkou",
+          "Antonio Rago",
+          "Andrea Shindler",
+          "André Walker-Loud",
+          "Savvas Zafeiropoulos"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26738v1",
+        "summary": "We present a nonperturbative determination of the pion valence parton\ndistribution function (PDF) moment ratios $\\left\\langle x^{n-1} \\right\\rangle /\n\\left\\langle x \\right\\rangle$ up to $n=6$, using the gradient flow in lattice\nQCD. As a testing ground, we employ SU($3$) isosymmetric gauge configurations\ngenerated by the OpenLat initiative with a pseudoscalar mass of $m_\\pi \\simeq\n411~\\text{MeV}$...."
+      },
+      {
+        "title": "Nonunital prime rings graded by ordered groups",
+        "authors": [
+          "Daniel Lännström",
+          "Patrik Lundström",
+          "Johan Öinert",
+          "Stefan Wagner"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26734v1",
+        "summary": "Let $G$ be a group with identity element $e$, and suppose that $S$ is an\nassociative $G$-graded ring that is not necessarily unital. In the case where\n$G$ is an ordered group, we show that a graded ideal is prime if and only if it\nis graded prime. Consequently, in that setting, a graded ring is prime if and\nonly if it is graded prime. For any group $G$, if $S$ is what we call ideally\nsymmetrically..."
+      },
+      {
+        "title": "Impact of hydrogenation on the structure, chemistry, and electrical properties of flame-synthesized carbon nanoparticle films",
+        "authors": [
+          "Luca Basta",
+          "Francesca Picca",
+          "Pegah Darvehi",
+          "Vincenzo Pagliara",
+          "Alberto Aloisio",
+          "Mario Commodo",
+          "Patrizia Minutolo",
+          "Vito Mennella",
+          "Stefan Heun",
+          "Stefano Veronesi",
+          "Andrea D'Anna"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26733v1",
+        "summary": "The interaction between hydrogen atoms and carbon nanoparticles is a\nfundamental process governing the properties of carbonaceous materials in\nenvironments ranging from combustion systems to the interstellar medium. This\nstudy investigates the effects of controlled atomic hydrogen exposure on young\nand mature soot nanoparticles, generated in premixed ethylene-air flames, and\ndeposited on substrate..."
+      },
+      {
+        "title": "Cross-Platform Evaluation of Reasoning Capabilities in Foundation Models",
+        "authors": [
+          "J. de Curtò",
+          "I. de Zarzà",
+          "Pablo García",
+          "Jordi Cabot"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26732v1",
+        "summary": "This paper presents a comprehensive cross-platform evaluation of reasoning\ncapabilities in contemporary foundation models, establishing an\ninfrastructure-agnostic benchmark across three computational paradigms: HPC\nsupercomputing (MareNostrum 5), cloud platforms (Nebius AI Studio), and\nuniversity clusters (a node with eight H200 GPUs).\n  We evaluate 15 foundation models across 79 problems spanning..."
+      },
+      {
+        "title": "Modelling ion channels with a view towards identifiability",
+        "authors": [
+          "Ivo Siekmann"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26728v1",
+        "summary": "Aggregated Markov models provide a flexible framework for stochastic dynamics\nthat develops on multiple timescales. For example, Markov models for ion\nchannels often consist of multiple open and closed state to account for \"slow\"\nand \"fast\" openings and closings of the channel. The approach is a popular tool\nin the construction of mechanistic models of ion channels - instead of viewing\nmodel state..."
+      },
+      {
+        "title": "Neither Consent nor Property: A Policy Lab for Data Law",
+        "authors": [
+          "Haoyi Zhang",
+          "Tianyi Zhu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26727v1",
+        "summary": "This paper makes the opaque data market in the AI economy empirically legible\nfor the first time, constructing a computational testbed to address a core\nepistemic failure: regulators governing a market defined by structural opacity,\nfragile price discovery, and brittle technical safeguards that have paralyzed\ntraditional empirics and fragmented policy. The pipeline begins with multi-year\nfieldwork..."
+      },
+      {
+        "title": "Non-Convex Over-the-Air Heterogeneous Federated Learning: A Bias-Variance Trade-off",
+        "authors": [
+          "Muhammad Faraz Ul Abrar",
+          "Nicolò Michelusi"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26722v1",
+        "summary": "Over-the-air (OTA) federated learning (FL) has been well recognized as a\nscalable paradigm that exploits the waveform superposition of the wireless\nmultiple-access channel to aggregate model updates in a single use. Existing\nOTA-FL designs largely enforce zero-bias model updates by either assuming\n\\emph{homogeneous} wireless conditions (equal path loss across devices) or\nforcing zero-bias updates ..."
+      },
+      {
+        "title": "Graph theoretic quantum contextuality and unextendible Product Bases",
+        "authors": [
+          "Gurvir Singh",
+          "Arvind"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26719v1",
+        "summary": "Unextendible product bases(UPBs) are central to the study of local\ndistinguishability of orthogonal product states. While their connection to\nquantum nonlocality via Bell inequalities is well established, their link to\nquantum contextuality remains largely unexplored. We establish a graph\ntheoretic connection between contextuality and UPBs. First, an equivalence\nbetween Klyachko-Can-Binicio\\u{g}lu..."
+      },
+      {
+        "title": "LSM-MS2: A Foundation Model Bridging Spectral Identification and Biological Interpretation",
+        "authors": [
+          "Gabriel Asher",
+          "Devesh Shah",
+          "Amy A. Caudy",
+          "Luke Ferro",
+          "Lea Amar",
+          "Ana S. H. Costa",
+          "Thomas Patton",
+          "Niall O'Connor",
+          "Jennifer M. Campbell",
+          "Jack Geremia"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26715v1",
+        "summary": "A vast majority of mass spectrometry data remains uncharacterized, leaving\nmuch of its biological and chemical information untapped. Recent advances in\nmachine learning have begun to address this gap, particularly for tasks such as\nspectral identification in tandem mass spectrometry data. Here, we present the\nlatest generation of LSM-MS2, a large-scale deep learning foundation model\ntrained on mil..."
+      },
+      {
+        "title": "Affineness and reconstruction in complex-periodic geometry",
+        "authors": [
+          "William Balderrama",
+          "Jack Morgan Davies",
+          "Sil Linskens"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26711v1",
+        "summary": "Working in a generic derived algebro-geometric context, we lay the\nfoundations for the general study of affineness and local descendability. When\napplied to $\\mathbf{E}_\\infty$ rings equipped with the fpqc topology, these\nfoundations give an $\\infty$-category of spectral stacks, a viable\nfunctor-of-points alternative to Lurie's approach to nonconnective spectral\nalgebraic geometry. Specializing fu..."
+      },
+      {
+        "title": "Value Drifts: Tracing Value Alignment During LLM Post-Training",
+        "authors": [
+          "Mehar Bhatia",
+          "Shravan Nayak",
+          "Gaurav Kamath",
+          "Marius Mosbach",
+          "Karolina Stańczak",
+          "Vered Shwartz",
+          "Siva Reddy"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26707v1",
+        "summary": "As LLMs occupy an increasingly important role in society, they are more and\nmore confronted with questions that require them not only to draw on their\ngeneral knowledge but also to align with certain human value systems.\nTherefore, studying the alignment of LLMs with human values has become a\ncrucial field of inquiry. Prior work, however, mostly focuses on evaluating the\nalignment of fully trained..."
+      },
+      {
+        "title": "Budgeted Multiple-Expert Deferral",
+        "authors": [
+          "Giulia DeSalvo",
+          "Clara Mohri",
+          "Mehryar Mohri",
+          "Yutao Zhong"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26706v1",
+        "summary": "Learning to defer uncertain predictions to costly experts offers a powerful\nstrategy for improving the accuracy and efficiency of machine learning systems.\nHowever, standard training procedures for deferral algorithms typically require\nquerying all experts for every training instance, an approach that becomes\nprohibitively expensive when expert queries incur significant computational or\nresource c..."
+      },
+      {
+        "title": "ProstNFound+: A Prospective Study using Medical Foundation Models for Prostate Cancer Detection",
+        "authors": [
+          "Paul F. R. Wilson",
+          "Mohamed Harmanani",
+          "Minh Nguyen Nhat To",
+          "Amoon Jamzad",
+          "Tarek Elghareb",
+          "Zhuoxin Guo",
+          "Adam Kinnaird",
+          "Brian Wodlinger",
+          "Purang Abolmaesumi",
+          "Parvin Mousavi"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26703v1",
+        "summary": "Purpose: Medical foundation models (FMs) offer a path to build\nhigh-performance diagnostic systems. However, their application to prostate\ncancer (PCa) detection from micro-ultrasound ({\\mu}US) remains untested in\nclinical settings. We present ProstNFound+, an adaptation of FMs for PCa\ndetection from {\\mu}US, along with its first prospective validation. Methods:\nProstNFound+ incorporates a medical..."
+      },
+      {
+        "title": "Delegated Authorization for Agents Constrained to Semantic Task-to-Scope Matching",
+        "authors": [
+          "Majed El Helou",
+          "Chiara Troiani",
+          "Benjamin Ryder",
+          "Jean Diaconu",
+          "Hervé Muyal",
+          "Marcelo Yannuzzi"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26702v1",
+        "summary": "Authorizing Large Language Model driven agents to dynamically invoke tools\nand access protected resources introduces significant risks, since current\nmethods for delegating authorization grant overly broad permissions and give\naccess to tools allowing agents to operate beyond the intended task scope. We\nintroduce and assess a delegated authorization model enabling authorization\nservers to semantic..."
+      },
+      {
+        "title": "Assessment of the conditional exchangeability assumption in causal machine learning models: a simulation study",
+        "authors": [
+          "Gerard T. Portela",
+          "Jason B. Gibbons",
+          "Sebastian Schneeweiss",
+          "Rishi J. Desai"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26700v1",
+        "summary": "Observational studies developing causal machine learning (ML) models for the\nprediction of individualized treatment effects (ITEs) seldom conduct empirical\nevaluations to assess the conditional exchangeability assumption. We aimed to\nevaluate the performance of these models under conditional exchangeability\nviolations and the utility of negative control outcomes (NCOs) as a diagnostic.\nWe conducte..."
+      },
+      {
+        "title": "The End of Manual Decoding: Towards Truly End-to-End Language Models",
+        "authors": [
+          "Zhichao Wang",
+          "Dongyang Ma",
+          "Xinting Huang",
+          "Deng Cai",
+          "Tian Lan",
+          "Jiahao Xu",
+          "Haitao Mi",
+          "Xiaoying Tang",
+          "Yan Wang"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26697v1",
+        "summary": "The \"end-to-end\" label for LLMs is a misnomer. In practice, they depend on a\nnon-differentiable decoding process that requires laborious, hand-tuning of\nhyperparameters like temperature and top-p. This paper introduces AutoDeco, a\nnovel architecture that enables truly \"end-to-end\" generation by learning to\ncontrol its own decoding strategy. We augment the standard transformer with\nlightweight head..."
+      },
+      {
+        "title": "On semi-transitional and transitional rings",
+        "authors": [
+          "Sourav Koner",
+          "Titas Saha",
+          "Biswajit Mitra"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26695v1",
+        "summary": "In this paper, we introduce and study two new classes of commutative rings,\nnamely semi transitional rings and transitional rings, which extend several\nclassical ideas arising from rings of continuous functions and their variants.\nA general framework for these rings is developed through the notion of semi\ntransition and transition maps, leading to a systematic exploration of their\nalgebraic and to..."
+      },
+      {
+        "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+        "authors": [
+          "Kimi Team",
+          "Yu Zhang",
+          "Zongyu Lin",
+          "Xingcheng Yao",
+          "Jiaxi Hu",
+          "Fanqing Meng",
+          "Chengyin Liu",
+          "Xin Men",
+          "Songlin Yang",
+          "Zhiyuan Li",
+          "Wentao Li",
+          "Enzhe Lu",
+          "Weizhou Liu",
+          "Yanru Chen",
+          "Weixin Xu",
+          "Longhui Yu",
+          "Yejie Wang",
+          "Yu Fan",
+          "Longguang Zhong",
+          "Enming Yuan",
+          "Dehao Zhang",
+          "Yizhi Zhang",
+          "T. Y. Liu",
+          "Haiming Wang",
+          "Shengjun Fang",
+          "Weiran He",
+          "Shaowei Liu",
+          "Yiwei Li",
+          "Jianlin Su",
+          "Jiezhong Qiu",
+          "Bo Pang",
+          "Junjie Yan",
+          "Zhejun Jiang",
+          "Weixiao Huang",
+          "Bohong Yin",
+          "Jiacheng You",
+          "Chu Wei",
+          "Zhengtao Wang",
+          "Chao Hong",
+          "Yutian Chen",
+          "Guanduo Chen",
+          "Yucheng Wang",
+          "Huabin Zheng",
+          "Feng Wang",
+          "Yibo Liu",
+          "Mengnan Dong",
+          "Zheng Zhang",
+          "Siyuan Pan",
+          "Wenhao Wu",
+          "Yuhao Wu",
+          "Longyu Guan",
+          "Jiawen Tao",
+          "Guohong Fu",
+          "Xinran Xu",
+          "Yuzhi Wang",
+          "Guokun Lai",
+          "Yuxin Wu",
+          "Xinyu Zhou",
+          "Zhilin Yang",
+          "Yulun Du"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26692v1",
+        "summary": "We introduce Kimi Linear, a hybrid linear attention architecture that, for\nthe first time, outperforms full attention under fair comparisons across\nvarious scenarios -- including short-context, long-context, and reinforcement\nlearning (RL) scaling regimes. At its core lies Kimi Delta Attention (KDA), an\nexpressive linear attention module that extends Gated DeltaNet with a\nfiner-grained gating mech..."
+      },
+      {
+        "title": "FlowQ-Net: A Generative Framework for Automated Quantum Circuit Design",
+        "authors": [
+          "Jun Dai",
+          "Michael Rizvi-Martel",
+          "Guillaume Rabusseau"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26688v1",
+        "summary": "Designing efficient quantum circuits is a central bottleneck to exploring the\npotential of quantum computing, particularly for noisy intermediate-scale\nquantum (NISQ) devices, where circuit efficiency and resilience to errors are\nparamount. The search space of gate sequences grows combinatorially, and\nhandcrafted templates often waste scarce qubit and depth budgets. We introduce\n\\textsc{FlowQ-Net}..."
+      },
+      {
+        "title": "A Proposed Framework for Quantifying AI-to-Clinical Translation: The Algorithm-to-Outcome Concordance (AOC) Metric",
+        "authors": [
+          "Xiyao Yu",
+          "Kai Fu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26685v1",
+        "summary": "Background: The rapid evolution of personalized neoantigen vaccines has been\naccelerated by artificial intelligence (AI)-based prediction models. Yet, a\nconsistent framework to evaluate the translational fidelity between\ncomputational predictions and clinical outcomes remains lacking. Methods: This\nsystematic synthesis analyzed six melanoma vaccine trials conducted between\n2017 and 2025 across mRN..."
+      },
+      {
+        "title": "Phases of Quasi-One-Dimensional Fractional Quantum (Anomalous) Hall - Superconductor Heterostructures",
+        "authors": [
+          "Steffen Bollmann",
+          "Andreas Haller",
+          "Jukka I. Väyrynen",
+          "Thomas L. Schmidt",
+          "Elio J. König"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26686v1",
+        "summary": "Motivated by recent observations of fractional Chern insulators (FCIs) in the\nvicinity of superconducting (SC) phases, we study fractional quantum\n(anomalous) Hall-superconductor heterostructures in the presence of $U(1)$\norder-parameter fluctuations and particularly focus on the case of $ u = 2/3$\nquantum Hall states leading to $\\mathbb Z_3$ parafermions. We first employ a\nphenomenological field ..."
+      },
+      {
+        "title": "Generative sampling with physics-informed kernels",
+        "authors": [
+          "Friederike Ihssen",
+          "Renzo Kapust",
+          "Jan M. Pawlowski"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26678v1",
+        "summary": "We construct a generative network for Monte-Carlo sampling in lattice field\ntheories and beyond, for which the learning of layerwise propagation is done\nand optimised independently on each layer. The architecture uses\nphysics-informed renormalisation group flows that provide access to the\nlayerwise propagation step from one layer to the next in terms of a simple\nfirst order partial differential eq..."
+      },
+      {
+        "title": "Fire Behavior Monitoring using MeteoSat Third Generation, FCI-FireDyn algorithm: Rate Of Spread and Burnt Area Dynamics for large fire event",
+        "authors": [
+          "Ronan Paugam",
+          "Akli Benali",
+          "Julia Harvie",
+          "Andrea Meraner",
+          "Niels Andela",
+          "Weidong Xu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26677v1",
+        "summary": "This study presents FCI-FireDyn, a new algorithm developed to monitor\nwildfire dynamics using the Flexible Combined Imager (FCI) onboard the Meteosat\nThird Generation satellite. Leveraging the high temporal resolution of FCI\n(10-minute full-disk observations), the algorithm derives fire arrival time\nmaps, rate of spread (ROS), and Burn Area (BA) evolution at sub-kilometer\nspatial resolution and 2-..."
+      },
+      {
+        "title": "The Penrose singularity theorem, MOTS stability, and horizon topology in weighted spacetimes",
+        "authors": [
+          "Eric Ling",
+          "Argam Ohanyan",
+          "Eric Woolgar"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26675v1",
+        "summary": "We consider versions of the Penrose singularity theorem and the Hawking\nhorizon topology theorem in weighted spacetimes that contain weighted versions\nof trapped surfaces, for arbitrary spacetime dimension and synthetic dimension.\nWe find that suitable generalizations of the unweighted theorems hold under a\nweighted null energy condition. Our results also provide further evidence in\nfavour of a we..."
+      },
+      {
+        "title": "More Automorphism Groups of Quandles",
+        "authors": [
+          "Quinn J. M. Salix",
+          "Peyton Phinehas Wood"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26673v1",
+        "summary": "We prove that the displacement group of the dihedral quandle with n elements\nis isomorphic to the group generated by rotations of the n/2-gon when n is even\nand the n-gon when n is odd. We additionally show that any quandle with at\nleast one trivial column has equivalent displacement and inner automorphism\ngroups. Then, using a known enumeration of quandles which we confirm up to\norder 10, we veri..."
+      },
+      {
+        "title": "Hybrid Consistency Policy: Decoupling Multi-Modal Diversity and Real-Time Efficiency in Robotic Manipulation",
+        "authors": [
+          "Qianyou Zhao",
+          "Yuliang Shen",
+          "Xuanran Zhai",
+          "Ce Hao",
+          "Duidi Wu",
+          "Jin Qi",
+          "Jie Hu",
+          "Qiaojun Yu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26670v1",
+        "summary": "In visuomotor policy learning, diffusion-based imitation learning has become\nwidely adopted for its ability to capture diverse behaviors. However,\napproaches built on ordinary and stochastic denoising processes struggle to\njointly achieve fast sampling and strong multi-modality. To address these\nchallenges, we propose the Hybrid Consistency Policy (HCP). HCP runs a short\nstochastic prefix up to an..."
+      },
+      {
+        "title": "Zoeppritz equations: from seismology to medical exploration",
+        "authors": [
+          "Harry G. Saavedra",
+          "Ramiro Moro"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26668v1",
+        "summary": "More than a century ago, Karl Bernhard Zoeppritz derived the equations that\ndetermine the reflected and transmitted coefficients at a planar interface for\nan incident seismic wave. The coefficients so obtained are a function of the\nelastic parameters of the media on each side of the interface and the angle of\nincidence. Approximations of the equations have been proposed and used in\ngeophysical exp..."
+      },
+      {
+        "title": "Quantifying Resolution in Pink Beam Dark Field X-ray Microscopy: Experiments and Simulations",
+        "authors": [
+          "Michela La Bella",
+          "Henning Friis Poulsen",
+          "Steffen Staeck",
+          "Nils Axel Henningsson",
+          "Merve Pinar Kabukcuoglu",
+          "Carsten Detlefs",
+          "Can Yildirim"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26665v1",
+        "summary": "Pink-beam Dark-Field X-ray Microscopy (pDFXM) is a powerful emerging\ntechnique for time-resolved studies of microstructure and strain evolution in\nbulk crystalline materials. In this work, we systematically assess the\nperformance of pDFXM relative to monochromatic DFXM when using a compound\nrefractive lens (CRL) as the objective. Analytical expressions for the spatial\nand angular resolution are de..."
+      },
+      {
+        "title": "Giant orbital Zeeman effects in a magnetic topological van der Waals interphase",
+        "authors": [
+          "Tobias Wichmann",
+          "Mirco Sastges",
+          "Keda Jin",
+          "Jose Martinez-Castro",
+          "Tom G. Saunderson",
+          "Dongwook Go",
+          "Honey Boban",
+          "Samir Lounis",
+          "Lukasz Plucinski",
+          "Markus Ternes",
+          "Yuriy Mokrousov",
+          "F. Stefan Tautz",
+          "Felix Lüpke"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26662v1",
+        "summary": "Van der Waals (vdW) heterostructures allow the engineering of electronic and\nmagnetic properties by the stacking different two-dimensional vdW materials.\nFor example, orbital hybridisation and charge transfer at a vdW interface may\nresult in electric fields across the interface that give rise to Rashba\nspin-orbit coupling. In magnetic vdW heterostructures, this in turn can drive\nthe Dzyaloshinskii..."
+      },
+      {
+        "title": "The Era of Agentic Organization: Learning to Organize with Language Models",
+        "authors": [
+          "Zewen Chi",
+          "Li Dong",
+          "Qingxiu Dong",
+          "Yaru Hao",
+          "Xun Wu",
+          "Shaohan Huang",
+          "Furu Wei"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26658v1",
+        "summary": "We envision a new era of AI, termed agentic organization, where agents solve\ncomplex problems by working collaboratively and concurrently, enabling outcomes\nbeyond individual intelligence. To realize this vision, we introduce\nasynchronous thinking (AsyncThink) as a new paradigm of reasoning with large\nlanguage models, which organizes the internal thinking process into\nconcurrently executable struc..."
+      },
+      {
+        "title": "$C_n$-cofinite twisted modules for $C_2$-cofinite vertex operator algebras",
+        "authors": [
+          "Daniel Tan"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26657v1",
+        "summary": "Given a vertex operator algebra $ V $ with a general automorphism $ g $ of $\nV $, we introduce a notion of $ C_n $-cofiniteness for weak $ g $-twisted $ V\n$-modules. When $ V $ is $ C_2 $-cofinite and of CFT type, we show that all\nfinitely-generated weak $ g $-twisted $ V $-modules are $ C_n $-cofinite for\nall $ n \\in \\mathbb{Z}_{>0} $...."
+      },
+      {
+        "title": "Heuristic Adaptation of Potentially Misspecified Domain Support for Likelihood-Free Inference in Stochastic Dynamical Systems",
+        "authors": [
+          "Georgios Kamaras",
+          "Craig Innes",
+          "Subramanian Ramamoorthy"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26656v1",
+        "summary": "In robotics, likelihood-free inference (LFI) can provide the domain\ndistribution that adapts a learnt agent in a parametric set of deployment\nconditions. LFI assumes an arbitrary support for sampling, which remains\nconstant as the initial generic prior is iteratively refined to more\ndescriptive posteriors. However, a potentially misspecified support can lead to\nsuboptimal, yet falsely certain, pos..."
+      },
+      {
+        "title": "On a theorem of Rickards",
+        "authors": [
+          "Håvard Damm-Johnsen"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26655v1",
+        "summary": "A recent result of Rickards states that the generating series of intersection\nnumbers of real quadratic geodesics on indefinite Shimura curves are elliptic\nmodular forms. We reinterpret this as a Kudla-Millson theta series, and prove\nthat Rickards' generating series is the diagonal restriction of a Hilbert\nmodular form, analogous to results of Darmon-Pozzi-Vonk and Branchereau...."
+      },
+      {
+        "title": "Bridge and Bound: A Logic-Based Framework for Abstracting (Preliminary Report)",
+        "authors": [
+          "Andrzej Szalas"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26654v1",
+        "summary": "At its core, abstraction is the process of generalizing from specific\ninstances to broader concepts or models, with the primary objective of reducing\ncomplexity while preserving properties essential to the intended purpose. It is\na fundamental, often implicit, principle that structures the understanding,\ncommunication, and development of both scientific knowledge and everyday\nbeliefs. Studies on a..."
+      },
+      {
+        "title": "Hybrid DQN-TD3 Reinforcement Learning for Autonomous Navigation in Dynamic Environments",
+        "authors": [
+          "Xiaoyi He",
+          "Danggui Chen",
+          "Zhenshuo Zhang",
+          "Zimeng Bai"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26646v1",
+        "summary": "This paper presents a hierarchical path-planning and control framework that\ncombines a high-level Deep Q-Network (DQN) for discrete sub-goal selection with\na low-level Twin Delayed Deep Deterministic Policy Gradient (TD3) controller\nfor continuous actuation. The high-level module selects behaviors and\nsub-goals; the low-level module executes smooth velocity commands. We design a\npractical reward s..."
+      },
+      {
+        "title": "MSAD: A Deep Dive into Model Selection for Time series Anomaly Detection",
+        "authors": [
+          "Emmanouil Sylligardos",
+          "John Paparrizos",
+          "Themis Palpanas",
+          "Pierre Senellart",
+          "Paul Boniol"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26643v1",
+        "summary": "Anomaly detection is a fundamental task for time series analytics with\nimportant implications for the downstream performance of many applications.\nDespite increasing academic interest and the large number of methods proposed\nin the literature, recent benchmarks and evaluation studies demonstrated that\nno overall best anomaly detection methods exist when applied to very\nheterogeneous time series da..."
+      },
+      {
+        "title": "Tokushige's conjecture on measures of cross $t$-intersecting families",
+        "authors": [
+          "Yongjiang Wu",
+          "Yongtao Li",
+          "Zhiyi Liu",
+          "Lihua Feng"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26642v1",
+        "summary": "We investigate the product measure version (also known as the $p$-weight\nversion) of intersection problems in extremal combinatorics. Firstly, we prove\nthat for any \\(n \\geq t \\geq 3\\) and \\(p_1, p_2 \\in (0, \\frac{1}{t+1})\\), if\n\\(\\mathcal{F}_1, \\mathcal{F}_2 \\subseteq 2^{[n]}\\) are cross \\(t\\)-intersecting\nfamilies, then $\\mu_{p_1}(\\mathcal{F}_1)\\mu_{p_2}(\\mathcal{F}_2)\\le\n(p_1p_2)^t$. This resol..."
+      },
+      {
+        "title": "All You Need for Object Detection: From Pixels, Points, and Prompts to Next-Gen Fusion and Multimodal LLMs/VLMs in Autonomous Vehicles",
+        "authors": [
+          "Sayed Pedram Haeri Boroujeni",
+          "Niloufar Mehrabi",
+          "Hazim Alzorgan",
+          "Ahmad Sarlak",
+          "Mahlagha Fazeli",
+          "Abolfazl Razi"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26641v1",
+        "summary": "Autonomous Vehicles (AVs) are transforming the future of transportation\nthrough advances in intelligent perception, decision-making, and control\nsystems. However, their success is tied to one core capability, reliable object\ndetection in complex and multimodal environments. While recent breakthroughs in\nComputer Vision (CV) and Artificial Intelligence (AI) have driven remarkable\nprogress, the fiel..."
+      },
+      {
+        "title": "Nonlocal Model for Electron Heat Flux and Self-generated Magnetic Field",
+        "authors": [
+          "Xinyu Zhu",
+          "Wenqiang Yuan",
+          "Yusen Wang",
+          "Zhipeng Zhang",
+          "Xianxu Jin",
+          "Zhonghai Zhao",
+          "Bin Qiao"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26640v1",
+        "summary": "Coupling of electron heat conduction and magnetic field takes significant\neffects in inertial confinement fusion (ICF). As the nonlocal models for\nelectron heat conduction have been developed for modeling kinetic effects on\nheat flux in hydrodynamic scale, modeling kinetic effects on magnetic field are\nstill restricted to flux limiters instead of nonlocal corrections. We propose a\nnew nonlocal mod..."
+      },
+      {
+        "title": "On the degrees of freedom of spatially covariant vector field theory",
+        "authors": [
+          "Shu-Yu Li",
+          "Xian Gao"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26639v1",
+        "summary": "We investigate a class of spatially covariant vector field theories on a flat\nbackground, where the Lagrangians are constructed as polynomials of first-order\nderivatives of the vector field. Because Lorentz and $\\mathrm{U}(1)$\ninvariances are broken, such theories generally propagate three degrees of\nfreedom (DOFs): two transverse modes and one longitudinal mode. We examine the\nconditions under wh..."
+      },
+      {
+        "title": "REALMS2 -- Resilient Exploration And Lunar Mapping System 2 -- A Comprehensive Approach",
+        "authors": [
+          "Dave van der Meer",
+          "Loïck P. Chovet",
+          "Gabriel M. Garcia",
+          "Abhishek Bera",
+          "Miguel A. Olivares-Mendez"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26638v1",
+        "summary": "The European Space Agency (ESA) and the European Space Resources Innovation\nCentre (ESRIC) created the Space Resources Challenge to invite researchers and\ncompanies to propose innovative solutions for Multi-Robot Systems (MRS) space\nprospection. This paper proposes the Resilient Exploration And Lunar Mapping\nSystem 2 (REALMS2), a MRS framework for planetary prospection and mapping.\nBased on Robot ..."
+      },
+      {
+        "title": "Protected Ion Beam Fabrication of Two-Dimensional Transition Metal Dichalcogenides based Photonic Devices",
+        "authors": [
+          "Lekshmi Eswaramoorthy",
+          "Parul Sharma",
+          "Brijesh Kumar",
+          "Abhay Anand",
+          "Anuj Kumar Singh",
+          "Sudha Mokkapati",
+          "Anshuman Kumar"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26637v1",
+        "summary": "Two-dimensional (2D) transition metal dichalcogenides are pivotal for\nnext-generation photonic devices due to their exceptional optical properties\nand strong light-matter interactions. However, their atomic thinness renders\nthem susceptible to damage during nanoscale fabrication. Focused ion beam\ntechnology, while offering precise defect engineering for tailoring\noptoelectronic properties, often i..."
+      },
+      {
+        "title": "Putting a Price on Immobility: Food Deliveries and Pricing Approaches",
+        "authors": [
+          "Runyu Wang",
+          "Haotian Zhong"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26636v1",
+        "summary": "Urban food delivery services have become an integral part of daily life, yet\ntheir mobility and environmental externalities remain poorly addressed by\nplanners. Most studies neglect whether consumers pay enough to internalize the\nbroader social costs of these services. This study quantifies the value of\naccess to and use of food delivery services in Beijing, China, through two\ndiscrete choice expe..."
+      },
+      {
+        "title": "SAMRI: Segment Anything Model for MRI",
+        "authors": [
+          "Zhao Wang",
+          "Wei Dai",
+          "Thuy Thanh Dao",
+          "Steffen Bollmann",
+          "Hongfu Sun",
+          "Craig Engstrom",
+          "Shekhar S. Chandra"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26635v1",
+        "summary": "Accurate magnetic resonance imaging (MRI) segmentation is crucial for\nclinical decision-making, but remains labor-intensive when performed manually.\nConvolutional neural network (CNN)-based methods can be accurate and efficient,\nbut often generalize poorly to MRI's variable contrast, intensity\ninhomogeneity, and protocols. Although the transformer-based Segment Anything\nModel (SAM) has demonstrate..."
+      },
+      {
+        "title": "Stitch: Step-by-step LLM Guided Tutoring for Scratch",
+        "authors": [
+          "Yuan Si",
+          "Kyle Qi",
+          "Daming Li",
+          "Hanyuan Shi",
+          "Jialu Zhang"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26634v1",
+        "summary": "Block-based environments such as Scratch are increasingly popular in\nprogramming education. While block syntax reduces surface errors, semantic bugs\nremain common and challenging for novices to resolve. Existing debugging\nworkflows typically show the correct program directly to learners, a strategy\nthat may fix errors but undermines the development of problem-solving skills.\n  We present Stitch, a..."
+      },
+      {
+        "title": "Natural methods of unsupervised topological alignment",
+        "authors": [
+          "Mikhail S. Arbatskii",
+          "Maksim V. Kukushkin",
+          "Dmitriy E. Balandin",
+          "Alexey V. Churov"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26631v1",
+        "summary": "In the paper, we represent a comparison analysis of the methods of the\ntopological alignment and extract the main mathematical principles forming the\nbase of the concept. The main narrative is devoted to the so-called coupled\nmethods dealing with the data sets of various nature. As a main theoretical\nresult, we obtain harmonious generalizations of the graph Laplacian and kernel\nbased methods with ..."
+      },
+      {
+        "title": "Study of neutrino spin oscillations in a gravitational field with a differential equations method",
+        "authors": [
+          "Mridupawan Deka",
+          "Maxim Dvornikov"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26621v1",
+        "summary": "In this work, we employ Ordinary Differential Equation solution method to\nstudy neutrino spin oscillations in the case when they are gravitationally\nscattered off a rotating Kerr black hole. Previously, this problem involved the\nintegral solution of the Hamilton-Jacobi equation. We analyze the consistency\nof these two methods...."
+      },
+      {
+        "title": "Discrete Koenigs nets, inscribed quadrics and autoconjugate curves",
+        "authors": [
+          "Niklas Christoph Affolter",
+          "Alexander Yves Fairley"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26618v1",
+        "summary": "Discrete Koenigs nets are a special class of discrete surfaces that play a\nfundamental role in discrete differential geometry, in particular in the study\nof discrete isothermic and minimal surfaces. Recently, it was shown by Bobenko\nand Fairley that Koenigs nets can be characterized by the existence of touching\ninscribed conics. We generalize the touching inscribed conics by showing the\nexistence ..."
+      },
+      {
+        "title": "On Diophantine triples containing a triangular number",
+        "authors": [
+          "Marija Bliznac Trebješanin"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26617v1",
+        "summary": "A general construction yielding infinitely many families of $D(m^2)$-triples\nof triangular numbers is presented. Moreover, each triple obtained from this\nconstruction contains the same triangular number $T_n$...."
+      },
+      {
+        "title": "Aeolus: A Multi-structural Flight Delay Dataset",
+        "authors": [
+          "Lin Xu",
+          "Xinyun Yuan",
+          "Yuxuan Liang",
+          "Suwan Yin",
+          "Yuankai Wu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26616v1",
+        "summary": "We introduce Aeolus, a large-scale Multi-modal Flight Delay Dataset designed\nto advance research on flight delay prediction and support the development of\nfoundation models for tabular data. Existing datasets in this domain are\ntypically limited to flat tabular structures and fail to capture the\nspatiotemporal dynamics inherent in delay propagation. Aeolus addresses this\nlimitation by providing th..."
+      },
+      {
+        "title": "Discrete time quantum walk of locally interacting walkers",
+        "authors": [
+          "Vikash Mittal",
+          "Tomasz Sowiński"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26612v1",
+        "summary": "In this work, we introduce a general form of a two-parameter family of local\ninteractions between quantum walkers conditioned on the internal state of their\ncoins. By choosing their particular case, we systematically study the impact of\nthese interactions on the dynamics of two initially localized and noncorrelated\nwalkers. Our general interaction framework, which reduces to several previously\nstu..."
+      },
+      {
+        "title": "Higher-dimensional Chiral Algebras in the Jouanolou Model",
+        "authors": [
+          "Zhengping Gui",
+          "Minghao Wang",
+          "Brian R. Williams"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26608v1",
+        "summary": "We appeal to the theory of Jouanolou torsors to model the coherent cohomology\nof configuration spaces of points in d-dimensional affine space. Using this\nmodel, we develop the operadic notion of chiral operations, thus generalizing\nthe notion of chiral algebras of Beilinson and Drinfeld to higher dimensions.\nTo produce examples, we use a higher-dimensional conceptualization of the\nresidue which is..."
+      },
+      {
+        "title": "Normative Reasoning in Large Language Models: A Comparative Benchmark from Logical and Modal Perspectives",
+        "authors": [
+          "Kentaro Ozeki",
+          "Risako Ando",
+          "Takanobu Morishita",
+          "Hirohiko Abe",
+          "Koji Mineshima",
+          "Mitsuhiro Okada"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26606v1",
+        "summary": "Normative reasoning is a type of reasoning that involves normative or deontic\nmodality, such as obligation and permission. While large language models (LLMs)\nhave demonstrated remarkable performance across various reasoning tasks, their\nability to handle normative reasoning remains underexplored. In this paper, we\nsystematically evaluate LLMs' reasoning capabilities in the normative domain\nfrom bo..."
+      },
+      {
+        "title": "Statistically Adaptive Differential Protection for AC Microgrids Based on Kullback-Leibler Divergence",
+        "authors": [
+          "Shahab Moradi Torkashvand",
+          "Arina Kharazi",
+          "Emad Sadeghi",
+          "Seyed Hossein Hesamedin Sadeghi",
+          "Adel Nasiri"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26604v1",
+        "summary": "The proliferation of inverter-based resources challenges traditional\nmicrogrid protection by introducing variable fault currents and complex\ntransients. This paper presents a statistically adaptive differential\nprotection scheme based on Kullback-Leibler divergence, implemented via a\nBartlett-corrected G-statistic computed on logarithm-transformed current\nmagnitudes. The method is a multivariate f..."
+      },
+      {
+        "title": "Agentic AI Home Energy Management System: A Large Language Model Framework for Residential Load Scheduling",
+        "authors": [
+          "Reda El Makroum",
+          "Sebastian Zwickl-Bernhard",
+          "Lukas Kranzl"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26603v1",
+        "summary": "The electricity sector transition requires substantial increases in\nresidential demand response capacity, yet Home Energy Management Systems (HEMS)\nadoption remains limited by user interaction barriers requiring translation of\neveryday preferences into technical parameters. While large language models\nhave been applied to energy systems as code generators and parameter\nextractors, no existing impl..."
+      },
+      {
+        "title": "Optimal Bidding and Coordinated Dispatch of Hybrid Energy Systems in Regulation Markets",
+        "authors": [
+          "Tanmay Mishra",
+          "Dakota Hamilton",
+          "Mads R. Almassalkhi"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26602v1",
+        "summary": "The increasing integration of renewable energy sources and distributed energy\nresources (DER) into modern power systems introduces significant uncertainty,\nposing challenges for maintaining grid flexibility and reliability. Hybrid\nenergy systems (HES), composed of controllable generators, flexible loads, and\nbattery storage, offer a decentralized solution to enhance flexibility compared\nto single ..."
+      },
+      {
+        "title": "ResMatching: Noise-Resilient Computational Super-Resolution via Guided Conditional Flow Matching",
+        "authors": [
+          "Anirban Ray",
+          "Vera Galinova",
+          "Florian Jug"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26601v1",
+        "summary": "Computational Super-Resolution (CSR) in fluorescence microscopy has, despite\nbeing an ill-posed problem, a long history. At its very core, CSR is about\nfinding a prior that can be used to extrapolate frequencies in a micrograph\nthat have never been imaged by the image-generating microscope. It stands to\nreason that, with the advent of better data-driven machine learning techniques,\nstronger prior ..."
+      },
+      {
+        "title": "Experimental Milestones Towards Majorana Braiding with Acoustic Metamaterials",
+        "authors": [
+          "Jackson Saunders",
+          "Emil Prodan",
+          "Camelia Prodan"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26598v1",
+        "summary": "Here we show the first experimental implementation of the fully general\nKitaev chain with complex-valued order parameter $\\Delta$ and site-varying\nsynthetic chemical potential $\\mu$, using a passive multilayer acoustic\nresonator design and fabrication. Our laboratory model faithfully reproduces\nthe key symmetries and the topological phase diagram of the model, and displays\nrobust Majorana-like edg..."
+      },
+      {
+        "title": "Bijections Between Smirnov Words and Hamiltonian Cycles in Complete Multipartite Graphs",
+        "authors": [
+          "El-Mehdi Mehiri"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26597v1",
+        "summary": "We establish a bijective correspondence between Smirnov words with balanced\nletter multiplicities and Hamiltonian paths in complete $m$-partite graphs\n$K_{n,n,\\ldots,n}$. This bijection allows us to derive closed\ninclusion-exclusion formulas for the number of Hamiltonian cycles in such\ngraphs. We further extend the enumeration to the generalized nonuniform case\n$K_{n_1,n_2,\\ldots,n_m}$. We also pr..."
+      },
+      {
+        "title": "Localization and anomalous reference frames in gravity",
+        "authors": [
+          "Laurent Freidel",
+          "Josh Kirklin"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26589v1",
+        "summary": "In this work, we study the classical phase space for the gravitational\ndegrees of freedom along a null ray. We construct gauge-invariant observables\nlocalized on a null ray segment that commute with those localized on the\ncomplement; thus, the phase space describes a genuine gravitational subsystem\ncompatible with both locality and diffeomorphism invariance. Our construction\nemploys 'dressing time..."
+      },
+      {
+        "title": "Tensor decomposition beyond uniqueness, with an application to the minrank problem",
+        "authors": [
+          "Pascal Koiran",
+          "Rafael Oliveira"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26587v1",
+        "summary": "We prove a generalization to Jennrich's uniqueness theorem for tensor\ndecompositions in the undercomplete setting. Our uniqueness theorem is based on\nan alternative definition of the standard tensor decomposition, which we call\nmatrix-vector decomposition. Moreover, in the same settings in which our\nuniqueness theorem applies, we also design and analyze an efficient randomized\nalgorithm to compute..."
+      },
+      {
+        "title": "Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems",
+        "authors": [
+          "Fulin Lin",
+          "Shaowen Chen",
+          "Ruishan Fang",
+          "Hongwei Wang",
+          "Tao Lin"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26585v1",
+        "summary": "While Multi-Agent Systems (MAS) excel at complex tasks, their growing\nautonomy with operational complexity often leads to critical inefficiencies,\nsuch as excessive token consumption and failures arising from misinformation.\nExisting methods primarily focus on post-hoc failure attribution, lacking\nproactive, real-time interventions to enhance robustness and efficiency. To\nthis end, we introduce Su..."
+      },
+      {
+        "title": "Emu3.5: Native Multimodal Models are World Learners",
+        "authors": [
+          "Yufeng Cui",
+          "Honghao Chen",
+          "Haoge Deng",
+          "Xu Huang",
+          "Xinghang Li",
+          "Jirong Liu",
+          "Yang Liu",
+          "Zhuoyan Luo",
+          "Jinsheng Wang",
+          "Wenxuan Wang",
+          "Yueze Wang",
+          "Chengyuan Wang",
+          "Fan Zhang",
+          "Yingli Zhao",
+          "Ting Pan",
+          "Xianduo Li",
+          "Zecheng Hao",
+          "Wenxuan Ma",
+          "Zhuo Chen",
+          "Yulong Ao",
+          "Tiejun Huang",
+          "Zhongyuan Wang",
+          "Xinlong Wang"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26583v1",
+        "summary": "We introduce Emu3.5, a large-scale multimodal world model that natively\npredicts the next state across vision and language. Emu3.5 is pre-trained\nend-to-end with a unified next-token prediction objective on a corpus of\nvision-language interleaved data containing over 10 trillion tokens, primarily\nderived from sequential frames and transcripts of internet videos. The model\nnaturally accepts interle..."
+      },
+      {
+        "title": "CATCH: A Modular Cross-domain Adaptive Template with Hook",
+        "authors": [
+          "Xinjin Li",
+          "Yulie Lu",
+          "Jinghan Cao",
+          "Yu Ma",
+          "Zhenglin Li",
+          "Yeyang Zhou"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26582v1",
+        "summary": "Recent advances in Visual Question Answering (VQA) have demonstrated\nimpressive performance in natural image domains, with models like LLaVA\nleveraging large language models (LLMs) for open-ended reasoning. However,\ntheir generalization degrades significantly when transferred to out-of-domain\nscenarios such as remote sensing, medical imaging, or math diagrams, due to\nlarge distributional shifts an..."
+      },
+      {
+        "title": "Dynamic Context-Aware Scene Reasoning Using Vision-Language Alignment in Zero-Shot Real-World Scenarios",
+        "authors": [
+          "Manjunath Prasad Holenarasipura Rajiv",
+          "B. M. Vidyavathi"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26580v1",
+        "summary": "In real-world environments, AI systems often face unfamiliar scenarios\nwithout labeled data, creating a major challenge for conventional scene\nunderstanding models. The inability to generalize across unseen contexts limits\nthe deployment of vision-based applications in dynamic, unstructured settings.\nThis work introduces a Dynamic Context-Aware Scene Reasoning framework that\nleverages Vision-Langu..."
+      },
+      {
+        "title": "Inference-Cost-Aware Dynamic Tree Construction for Efficient Inference in Large Language Models",
+        "authors": [
+          "Yinrong Hong",
+          "Zhiquan Tan",
+          "Kai Hu"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26577v1",
+        "summary": "Large Language Models (LLMs) face significant inference latency challenges\nstemming from their autoregressive design and large size. To address this,\nspeculative decoding emerges as a solution, enabling the simultaneous\ngeneration and validation of multiple tokens. While recent approaches like\nEAGLE-2 and EAGLE-3 improve speculative decoding using dynamic tree structures,\nthey often neglect the im..."
+      },
+      {
+        "title": "\"Show Me You Comply... Without Showing Me Anything\": Zero-Knowledge Software Auditing for AI-Enabled Systems",
+        "authors": [
+          "Filippo Scaramuzza",
+          "Renato Cordeiro Ferreira",
+          "Tomaz Maia Suller",
+          "Giovanni Quattrocchi",
+          "Damian Andrew Tamburri",
+          "Willem-Jan van den Heuvel"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26576v1",
+        "summary": "The increasing exploitation of Artificial Intelligence (AI) enabled systems\nin critical domains has made trustworthiness concerns a paramount showstopper,\nrequiring verifiable accountability, often by regulation (e.g., the EU AI Act).\nClassical software verification and validation techniques, such as procedural\naudits, formal methods, or model documentation, are the mechanisms used to\nachieve this..."
+      },
+      {
+        "title": "Generic points in a characteristic class for amenable group actions are closed in the Besicovitch pseudometric",
+        "authors": [
+          "Sejal Babel",
+          "Martha Łącka",
+          "Marcel Mroczek"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26572v1",
+        "summary": "We consider an action of a countable amenable group on a compact metric\nspace, focusing on the set of generic points with respect to a fixed F{\\o}lner\nsequence. For a given characteristic class, we prove that the set of points\nthat are generic (along the F{\\o}lner sequence) for some measure in this class\nis closed with respect to the Besicovitch pseudometric...."
+      },
+      {
+        "title": "AdSum: Two-stream Audio-visual Summarization for Automated Video Advertisement Clipping",
+        "authors": [
+          "Wen Xie",
+          "Yanjun Zhu",
+          "Gijs Overgoor",
+          "Yakov Bart",
+          "Agata Lapedriza Garcia",
+          "Sarah Ostadabbas"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26569v1",
+        "summary": "Advertisers commonly need multiple versions of the same advertisement (ad) at\nvarying durations for a single campaign. The traditional approach involves\nmanually selecting and re-editing shots from longer video ads to create shorter\nversions, which is labor-intensive and time-consuming. In this paper, we\nintroduce a framework for automated video ad clipping using video summarization\ntechniques. We..."
+      },
+      {
+        "title": "On the closedness of ergodic measures in a characteristic class",
+        "authors": [
+          "Sejal Babel",
+          "Martha Łącka"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26564v1",
+        "summary": "We endow the set of all invariant measures of a topological dynamical system\nwith a metric $\\bar{\\rho}$, which induces a topology stronger than the the\nweak$^*$-topology. Then, we study the closedness of ergodic measures within a\ncharacteristic class under this metric. Specifically, we show that if a\nsequence of generic points associated with ergodic measures from a fixed\ncharacteristic class conv..."
+      },
+      {
+        "title": "On Measuring Localization of Shortcuts in Deep Networks",
+        "authors": [
+          "Nikita Tsoy",
+          "Nikola Konstantinov"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26560v1",
+        "summary": "Shortcuts, spurious rules that perform well during training but fail to\ngeneralize, present a major challenge to the reliability of deep networks\n(Geirhos et al., 2020). However, the impact of shortcuts on feature\nrepresentations remains understudied, obstructing the design of principled\nshortcut-mitigation methods. To overcome this limitation, we investigate the\nlayer-wise localization of shortcu..."
+      },
+      {
+        "title": "Tunable Colloidal Synthesis Enabling μ-ARPES on Individual Two-dimensional Bismuth Nanocrystals",
+        "authors": [
+          "Fagui He",
+          "Yan Yan Grisan Qiu",
+          "Simone Mearini",
+          "Vitaliy Feyer",
+          "Kevin Oldenburg",
+          "Rostyslav Lesyuk",
+          "Christian Klinke"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26558v1",
+        "summary": "Two-dimensional bismuth (Bi) is a promising platform for quantum and energy\ntechnologies due to strong spin-orbit coupling, high thermoelectric efficiency,\nand magnetoresistance. However, scalable and flexible synthesis of high-quality\nBi with fast research turnaround remains challenging. We report a controlled\ncolloidal synthesis of Bi nanosheets with tunable lateral sizes (0.6 - 4.1 um),\nhexagon..."
+      },
+      {
+        "title": "EdgeRunner 20B: Military Task Parity with GPT-5 while Running on the Edge",
+        "authors": [
+          "Jack FitzGerald",
+          "Aristotelis Lazaridis",
+          "Dylan Bates",
+          "Aman Sharma",
+          "Jonnathan Castillo",
+          "Yousif Azami",
+          "Sean Bailey",
+          "Jeremy Cao",
+          "Peter Damianov",
+          "Kevin de Haan",
+          "Luke Kerbs",
+          "Vincent Lu",
+          "Joseph Madigan",
+          "Jeremy McLaurin",
+          "Jonathan Tainer",
+          "Dave Anderson",
+          "Jonathan Beck",
+          "Jamie Cuticello",
+          "Colton Malkerson",
+          "Tyler Saltsman"
+        ],
+        "published": "2025-10-30",
+        "link": "http://arxiv.org/abs/2510.26550v1",
+        "summary": "We present EdgeRunner 20B, a fine-tuned version of gpt-oss-20b optimized for\nmilitary tasks. EdgeRunner 20B was trained on 1.6M high-quality records curated\nfrom military documentation and websites. We also present four new tests sets:\n(a) combat arms, (b) combat medic, (c) cyber operations, and (d) mil-bench-5k\n(general military knowledge). On these military test sets, EdgeRunner 20B\nmatches or e..."
+      }
+    ],
+    "Computer Vision": []
+  }
+}
