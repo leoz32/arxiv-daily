@@ -53,7 +53,7 @@ jobs:
         id: tag
         run: echo "tag_name=daily-$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
-      # 8️⃣ 创建每日 Release，用 PAT，保证 Watch 用户收到邮件
+      # 8️⃣ 创建每日 Release，用 PAT
       - name: Create daily release
         uses: softprops/action-gh-release@v1
         with:
@@ -63,16 +63,29 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
-      # 9️⃣ 自动删除超过 7 天的旧 Release
+      # 9️⃣ 自动删除超过 7 天的旧 Release（JavaScript 版本）
       - name: Cleanup old releases
         uses: actions/github-script@v7
         with:
           script: |
-            from datetime import datetime, timedelta
-            cutoff = datetime.utcnow() - timedelta(days=7)
-            releases = github.rest.repos.list_releases(owner=context.repo.owner, repo=context.repo.repo).json()
-            for r in releases:
-                created_at = datetime.strptime(r['created_at'], "%Y-%m-%dT%H:%M:%SZ")
-                if created_at < cutoff:
-                    github.rest.repos.delete_release(owner=context.repo.owner, repo=context.repo.repo, release_id=r['id'])
-                    github.rest.git.delete_ref(owner=context.repo.owner, repo=context.repo.repo, ref='tags/' + r['tag_name'])
+            const cutoff = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000); // 7天前
+            const releases = await github.rest.repos.listReleases({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+            for (const r of releases.data) {
+              const createdAt = new Date(r.created_at);
+              if (createdAt < cutoff) {
+                await github.rest.repos.deleteRelease({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  release_id: r.id
+                });
+                await github.rest.git.deleteRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: `tags/${r.tag_name}`
+                });
+                console.log(`Deleted old release: ${r.tag_name}`);
+              }
+            }
