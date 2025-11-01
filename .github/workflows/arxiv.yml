@@ -31,36 +31,14 @@ jobs:
 
       # 4️⃣ 运行抓取脚本
       - name: Run arxiv fetcher
-        run: |
-          python fetch_arxiv.py
+        run: python fetch_arxiv.py
 
-      # 5️⃣ 生成 CSV 文件
+      # 5️⃣ 生成 CSV 文件（单行 Python 脚本）
       - name: Convert JSON to CSV
         run: |
-          python - <<'EOF'
-import pandas as pd
-import json
+          python -c "import pandas as pd, json; data=json.load(open('data/papers.json','r',encoding='utf-8')); rows=[{'keyword':k,'title':p['title'],'authors':', '.join(p['authors']),'published':p['published'],'link':p['link'],'summary':p['summary']} for k,papers in data.get('data', {}).items() for p in papers]; pd.DataFrame(rows).to_csv('data/papers.csv', index=False, encoding='utf-8-sig')"
 
-with open("data/papers.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-rows = []
-for kw, papers in data.get("data", {}).items():
-    for p in papers:
-        rows.append({
-            "keyword": kw,
-            "title": p["title"],
-            "authors": ", ".join(p["authors"]),
-            "published": p["published"],
-            "link": p["link"],
-            "summary": p["summary"]
-        })
-
-df = pd.DataFrame(rows)
-df.to_csv("data/papers.csv", index=False, encoding="utf-8-sig")
-EOF
-
-      # 6️⃣ 提交并推送变动（只提交 data/ 文件夹和 README.md、CSV）
+      # 6️⃣ 提交并推送变动（只提交 data/ 文件夹、README.md、CSV）
       - name: Commit and Push changes
         run: |
           git config user.name "github-actions[bot]"
