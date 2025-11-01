@@ -12,29 +12,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout 仓库，并用 GITHUB_TOKEN 授权
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 2️⃣ 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
+      # 3️⃣ 安装依赖
       - name: Install dependencies
         run: |
           pip install requests feedparser tqdm arxiv
 
+      # 4️⃣ 运行抓取脚本
       - name: Run arxiv fetcher
         run: |
           python fetch_arxiv.py
 
+      # 5️⃣ 配置 Git 用户并提交变动
       - name: Commit changes if any
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
+          # 只在有变动时提交
           git diff-index --quiet HEAD || git commit -m "update: daily arxiv papers"
 
+      # 6️⃣ 推送到 main 分支
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
