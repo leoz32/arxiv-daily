@@ -1,6 +1,6 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-04
+**Last update:** 2025-11-05
 
 ---
 ## 🔍 RAG
@@ -89,7 +89,7 @@ Compliance at web scale poses practical challenges: each request may require a r
 
 With increasing urban traffic complexity, Traffic Signal Control (TSC) is essential for optimizing traffic flow and improving road safety. Large Language Models (LLMs) emerge as promising approaches for TSC. However, they are prone to hallucinations in emergencies, leading to unreliable decisions that may cause substantial delays for emergency vehicles. Moreover, diverse intersection types present...
 
-### [Towards Global Retrieval Augmented Generation: A Benchmark for Corpus-Level Reasoning](http://arxiv.org/abs/2510.26205v1)
+### [Towards Global Retrieval Augmented Generation: A Benchmark for Corpus-Level Reasoning](http://arxiv.org/abs/2510.26205v2)
 *Published: 2025-10-30*  
 **Authors:** Qi Luo, Xiaonan Li, Tingshuo Fan, Xinchi Chen, Xipeng Qiu
 

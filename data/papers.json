@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_update": "2025-11-04T03:14:37Z",
+    "last_update": "2025-11-05T03:15:57Z",
     "keywords": [
       "RAG",
       "Retrieval-Augmented Generation",
@@ -212,7 +212,7 @@
           "Xipeng Qiu"
         ],
         "published": "2025-10-30",
-        "link": "http://arxiv.org/abs/2510.26205v1",
+        "link": "http://arxiv.org/abs/2510.26205v2",
         "summary": "Retrieval-augmented generation (RAG) has emerged as a leading approach to reducing hallucinations in large language models (LLMs). Current RAG evaluation benchmarks primarily focus on what we call local RAG: retrieving relevant chunks from a small subset of documents to answer queries that require only localized understanding within specific text chunks. However, many real-world applications requi..."
       }
     ],
