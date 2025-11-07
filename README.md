@@ -1,9 +1,57 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-06
+**Last update:** 2025-11-07
 
 ---
 ## 🔍 RAG
+
+### [ASVRI-Legal: Fine-Tuning LLMs with Retrieval Augmented Generation for Enhanced Legal Regulation](http://arxiv.org/abs/2511.03563v1)
+*Published: 2025-11-05*  
+**Authors:** One Octadion, Bondan Sapta Prakoso, Nanang Yudi Setiawan, Novanto Yudistira
+
+In this study, we explore the fine-tuning of Large Language Models (LLMs) to better support policymakers in their crucial work of understanding, analyzing, and crafting legal regulations. To equip the model with a deep understanding of legal texts, we curated a supervised dataset tailored to the specific needs of the legal domain. Additionally, we integrated the Retrieval-Augmented Generation (RAG...
+
+### [RAGBoost: Efficient Retrieval-Augmented Generation with Accuracy-Preserving Context Reuse](http://arxiv.org/abs/2511.03475v1)
+*Published: 2025-11-05*  
+**Authors:** Yinsicheng Jiang, Yeqi Huang, Liang Cheng, Cheng Deng, Xuan Sun, Luo Mai
+
+Retrieval-augmented generation (RAG) enhances large language models (LLMs) with retrieved context but often suffers from downgraded prefill performance as modern applications demand longer and more complex inputs. Existing caching techniques either preserve accuracy with low cache reuse or improve reuse at the cost of degraded reasoning quality. We present RAGBoost, an efficient RAG system that ac...
+
+### [Comparing the Performance of LLMs in RAG-based Question-Answering: A Case Study in Computer Science Literature](http://arxiv.org/abs/2511.03261v1)
+*Published: 2025-11-05*  
+**Authors:** Ranul Dayarathne, Uvini Ranaweera, Upeksha Ganegoda
+
+Retrieval Augmented Generation (RAG) is emerging as a powerful technique to enhance the capabilities of Generative AI models by reducing hallucination. Thus, the increasing prominence of RAG alongside Large Language Models (LLMs) has sparked interest in comparing the performance of different LLMs in question-answering (QA) in diverse domains. This study compares the performance of four open-source...
+
+### [LGM: Enhancing Large Language Models with Conceptual Meta-Relations and Iterative Retrieval](http://arxiv.org/abs/2511.03214v1)
+*Published: 2025-11-05*  
+**Authors:** Wenchang Lei, Ping Zou, Yue Wang, Feng Sun, Lei Zhao
+
+Large language models (LLMs) exhibit strong semantic understanding, yet struggle when user instructions involve ambiguous or conceptually misaligned terms. We propose the Language Graph Model (LGM) to enhance conceptual clarity by extracting meta-relations-inheritance, alias, and composition-from natural language. The model further employs a reflection mechanism to validate these meta-relations. L...
+
+### [Forecast2Anomaly (F2A): Adapting Multivariate Time Series Foundation Models for Anomaly Prediction](http://arxiv.org/abs/2511.03149v1)
+*Published: 2025-11-05*  
+**Authors:** Atif Hassan, Tarun Kumar, Ashish Mishra, Sergey Serebryakov, Satish Kumar Mopur, Phanidhar Koganti, Murthy Chelankuri, Ramanagopal Vogety, Suparna Bhattacharya, Martin Foltin
+
+Forecasting anomalies (anomaly prediction) in multivariate time series from different real-world, dynamic, and complex systems is vital for preempting critical failures, leading to a substantial minimization in operational costs and human labor. Yet, existing methods are limited to specific systems while failing to generalize to evolving anomaly patterns over time. In contrast, pretrained Time Ser...
+
+### [A Proprietary Model-Based Safety Response Framework for AI Agents](http://arxiv.org/abs/2511.03138v1)
+*Published: 2025-11-05*  
+**Authors:** Qi Li, Jianjun Xu, Pingtao Wei, Jiu Li, Peiqiang Zhao, Jiwei Shi, Xuan Zhang, Yanhui Yang, Xiaodong Hui, Peng Xu, Wenqin Shao
+
+With the widespread application of Large Language Models (LLMs), their associated security issues have become increasingly prominent, severely constraining their trustworthy deployment in critical domains. This paper proposes a novel safety response framework designed to systematically safeguard LLMs at both the input and output levels. At the input level, the framework employs a supervised fine-t...
+
+### [Systematizing LLM Persona Design: A Four-Quadrant Technical Taxonomy for AI Companion Applications](http://arxiv.org/abs/2511.02979v1)
+*Published: 2025-11-04*  
+**Authors:** Esther Sun, Zichu Wu
+
+The design and application of LLM-based personas in AI companionship is a rapidly expanding but fragmented field, spanning from virtual emotional companions and game NPCs to embodied functional robots. This diversity in objectives, modality, and technical stacks creates an urgent need for a unified framework. To address this gap, this paper systematizes the field by proposing a Four-Quadrant Techn...
+
+### [Cache Mechanism for Agent RAG Systems](http://arxiv.org/abs/2511.02919v1)
+*Published: 2025-11-04*  
+**Authors:** Shuhang Lin, Zhencan Peng, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang
+
+Recent advances in Large Language Model (LLM)-based agents have been propelled by Retrieval-Augmented Generation (RAG), which grants the models access to vast external knowledge bases. Despite RAG's success in improving agent performance, agent-level cache management, particularly constructing, maintaining, and updating a compact, relevant corpus dynamically tailored to each agent's need, remains ...
 
 ### [Using Span Queries to Optimize for Cache and Attention Locality](http://arxiv.org/abs/2511.02749v1)
 *Published: 2025-11-04*  
@@ -47,238 +95,190 @@ Retrieval-Augmented Generation (RAG) has become a robust framework for enhancing
 
 As artificial intelligence permeates judicial forensics, ensuring the veracity and traceability of legal question answering (QA) has become critical. Conventional large language models (LLMs) are prone to hallucination, risking misleading guidance in legal consultation, while static knowledge bases struggle to keep pace with frequently updated statutes and case law. We present a hybrid legal QA ag...
 
-### [Evaluating Cultural Knowledge Processing in Large Language Models: A Cognitive Benchmarking Framework Integrating Retrieval-Augmented Generation](http://arxiv.org/abs/2511.01649v1)
-*Published: 2025-11-03*  
-**Authors:** Hung-Shin Lee, Chen-Chi Chang, Ching-Yuan Chen, Yun-Hsiang Hsu
-
-This study proposes a cognitive benchmarking framework to evaluate how large language models (LLMs) process and apply culturally specific knowledge. The framework integrates Bloom's Taxonomy with Retrieval-Augmented Generation (RAG) to assess model performance across six hierarchical cognitive domains: Remembering, Understanding, Applying, Analyzing, Evaluating, and Creating. Using a curated Taiwa...
-
-### [A Graph-based RAG for Energy Efficiency Question Answering](http://arxiv.org/abs/2511.01643v1)
-*Published: 2025-11-03*  
-**Authors:** Riccardo Campi, Nicolò Oreste Pinciroli Vago, Mathyas Giudici, Pablo Barrachina Rodriguez-Guisado, Marco Brambilla, Piero Fraternali
-
-In this work, we investigate the use of Large Language Models (LLMs) within a graph-based Retrieval Augmented Generation (RAG) architecture for Energy Efficiency (EE) Question Answering. First, the system automatically extracts a Knowledge Graph (KG) from guidance and regulatory documents in the energy field. Then, the generated graph is navigated and reasoned upon to provide users with accurate a...
-
-### [ExplicitLM: Decoupling Knowledge from Parameters via Explicit Memory Banks](http://arxiv.org/abs/2511.01581v1)
-*Published: 2025-11-03*  
-**Authors:** Chengzhang Yu, Zening Lu, Chenyang Zheng, Chiyue Wang, Yiming Zhang, Zhanpeng Jin
-
-Large language models suffer from knowledge staleness and lack of interpretability due to implicit knowledge storage across entangled network parameters, preventing targeted updates and reasoning transparency. We propose ExplicitLM, a novel architecture featuring a million-scale external memory bank storing human-readable knowledge as token sequences, enabling direct inspection and modification. W...
-
-### ["Don't Teach Minerva": Guiding LLMs Through Complex Syntax for Faithful Latin Translation with RAG](http://arxiv.org/abs/2511.01454v1)
-*Published: 2025-11-03*  
-**Authors:** Sergio Torres Aguilar
-
-Translating a morphology-rich, low-resource language like Latin poses significant challenges. This paper introduces a reproducible draft-based refinement pipeline that elevates open-source Large Language Models (LLMs) to a performance level statistically comparable to top-tier proprietary systems. Our method first uses a fine-tuned NLLB-1.3B model to generate a high-quality, structurally faithful ...
-
-### [RAGSmith: A Framework for Finding the Optimal Composition of Retrieval-Augmented Generation Methods Across Datasets](http://arxiv.org/abs/2511.01386v1)
-*Published: 2025-11-03*  
-**Authors:** Muhammed Yusuf Kartal, Suha Kagan Kose, Korhan Sevinç, Burak Aktas
-
-Retrieval-Augmented Generation (RAG) quality depends on many interacting choices across retrieval, ranking, augmentation, prompting, and generation, so optimizing modules in isolation is brittle. We introduce RAGSmith, a modular framework that treats RAG design as an end-to-end architecture search over nine technique families and 46{,}080 feasible pipeline configurations. A genetic search optimize...
-
-### [DeepSpecs: Expert-Level Questions Answering in 5G](http://arxiv.org/abs/2511.01305v1)
-*Published: 2025-11-03*  
-**Authors:** Aman Ganapathy Manvattira, Yifei Xu, Ziyue Dang, Songwu Lu
-
-5G technology enables mobile Internet access for billions of users. Answering expert-level questions about 5G specifications requires navigating thousands of pages of cross-referenced standards that evolve across releases. Existing retrieval-augmented generation (RAG) frameworks, including telecom-specific approaches, rely on semantic similarity and cannot reliably resolve cross-references or reas...
-
-### [Rescuing the Unpoisoned: Efficient Defense against Knowledge Corruption Attacks on RAG Systems](http://arxiv.org/abs/2511.01268v1)
-*Published: 2025-11-03*  
-**Authors:** Minseok Kim, Hankook Lee, Hyungjoon Koo
-
-Large language models (LLMs) are reshaping numerous facets of our daily lives, leading widespread adoption as web-based services. Despite their versatility, LLMs face notable challenges, such as generating hallucinated content and lacking access to up-to-date information. Lately, to address such limitations, Retrieval-Augmented Generation (RAG) has emerged as a promising direction by generating re...
-
-### [Feedback-driven Retrieval-augmented Audio Generation with Large Audio Language Models](http://arxiv.org/abs/2511.01091v1)
-*Published: 2025-11-02*  
-**Authors:** Junqi Zhao, Chenxing Li, Jinzheng Zhao, Rilin Chen, Dong Yu, Mark D. Plumbley, Wenwu Wang
-
-We propose a general feedback-driven retrieval-augmented generation (RAG) approach that leverages Large Audio Language Models (LALMs) to address the missing or imperfect synthesis of specific sound events in text-to-audio (TTA) generation. Unlike previous RAG-based TTA methods that typically train specialized models from scratch, we utilize LALMs to analyze audio generation outputs, retrieve conce...
-
 ---
 ## 🔍 Retrieval-Augmented Generation
 
-### [Type II embeddings for $d=6$ Einstein-Maxwell gauged supergravity](http://arxiv.org/abs/2511.02835v1)
-*Published: 2025-11-04*  
-**Authors:** Niall T. Macpherson, Ricardo Stuardo
+### [High-order Accumulative Regularization for Gradient Minimization in Convex Programming](http://arxiv.org/abs/2511.03723v1)
+*Published: 2025-11-05*  
+**Authors:** Yao Ji, Guanghui Lan
 
-Bi-spinor and G-structure methods are used to classify the possible consistent truncations of type II supergravity to $d=6$ Einstein-Maxwell (gauged) supergravity, and its consistent sub-sectors. In the absence of R-symmetry gauging and a tensor multiplet we establish that every supersymmetric Mink$_6$ solution defines an embedding of the $d=6$ theory. Adding a tensor multiplet places restrictions...
+This paper develops a unified framework of high-order accumulative regularization (AR) framework for convex and uniformly convex gradient norm minimization. Existing high-order methods often exhibit a gap: the function value residual decreases fast, while the gradient norm converges much slower. To close this gap, we introduce AR that systematically transforms fast function value residual converge...
 
-### [In Good GRACEs: Principled Teacher Selection for Knowledge Distillation](http://arxiv.org/abs/2511.02833v1)
-*Published: 2025-11-04*  
-**Authors:** Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham Kakade, Surbhi Goel
+### [Distance Exceptional Graphs and the Curvature Index](http://arxiv.org/abs/2511.03719v1)
+*Published: 2025-11-05*  
+**Authors:** Sawyer Jack Robertson, Finn Southerland, Erlang Surya
 
-Knowledge distillation is an efficient strategy to use data generated by large "teacher" language models to train smaller capable "student" models, but selecting the optimal teacher for a specific student-task combination requires expensive trial-and-error. We propose a lightweight score called GRACE to quantify how effective a teacher will be for post-training a student model. GRACE measures dist...
+A graph $G=(V,E)$ on $n$ vertices is said to be \emph{distance exceptional} if the equation $D\vec{x} = \vec{1}$ admits no solution $\vec{x}\in\mathbb{R}^{n}$, where $D\in\mathbb{R}^{n\times n}$ is the shortest path distance matrix of $G$. These graphs were first studied by Steinerberger in the context of a notion of discrete curvature (``Curvature on graphs via equilibrium measures,'' \emph{Journ...
 
-### [GeoCrossBench: Cross-Band Generalization for Remote Sensing](http://arxiv.org/abs/2511.02831v1)
-*Published: 2025-11-04*  
-**Authors:** Hakob Tamazyan, Ani Vanyan, Alvard Barseghyan, Anna Khosrovyan, Evan Shelhamer, Hrant Khachatrian
+### [An Improved Quality Hierarchical Congestion Approximator in Near-Linear Time](http://arxiv.org/abs/2511.03716v1)
+*Published: 2025-11-05*  
+**Authors:** Monika Henzinger, Robin Münk, Harald Räcke
 
-The number and diversity of remote sensing satellites grows over time, while the vast majority of labeled data comes from older satellites. As the foundation models for Earth observation scale up, the cost of (re-)training to support new satellites grows too, so the generalization capabilities of the models towards new satellites become increasingly important. In this work we introduce GeoCrossBen...
+A congestion approximator for a graph is a compact data structure that approximately predicts the edge congestion required to route any set of flow demands in a network. A congestion approximator is hierarchical if it consists of a laminar family of cuts in the graph. There is a tradeoff between the running time for computing a congestion approximator and its approximation quality. Currently, for ...
 
-### [From Code Changes to Quality Gains: An Empirical Study in Python ML Systems with PyQu](http://arxiv.org/abs/2511.02827v1)
-*Published: 2025-11-04*  
-**Authors:** Mohamed Almukhtar, Anwar Ghammam, Marouane Kessentini, Hua Ming
+### [Echoes of the First Stars: Massive Star Evolution in Extremely Metal-Poor Environments with the Habitable Worlds Observatory](http://arxiv.org/abs/2511.03715v1)
+*Published: 2025-11-05*  
+**Authors:** Peter Senchyna, Calum Hawcroft, Miriam Garcia, Aida Wofford, Janice C. Lee, Chris Evans
 
-In an era shaped by Generative Artificial Intelligence for code generation and the rising adoption of Python-based Machine Learning systems (MLS), software quality has emerged as a major concern. As these systems grow in complexity and importance, a key obstacle lies in understanding exactly how specific code changes affect overall quality-a shortfall aggravated by the lack of quality assessment t...
+A remarkable span of frontier astrophysics, from gravitational-wave archaeology to the origin of the elements to interpreting snapshots of the earliest galaxies, depends sensitively on our understanding of massive star formation and evolution in near-pristine, relatively enriched gas. From the surprisingly massive black holes detected by LIGO/Virgo to highly ionized nebulae with peculiar enrichmen...
 
-### [PLUTO-4: Frontier Pathology Foundation Models](http://arxiv.org/abs/2511.02826v2)
-*Published: 2025-11-04*  
-**Authors:** Harshith Padigela, Shima Nofallah, Atchuth Naveen Chilaparasetti, Ryun Han, Andrew Walker, Judy Shen, Chintan Shah, Blake Martin, Aashish Sood, Elliot Miller, Ben Glass, Andy Beck, Harsha Pokkalla, Syed Ashar Javed
+### [Shrinking the Variance: Shrinkage Baselines for Reinforcement Learning with Verifiable Rewards](http://arxiv.org/abs/2511.03710v1)
+*Published: 2025-11-05*  
+**Authors:** Guanning Zeng, Zhaoyi Zhou, Daman Arora, Andrea Zanette
 
-Foundation models trained on large-scale pathology image corpora have demonstrated strong transfer capabilities across diverse histopathology tasks. Building on this progress, we introduce PLUTO-4, our next generation of pathology foundation models that extend the Pathology-Universal Transformer (PLUTO) to frontier scale. We share two complementary Vision Transformer architectures in the PLUTO-4 f...
+Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful paradigm for post-training large reasoning models (LRMs) using policy-gradient methods such as GRPO. To stabilize training, these methods typically center trajectory rewards by subtracting the empirical mean for each prompt. Statistically, this centering acts as a control variate (or baseline), reducing the variance of...
 
-### [Neurosymbolic Deep Learning Semantics](http://arxiv.org/abs/2511.02825v1)
-*Published: 2025-11-04*  
-**Authors:** Artur d'Avila Garcez, Simon Odense
+### [Stellar Bounds on Light Spin-2 Particles in Bimetric Theories](http://arxiv.org/abs/2511.03707v1)
+*Published: 2025-11-05*  
+**Authors:** Camilo García-Cely, Andreas Ringwald
 
-Artificial Intelligence (AI) is a powerful new language of science as evidenced by recent Nobel Prizes in chemistry and physics that recognized contributions to AI applied to those areas. Yet, this new language lacks semantics, which makes AI's scientific discoveries unsatisfactory at best. With the purpose of uncovering new facts but also improving our understanding of the world, AI-based science...
+Using the bimetric formalism, we compute the production and emission rates of light spin-2 particles in non-degenerate stellar interiors through photoproduction and bremsstrahlung processes, including the effects of plasma screening. By comparing the resulting energy-loss rates with observational limits on stellar cooling, we derive bounds on the coupling strength and mass of the spin-2 particle. ...
 
-### [Kosmos: An AI Scientist for Autonomous Discovery](http://arxiv.org/abs/2511.02824v2)
-*Published: 2025-11-04*  
-**Authors:** Ludovico Mitchener, Angela Yiu, Benjamin Chang, Mathieu Bourdenx, Tyler Nadolski, Arvis Sulovari, Eric C. Landsness, Daniel L. Barabasi, Siddharth Narayanan, Nicky Evans, Shriya Reddy, Martha Foiani, Aizad Kamal, Leah P. Shriver, Fang Cao, Asmamaw T. Wassie, Jon M. Laurent, Edwin Melville-Green, Mayk Caldas, Albert Bou, Kaleigh F. Roberts, Sladjana Zagorac, Timothy C. Orr, Miranda E. Orr, Kevin J. Zwezdaryk, Ali E. Ghareeb, Laurie McCoy, Bruna Gomes, Euan A. Ashley, Karen E. Duff, Tonio Buonassisi, Tom Rainforth, Randall J. Bateman, Michael Skarlinski, Samuel G. Rodriques, Michaela M. Hinks, Andrew D. White
+### [Long-Lasting and Slowly Varying Transient Dynamics in Discrete-Time Systems](http://arxiv.org/abs/2511.03704v1)
+*Published: 2025-11-05*  
+**Authors:** Anthony Pasion, Felicia Magpantay
 
-Data-driven scientific discovery requires iterative cycles of literature search, hypothesis generation, and data analysis. Substantial progress has been made towards AI agents that can automate scientific research, but all such agents remain limited in the number of actions they can take before losing coherence, thus limiting the depth of their findings. Here we present Kosmos, an AI scientist tha...
+Analysis of mathematical models in ecology and epidemiology often focuses on asymptotic dynamics, such as stable equilibria and periodic orbits. However, many systems exhibit long transient behaviors where certain aspects of the dynamics remain in a slowly evolving state for an extended period before undergoing rapid change. In this work, we analyze long-lasting and slowly varying transient dynami...
 
-### [Fortifying Distribution Network Nodes Subject to Network-Based Disruptions](http://arxiv.org/abs/2511.02820v1)
-*Published: 2025-11-04*  
-**Authors:** Pelin Keşrit, Bahar Çavdar, Joseph Geunes
+### [A non-iterative straightening algorithm and orthogonality for skew Schur modules](http://arxiv.org/abs/2511.03702v1)
+*Published: 2025-11-05*  
+**Authors:** Reuven Hodges, Hanzhang Yin
 
-We consider a distribution network for delivering a natural resource or physical good to a set of nodes, each of which serves a set of customers, in which disruptions may occur at one or more nodes. Each node receives flow through a path from a source node, implying that the service at a node is interrupted if one or more nodes on the path from a source node experience a disruption. All network no...
+We generalize Fulton's determinantal construction of Schur modules to the skew setting, providing an explicit and functorial presentation using only elementary linear algebra and determinantal identities, in parallel with the partition case. Building on the non-iterative straightening formula of the first author for partition shapes, we develop a non-iterative straightening algorithm for skew Schu...
 
-### [From thermal to magnetic driving: spectral diagnostics of simulation-based magnetothermal disc wind models](http://arxiv.org/abs/2511.02811v1)
-*Published: 2025-11-04*  
-**Authors:** Michael L. Weber, Eleftheria Sarafidou, Christian Rab, Oliver Gressel, Barbara Ercolano
+### [Mean-field approach to finite-size fluctuations in the Kuramoto-Sakaguchi model](http://arxiv.org/abs/2511.03700v1)
+*Published: 2025-11-05*  
+**Authors:** Oleh E. Omel'chenko, Georg A. Gottwald
 
-Disc winds driven by thermal and magnetic processes are thought to play a critical role in protoplanetary disc evolution. However, the relative contribution of each mechanism remains uncertain, particularly in light of their observational signatures. We investigate whether spatially resolved emission and synthetic spectral line profiles can distinguish between thermally and magnetically driven win...
+We develop an ab initio approach to describe the statistical behavior of finite-size fluctuations in the Kuramoto-Sakaguchi model. We obtain explicit expressions for the covariance function of fluctuations of the complex order parameter and determine the variance of its magnitude entirely in terms of the equation parameters. Our results rely on an explicit complex-valued formula for solutions of t...
 
-### [Topologically Quantized Soliton-Like Pumping using Synthetic Nonlinearity](http://arxiv.org/abs/2511.02806v1)
-*Published: 2025-11-04*  
-**Authors:** Ankitkumar Maisuriya, Siddhi Mali, Sunil Mittal
+### [An Extensible Julia Toolkit for Symmetry-Aware Dual Space Phasing in Arbitrary Dimensions](http://arxiv.org/abs/2511.03698v1)
+*Published: 2025-11-05*  
+**Authors:** Pavel Kalugin
 
-The interplay between nonlinear and topological physics has led to intriguing emergent phenomena, such as quantized and fractionally quantized Thouless pumping of solitons dictated by the topological invariants of the underlying band structure. Unlike linear Thouless pumping, which requires excitation of a Wannier function of a uniformly filled band, quantized soliton pumping is observed even with...
+We present an open-source Julia-based software toolkit for solving the phase problem using dual-space iterative algorithms. The toolkit is specifically designed for aperiodic crystals and quasicrystals, supporting general space group symmetries in arbitrary dimensions. A key feature is the symmetry-breaking anti-aliasing sampling scheme, optimized for computational efficiency when working with str...
 
-### [MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning](http://arxiv.org/abs/2511.02805v1)
-*Published: 2025-11-04*  
-**Authors:** Qianhao Yuan, Jie Lou, Zichao Li, Jiawei Chen, Yaojie Lu, Hongyu Lin, Le Sun, Debing Zhang, Xianpei Han
+### [AnaFlow: Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing](http://arxiv.org/abs/2511.03697v1)
+*Published: 2025-11-05*  
+**Authors:** Mohsen Ahmadzadeh, Kaichang Chen, Georges Gielen
 
-Typical search agents concatenate the entire interaction history into the LLM context, preserving information integrity but producing long, noisy contexts, resulting in high computation and memory costs. In contrast, using only the current turn avoids this overhead but discards essential information. This trade-off limits the scalability of search agents. To address this challenge, we propose MemS...
+Analog/mixed-signal circuits are key for interfacing electronics with the physical world. Their design, however, remains a largely handcrafted process, resulting in long and error-prone design cycles. While the recent rise of AI-based reinforcement learning and generative AI has created new techniques to automate this task, the need for many time-consuming simulations is a critical bottleneck hind...
 
-### [Optimal Source Coding of Markov Chains for Real-Time Remote Estimation](http://arxiv.org/abs/2511.02803v1)
-*Published: 2025-11-04*  
-**Authors:** Ismail Cosandal, Sennur Ulukus
+### [Robust Global Fr'echet Regression via Weight Regularization](http://arxiv.org/abs/2511.03694v1)
+*Published: 2025-11-05*  
+**Authors:** Hao Li, Shonosuke Sugasawa, Shota Katayama
 
-We revisit the source coding problem for a Markov chain under the assumption that the transmission times and how fast the Markov chain transitions its state happen at the same time-scale. Specifically, we assume that the transmission of each bit takes a single time slot, and the Markov chain updates its state in the same time slot. Thus, the length of the codeword assigned to a symbol determines t...
+The Fr\'echet regression is a useful method for modeling random objects in a general metric space given Euclidean covariates. However, the conventional approach could be sensitive to outlying objects in the sense that the distance from the regression surface is large compared to the other objects. In this study, we develop a robust version of the global Fr\'echet regression by incorporating weight...
 
-### [Cesam2k20: A code for a new generation of stellar evolution models. I. Description of the code](http://arxiv.org/abs/2511.02801v1)
-*Published: 2025-11-04*  
-**Authors:** L. Manchon, M. Deal, J. P. C. Marques, Y. Lebreton
+### [Colorectal Cancer Histopathological Grading using Multi-Scale Federated Learning](http://arxiv.org/abs/2511.03693v1)
+*Published: 2025-11-05*  
+**Authors:** Md Ahasanul Arafath, Abhijit Kumar Ghosh, Md Rony Ahmed, Sabrin Afroz, Minhazul Hosen, Md Hasan Moon, Md Tanzim Reza, Md Ashad Alam
 
-We present Cesam2k20, the latest version of the hydrostatic stellar evolution code CESAM originally developed by P. Morel and collaborators. Over the last three decades, it has undergone many improvements and has been extensively tested against other stellar evolution codes before being selected to compute the first-generation grid of stellar models for the PLATO mission. Among all the development...
+Colorectal cancer (CRC) grading is a critical prognostic factor but remains hampered by inter-observer variability and the privacy constraints of multi-institutional data sharing. While deep learning offers a path to automation, centralized training models conflict with data governance regulations and neglect the diagnostic importance of multi-scale analysis. In this work, we propose a scalable, p...
 
-### [On the origin of exponential operator growth in Hilbert space](http://arxiv.org/abs/2511.02800v1)
-*Published: 2025-11-04*  
-**Authors:** Vijay Ganesh Sadhasivam, Jan M. Rost, Stuart C. Althorpe
+### [Certified randomness amplification by dynamically probing remote random quantum states](http://arxiv.org/abs/2511.03686v1)
+*Published: 2025-11-05*  
+**Authors:** Minzhao Liu, Pradeep Niroula, Matthew DeCross, Cameron Foreman, Wen Yu Kon, Ignatius William Primaatmaja, M. S. Allman, J. P. Campora III, Akhil Isanaka, Kartik Singhal, Omar Amer, Shouvanik Chakrabarti, Kaushik Chakraborty, Samuel F. Cooper, Robert D. Delaney, Joan M. Dreiling, Brian Estey, Caroline Figgatt, Cameron Foltz, John P. Gaebler, Alex Hall, Zichang He, Craig A. Holliman, Travis S. Humble, Shih-Han Hung, Ali A. Husain, Yuwei Jin, Fatih Kaleoglu, Colin J. Kennedy, Nikhil Kotibhaskar, Nathan K. Lysne, Ivaylo S. Madjarov, Michael Mills, Alistair R. Milne, Kevin Milner, Louis Narmour, Sivaprasad Omanakuttan, Annie J. Park, Michael A. Perlin, Adam P. Reed, Chris N. Self, Matthew Steinberg, David T. Stephen, Joseph Sullivan, Alex Chernoguzov, Florian J. Curchod, Anthony Ransford, Justin G. Bohnet, Brian Neyenhuis, Michael Foss-Feig, Rob Otter, Ruslan Shaydulin
 
-By analysing the growth of Krylov complexity for some simple models, we find that the exponential growth of an operator in Hilbert space can be predicted from the off-diagonal decay of the operator matrix elements in the system eigenbasis. When the decay is exponential or slower, the Krylov complexity grows exponentially; when it is algebraic or slower, the growth rate is maximal. As a result, non...
+Cryptography depends on truly unpredictable numbers, but physical sources emit biased or correlated bits. Quantum mechanics enables the amplification of imperfect randomness into nearly perfect randomness, but prior demonstrations have required physically co-located, loophole-free Bell tests, constraining the feasibility of remote operation. Here we realize certified randomness amplification acros...
 
-### [Intercomparison of a High-Resolution Regional Climate Model Ensemble for Catchment-Scale Water Cycle Processes under Human Influence](http://arxiv.org/abs/2511.02799v1)
-*Published: 2025-11-04*  
-**Authors:** J. L. Roque, F. Da Silva Lopes, J. A. Giles, B. D. Gutknecht, B. Schalge, Y. Zhang, M. Ferro, P. Friederichs, K. Goergen, S. Poll, A. Valmassoi
+### [Efficient GPU Parallelization of Electronic Transport and Nonequilibrium Dynamics from Electron-Phonon Interactions in the Perturbo Code](http://arxiv.org/abs/2511.03683v1)
+*Published: 2025-11-05*  
+**Authors:** Shiyu Peng, Donnie Pinkston, Jia Yao, Sergei Kliavinek, Ivan Maliyov, Marco Bernardi
 
-Understanding regional hydroclimatic variability and its drivers is essential for anticipating the impacts of climate change on water resources and sustainability. Yet, considerable uncertainty remains in the simulation of the coupled land atmosphere water and energy cycles, largely due to structural model limitations, simplified process representations, and insufficient spatial resolution. Within...
+The Boltzmann transport equation (BTE) with electron-phonon (e-ph) interactions computed from first principles is widely used to study electronic transport and nonequilibrium dynamics in materials. Calculating the e-ph collision integral is the most important step in the BTE, but it remains computationally costly, even with current MPI+OpenMP parallelization. This challenge makes it difficult to s...
 
 ---
 ## 🔍 Computer Vision
 
-### [Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything](http://arxiv.org/abs/2511.02834v2)
-*Published: 2025-11-04*  
-**Authors:** Huawei Lin, Yunzhi Shi, Tong Geng, Weijie Zhao, Wei Wang, Ravender Pal Singh
+### [Disentangled Concepts Speak Louder Than Words:Explainable Video Action Recognition](http://arxiv.org/abs/2511.03725v1)
+*Published: 2025-11-05*  
+**Authors:** Jongseo Lee, Wooil Lee, Gyeong-Moon Park, Seong Tae Kim, Jinwoo Choi
 
-Multimodal large language models (MLLMs) have shown strong capabilities but remain limited to fixed modality pairs and require costly fine-tuning with large aligned datasets. Building fully omni-capable models that can integrate text, images, audio, and video remains impractical and lacks robust reasoning support. In this paper, we propose an Agent-Omni framework that coordinates existing foundati...
+Effective explanations of video action recognition models should disentangle how movements unfold over time from the surrounding spatial context. However, existing methods based on saliency produce entangled explanations, making it unclear whether predictions rely on motion or spatial context. Language-based approaches offer structure but often fail to explain motions due to their tacit nature -- ...
 
-### [In Good GRACEs: Principled Teacher Selection for Knowledge Distillation](http://arxiv.org/abs/2511.02833v1)
-*Published: 2025-11-04*  
-**Authors:** Abhishek Panigrahi, Bingbin Liu, Sadhika Malladi, Sham Kakade, Surbhi Goel
+### [High-order Accumulative Regularization for Gradient Minimization in Convex Programming](http://arxiv.org/abs/2511.03723v1)
+*Published: 2025-11-05*  
+**Authors:** Yao Ji, Guanghui Lan
 
-Knowledge distillation is an efficient strategy to use data generated by large "teacher" language models to train smaller capable "student" models, but selecting the optimal teacher for a specific student-task combination requires expensive trial-and-error. We propose a lightweight score called GRACE to quantify how effective a teacher will be for post-training a student model. GRACE measures dist...
+This paper develops a unified framework of high-order accumulative regularization (AR) framework for convex and uniformly convex gradient norm minimization. Existing high-order methods often exhibit a gap: the function value residual decreases fast, while the gradient norm converges much slower. To close this gap, we introduce AR that systematically transforms fast function value residual converge...
 
-### [TWIST2: Scalable, Portable, and Holistic Humanoid Data Collection System](http://arxiv.org/abs/2511.02832v1)
-*Published: 2025-11-04*  
-**Authors:** Yanjie Ze, Siheng Zhao, Weizhuo Wang, Angjoo Kanazawa, Rocky Duan, Pieter Abbeel, Guanya Shi, Jiajun Wu, C. Karen Liu
+### [Grounded Misunderstandings in Asymmetric Dialogue: A Perspectivist Annotation Scheme for MapTask](http://arxiv.org/abs/2511.03718v1)
+*Published: 2025-11-05*  
+**Authors:** Nan Li, Albert Gatt, Massimo Poesio
 
-Large-scale data has driven breakthroughs in robotics, from language models to vision-language-action models in bimanual manipulation. However, humanoid robotics lacks equally effective data collection frameworks. Existing humanoid teleoperation systems either use decoupled control or depend on expensive motion capture setups. We introduce TWIST2, a portable, mocap-free humanoid teleoperation and ...
+Collaborative dialogue relies on participants incrementally establishing common ground, yet in asymmetric settings they may believe they agree while referring to different entities. We introduce a perspectivist annotation scheme for the HCRC MapTask corpus (Anderson et al., 1991) that separately captures speaker and addressee grounded interpretations for each reference expression, enabling us to t...
 
-### [Densemarks: Learning Canonical Embeddings for Human Heads Images via Point Tracks](http://arxiv.org/abs/2511.02830v1)
-*Published: 2025-11-04*  
-**Authors:** Dmitrii Pozdeev, Alexey Artemov, Ananta R. Bhattarai, Artem Sevastopolsky
+### [An Improved Quality Hierarchical Congestion Approximator in Near-Linear Time](http://arxiv.org/abs/2511.03716v1)
+*Published: 2025-11-05*  
+**Authors:** Monika Henzinger, Robin Münk, Harald Räcke
 
-We propose DenseMarks - a new learned representation for human heads, enabling high-quality dense correspondences of human head images. For a 2D image of a human head, a Vision Transformer network predicts a 3D embedding for each pixel, which corresponds to a location in a 3D canonical unit cube. In order to train our network, we collect a dataset of pairwise point matches, estimated by a state-of...
+A congestion approximator for a graph is a compact data structure that approximately predicts the edge congestion required to route any set of flow demands in a network. A congestion approximator is hierarchical if it consists of a laminar family of cuts in the graph. There is a tradeoff between the running time for computing a congestion approximator and its approximation quality. Currently, for ...
 
-### [PLUTO-4: Frontier Pathology Foundation Models](http://arxiv.org/abs/2511.02826v2)
-*Published: 2025-11-04*  
-**Authors:** Harshith Padigela, Shima Nofallah, Atchuth Naveen Chilaparasetti, Ryun Han, Andrew Walker, Judy Shen, Chintan Shah, Blake Martin, Aashish Sood, Elliot Miller, Ben Glass, Andy Beck, Harsha Pokkalla, Syed Ashar Javed
+### [Multi-Region Matrix Interpolation for Dynamic Analysis of Aperiodic Structures under Large Model Parameter Perturbations](http://arxiv.org/abs/2511.03711v1)
+*Published: 2025-11-05*  
+**Authors:** J. Pereira, R. O. Ruiz
 
-Foundation models trained on large-scale pathology image corpora have demonstrated strong transfer capabilities across diverse histopathology tasks. Building on this progress, we introduce PLUTO-4, our next generation of pathology foundation models that extend the Pathology-Universal Transformer (PLUTO) to frontier scale. We share two complementary Vision Transformer architectures in the PLUTO-4 f...
+This work introduces a surrogate-based model for efficiently estimating the frequency response of dynamic mechanical metamaterials, particularly when dealing with large parametric perturbations and aperiodic substructures. The research builds upon a previous matrix interpolation method applied on top of a Craig-Bampton modal reduction, allowing the variations of geometrical features without the ne...
 
-### [Optimizing AI Agent Attacks With Synthetic Data](http://arxiv.org/abs/2511.02823v1)
-*Published: 2025-11-04*  
-**Authors:** Chloe Loughridge, Paul Colognese, Avery Griffin, Tyler Tracy, Jon Kutasov, Joe Benton
+### [Shrinking the Variance: Shrinkage Baselines for Reinforcement Learning with Verifiable Rewards](http://arxiv.org/abs/2511.03710v1)
+*Published: 2025-11-05*  
+**Authors:** Guanning Zeng, Zhaoyi Zhou, Daman Arora, Andrea Zanette
 
-As AI deployments become more complex and high-stakes, it becomes increasingly important to be able to estimate their risk. AI control is one framework for doing so. However, good control evaluations require eliciting strong attack policies. This can be challenging in complex agentic environments where compute constraints leave us data-poor. In this work, we show how to optimize attack policies in...
+Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful paradigm for post-training large reasoning models (LRMs) using policy-gradient methods such as GRPO. To stabilize training, these methods typically center trajectory rewards by subtracting the empirical mean for each prompt. Statistically, this centering acts as a control variate (or baseline), reducing the variance of...
 
-### [Fortifying Distribution Network Nodes Subject to Network-Based Disruptions](http://arxiv.org/abs/2511.02820v1)
-*Published: 2025-11-04*  
-**Authors:** Pelin Keşrit, Bahar Çavdar, Joseph Geunes
+### [Stellar Bounds on Light Spin-2 Particles in Bimetric Theories](http://arxiv.org/abs/2511.03707v1)
+*Published: 2025-11-05*  
+**Authors:** Camilo García-Cely, Andreas Ringwald
 
-We consider a distribution network for delivering a natural resource or physical good to a set of nodes, each of which serves a set of customers, in which disruptions may occur at one or more nodes. Each node receives flow through a path from a source node, implying that the service at a node is interrupted if one or more nodes on the path from a source node experience a disruption. All network no...
+Using the bimetric formalism, we compute the production and emission rates of light spin-2 particles in non-degenerate stellar interiors through photoproduction and bremsstrahlung processes, including the effects of plasma screening. By comparing the resulting energy-loss rates with observational limits on stellar cooling, we derive bounds on the coupling strength and mass of the spin-2 particle. ...
 
-### [Improved lower bounds for the maximum order of an induced acyclic subgraph](http://arxiv.org/abs/2511.02819v1)
-*Published: 2025-11-04*  
-**Authors:** Shamil Asgarli, Donald Falkenhagen, Kaya Hoshi
+### [Ideals, Gröbner Bases, and PCPs](http://arxiv.org/abs/2511.03703v1)
+*Published: 2025-11-05*  
+**Authors:** Prashanth Amireddy, Amik Raj Behera, Srikanth Srinivasan, Madhu Sudan, Sophus Valentin Willumsgaard
 
-Computing the cardinality of a maximum induced acyclic vertex set in a digraph is NP-hard. Since finding an exact solution is computationally difficult, a fruitful approach is to establish high-quality lower bounds that are efficiently computable. We build on the Akbari--Ghodrati--Jabalameli--Saghafian (AGJS) bound for digraphs by adapting refinement techniques used by (a) Selkow and Harant--Mohr ...
+All known proofs of the PCP theorem rely on multiple "composition" steps, where PCPs over large alphabets are turned into PCPs over much smaller alphabets at a (relatively) small price in the soundness error of the PCP. Algebraic proofs, starting with the work of Arora, Lund, Motwani, Sudan, and Szegedy use at least 2 such composition steps, whereas the "Gap amplification" proof of Dinur uses $\Th...
 
-### [Oolong: Evaluating Long Context Reasoning and Aggregation Capabilities](http://arxiv.org/abs/2511.02817v1)
-*Published: 2025-11-04*  
-**Authors:** Amanda Bertsch, Adithya Pratapa, Teruko Mitamura, Graham Neubig, Matthew R. Gormley
+### [Two-loop form factors for Dark Matter annihilation to colored Standard Model particles](http://arxiv.org/abs/2511.03701v1)
+*Published: 2025-11-05*  
+**Authors:** Warsimakram Katapur, Ambresh Shivaji
 
-As model context lengths continue to grow, concerns about whether models effectively use the full context length have persisted. While several carefully designed long-context evaluations have recently been released, these evaluations tend to rely on retrieval from one or more sections of the context, which allows nearly all of the context tokens to be disregarded as noise. This represents only one...
+We investigate a UV-complete model in which the dark matter (DM) particle interacts with gluons through a colored scalar mediator. This framework provides a phenomenologically viable scenario testable at hadron colliders. While mono-jet signatures are relevant for collider searches, zero-jet processes correspond to complete annihilation of Standard Model (SM) particles into DM, contributing to the...
 
-### [A Construction of Infinite Families of Self-Orthogonal Quasi-Cyclic Codes Using Constituent Codes.pdf](http://arxiv.org/abs/2511.02813v1)
-*Published: 2025-11-04*  
-**Authors:** Gustavo Terra Bastos, Angelynn Álvarez, Cameron Williams
+### [Do Androids Dream of Unseen Puppeteers? Probing for a Conspiracy Mindset in Large Language Models](http://arxiv.org/abs/2511.03699v1)
+*Published: 2025-11-05*  
+**Authors:** Francesco Corso, Francesco Pierri, Gianmarco De Francisci Morales
 
-Quasi-cyclic codes have been recently employed in the constructions of quantum error-correcting codes. In this paper, we propose a construction of infinite families of quasi-cyclic codes which are self-orthogonal with respect to the Euclidean and Hermitian inner products. In particular, their dimension and a lower bound for their minimum distance are computed using their constituent codes defined ...
+In this paper, we investigate whether Large Language Models (LLMs) exhibit conspiratorial tendencies, whether they display sociodemographic biases in this domain, and how easily they can be conditioned into adopting conspiratorial perspectives. Conspiracy beliefs play a central role in the spread of misinformation and in shaping distrust toward institutions, making them a critical testbed for eval...
 
-### [Majorana string simulation of nonequilibrium dynamics in two-dimensional lattice fermion systems](http://arxiv.org/abs/2511.02809v1)
-*Published: 2025-11-04*  
-**Authors:** Matteo D'Anna, Jannes Nys, Juan Carrasquilla
+### [An Extensible Julia Toolkit for Symmetry-Aware Dual Space Phasing in Arbitrary Dimensions](http://arxiv.org/abs/2511.03698v1)
+*Published: 2025-11-05*  
+**Authors:** Pavel Kalugin
 
-The study of real-time dynamics of fermions remains one of the last frontiers beyond the reach of classical simulations and is key to our understanding of quantum behavior in chemistry and materials, with implications for quantum technology. Here we introduce a Heisenberg-picture algorithm that propagates observables expressed in a Majorana-string basis using a truncation scheme that preserves Tro...
+We present an open-source Julia-based software toolkit for solving the phase problem using dual-space iterative algorithms. The toolkit is specifically designed for aperiodic crystals and quasicrystals, supporting general space group symmetries in arbitrary dimensions. A key feature is the symmetry-breaking anti-aliasing sampling scheme, optimized for computational efficiency when working with str...
 
-### [MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning](http://arxiv.org/abs/2511.02805v1)
-*Published: 2025-11-04*  
-**Authors:** Qianhao Yuan, Jie Lou, Zichao Li, Jiawei Chen, Yaojie Lu, Hongyu Lin, Le Sun, Debing Zhang, Xianpei Han
+### [AnaFlow: Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing](http://arxiv.org/abs/2511.03697v1)
+*Published: 2025-11-05*  
+**Authors:** Mohsen Ahmadzadeh, Kaichang Chen, Georges Gielen
 
-Typical search agents concatenate the entire interaction history into the LLM context, preserving information integrity but producing long, noisy contexts, resulting in high computation and memory costs. In contrast, using only the current turn avoids this overhead but discards essential information. This trade-off limits the scalability of search agents. To address this challenge, we propose MemS...
+Analog/mixed-signal circuits are key for interfacing electronics with the physical world. Their design, however, remains a largely handcrafted process, resulting in long and error-prone design cycles. While the recent rise of AI-based reinforcement learning and generative AI has created new techniques to automate this task, the need for many time-consuming simulations is a critical bottleneck hind...
 
-### [Cesam2k20: A code for a new generation of stellar evolution models. I. Description of the code](http://arxiv.org/abs/2511.02801v1)
-*Published: 2025-11-04*  
-**Authors:** L. Manchon, M. Deal, J. P. C. Marques, Y. Lebreton
+### [Introducing Quantum Computing into Statistical Physics: Random Walks and the Ising Model with Qiskit](http://arxiv.org/abs/2511.03696v1)
+*Published: 2025-11-05*  
+**Authors:** Zihan Li, Dan A. Mazilu, Irina Mazilu
 
-We present Cesam2k20, the latest version of the hydrostatic stellar evolution code CESAM originally developed by P. Morel and collaborators. Over the last three decades, it has undergone many improvements and has been extensively tested against other stellar evolution codes before being selected to compute the first-generation grid of stellar models for the PLATO mission. Among all the development...
+Quantum computing offers a powerful new perspective on probabilistic and collective behaviors traditionally taught in statistical physics. This paper presents two classroom-ready modules that integrate quantum computing into the undergraduate curriculum using Qiskit: the quantum random walk and the Ising model. Both modules allow students to simulate and contrast classical and quantum systems, dee...
 
-### [Fast, Private, and Protected: Safeguarding Data Privacy and Defending Against Model Poisoning Attacks in Federated Learning](http://arxiv.org/abs/2511.02797v1)
-*Published: 2025-11-04*  
-**Authors:** Nicolas Riccieri Gardin Assumpcao, Leandro Villas
+### [Robust Global Fr'echet Regression via Weight Regularization](http://arxiv.org/abs/2511.03694v1)
+*Published: 2025-11-05*  
+**Authors:** Hao Li, Shonosuke Sugasawa, Shota Katayama
 
-Federated Learning (FL) is a distributed training paradigm wherein participants collaborate to build a global model while ensuring the privacy of the involved data, which remains stored on participant devices. However, proposals aiming to ensure such privacy also make it challenging to protect against potential attackers seeking to compromise the training outcome. In this context, we present Fast,...
+The Fr\'echet regression is a useful method for modeling random objects in a general metric space given Euclidean covariates. However, the conventional approach could be sensitive to outlying objects in the sense that the distance from the regression surface is large compared to the other objects. In this study, we develop a robust version of the global Fr\'echet regression by incorporating weight...
 
-### [Can LLMs subtract numbers?](http://arxiv.org/abs/2511.02795v1)
-*Published: 2025-11-04*  
-**Authors:** Mayank Jobanputra, Nils Philipp Walter, Maitrey Mehta, Blerta Veseli, Evan Parker Kelly Chapple, Yifan Wang, Sneha Chetani, Ellie Pavlick, Antonio Vergari, Vera Demberg
+### [Improving Gene Trees without more data](http://arxiv.org/abs/2511.03692v1)
+*Published: 2025-11-05*  
+**Authors:** Ashu Gupta
 
-We present a systematic study of subtraction in large language models (LLMs). While prior benchmarks emphasize addition and multiplication, subtraction has received comparatively little attention despite being structurally distinct as a non-commutative operation. We evaluate eight pretrained LLMs spanning four families on addition and subtraction problems. Our experiments reveal that subtraction a...
+Estimating species and gene trees from sequence data is challenging. Gene tree estimation is often hampered by low phylogenetic signal in alignments, leading to inaccurate trees. Species tree estimation is complicated by incomplete lineage sorting (ILS), where gene histories differ from the species' history. Summary methods like MP-EST, ASTRAL2, and ASTRID infer species trees from gene trees but s...
 
 ---
