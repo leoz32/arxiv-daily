@@ -1,9 +1,51 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-09
+**Last update:** 2025-11-10
 
 ---
 ## 🔍 RAG
+
+### [Large Language Models for Explainable Threat Intelligence](http://arxiv.org/abs/2511.05406v1)
+*Published: 2025-11-07*  
+**Authors:** Tiago Dinis, Miguel Correia, Roger Tavares
+
+As cyber threats continue to grow in complexity, traditional security mechanisms struggle to keep up. Large language models (LLMs) offer significant potential in cybersecurity due to their advanced capabilities in text processing and generation. This paper explores the use of LLMs with retrieval-augmented generation (RAG) to obtain threat intelligence by combining real-time information retrieval w...
+
+### [TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework](http://arxiv.org/abs/2511.05385v1)
+*Published: 2025-11-07*  
+**Authors:** Chao Zhang, Yuhao Wang, Derong Xu, Haoxin Zhang, Yuanjie Lyu, Yuhao Chen, Shuochen Liu, Tong Xu, Xiangyu Zhao, Yan Gao, Yao Hu, Enhong Chen
+
+Retrieval-Augmented Generation (RAG) utilizes external knowledge to augment Large Language Models' (LLMs) reliability. For flexibility, agentic RAG employs autonomous, multi-round retrieval and reasoning to resolve queries. Although recent agentic RAG has improved via reinforcement learning, they often incur substantial token overhead from search and reasoning processes. This trade-off prioritizes...
+
+### [Code Review Automation using Retrieval Augmented Generation](http://arxiv.org/abs/2511.05302v1)
+*Published: 2025-11-07*  
+**Authors:** Qianru Meng, Xiao Zhang, Zhaochen Ren, Joost Visser
+
+Code review is essential for maintaining software quality but is labor-intensive. Automated code review generation offers a promising solution to this challenge. Both deep learning-based generative techniques and retrieval-based methods have demonstrated strong performance in this task. However, despite these advancements, there are still some limitations where generated reviews can be either off-...
+
+### [ORCHID: Orchestrated Retrieval-Augmented Classification with Human-in-the-Loop Intelligent Decision-Making for High-Risk Property](http://arxiv.org/abs/2511.04956v1)
+*Published: 2025-11-07*  
+**Authors:** Maria Mahbub, Vanessa Lama, Sanjay Das, Brian Starks, Christopher Polchek, Saffell Silvers, Lauren Deck, Prasanna Balaprakash, Tirthankar Ghosal
+
+High-Risk Property (HRP) classification is critical at U.S. Department of Energy (DOE) sites, where inventories include sensitive and often dual-use equipment. Compliance must track evolving rules designated by various export control policies to make transparent and auditable decisions. Traditional expert-only workflows are time-consuming, backlog-prone, and struggle to keep pace with shifting reg...
+
+### [Search Is Not Retrieval: Decoupling Semantic Matching from Contextual Assembly in RAG](http://arxiv.org/abs/2511.04939v1)
+*Published: 2025-11-07*  
+**Authors:** Harshit Nainwani, Hediyeh Baban
+
+Retrieval systems are essential to contemporary AI pipelines, although most confuse two separate processes: finding relevant information and giving enough context for reasoning. We introduce the Search-Is-Not-Retrieve (SINR) framework, a dual-layer architecture that distinguishes between fine-grained search representations and coarse-grained retrieval contexts. SINR enhances the composability, sca...
+
+### [BudgetMem: Learning Selective Memory Policies for Cost-Efficient Long-Context Processing in Language Models](http://arxiv.org/abs/2511.04919v1)
+*Published: 2025-11-07*  
+**Authors:** Chandra Vamsi Krishna Alla, Harish Naidu Gaddam, Manohar Kommi
+
+Large Language Models (LLMs) face significant computational and memory constraints when processing long contexts, despite growing demand for applications requiring reasoning over extensive documents, multi-session dialogues, and book length texts. While recent advances have extended context windows to 100K-1M tokens, such approaches incur prohibitive costs for resource constrained deployments. We ...
+
+### [DMA: Online RAG Alignment with Human Feedback](http://arxiv.org/abs/2511.04880v1)
+*Published: 2025-11-06*  
+**Authors:** Yu Bai, Yukai Miao, Dawei Wang, Li Chen, Fei Long, Rundi Zhai, Dan Li, Yanyu Ren, Tianfeng Liu, Hongtao Xie, Ce Yang, Xuhui Cai
+
+Retrieval-augmented generation (RAG) systems often rely on static retrieval, limiting adaptation to evolving intent and content drift. We introduce Dynamic Memory Alignment (DMA), an online learning framework that systematically incorporates multi-granularity human feedback to align ranking in interactive settings. DMA organizes document-, list-, and response-level signals into a coherent learning...
 
 ### [BanglaMedQA and BanglaMMedBench: Evaluating Retrieval-Augmented Generation Strategies for Bangla Biomedical Question Answering](http://arxiv.org/abs/2511.04560v1)
 *Published: 2025-11-06*  
@@ -53,232 +95,190 @@ In this study, we explore the fine-tuning of Large Language Models (LLMs) to bet
 
 Retrieval-augmented generation (RAG) enhances large language models (LLMs) with retrieved context but often suffers from downgraded prefill performance as modern applications demand longer and more complex inputs. Existing caching techniques either preserve accuracy with low cache reuse or improve reuse at the cost of degraded reasoning quality. We present RAGBoost, an efficient RAG system that ac...
 
-### [Comparing the Performance of LLMs in RAG-based Question-Answering: A Case Study in Computer Science Literature](http://arxiv.org/abs/2511.03261v1)
-*Published: 2025-11-05*  
-**Authors:** Ranul Dayarathne, Uvini Ranaweera, Upeksha Ganegoda
-
-Retrieval Augmented Generation (RAG) is emerging as a powerful technique to enhance the capabilities of Generative AI models by reducing hallucination. Thus, the increasing prominence of RAG alongside Large Language Models (LLMs) has sparked interest in comparing the performance of different LLMs in question-answering (QA) in diverse domains. This study compares the performance of four open-source...
-
-### [LGM: Enhancing Large Language Models with Conceptual Meta-Relations and Iterative Retrieval](http://arxiv.org/abs/2511.03214v1)
-*Published: 2025-11-05*  
-**Authors:** Wenchang Lei, Ping Zou, Yue Wang, Feng Sun, Lei Zhao
-
-Large language models (LLMs) exhibit strong semantic understanding, yet struggle when user instructions involve ambiguous or conceptually misaligned terms. We propose the Language Graph Model (LGM) to enhance conceptual clarity by extracting meta-relations-inheritance, alias, and composition-from natural language. The model further employs a reflection mechanism to validate these meta-relations. L...
-
-### [Forecast2Anomaly (F2A): Adapting Multivariate Time Series Foundation Models for Anomaly Prediction](http://arxiv.org/abs/2511.03149v1)
-*Published: 2025-11-05*  
-**Authors:** Atif Hassan, Tarun Kumar, Ashish Mishra, Sergey Serebryakov, Satish Kumar Mopur, Phanidhar Koganti, Murthy Chelankuri, Ramanagopal Vogety, Suparna Bhattacharya, Martin Foltin
-
-Forecasting anomalies (anomaly prediction) in multivariate time series from different real-world, dynamic, and complex systems is vital for preempting critical failures, leading to a substantial minimization in operational costs and human labor. Yet, existing methods are limited to specific systems while failing to generalize to evolving anomaly patterns over time. In contrast, pretrained Time Ser...
-
-### [A Proprietary Model-Based Safety Response Framework for AI Agents](http://arxiv.org/abs/2511.03138v1)
-*Published: 2025-11-05*  
-**Authors:** Qi Li, Jianjun Xu, Pingtao Wei, Jiu Li, Peiqiang Zhao, Jiwei Shi, Xuan Zhang, Yanhui Yang, Xiaodong Hui, Peng Xu, Wenqin Shao
-
-With the widespread application of Large Language Models (LLMs), their associated security issues have become increasingly prominent, severely constraining their trustworthy deployment in critical domains. This paper proposes a novel safety response framework designed to systematically safeguard LLMs at both the input and output levels. At the input level, the framework employs a supervised fine-t...
-
-### [Systematizing LLM Persona Design: A Four-Quadrant Technical Taxonomy for AI Companion Applications](http://arxiv.org/abs/2511.02979v1)
-*Published: 2025-11-04*  
-**Authors:** Esther Sun, Zichu Wu
-
-The design and application of LLM-based personas in AI companionship is a rapidly expanding but fragmented field, spanning from virtual emotional companions and game NPCs to embodied functional robots. This diversity in objectives, modality, and technical stacks creates an urgent need for a unified framework. To address this gap, this paper systematizes the field by proposing a Four-Quadrant Techn...
-
-### [Cache Mechanism for Agent RAG Systems](http://arxiv.org/abs/2511.02919v1)
-*Published: 2025-11-04*  
-**Authors:** Shuhang Lin, Zhencan Peng, Lingyao Li, Xiao Lin, Xi Zhu, Yongfeng Zhang
-
-Recent advances in Large Language Model (LLM)-based agents have been propelled by Retrieval-Augmented Generation (RAG), which grants the models access to vast external knowledge bases. Despite RAG's success in improving agent performance, agent-level cache management, particularly constructing, maintaining, and updating a compact, relevant corpus dynamically tailored to each agent's need, remains ...
-
-### [Using Span Queries to Optimize for Cache and Attention Locality](http://arxiv.org/abs/2511.02749v1)
-*Published: 2025-11-04*  
-**Authors:** Paul Castro, Nick Mitchell, Nathan Ordonez, Thomas Parnell, Mudhakar Srivatsa, Antoni Viros i Martin
-
-Clients are evolving beyond chat completion, and now include a variety of innovative inference-time scaling and deep reasoning techniques. At the same time, inference servers remain heavily optimized for chat completion. Prior work has shown that large improvements to KV cache hit rate are possible if inference servers evolve towards these non-chat use cases. However, they offer solutions that are...
-
 ---
 ## 🔍 Retrieval-Augmented Generation
 
-### [Dark Energy Survey Year 3 results: Simulation-based $w$CDM inference from weak lensing and galaxy clustering maps with deep learning. I. Analysis design](http://arxiv.org/abs/2511.04681v1)
-*Published: 2025-11-06*  
-**Authors:** A. Thomsen, J. Bucko, T. Kacprzak, V. Ajani, J. Fluri, A. Refregier, D. Anbajagane, F. J. Castander, A. Ferté, M. Gatti, N. Jeffrey, A. Alarcon, A. Amon, K. Bechtol, M. R. Becker, G. M. Bernstein, A. Campos, A. Carnero Rosell, C. Chang, R. Chen, A. Choi, M. Crocce, C. Davis, J. DeRose, S. Dodelson, C. Doux, K. Eckert, J. Elvin-Poole, S. Everett, P. Fosalba, D. Gruen, I. Harrison, K. Herner, E. M. Huff, M. Jarvis, N. Kuropatkin, P. -F. Leget, N. MacCrann, J. McCullough, J. Myles, A. Navarro-Alsina, S. Pandey, A. Porredon, J. Prat, M. Raveri, M. Rodriguez-Monroy, R. P. Rollins, A. Roodman, E. S. Rykoff, C. Sánchez, L. F. Secco, E. Sheldon, T. Shin, M. A. Troxel, I. Tutusaus, T. N. Varga, N. Weaverdyck, R. H. Wechsler, B. Yanny, B. Yin, Y. Zhang, J. Zuntz, S. Allam, F. Andrade-Oliveira, D. Bacon, J. Blazek, D. Brooks, R. Camilleri, J. Carretero, R. Cawthon, L. N. da Costa, M. E. da Silva Pereira, T. M. Davis, J. De Vicente, S. Desai, P. Doel, J. García-Bellido, G. Gutierrez, S. R. Hinton, D. L. Hollowood, K. Honscheid, D. J. James, K. Kuehn, O. Lahav, S. Lee, J. L. Marshall, J. Mena-Fernández, F. Menanteau, R. Miquel, J. Muir, R. L. C. Ogando, A. A. Plazas Malagón, E. Sanchez, D. Sanchez Cid, I. Sevilla-Noarbe, M. Smith, E. Suchyta, M. E. C. Swanson, D. Thomas, C. To, D. L. Tucker
+### [Quantum Tensor Representation via Circuit Partitioning and Reintegration](http://arxiv.org/abs/2511.05492v1)
+*Published: 2025-11-07*  
+**Authors:** Ziqing Guo, Jan Balewski, Kewen Xiao, Ziwen Pan
 
-Data-driven approaches using deep learning are emerging as powerful techniques to extract non-Gaussian information from cosmological large-scale structure. This work presents the first simulation-based inference (SBI) pipeline that combines weak lensing and galaxy clustering maps in a realistic Dark Energy Survey Year 3 (DES Y3) configuration and serves as preparation for a forthcoming analysis of...
+Quantum computing enables faster computations than clas-sical algorithms through superposition and entanglement. Circuit cutting and knitting are effective techniques for ame-liorating current noisy quantum processing unit (QPUs) er-rors via a divide-and-conquer approach that splits quantum circuits into subcircuits and recombines them using classical post-processing. The development of circuit pa...
 
-### [Tracking and Understanding Object Transformations](http://arxiv.org/abs/2511.04678v1)
-*Published: 2025-11-06*  
-**Authors:** Yihong Sun, Xinyu Yang, Jennifer J. Sun, Bharath Hariharan
+### [Visual Spatial Tuning](http://arxiv.org/abs/2511.05491v1)
+*Published: 2025-11-07*  
+**Authors:** Rui Yang, Ziyu Zhu, Yanwei Li, Jingjia Huang, Shen Yan, Siyuan Zhou, Zhe Liu, Xiangtai Li, Shuangye Li, Wenqian Wang, Yi Lin, Hengshuang Zhao
 
-Real-world objects frequently undergo state transformations. From an apple being cut into pieces to a butterfly emerging from its cocoon, tracking through these changes is important for understanding real-world objects and dynamics. However, existing methods often lose track of the target object after transformation, due to significant changes in object appearance. To address this limitation, we i...
+Capturing spatial relationships from visual inputs is a cornerstone of human-like general intelligence. Several previous studies have tried to enhance the spatial awareness of Vision-Language Models (VLMs) by adding extra expert encoders, which brings extra overhead and usually harms general capabilities. To enhance the spatial ability in general architectures, we introduce Visual Spatial Tuning (...
 
-### [Scalable and Efficient Intra- and Inter-node Interconnection Networks for Post-Exascale Supercomputers and Data centers](http://arxiv.org/abs/2511.04677v1)
-*Published: 2025-11-06*  
-**Authors:** Joaquin Tarraga-Moreno, Daniel Barley, Francisco J. Andujar Munoz, Jesus Escudero-Sahuquillo, Holger Froning, Pedro Javier Garcia, Francisco J. Quiles, Jose Duato
+### [Exact strong zero modes in quantum circuits and spin chains with non-diagonal boundary conditions](http://arxiv.org/abs/2511.05490v1)
+*Published: 2025-11-07*  
+**Authors:** Sascha Gehrmann, Fabian H. L. Essler
 
-The rapid growth of data-intensive applications such as generative AI, scientific simulations, and large-scale analytics is driving modern supercomputers and data centers toward increasingly heterogeneous and tightly integrated architectures. These systems combine powerful CPUs and accelerators with emerging high-bandwidth memory and storage technologies to reduce data movement and improve computa...
+We construct exact strong zero mode operators (ESZM) in integrable quantum circuits and the spin-1/2 XXZ chain for general open boundary conditions, which break the bulk U(1) symmetry of the time evolution operators. We show that the ESZM is localized around one of the boundaries induces infinite boundary coherence times. Finally we prove that the ESZM becomes spatially non-local under the map tha...
 
-### [KGB-evolution: a relativistic $N$-body code for kinetic gravity braiding models](http://arxiv.org/abs/2511.04676v1)
-*Published: 2025-11-06*  
-**Authors:** Ahmad Nouri-Zonoz, Farbod Hassani, Emilio Bellini, Martin Kunz
+### [Algebraic hyperbolicity of subvarieties of homogeneous varieties](http://arxiv.org/abs/2511.05488v1)
+*Published: 2025-11-07*  
+**Authors:** Andy B. Day, Neelarnab Raha
 
-We present KGB-evolution, a relativistic $N$-body simulation code that extends the $k$-evolution code by incorporating an effective field theory parameterization of kinetic gravity braiding, while also including the $k$-essence model as a limiting case. As a first step, we implement the linearized dark energy stress-energy tensor and scalar field equations, providing the groundwork for a future fu...
+We study the algebraic hyperbolicity of certain subvarieties of homogeneous varieties, building on the techniques introduced by Coskun-Riedl, Yeong and Mioranci. This generalizes earlier known results for hypersurfaces to higher codimensions. In particular, we observe that if $X=X_1\cap\cdots\cap X_k$ is a very general complete intersection of degree $d_j$ hypersurfaces $X_j$ in $\mathbb{P}^n$ wit...
 
-### [InfinityStar: Unified Spacetime AutoRegressive Modeling for Visual Generation](http://arxiv.org/abs/2511.04675v1)
-*Published: 2025-11-06*  
-**Authors:** Jinlai Liu, Jian Han, Bin Yan, Hui Wu, Fengda Zhu, Xing Wang, Yi Jiang, Bingyue Peng, Zehuan Yuan
+### [MIMIC-SR-ICD11: A Dataset for Narrative-Based Diagnosis](http://arxiv.org/abs/2511.05485v1)
+*Published: 2025-11-07*  
+**Authors:** Yuexin Wu, Shiqi Wang, Vasile Rus
 
-We introduce InfinityStar, a unified spacetime autoregressive framework for high-resolution image and dynamic video synthesis. Building on the recent success of autoregressive modeling in both vision and language, our purely discrete approach jointly captures spatial and temporal dependencies within a single architecture. This unified design naturally supports a variety of generation tasks such as...
+Disease diagnosis is a central pillar of modern healthcare, enabling early detection and timely intervention for acute conditions while guiding lifestyle adjustments and medication regimens to prevent or slow chronic disease. Self-reports preserve clinically salient signals that templated electronic health record (EHR) documentation often attenuates or omits, especially subtle but consequential de...
 
-### [Cambrian-S: Towards Spatial Supersensing in Video](http://arxiv.org/abs/2511.04670v1)
-*Published: 2025-11-06*  
-**Authors:** Shusheng Yang, Jihan Yang, Pinzhi Huang, Ellis Brown, Zihao Yang, Yue Yu, Shengbang Tong, Zihan Zheng, Yifan Xu, Muhan Wang, Daohan Lu, Rob Fergus, Yann LeCun, Li Fei-Fei, Saining Xie
+### [Non-Gaussian Galaxy Stochasticity and the Noise-Field Formulation](http://arxiv.org/abs/2511.05484v1)
+*Published: 2025-11-07*  
+**Authors:** Henrique Rubira, Fabian Schmidt
 
-We argue that progress in true multimodal intelligence calls for a shift from reactive, task-driven systems and brute-force long context towards a broader paradigm of supersensing. We frame spatial supersensing as four stages beyond linguistic-only understanding: semantic perception (naming what is seen), streaming event cognition (maintaining memory across continuous experiences), implicit 3D spa...
+We revisit the stochastic, or noise, contributions to the galaxy density field within the effective field theory (EFT) of large-scale structure. Starting from the general, all-order expression of the EFT partition function, we elucidate how the stochastic contributions can be described by local nonlinear couplings of a single Gaussian noise field. We introduce an alternative formulation of the par...
 
-### [Quantum Search With Generalized Wildcards](http://arxiv.org/abs/2511.04669v1)
-*Published: 2025-11-06*  
-**Authors:** Arjan Cornelissen, Nikhil S. Mande, Subhasree Patro, Nithish Raja, Swagato Sanyal
+### [SoilX: Calibration-Free Comprehensive Soil Sensing Through Contrastive Cross-Component Learning](http://arxiv.org/abs/2511.05482v1)
+*Published: 2025-11-07*  
+**Authors:** Kang Yang, Yuanlin Yang, Yuning Chen, Sikai Yang, Xinyu Zhang, Wan Du
 
-In the search with wildcards problem [Ambainis, Montanaro, Quantum Inf.~Comput.'14], one's goal is to learn an unknown bit-string $x \in \{-1,1\}^n$. An algorithm may, at unit cost, test equality of any subset of the hidden string with a string of its choice. Ambainis and Montanaro showed a quantum algorithm of cost $O(\sqrt{n} \log n)$ and a near-matching lower bound of $\Omega(\sqrt{n})$. Belovs...
+Precision agriculture demands continuous and accurate monitoring of soil moisture (M) and key macronutrients, including nitrogen (N), phosphorus (P), and potassium (K), to optimize yields and conserve resources. Wireless soil sensing has been explored to measure these four components; however, current solutions require recalibration (i.e., retraining the data processing model) to handle variations...
 
-### [SIMS-V: Simulated Instruction-Tuning for Spatial Video Understanding](http://arxiv.org/abs/2511.04668v1)
-*Published: 2025-11-06*  
-**Authors:** Ellis Brown, Arijit Ray, Ranjay Krishna, Ross Girshick, Rob Fergus, Saining Xie
+### [Further improvements to stabilizer simulation theory: classical rewriting of CSS-preserving stabilizer circuits, quadratic form expansions of stabilizer operations, and framed hidden variable models](http://arxiv.org/abs/2511.05478v1)
+*Published: 2025-11-07*  
+**Authors:** Vsevolod I. Yashin, Evgeniy O. Kiktenko, Vladimir V. Yatsulevich, Aleksey K. Fedorov
 
-Despite impressive high-level video comprehension, multimodal language models struggle with spatial reasoning across time and space. While current spatial training approaches rely on real-world video data, obtaining diverse footage with precise spatial annotations remains a bottleneck. To alleviate this bottleneck, we present SIMS-V -- a systematic data-generation framework that leverages the priv...
+Simulation of stabilizer circuits is a well-studied problem in quantum information processing, with a number of highly optimized algorithms available. Yet, we argue that further improvements can arise from the theoretical structure of stabilizer operations themselves. We focus on the subclass of stabilizer circuits composed of Calderbank-Shor-Steane (CSS)-preserving stabilizer operations, which na...
 
-### [Forgetting is Everywhere](http://arxiv.org/abs/2511.04666v1)
-*Published: 2025-11-06*  
-**Authors:** Ben Sanati, Thomas L. Lee, Trevor McInroe, Aidan Scannell, Nikolay Malkin, David Abel, Amos Storkey
+### [Chemical Evolution and Kilonova Implications of Post-Merger Accretion Disk Winds](http://arxiv.org/abs/2511.05473v1)
+*Published: 2025-11-07*  
+**Authors:** Agnieszka Janiuk, Joseph Saji, Gerardo Urrutia
 
-A fundamental challenge in developing general learning algorithms is their tendency to forget past knowledge when adapting to new data. Addressing this problem requires a principled understanding of forgetting; yet, despite decades of study, no unified definition has emerged that provides insights into the underlying dynamics of learning. We propose an algorithm- and task-agnostic theory that char...
+Several gamma ray bursts have recently been associated with a kilonova emission. We study the mechanisms which could account for this effect, by means of radioactive decay of elements synthesized in accretion disk wind. We model the r-process nucleosynthesis in the accretion disk wind system, asscociated with the prompt GRB phase. We compute the time-dependent GR MHD evolution of a GRB central eng...
 
-### [Intermittency in Collisionless Large-Amplitude Turbulence](http://arxiv.org/abs/2511.04663v1)
-*Published: 2025-11-06*  
-**Authors:** Ryan Golant, Luca Comisso, Philipp Kempski, Lorenzo Sironi
+### [The Cost of Optimally Acquired Information](http://arxiv.org/abs/2511.05466v1)
+*Published: 2025-11-07*  
+**Authors:** Alexander W. Bloedel, Weijie Zhong
 
-Large-amplitude turbulence -- characterized by a fluctuating magnetic field component, $\delta B$, that is stronger than the mean component, $B_0$ -- is generically intermittent, populated with intense localized structures such as sharp field-line bends and rapid field reversals. Recent MHD simulations suggest that these structures play an important role in particle transport and acceleration; how...
+This paper introduces a framework for modeling the cost of information acquisition based on the principle of cost-minimization. We study the reduced-form \emph{indirect cost} of information generated by the sequential minimization of a primitive \emph{direct cost} function. Indirect cost functions: (i) are characterized by a novel recursive property, \emph{sequential learning-proofness}; (ii) prov...
 
-### [$\texttt{unimpeded}$: A Public Grid of Nested Sampling Chains for Cosmological Model Comparison and Tension Analysis](http://arxiv.org/abs/2511.04661v1)
-*Published: 2025-11-06*  
-**Authors:** Dily Duan Yi Ong, Will Handley
+### [The Potential of Copernicus Satellites for Disaster Response: Retrieving Building Damage from Sentinel-1 and Sentinel-2](http://arxiv.org/abs/2511.05461v1)
+*Published: 2025-11-07*  
+**Authors:** Olivier Dietrich, Merlin Alfredsson, Emilia Arens, Nando Metzger, Torben Peters, Linus Scheibenreif, Jan Dirk Wegner, Konrad Schindler
 
-Bayesian inference is central to modern cosmology, yet comprehensive model comparison and tension quantification remain computationally prohibitive for many researchers. To address this, we release $\texttt{unimpeded}$, a publicly available Python library and data repository providing pre-computed nested sampling and MCMC chains. We apply this resource to conduct a systematic analysis across a gri...
+Natural disasters demand rapid damage assessment to guide humanitarian response. Here, we investigate whether medium-resolution Earth observation images from the Copernicus program can support building damage assessment, complementing very-high resolution imagery with often limited availability. We introduce xBD-S12, a dataset of 10,315 pre- and post-disaster image pairs from both Sentinel-1 and S...
 
-### [Finite time blow-up for a multi-dimensional model of the Kiselev-Sarsam equation](http://arxiv.org/abs/2511.04660v1)
-*Published: 2025-11-06*  
-**Authors:** Wanwan Zhang
+### [Parameter-Efficient Conditioning for Material Generalization in Graph-Based Simulators](http://arxiv.org/abs/2511.05456v1)
+*Published: 2025-11-07*  
+**Authors:** Naveen Raj Manoharan, Hassan Iqbal, Krishna Kumar
 
-In this paper, we propose and study a multi-dimensional nonlocal active scalar equation of the form \begin{eqnarray*} \partial_t\rho+g\mathcal{R}_a\rho\cdot \nabla\rho= 0,~\rho(\cdot,0)=\rho_{0}, \end{eqnarray*} where the transform $\mathcal{R}_a$ is defined by \begin{eqnarray*} \mathcal{R}_af(x)=\frac{\Gamma(\frac{n+1}{2})}{\pi^{\frac{n+1}{2}}}P.V.\int\limits_{\mathbb{R}^n}\Big(\frac{x-y}{|x-y|^{...
+Graph network-based simulators (GNS) have demonstrated strong potential for learning particle-based physics (such as fluids, deformable solids, and granular flows) while generalizing to unseen geometries due to their inherent inductive biases. However, existing models are typically trained for a single material type and fail to generalize across distinct constitutive behaviors, limiting their appl...
 
-### [Photodetection of Squeezed Light: a Whittaker-Shannon Analysis](http://arxiv.org/abs/2511.04657v1)
-*Published: 2025-11-06*  
-**Authors:** Jasper Kranias, Christian Drago, Colin Vendromin, J. E. Sipe
+### [Development and Characterization of MPGD-based Transition Radiation Detectors](http://arxiv.org/abs/2511.05453v1)
+*Published: 2025-11-07*  
+**Authors:** Lauren Kasper, Alexander Austregesilo, Fernando Barbosa, Cody Dickover, Sergey Furletov, Yulia Furletova, Kondo Gnanvo, Senta Vicki Greene, Lubomir Pentchev, Sourav Tarafdar, Julia Velkovska
 
-The Whittaker-Shannon decomposition provides a temporally localized description of squeezed light, making it applicable in the CW limit and leading to a definition of squeezing strength based on the number of photon pairs at a time. We show examples of its usefulness by calculating quadrature variance in a homodyne detection scheme, coincidence detection probabilities in the continuous-wave limit,...
+Transition Radiation Detectors (TRDs) are useful for electron identification and hadron suppression in high energy nuclear and particle physics experiments. Conventional wire-chamber TRDs face operational limitations due to space charge effects, motivating the replacement of the amplification stage with MicroPattern Gaseous Detectors (MPGDs). In this work, we explore different MPGD technologies - ...
 
-### [Arithmetic Geometric Model for the Renormalisation of Bi-critical Irrationally Indifferent Attractors](http://arxiv.org/abs/2511.04656v1)
-*Published: 2025-11-06*  
-**Authors:** Jocelyn Finbar Russell
+### [Stability of Homogeneous minimal hypersurfaces in the Page space and $Y^{p,q}$ Sasaki-Einstein manifolds](http://arxiv.org/abs/2511.05447v1)
+*Published: 2025-11-07*  
+**Authors:** Natalia Gherghel, Hari K. Kunduri
 
-In this paper we introduce an entirely new toy model for the dynamical system generated by the post-critical set of a special class of "bi-critical" holomorphic maps. These maps have an irrationally indifferent fixed point together with two critical points that "interact" in a non-trivial way. The model depends entirely on the arithmetic features of a special pair of numbers. This study has genera...
+We investigate the stability of homogeneous minimal submanifolds in two families of closed Einstein manifolds, the Page space $\mathbb{CP}^2 \# \overline{\mathbb{CP}^2}$ and the Sasaki-Einstein spaces $Y^{p,q}$, which are equipped with cohomogeneity-one Einstein metrics admitting the isometric action of $SU(2) \times U(1)$ and $U(1) \times U(1) \times SU(2)$ respectively. We determine all the homo...
 
-### [Logit-Entropy Adaptive Stopping Heuristic for Efficient Chain-of-Thought Reasoning](http://arxiv.org/abs/2511.04654v1)
-*Published: 2025-11-06*  
-**Authors:** Mohammad Atif Quamar, Mohammad Areeb
+### [D-Dimensional Modular Assembly of Higher-Derivative Four-Point Contact Amplitudes Involving Fermions](http://arxiv.org/abs/2511.05441v1)
+*Published: 2025-11-07*  
+**Authors:** John Joseph M. Carrasco, Sai Sasank Chava, Alex Edison, Aslan Seifi
 
-Chain-of-Thought (CoT) prompting is a key technique for enabling complex reasoning in large language models. However, generating full, fixed-length rationales is computationally wasteful, inflating both token usage and latency. We introduce LEASH: Logit-Entropy Adaptive Stopping Heuristic, a training-free decoding algorithm that adaptively halts rationale generation. LEASH monitors two intrinsic s...
+We present a novel robust framework for systematically constructing D-dimensional four-point higher-derivative contact amplitudes. Our modular block ("LEGO"-like) approach builds amplitudes directly from manifestly gauge-invariant kinematic blocks, color-weight factors, and scalar Mandelstam polynomials. Symmetries (Bose/Fermi) are imposed algebraically, acting as filters on combinations of compat...
 
 ---
 ## 🔍 Computer Vision
 
-### [Carousel: A High-Resolution Dataset for Multi-Target Automatic Image Cropping](http://arxiv.org/abs/2511.04680v1)
-*Published: 2025-11-06*  
-**Authors:** Rafe Loya, Andrew Hamara, Benjamin Estell, Benjamin Kilpatrick, Andrew C. Freeman
+### [Quantum Tensor Representation via Circuit Partitioning and Reintegration](http://arxiv.org/abs/2511.05492v1)
+*Published: 2025-11-07*  
+**Authors:** Ziqing Guo, Jan Balewski, Kewen Xiao, Ziwen Pan
 
-Automatic image cropping is a method for maximizing the human-perceived quality of cropped regions in photographs. Although several works have proposed techniques for producing singular crops, little work has addressed the problem of producing multiple, distinct crops with aesthetic appeal. In this paper, we motivate the problem with a discussion on modern social media applications, introduce a da...
+Quantum computing enables faster computations than clas-sical algorithms through superposition and entanglement. Circuit cutting and knitting are effective techniques for ame-liorating current noisy quantum processing unit (QPUs) er-rors via a divide-and-conquer approach that splits quantum circuits into subcircuits and recombines them using classical post-processing. The development of circuit pa...
 
-### [GentleHumanoid: Learning Upper-body Compliance for Contact-rich Human and Object Interaction](http://arxiv.org/abs/2511.04679v1)
-*Published: 2025-11-06*  
-**Authors:** Qingzhou Lu, Yao Feng, Baiyu Shi, Michael Piseno, Zhenan Bao, C. Karen Liu
+### [Visual Spatial Tuning](http://arxiv.org/abs/2511.05491v1)
+*Published: 2025-11-07*  
+**Authors:** Rui Yang, Ziyu Zhu, Yanwei Li, Jingjia Huang, Shen Yan, Siyuan Zhou, Zhe Liu, Xiangtai Li, Shuangye Li, Wenqian Wang, Yi Lin, Hengshuang Zhao
 
-Humanoid robots are expected to operate in human-centered environments where safe and natural physical interaction is essential. However, most recent reinforcement learning (RL) policies emphasize rigid tracking and suppress external forces. Existing impedance-augmented approaches are typically restricted to base or end-effector control and focus on resisting extreme forces rather than enabling co...
+Capturing spatial relationships from visual inputs is a cornerstone of human-like general intelligence. Several previous studies have tried to enhance the spatial awareness of Vision-Language Models (VLMs) by adding extra expert encoders, which brings extra overhead and usually harms general capabilities. To enhance the spatial ability in general architectures, we introduce Visual Spatial Tuning (...
 
-### [Tracking and Understanding Object Transformations](http://arxiv.org/abs/2511.04678v1)
-*Published: 2025-11-06*  
-**Authors:** Yihong Sun, Xinyu Yang, Jennifer J. Sun, Bharath Hariharan
+### [TimeSearch-R: Adaptive Temporal Search for Long-Form Video Understanding via Self-Verification Reinforcement Learning](http://arxiv.org/abs/2511.05489v1)
+*Published: 2025-11-07*  
+**Authors:** Junwen Pan, Qizhe Zhang, Rui Zhang, Ming Lu, Xin Wan, Yuan Zhang, Chang Liu, Qi She
 
-Real-world objects frequently undergo state transformations. From an apple being cut into pieces to a butterfly emerging from its cocoon, tracking through these changes is important for understanding real-world objects and dynamics. However, existing methods often lose track of the target object after transformation, due to significant changes in object appearance. To address this limitation, we i...
+Temporal search aims to identify a minimal set of relevant frames from tens of thousands based on a given query, serving as a foundation for accurate long-form video understanding. Existing works attempt to progressively narrow the search space. However, these approaches typically rely on a hand-crafted search process, lacking end-to-end optimization for learning optimal search strategies. In this...
 
-### [Scalable and Efficient Intra- and Inter-node Interconnection Networks for Post-Exascale Supercomputers and Data centers](http://arxiv.org/abs/2511.04677v1)
-*Published: 2025-11-06*  
-**Authors:** Joaquin Tarraga-Moreno, Daniel Barley, Francisco J. Andujar Munoz, Jesus Escudero-Sahuquillo, Holger Froning, Pedro Javier Garcia, Francisco J. Quiles, Jose Duato
+### [MIMIC-SR-ICD11: A Dataset for Narrative-Based Diagnosis](http://arxiv.org/abs/2511.05485v1)
+*Published: 2025-11-07*  
+**Authors:** Yuexin Wu, Shiqi Wang, Vasile Rus
 
-The rapid growth of data-intensive applications such as generative AI, scientific simulations, and large-scale analytics is driving modern supercomputers and data centers toward increasingly heterogeneous and tightly integrated architectures. These systems combine powerful CPUs and accelerators with emerging high-bandwidth memory and storage technologies to reduce data movement and improve computa...
+Disease diagnosis is a central pillar of modern healthcare, enabling early detection and timely intervention for acute conditions while guiding lifestyle adjustments and medication regimens to prevent or slow chronic disease. Self-reports preserve clinically salient signals that templated electronic health record (EHR) documentation often attenuates or omits, especially subtle but consequential de...
 
-### [KGB-evolution: a relativistic $N$-body code for kinetic gravity braiding models](http://arxiv.org/abs/2511.04676v1)
-*Published: 2025-11-06*  
-**Authors:** Ahmad Nouri-Zonoz, Farbod Hassani, Emilio Bellini, Martin Kunz
+### [Radiative corrections to superallowed beta decays at $\mathcal O(α^2 Z)$](http://arxiv.org/abs/2511.05481v1)
+*Published: 2025-11-07*  
+**Authors:** Òscar L. Crosas, Emanuele Mereghetti
 
-We present KGB-evolution, a relativistic $N$-body simulation code that extends the $k$-evolution code by incorporating an effective field theory parameterization of kinetic gravity braiding, while also including the $k$-essence model as a limiting case. As a first step, we implement the linearized dark energy stress-energy tensor and scalar field equations, providing the groundwork for a future fu...
+We compute $\mathcal O(\alpha^2 Z)$ radiative corrections to superallowed $\beta$ decays with a heavy-particle effective field theory that systematically describes the interactions of low-energy ultrasoft photons with nuclei. We calculate two-loop virtual and one-loop real-virtual amplitudes by reducing the Feynman integrals to a set of master integrals, which we solve analytically using a variety...
 
-### [InfinityStar: Unified Spacetime AutoRegressive Modeling for Visual Generation](http://arxiv.org/abs/2511.04675v1)
-*Published: 2025-11-06*  
-**Authors:** Jinlai Liu, Jian Han, Bin Yan, Hui Wu, Fengda Zhu, Xing Wang, Yi Jiang, Bingyue Peng, Zehuan Yuan
+### [On Flow Matching KL Divergence](http://arxiv.org/abs/2511.05480v1)
+*Published: 2025-11-07*  
+**Authors:** Maojiang Su, Jerry Yao-Chieh Hu, Sophia Pi, Han Liu
 
-We introduce InfinityStar, a unified spacetime autoregressive framework for high-resolution image and dynamic video synthesis. Building on the recent success of autoregressive modeling in both vision and language, our purely discrete approach jointly captures spatial and temporal dependencies within a single architecture. This unified design naturally supports a variety of generation tasks such as...
+We derive a deterministic, non-asymptotic upper bound on the Kullback-Leibler (KL) divergence of the flow-matching distribution approximation. In particular, if the $L_2$ flow-matching loss is bounded by $\epsilon^2 > 0$, then the KL divergence between the true data distribution and the estimated distribution is bounded by $A_1 \epsilon + A_2 \epsilon^2$. Here, the constants $A_1$ and $A_2$ depend...
 
-### [X-Diffusion: Training Diffusion Policies on Cross-Embodiment Human Demonstrations](http://arxiv.org/abs/2511.04671v1)
-*Published: 2025-11-06*  
-**Authors:** Maximus A. Pace, Prithwish Dan, Chuanruo Ning, Atiksh Bhardwaj, Audrey Du, Edward W. Duan, Wei-Chiu Ma, Kushal Kedia
+### [FPGA-Based Real-Time Waveform Classification](http://arxiv.org/abs/2511.05479v1)
+*Published: 2025-11-07*  
+**Authors:** Alperen Aksoy, Ilja Bekman, Chimezie Eguzo, Christian Grewing, Andre Zambanini
 
-Human videos can be recorded quickly and at scale, making them an appealing source of training data for robot learning. However, humans and robots differ fundamentally in embodiment, resulting in mismatched action execution. Direct kinematic retargeting of human hand motion can therefore produce actions that are physically infeasible for robots. Despite these low-level differences, human demonstra...
+For self-triggered readout of SiPM sum signals, a waveform classification can aid a simple threshold trigger to reliably extract calorimetric particle hit information online at an early stage and thus reduce the volume of transmitted data. Typically, the ADC data acquisition is based on FPGAs for edge data processing. In this study, we consider look-up-table-based neural-networks and address chall...
 
-### [Cambrian-S: Towards Spatial Supersensing in Video](http://arxiv.org/abs/2511.04670v1)
-*Published: 2025-11-06*  
-**Authors:** Shusheng Yang, Jihan Yang, Pinzhi Huang, Ellis Brown, Zihao Yang, Yue Yu, Shengbang Tong, Zihan Zheng, Yifan Xu, Muhan Wang, Daohan Lu, Rob Fergus, Yann LeCun, Li Fei-Fei, Saining Xie
+### [Further improvements to stabilizer simulation theory: classical rewriting of CSS-preserving stabilizer circuits, quadratic form expansions of stabilizer operations, and framed hidden variable models](http://arxiv.org/abs/2511.05478v1)
+*Published: 2025-11-07*  
+**Authors:** Vsevolod I. Yashin, Evgeniy O. Kiktenko, Vladimir V. Yatsulevich, Aleksey K. Fedorov
 
-We argue that progress in true multimodal intelligence calls for a shift from reactive, task-driven systems and brute-force long context towards a broader paradigm of supersensing. We frame spatial supersensing as four stages beyond linguistic-only understanding: semantic perception (naming what is seen), streaming event cognition (maintaining memory across continuous experiences), implicit 3D spa...
+Simulation of stabilizer circuits is a well-studied problem in quantum information processing, with a number of highly optimized algorithms available. Yet, we argue that further improvements can arise from the theoretical structure of stabilizer operations themselves. We focus on the subclass of stabilizer circuits composed of Calderbank-Shor-Steane (CSS)-preserving stabilizer operations, which na...
 
-### [Quantum Search With Generalized Wildcards](http://arxiv.org/abs/2511.04669v1)
-*Published: 2025-11-06*  
-**Authors:** Arjan Cornelissen, Nikhil S. Mande, Subhasree Patro, Nithish Raja, Swagato Sanyal
+### [GroupKAN: Rethinking Nonlinearity with Grouped Spline-based KAN Modeling for Efficient Medical Image Segmentation](http://arxiv.org/abs/2511.05477v1)
+*Published: 2025-11-07*  
+**Authors:** Guojie Li, Anwar P. P. Abdul Majeed, Muhammad Ateeq, Anh Nguyen, Fan Zhang
 
-In the search with wildcards problem [Ambainis, Montanaro, Quantum Inf.~Comput.'14], one's goal is to learn an unknown bit-string $x \in \{-1,1\}^n$. An algorithm may, at unit cost, test equality of any subset of the hidden string with a string of its choice. Ambainis and Montanaro showed a quantum algorithm of cost $O(\sqrt{n} \log n)$ and a near-matching lower bound of $\Omega(\sqrt{n})$. Belovs...
+Medical image segmentation requires models that are accurate, lightweight, and interpretable. Convolutional architectures lack adaptive nonlinearity and transparent decision-making, whereas Transformer architectures are hindered by quadratic complexity and opaque attention mechanisms. U-KAN addresses these challenges using Kolmogorov-Arnold Networks, achieving higher accuracy than both convolution...
 
-### [SIMS-V: Simulated Instruction-Tuning for Spatial Video Understanding](http://arxiv.org/abs/2511.04668v1)
-*Published: 2025-11-06*  
-**Authors:** Ellis Brown, Arijit Ray, Ranjay Krishna, Ross Girshick, Rob Fergus, Saining Xie
+### [A Metamorphic Testing Perspective on Knowledge Distillation for Language Models of Code: Does the Student Deeply Mimic the Teacher?](http://arxiv.org/abs/2511.05476v1)
+*Published: 2025-11-07*  
+**Authors:** Md. Abdul Awal, Mrigank Rochan, Chanchal K. Roy
 
-Despite impressive high-level video comprehension, multimodal language models struggle with spatial reasoning across time and space. While current spatial training approaches rely on real-world video data, obtaining diverse footage with precise spatial annotations remains a bottleneck. To alleviate this bottleneck, we present SIMS-V -- a systematic data-generation framework that leverages the priv...
+Transformer-based language models of code have achieved state-of-the-art performance across a wide range of software analytics tasks, but their practical deployment remains limited due to high computational costs, slow inference speeds, and significant environmental impact. To address these challenges, recent research has increasingly explored knowledge distillation as a method for compressing a l...
 
-### [Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions](http://arxiv.org/abs/2511.04665v1)
-*Published: 2025-11-06*  
-**Authors:** Kaifeng Zhang, Shuo Sha, Hanxiao Jiang, Matthew Loper, Hyunjong Song, Guangyan Cai, Zhuo Xu, Xiaochen Hu, Changxi Zheng, Yunzhu Li
+### [AI Literacy Assessment Revisited: A Task-Oriented Approach Aligned with Real-world Occupations](http://arxiv.org/abs/2511.05475v1)
+*Published: 2025-11-07*  
+**Authors:** Christopher Bogart, Aparna Warrier, Arav Agarwal, Ross Higashi, Yufan Zhang, Jesse Flot, Jaromir Savelka, Heather Burte, Majd Sakr
 
-Robotic manipulation policies are advancing rapidly, but their direct evaluation in the real world remains costly, time-consuming, and difficult to reproduce, particularly for tasks involving deformable objects. Simulation provides a scalable and systematic alternative, yet existing simulators often fail to capture the coupled visual and physical complexity of soft-body interactions. We present a ...
+As artificial intelligence (AI) systems become ubiquitous in professional contexts, there is an urgent need to equip workers, often with backgrounds outside of STEM, with the skills to use these tools effectively as well as responsibly, that is, to be AI literate. However, prevailing definitions and therefore assessments of AI literacy often emphasize foundational technical knowledge, such as prog...
 
-### [SAFe-Copilot: Unified Shared Autonomy Framework](http://arxiv.org/abs/2511.04664v1)
-*Published: 2025-11-06*  
-**Authors:** Phat Nguyen, Erfan Aasi, Shiva Sreeram, Guy Rosman, Andrew Silva, Sertac Karaman, Daniela Rus
+### [Semantic-Guided Natural Language and Visual Fusion for Cross-Modal Interaction Based on Tiny Object Detection](http://arxiv.org/abs/2511.05474v1)
+*Published: 2025-11-07*  
+**Authors:** Xian-Hong Huang, Hui-Kai Su, Chi-Chia Sun, Jun-Wei Hsieh
 
-Autonomous driving systems remain brittle in rare, ambiguous, and out-of-distribution scenarios, where human driver succeed through contextual reasoning. Shared autonomy has emerged as a promising approach to mitigate such failures by incorporating human input when autonomy is uncertain. However, most existing methods restrict arbitration to low-level trajectories, which represent only geometric p...
+This paper introduces a cutting-edge approach to cross-modal interaction for tiny object detection by combining semantic-guided natural language processing with advanced visual recognition backbones. The proposed method integrates the BERT language model with the CNN-based Parallel Residual Bi-Fusion Feature Pyramid Network (PRB-FPN-Net), incorporating innovative backbone architectures such as ELA...
 
-### [VeriCoT: Neuro-symbolic Chain-of-Thought Validation via Logical Consistency Checks](http://arxiv.org/abs/2511.04662v1)
-*Published: 2025-11-06*  
-**Authors:** Yu Feng, Nathaniel Weir, Kaj Bostrom, Sam Bayless, Darion Cassel, Sapana Chaudhary, Benjamin Kiesl-Reiter, Huzefa Rangwala
+### [Chemical Evolution and Kilonova Implications of Post-Merger Accretion Disk Winds](http://arxiv.org/abs/2511.05473v1)
+*Published: 2025-11-07*  
+**Authors:** Agnieszka Janiuk, Joseph Saji, Gerardo Urrutia
 
-LLMs can perform multi-step reasoning through Chain-of-Thought (CoT), but they cannot reliably verify their own logic. Even when they reach correct answers, the underlying reasoning may be flawed, undermining trust in high-stakes scenarios. To mitigate this issue, we introduce VeriCoT, a neuro-symbolic method that extracts and verifies formal logical arguments from CoT reasoning. VeriCoT formalize...
+Several gamma ray bursts have recently been associated with a kilonova emission. We study the mechanisms which could account for this effect, by means of radioactive decay of elements synthesized in accretion disk wind. We model the r-process nucleosynthesis in the accretion disk wind system, asscociated with the prompt GRB phase. We compute the time-dependent GR MHD evolution of a GRB central eng...
 
-### [$\texttt{unimpeded}$: A Public Grid of Nested Sampling Chains for Cosmological Model Comparison and Tension Analysis](http://arxiv.org/abs/2511.04661v1)
-*Published: 2025-11-06*  
+### [$\texttt{unimpeded}$: A Public Nested Sampling Database for Bayesian Cosmology](http://arxiv.org/abs/2511.05470v1)
+*Published: 2025-11-07*  
 **Authors:** Dily Duan Yi Ong, Will Handley
 
-Bayesian inference is central to modern cosmology, yet comprehensive model comparison and tension quantification remain computationally prohibitive for many researchers. To address this, we release $\texttt{unimpeded}$, a publicly available Python library and data repository providing pre-computed nested sampling and MCMC chains. We apply this resource to conduct a systematic analysis across a gri...
+Bayesian inference is central to modern cosmology. While parameter estimation is achievable with unnormalised posteriors traditionally obtained via MCMC methods, comprehensive model comparison and tension quantification require Bayesian evidences and normalised posteriors, which remain computationally prohibitive for many researchers. To address this, we present $\texttt{unimpeded}$, a publicly av...
 
-### [Benchmark Designers Should "Train on the Test Set" to Expose Exploitable Non-Visual Shortcuts](http://arxiv.org/abs/2511.04655v1)
-*Published: 2025-11-06*  
-**Authors:** Ellis Brown, Jihan Yang, Shusheng Yang, Rob Fergus, Saining Xie
+### [EventFlow: Real-Time Neuromorphic Event-Driven Classification of Two-Phase Boiling Flow Regimes](http://arxiv.org/abs/2511.05467v1)
+*Published: 2025-11-07*  
+**Authors:** Sanghyeon Chang, Srikar Arani, Nishant Sai Nuthalapati, Youngjoon Suh, Nicholas Choi, Siavash Khodakarami, Md Rakibul Hasan Roni, Nenad Miljkovic, Aparna Chandramowlishwaran, Yoonjin Won
 
-Robust benchmarks are crucial for evaluating Multimodal Large Language Models (MLLMs). Yet we find that models can ace many multimodal benchmarks without strong visual understanding, instead exploiting biases, linguistic priors, and superficial patterns. This is especially problematic for vision-centric benchmarks that are meant to require visual inputs. We adopt a diagnostic principle for benchma...
+Flow boiling is an efficient heat transfer mechanism capable of dissipating high heat loads with minimal temperature variation, making it an ideal thermal management method. However, sudden shifts between flow regimes can disrupt thermal performance and system reliability, highlighting the need for accurate and low-latency real-time monitoring. Conventional optical imaging methods are limited by h...
 
 ---
