@@ -1,6 +1,6 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-10
+**Last update:** 2025-11-11
 
 ---
 ## 🔍 RAG
@@ -110,11 +110,11 @@ Quantum computing enables faster computations than clas-sical algorithms through
 
 Capturing spatial relationships from visual inputs is a cornerstone of human-like general intelligence. Several previous studies have tried to enhance the spatial awareness of Vision-Language Models (VLMs) by adding extra expert encoders, which brings extra overhead and usually harms general capabilities. To enhance the spatial ability in general architectures, we introduce Visual Spatial Tuning (...
 
-### [Exact strong zero modes in quantum circuits and spin chains with non-diagonal boundary conditions](http://arxiv.org/abs/2511.05490v1)
+### [Exact strong zero modes in quantum circuits and spin chains with non-diagonal boundary conditions](http://arxiv.org/abs/2511.05490v2)
 *Published: 2025-11-07*  
 **Authors:** Sascha Gehrmann, Fabian H. L. Essler
 
-We construct exact strong zero mode operators (ESZM) in integrable quantum circuits and the spin-1/2 XXZ chain for general open boundary conditions, which break the bulk U(1) symmetry of the time evolution operators. We show that the ESZM is localized around one of the boundaries induces infinite boundary coherence times. Finally we prove that the ESZM becomes spatially non-local under the map tha...
+We construct exact strong zero mode operators (ESZM) in integrable quantum circuits and the spin-1/2 XXZ chain for general open boundary conditions, which break the bulk U(1) symmetry of the time evolution operators. We show that the ESZM is localized around one of the boundaries and induces infinite boundary coherence times. Finally, we prove that the ESZM becomes spatially non-local under the ma...
 
 ### [Algebraic hyperbolicity of subvarieties of homogeneous varieties](http://arxiv.org/abs/2511.05488v1)
 *Published: 2025-11-07*  

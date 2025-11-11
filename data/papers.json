@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_update": "2025-11-10T03:23:28Z",
+    "last_update": "2025-11-11T03:18:05Z",
     "keywords": [
       "RAG",
       "Retrieval-Augmented Generation",
@@ -269,8 +269,8 @@
           "Fabian H. L. Essler"
         ],
         "published": "2025-11-07",
-        "link": "http://arxiv.org/abs/2511.05490v1",
-        "summary": "We construct exact strong zero mode operators (ESZM) in integrable quantum circuits and the spin-1/2 XXZ chain for general open boundary conditions, which break the bulk U(1) symmetry of the time evolution operators. We show that the ESZM is localized around one of the boundaries induces infinite boundary coherence times. Finally we prove that the ESZM becomes spatially non-local under the map tha..."
+        "link": "http://arxiv.org/abs/2511.05490v2",
+        "summary": "We construct exact strong zero mode operators (ESZM) in integrable quantum circuits and the spin-1/2 XXZ chain for general open boundary conditions, which break the bulk U(1) symmetry of the time evolution operators. We show that the ESZM is localized around one of the boundaries and induces infinite boundary coherence times. Finally, we prove that the ESZM becomes spatially non-local under the ma..."
       },
       {
         "title": "Algebraic hyperbolicity of subvarieties of homogeneous varieties",
