@@ -1,6 +1,6 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-13
+**Last update:** 2025-11-14
 
 ---
 ## 🔍 RAG
@@ -77,12 +77,6 @@ Regulatory compliance in the pharmaceutical industry entails navigating through 
 
 Retrieval-Augmented Generation (RAG) systems often struggle to handle multi-hop question-answering tasks accurately due to irrelevant context retrieval and limited complex reasoning capabilities. We introduce Collab-RAG, a collaborative training framework that leverages mutual enhancement between a white-box small language model (SLM) and a blackbox large language model (LLM) for RAG. Specifically...
 
-### [Vendi-RAG: Adaptively Trading-Off Diversity And Quality Significantly Improves Retrieval Augmented Generation With LLMs](http://arxiv.org/abs/2502.11228v2)
-*Published: 2025-02-16*  
-**Authors:** Mohammad Reza Rezaei, Adji Bousso Dieng
-
-Retrieval-augmented generation (RAG) enhances large language models (LLMs) for domain-specific question-answering (QA) tasks by leveraging external knowledge sources. However, traditional RAG systems primarily focus on relevance-based retrieval and often struggle with redundancy, especially when reasoning requires connecting information from multiple sources. This paper introduces Vendi-RAG, a fra...
-
 ### [Auto-RAG: Autonomous Retrieval-Augmented Generation for Large Language Models](http://arxiv.org/abs/2411.19443v1)
 *Published: 2024-11-29*  
 **Authors:** Tian Yu, Shaolei Zhang, Yang Feng
@@ -94,6 +88,12 @@ Iterative retrieval refers to the process in which the model continuously querie
 **Authors:** Shamane Siriwardhana, Rivindu Weerasekera, Elliott Wen, Tharindu Kaluarachchi, Rajib Rana, Suranga Nanayakkara
 
 Retrieval Augment Generation (RAG) is a recent advancement in Open-Domain Question Answering (ODQA). RAG has only been trained and explored with a Wikipedia-based external knowledge base and is not optimized for use in other specialized domains such as healthcare and news. In this paper, we evaluate the impact of joint training of the retriever and generator components of RAG for the task of domai...
+
+### [Vendi-RAG: Adaptively Trading-Off Diversity And Quality Significantly Improves Retrieval Augmented Generation With LLMs](http://arxiv.org/abs/2502.11228v2)
+*Published: 2025-02-16*  
+**Authors:** Mohammad Reza Rezaei, Adji Bousso Dieng
+
+Retrieval-augmented generation (RAG) enhances large language models (LLMs) for domain-specific question-answering (QA) tasks by leveraging external knowledge sources. However, traditional RAG systems primarily focus on relevance-based retrieval and often struggle with redundancy, especially when reasoning requires connecting information from multiple sources. This paper introduces Vendi-RAG, a fra...
 
 ---
 ## 🔍 Retrieval-Augmented Generation
