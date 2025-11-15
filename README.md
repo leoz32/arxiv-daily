@@ -1,284 +1,284 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-14
+**Last update:** 2025-11-15
 
 ---
 ## 🔍 RAG
 
-### [RAG-Gym: Systematic Optimization of Language Agents for Retrieval-Augmented Generation](http://arxiv.org/abs/2502.13957v2)
-*Published: 2025-02-19*  
-**Authors:** Guangzhi Xiong, Qiao Jin, Xiao Wang, Yin Fang, Haolin Liu, Yifan Yang, Fangyuan Chen, Zhixing Song, Dengyu Wang, Minjia Zhang, Zhiyong Lu, Aidong Zhang
+### [Convomem Benchmark: Why Your First 150 Conversations Don't Need RAG](http://arxiv.org/abs/2511.10523v1)
+*Published: 2025-11-13*  
+**Authors:** Egor Pakhomov, Erik Nijkamp, Caiming Xiong
 
-Retrieval-augmented generation (RAG) has shown great promise for knowledge-intensive tasks and recently advanced with agentic RAG, where language agents engage in multi-round interactions with external knowledge sources for adaptive information retrieval. However, existing agentic RAG methods often depend on ad-hoc prompt engineering and lack a unified optimization framework. We introduce RAG-Gym,...
+We introduce a comprehensive benchmark for conversational memory evaluation containing 75,336 question-answer pairs across diverse categories including user facts, assistant recall, abstention, preferences, temporal changes, and implicit connections. While existing benchmarks have advanced the field, our work addresses fundamental challenges in statistical power, data generation consistency, and e...
 
-### [MultiHop-RAG: Benchmarking Retrieval-Augmented Generation for Multi-Hop Queries](http://arxiv.org/abs/2401.15391v1)
-*Published: 2024-01-27*  
-**Authors:** Yixuan Tang, Yi Yang
+### [TruthfulRAG: Resolving Factual-level Conflicts in Retrieval-Augmented Generation with Knowledge Graphs](http://arxiv.org/abs/2511.10375v1)
+*Published: 2025-11-13*  
+**Authors:** Shuyi Liu, Yuming Shang, Xi Zhang
 
-Retrieval-augmented generation (RAG) augments large language models (LLM) by retrieving relevant knowledge, showing promising potential in mitigating LLM hallucinations and enhancing response quality, thereby facilitating the great adoption of LLMs in practice. However, we find that existing RAG systems are inadequate in answering multi-hop queries, which require retrieving and reasoning over mult...
+Retrieval-Augmented Generation (RAG) has emerged as a powerful framework for enhancing the capabilities of Large Language Models (LLMs) by integrating retrieval-based methods with generative models. As external knowledge repositories continue to expand and the parametric knowledge within models becomes outdated, a critical challenge for RAG systems is resolving conflicts between retrieved external...
 
-### [RAG-Star: Enhancing Deliberative Reasoning with Retrieval Augmented Verification and Refinement](http://arxiv.org/abs/2412.12881v1)
-*Published: 2024-12-17*  
-**Authors:** Jinhao Jiang, Jiayi Chen, Junyi Li, Ruiyang Ren, Shijie Wang, Wayne Xin Zhao, Yang Song, Tao Zhang
+### [Local Hybrid Retrieval-Augmented Document QA](http://arxiv.org/abs/2511.10297v1)
+*Published: 2025-11-13*  
+**Authors:** Paolo Astrino
 
-Existing large language models (LLMs) show exceptional problem-solving capabilities but might struggle with complex reasoning tasks. Despite the successes of chain-of-thought and tree-based search methods, they mainly depend on the internal knowledge of LLMs to search over intermediate reasoning steps, limited to dealing with simple tasks involving fewer reasoning steps. In this paper, we propose ...
+Organizations handling sensitive documents face a critical dilemma: adopt cloud-based AI systems that offer powerful question-answering capabilities but compromise data privacy, or maintain local processing that ensures security but delivers poor accuracy. We present a question-answering system that resolves this trade-off by combining semantic understanding with keyword precision, operating entir...
 
-### [T-RAG: Lessons from the LLM Trenches](http://arxiv.org/abs/2402.07483v2)
-*Published: 2024-02-12*  
-**Authors:** Masoomali Fatehkia, Ji Kim Lucas, Sanjay Chawla
+### [RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation](http://arxiv.org/abs/2511.10128v1)
+*Published: 2025-11-13*  
+**Authors:** Qinfeng Li, Miao Pan, Ke Xiong, Ge Su, Zhiqiang Shen, Yan Liu, Bing Sun, Hao Peng, Xuhong Zhang
 
-Large Language Models (LLM) have shown remarkable language capabilities fueling attempts to integrate them into applications across a wide range of domains. An important application area is question answering over private enterprise documents where the main considerations are data security, which necessitates applications that can be deployed on-prem, limited computational resources and the need f...
+Retrieval-Augmented Generation (RAG) systems deployed over proprietary knowledge bases face growing threats from reconstruction attacks that aggregate model responses to replicate knowledge bases. Such attacks exploit both intra-class and inter-class paths, progressively extracting fine-grained knowledge within topics and diffusing it across semantically related ones, thereby enabling comprehensiv...
 
-### [RAG over Tables: Hierarchical Memory Index, Multi-Stage Retrieval, and Benchmarking](http://arxiv.org/abs/2504.01346v4)
-*Published: 2025-04-02*  
-**Authors:** Jiaru Zou, Dongqi Fu, Sirui Chen, Xinrui He, Zihao Li, Yada Zhu, Jiawei Han, Jingrui He
+### [fastbmRAG: A Fast Graph-Based RAG Framework for Efficient Processing of Large-Scale Biomedical Literature](http://arxiv.org/abs/2511.10014v1)
+*Published: 2025-11-13*  
+**Authors:** Guofeng Meng, Li Shen, Qiuyan Zhong, Wei Wang, Haizhou Zhang, Xiaozhen Wang
 
-Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by integrating them with an external knowledge base to improve the answer relevance and accuracy. In real-world scenarios, beyond pure text, a substantial amount of knowledge is stored in tables, and user questions often require retrieving answers that are distributed across multiple tables. Retrieving knowledge from a tabl...
+Large language models (LLMs) are rapidly transforming various domains, including biomedicine and healthcare, and demonstrate remarkable potential from scientific research to new drug discovery. Graph-based retrieval-augmented generation (RAG) systems, as a useful application of LLMs, can improve contextual reasoning through structured entity and relationship identification from long-context knowle...
 
-### [RAG based Question-Answering for Contextual Response Prediction System](http://arxiv.org/abs/2409.03708v2)
-*Published: 2024-09-05*  
-**Authors:** Sriram Veturi, Saurabh Vaichal, Reshma Lal Jagadheesh, Nafis Irtiza Tripto, Nian Yan
+### [Language Drift in Multilingual Retrieval-Augmented Generation: Characterization and Decoding-Time Mitigation](http://arxiv.org/abs/2511.09984v1)
+*Published: 2025-11-13*  
+**Authors:** Bo Li, Zhenghua Xu, Rui Xie
 
-Large Language Models (LLMs) have shown versatility in various Natural Language Processing (NLP) tasks, including their potential as effective question-answering systems. However, to provide precise and relevant information in response to specific customer queries in industry settings, LLMs require access to a comprehensive knowledge base to avoid hallucinations. Retrieval Augmented Generation (RA...
+Multilingual Retrieval-Augmented Generation (RAG) enables large language models (LLMs) to perform knowledge-intensive tasks in multilingual settings by leveraging retrieved documents as external evidence. However, when the retrieved evidence differs in language from the user query and in-context exemplars, the model often exhibits language drift by generating responses in an unintended language. T...
 
-### [Retrieval Augmented Generation (RAG) for Fintech: Agentic Design and Evaluation](http://arxiv.org/abs/2510.25518v1)
-*Published: 2025-10-29*  
-**Authors:** Thomas Cook, Richard Osuagwu, Liman Tsatiashvili, Vrynsia Vrynsia, Koustav Ghosal, Maraim Masoud, Riccardo Mattivi
+### [Modeling Uncertainty Trends for Timely Retrieval in Dynamic RAG](http://arxiv.org/abs/2511.09980v1)
+*Published: 2025-11-13*  
+**Authors:** Bo Li, Tian Tian, Zhenghua Xu, Hao Cheng, Shikun Zhang, Wei Ye
 
-Retrieval-Augmented Generation (RAG) systems often face limitations in specialized domains such as fintech, where domain-specific ontologies, dense terminology, and acronyms complicate effective retrieval and synthesis. This paper introduces an agentic RAG architecture designed to address these challenges through a modular pipeline of specialized agents. The proposed system supports intelligent qu...
+Dynamic retrieval-augmented generation (RAG) allows large language models (LLMs) to fetch external knowledge on demand, offering greater adaptability than static RAG. A central challenge in this setting lies in determining the optimal timing for retrieval. Existing methods often trigger retrieval based on low token-level confidence, which may lead to delayed intervention after errors have already ...
 
-### [Telco-RAG: Navigating the Challenges of Retrieval-Augmented Language Models for Telecommunications](http://arxiv.org/abs/2404.15939v3)
-*Published: 2024-04-24*  
-**Authors:** Andrei-Laurentiu Bornea, Fadhel Ayed, Antonio De Domenico, Nicola Piovesan, Ali Maatouk
+### [REAP: Enhancing RAG with Recursive Evaluation and Adaptive Planning for Multi-Hop Question Answering](http://arxiv.org/abs/2511.09966v1)
+*Published: 2025-11-13*  
+**Authors:** Yijie Zhu, Haojie Zhou, Wanting Hong, Tailin Liu, Ning Wang
 
-The application of Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems in the telecommunication domain presents unique challenges, primarily due to the complex nature of telecom standard documents and the rapid evolution of the field. The paper introduces Telco-RAG, an open-source RAG framework designed to handle the specific needs of telecommunications standards, particu...
+Retrieval-augmented generation (RAG) has been extensively employed to mitigate hallucinations in large language models (LLMs). However, existing methods for multi-hop reasoning tasks often lack global planning, increasing the risk of falling into local reasoning impasses. Insufficient exploitation of retrieved content and the neglect of latent clues fail to ensure the accuracy of reasoning outcome...
 
-### [Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation](http://arxiv.org/abs/2409.18313v5)
-*Published: 2024-09-26*  
-**Authors:** Quanting Xie, So Yeon Min, Pengliang Ji, Yue Yang, Tianyi Zhang, Kedi Xu, Aarav Bajaj, Ruslan Salakhutdinov, Matthew Johnson-Roberson, Yonatan Bisk
+### [MINDS: A Cross-cultural Dialogue Corpus for Social Norm Classification and Adherence Detection](http://arxiv.org/abs/2511.09918v1)
+*Published: 2025-11-13*  
+**Authors:** Pritish Sahu, Anirudh Som, Dimitra Vergyri, Ajay Divakaran
 
-There is no limit to how much a robot might explore and learn, but all of that knowledge needs to be searchable and actionable. Within language research, retrieval augmented generation (RAG) has become the workhorse of large-scale non-parametric knowledge; however, existing techniques do not directly transfer to the embodied domain, which is multimodal, where data is highly correlated, and percept...
+Social norms are implicit, culturally grounded expectations that guide interpersonal communication. Unlike factual commonsense, norm reasoning is subjective, context-dependent, and varies across cultures, posing challenges for computational models. Prior works provide valuable normative annotations but mostly target isolated utterances or synthetic dialogues, limiting their ability to capture the ...
 
-### [Fine-tune the Entire RAG Architecture (including DPR retriever) for Question-Answering](http://arxiv.org/abs/2106.11517v1)
-*Published: 2021-06-22*  
-**Authors:** Shamane Siriwardhana, Rivindu Weerasekera, Elliott Wen, Suranga Nanayakkara
+### [Answering Students' Questions on Course Forums Using Multiple Chain-of-Thought Reasoning and Finetuning RAG-Enabled LLM](http://arxiv.org/abs/2511.09831v1)
+*Published: 2025-11-13*  
+**Authors:** Neo Wang, Sonit Singh
 
-In this paper, we illustrate how to fine-tune the entire Retrieval Augment Generation (RAG) architecture in an end-to-end manner. We highlighted the main engineering challenges that needed to be addressed to achieve this objective. We also compare how end-to-end RAG architecture outperforms the original RAG architecture for the task of question answering. We have open-sourced our implementation in...
+The course forums are increasingly significant and play vital role in facilitating student discussions and answering their questions related to the course. It provides a platform for students to post their questions related to the content and admin issues related to the course. However, there are several challenges due to the increase in the number of students enrolled in the course. The primary c...
 
-### [From RAG to QA-RAG: Integrating Generative AI for Pharmaceutical Regulatory Compliance Process](http://arxiv.org/abs/2402.01717v1)
-*Published: 2024-01-26*  
-**Authors:** Jaewoong Kim, Moohong Min
+### [TARG: Training-Free Adaptive Retrieval Gating for Efficient RAG](http://arxiv.org/abs/2511.09803v1)
+*Published: 2025-11-12*  
+**Authors:** Yufeng Wang, Lu wei, Haibin Ling
 
-Regulatory compliance in the pharmaceutical industry entails navigating through complex and voluminous guidelines, often requiring significant human resources. To address these challenges, our study introduces a chatbot model that utilizes generative AI and the Retrieval Augmented Generation (RAG) method. This chatbot is designed to search for guideline documents relevant to the user inquiries and...
+Retrieval-Augmented Generation (RAG) improves factuality but retrieving for every query often hurts quality while inflating tokens and latency. We propose Training-free Adaptive Retrieval Gating (TARG), a single-shot policy that decides when to retrieve using only a short, no-context draft from the base model. From the draft's prefix logits, TARG computes lightweight uncertainty scores: mean token...
 
-### [Collab-RAG: Boosting Retrieval-Augmented Generation for Complex Question Answering via White-Box and Black-Box LLM Collaboration](http://arxiv.org/abs/2504.04915v1)
-*Published: 2025-04-07*  
-**Authors:** Ran Xu, Wenqi Shi, Yuchen Zhuang, Yue Yu, Joyce C. Ho, Haoyu Wang, Carl Yang
+### [Practical RAG Evaluation: A Rarity-Aware Set-Based Metric and Cost-Latency-Quality Trade-offs](http://arxiv.org/abs/2511.09545v1)
+*Published: 2025-11-12*  
+**Authors:** Etienne Dallaire
 
-Retrieval-Augmented Generation (RAG) systems often struggle to handle multi-hop question-answering tasks accurately due to irrelevant context retrieval and limited complex reasoning capabilities. We introduce Collab-RAG, a collaborative training framework that leverages mutual enhancement between a white-box small language model (SLM) and a blackbox large language model (LLM) for RAG. Specifically...
+This paper addresses the guessing game in building production RAG. Classical rank-centric IR metrics (nDCG/MAP/MRR) are a poor fit for RAG, where LLMs consume a set of passages rather than a browsed list; position discounts and prevalence-blind aggregation miss what matters: whether the prompt at cutoff K contains the decisive evidence. Second, there is no standardized, reproducible way to build a...
 
-### [Auto-RAG: Autonomous Retrieval-Augmented Generation for Large Language Models](http://arxiv.org/abs/2411.19443v1)
-*Published: 2024-11-29*  
-**Authors:** Tian Yu, Shaolei Zhang, Yang Feng
+### [Vendor-Aware Industrial Agents: RAG-Enhanced LLMs for Secure On-Premise PLC Code Generation](http://arxiv.org/abs/2511.09122v1)
+*Published: 2025-11-12*  
+**Authors:** Joschka Kersting, Michael Rummel, Gesa Benndorf
 
-Iterative retrieval refers to the process in which the model continuously queries the retriever during generation to enhance the relevance of the retrieved knowledge, thereby improving the performance of Retrieval-Augmented Generation (RAG). Existing work typically employs few-shot prompting or manually constructed rules to implement iterative retrieval. This introduces additional inference overhe...
+Programmable Logic Controllers are operated by proprietary code dialects; this makes it challenging to train coding assistants. Current LLMs are trained on large code datasets and are capable of writing IEC 61131-3 compatible code out of the box, but they neither know specific function blocks, nor related project code. Moreover, companies like Mitsubishi Electric and their customers do not trust c...
 
-### [Improving the Domain Adaptation of Retrieval Augmented Generation (RAG) Models for Open Domain Question Answering](http://arxiv.org/abs/2210.02627v1)
-*Published: 2022-10-06*  
-**Authors:** Shamane Siriwardhana, Rivindu Weerasekera, Elliott Wen, Tharindu Kaluarachchi, Rajib Rana, Suranga Nanayakkara
+### [Thinking Forward and Backward: Multi-Objective Reinforcement Learning for Retrieval-Augmented Reasoning](http://arxiv.org/abs/2511.09109v2)
+*Published: 2025-11-12*  
+**Authors:** Wenda Wei, Yu-An Liu, Ruqing Zhang, Jiafeng Guo, Lixin Su, Shuaiqiang Wang, Dawei Yin, Maarten de Rijke, Xueqi Cheng
 
-Retrieval Augment Generation (RAG) is a recent advancement in Open-Domain Question Answering (ODQA). RAG has only been trained and explored with a Wikipedia-based external knowledge base and is not optimized for use in other specialized domains such as healthcare and news. In this paper, we evaluate the impact of joint training of the retriever and generator components of RAG for the task of domai...
+Retrieval-augmented generation (RAG) has proven to be effective in mitigating hallucinations in large language models, yet its effectiveness remains limited in complex, multi-step reasoning scenarios. Recent efforts have incorporated search-based interactions into RAG, enabling iterative reasoning with real-time retrieval. Most approaches rely on outcome-based supervision, offering no explicit gui...
 
-### [Vendi-RAG: Adaptively Trading-Off Diversity And Quality Significantly Improves Retrieval Augmented Generation With LLMs](http://arxiv.org/abs/2502.11228v2)
-*Published: 2025-02-16*  
-**Authors:** Mohammad Reza Rezaei, Adji Bousso Dieng
+### [AI Founding Fathers: A Case Study of GIS Search in Multi-Agent Pipelines](http://arxiv.org/abs/2511.09005v1)
+*Published: 2025-11-12*  
+**Authors:** Alvin Chauhan
 
-Retrieval-augmented generation (RAG) enhances large language models (LLMs) for domain-specific question-answering (QA) tasks by leveraging external knowledge sources. However, traditional RAG systems primarily focus on relevance-based retrieval and often struggle with redundancy, especially when reasoning requires connecting information from multiple sources. This paper introduces Vendi-RAG, a fra...
+Although Large Language Models (LLMs) show exceptional fluency, efforts persist to extract stronger reasoning capabilities from them. Drawing on search-based interpretations of LLM computation, this paper advances a systematic framework for understanding LLM reasoning and optimization. Namely, that enhancing reasoning is best achieved by structuring a multi-agent pipeline to ensure a traversal of ...
 
 ---
 ## 🔍 Retrieval-Augmented Generation
 
-### [AR-RAG: Autoregressive Retrieval Augmentation for Image Generation](http://arxiv.org/abs/2506.06962v3)
-*Published: 2025-06-08*  
-**Authors:** Jingyuan Qi, Zhiyang Xu, Qifan Wang, Lifu Huang
+### [Enhancing the Outcome Reward-based RL Training of MLLMs with Self-Consistency Sampling](http://arxiv.org/abs/2511.10648v1)
+*Published: 2025-11-13*  
+**Authors:** Jiahao Wang, Weiye Xu, Aijun Yang, Wengang Zhou, Lewei Lu, Houqiang Li, Xiaohua Wang, Jinguo Zhu
 
-We introduce Autoregressive Retrieval Augmentation (AR-RAG), a novel paradigm that enhances image generation by autoregressively incorporating knearest neighbor retrievals at the patch level. Unlike prior methods that perform a single, static retrieval before generation and condition the entire generation on fixed reference images, AR-RAG performs context-aware retrievals at each generation step, ...
+Outcome-reward reinforcement learning (RL) is a common and increasingly significant way to refine the step-by-step reasoning of multimodal large language models (MLLMs). In the multiple-choice setting - a dominant format for multimodal reasoning benchmarks - the paradigm faces a significant yet often overlooked obstacle: unfaithful trajectories that guess the correct option after a faulty chain of...
 
-### [EVOR: Evolving Retrieval for Code Generation](http://arxiv.org/abs/2402.12317v2)
-*Published: 2024-02-19*  
-**Authors:** Hongjin Su, Shuyang Jiang, Yuhang Lai, Haoyuan Wu, Boao Shi, Che Liu, Qian Liu, Tao Yu
+### [Depth Anything 3: Recovering the Visual Space from Any Views](http://arxiv.org/abs/2511.10647v1)
+*Published: 2025-11-13*  
+**Authors:** Haotong Lin, Sili Chen, Junhao Liew, Donny Y. Chen, Zhenyu Li, Guang Shi, Jiashi Feng, Bingyi Kang
 
-Recently the retrieval-augmented generation (RAG) has been successfully applied in code generation. However, existing pipelines for retrieval-augmented code generation (RACG) employ static knowledge bases with a single source, limiting the adaptation capabilities of Large Language Models (LLMs) to domains they have insufficient knowledge of. In this work, we develop a novel pipeline, EVOR, that em...
+We present Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses. In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization, and a singular depth-ray prediction target obviates...
 
-### [Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation](http://arxiv.org/abs/2411.18583v1)
-*Published: 2024-11-27*  
-**Authors:** Nurshat Fateh Ali, Md. Mahdi Mohtasim, Shakil Mosharrof, T. Gopi Krishna
+### [Ordinary lattice defects as probes of topology](http://arxiv.org/abs/2511.10646v1)
+*Published: 2025-11-13*  
+**Authors:** Aiden J. Mains, Jia-Xin Zhong, Yun Jing, Bitan Roy
 
-This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. D...
+In addition to topological lattice defects such as dislocations and disclinations, crystals are also accompanied by unavoidable ordinary defects, devoid of any non-trivial geometry or topology, among which vacancies, Schottky defects, substitutions, interstitials, and Frenkel pairs are the most common. In this work, we demonstrate that these ubiquitous ordinary lattice defects, though topologicall...
 
-### [Riddle Me This! Stealthy Membership Inference for Retrieval-Augmented Generation](http://arxiv.org/abs/2502.00306v2)
-*Published: 2025-02-01*  
-**Authors:** Ali Naseh, Yuefeng Peng, Anshuman Suri, Harsh Chaudhari, Alina Oprea, Amir Houmansadr
+### [Black-Box On-Policy Distillation of Large Language Models](http://arxiv.org/abs/2511.10643v1)
+*Published: 2025-11-13*  
+**Authors:** Tianzhu Ye, Li Dong, Zewen Chi, Xun Wu, Shaohan Huang, Furu Wei
 
-Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to generate grounded responses by leveraging external knowledge databases without altering model parameters. Although the absence of weight tuning prevents leakage via model parameters, it introduces the risk of inference adversaries exploiting retrieved documents in the model's context. Existing methods for membership infer...
+Black-box distillation creates student large language models (LLMs) by learning from a proprietary teacher model's text outputs alone, without access to its internal logits or parameters. In this work, we introduce Generative Adversarial Distillation (GAD), which enables on-policy and black-box distillation. GAD frames the student LLM as a generator and trains a discriminator to distinguish its re...
 
-### [FAIR-RAG: Faithful Adaptive Iterative Refinement for Retrieval-Augmented Generation](http://arxiv.org/abs/2510.22344v1)
-*Published: 2025-10-25*  
-**Authors:** Mohammad Aghajani Asl, Majid Asgari-Bidhendi, Behrooz Minaei-Bidgoli
+### [Flexible Simulation Based Inference for Galaxy Photometric Fitting with Synthesizer](http://arxiv.org/abs/2511.10640v1)
+*Published: 2025-11-13*  
+**Authors:** Thomas Harvey, Christopher C. Lovell, Sophie Newman, Christopher J. Conselice, Duncan Austin, Aswin P. Vijayan, Stephen M. Wilkins, Vadim Rusakov, Qiong Li, Nathan Adams, Kai Magdwick, Matthew Ho
 
-While Retrieval-Augmented Generation (RAG) mitigates hallucination and knowledge staleness in Large Language Models (LLMs), existing frameworks often falter on complex, multi-hop queries that require synthesizing information from disparate sources. Current advanced RAG methods, employing iterative or adaptive strategies, lack a robust mechanism to systematically identify and fill evidence gaps, of...
+We introduce Synference, a new, flexible Python framework for galaxy SED fitting using simulation-based inference (SBI). Synference leverages the Synthesizer package for flexible forward-modelling of galaxy SEDs and integrates the LtU-ILI package to ensure best practices in model training and validation. In this work we demonstrate Synference by training a neural posterior estimator on $10^6$ simu...
 
-### [Investigating Retrieval-Augmented Generation in Quranic Studies: A Study of 13 Open-Source Large Language Models](http://arxiv.org/abs/2503.16581v1)
-*Published: 2025-03-20*  
-**Authors:** Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei Murakami, Yasir Bin Ismail Radi, Noor Mohammad Osmani
+### [Emergent spin order and steady-state superradiance in one-dimensional baths](http://arxiv.org/abs/2511.10638v1)
+*Published: 2025-11-13*  
+**Authors:** Silvia Cardenas-Lopez, Edgar Guardiola-Navarrete, Ana Asenjo-Garcia
 
-Accurate and contextually faithful responses are critical when applying large language models (LLMs) to sensitive and domain-specific tasks, such as answering queries related to quranic studies. General-purpose LLMs often struggle with hallucinations, where generated responses deviate from authoritative sources, raising concerns about their reliability in religious contexts. This challenge highlig...
+Spontaneous collective decay in driven atomic ensembles can generate coherence far from equilibrium, as illustrated by superradiant lasers where decay into a single-mode cavity synchronizes atomic phases into a macroscopic dipole and yields superradiant emission of light with an ultranarrow spectrum. Whether similar ordering persists in multimode reservoirs with propagation and competing collectiv...
 
-### [Ragas: Automated Evaluation of Retrieval Augmented Generation](http://arxiv.org/abs/2309.15217v2)
-*Published: 2023-09-26*  
-**Authors:** Shahul Es, Jithin James, Luis Espinosa-Anke, Steven Schockaert
+### [Asymptotic Simplicity and Scattering in General Relativity from Quantum Field Theory](http://arxiv.org/abs/2511.10637v1)
+*Published: 2025-11-13*  
+**Authors:** Stefano De Angelis, Aidan Herderschee, Radu Roiban, Fei Teng
 
-We introduce Ragas (Retrieval Augmented Generation Assessment), a framework for reference-free evaluation of Retrieval Augmented Generation (RAG) pipelines. RAG systems are composed of a retrieval and an LLM based generation module, and provide LLMs with knowledge from a reference textual database, which enables them to act as a natural language layer between a user and textual databases, reducing...
+We investigate the fate of asymptotic simplicity in physically relevant settings of compact-object scattering. Using the stress tensor of a two-body system as a source, we compute the spacetime metric in General Relativity at finite observer distance in an asymptotic expansion. To do so, we relate the metric to the final-state graviton one-point function in momentum space, which is computed using ...
 
-### [A Collaborative Multi-Agent Approach to Retrieval-Augmented Generation Across Diverse Data](http://arxiv.org/abs/2412.05838v1)
-*Published: 2024-12-08*  
-**Authors:** Aniruddha Salve, Saba Attar, Mahesh Deshmukh, Sayali Shivpuje, Arnab Mitra Utsab
+### [Eigenfunctions of deformed Schrödinger equations](http://arxiv.org/abs/2511.10636v1)
+*Published: 2025-11-13*  
+**Authors:** Matijn François, Alba Grassi, Tommaso Pedroni
 
-Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by incorporating external, domain-specific data into the generative process. While LLMs are highly capable, they often rely on static, pre-trained datasets, limiting their ability to integrate dynamic or private data. Traditional RAG systems typically use a single-agent architecture to handle query generation, data retrieva...
+We study the spectral problems associated with the finite-difference operators $H_N = 2 \cosh(p) + V_N(x)$, where $V_N(x)$ is an arbitrary polynomial potential of degree $N$. These systems can be regarded as a solvable deformation of the standard Schrödinger operators $p^2 + V_N(x)$, and they arise naturally from the quantization of the Seiberg-Witten curve of four-dimensional, $\mathcal{N} = 2$, ...
 
-### [Reconstructing Context: Evaluating Advanced Chunking Strategies for Retrieval-Augmented Generation](http://arxiv.org/abs/2504.19754v1)
-*Published: 2025-04-28*  
-**Authors:** Carlo Merola, Jaspinder Singh
+### [Non-stationary noise in gravitational wave analyses: The wavelet domain noise covariance matrix](http://arxiv.org/abs/2511.10632v1)
+*Published: 2025-11-13*  
+**Authors:** Neil J. Cornish
 
-Retrieval-augmented generation (RAG) has become a transformative approach for enhancing large language models (LLMs) by grounding their outputs in external knowledge sources. Yet, a critical question persists: how can vast volumes of external knowledge be managed effectively within the input constraints of LLMs? Traditional methods address this by chunking external documents into smaller, fixed-si...
+Gravitational wave detectors produce time series of the gravitational wave strain co-added with instrument noise. For evenly sampled data, such as from laser interferometers, it has been traditional to Fourier transform the data and perform analyses in the frequency domain. The motivation being that the Fourier domain noise covariance matrix will be diagonal if the noise properties are constant in...
 
-### [Blended RAG: Improving RAG (Retriever-Augmented Generation) Accuracy with Semantic Search and Hybrid Query-Based Retrievers](http://arxiv.org/abs/2404.07220v2)
-*Published: 2024-03-22*  
-**Authors:** Kunal Sawarkar, Abhilasha Mangal, Shivam Raj Solanki
+### [One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models](http://arxiv.org/abs/2511.10629v1)
+*Published: 2025-11-13*  
+**Authors:** Aleksandr Razin, Danil Kazantsev, Ilya Makarov
 
-Retrieval-Augmented Generation (RAG) is a prevalent approach to infuse a private knowledge base of documents with Large Language Models (LLM) to build Generative Q\&A (Question-Answering) systems. However, RAG accuracy becomes increasingly challenging as the corpus of documents scales up, with Retrievers playing an outsized role in the overall RAG accuracy by extracting the most relevant document ...
+Diffusion models struggle to scale beyond their training resolutions, as direct high-resolution sampling is slow and costly, while post-hoc image super-resolution (ISR) introduces artifacts and additional latency by operating after decoding. We present the Latent Upscaler Adapter (LUA), a lightweight module that performs super-resolution directly on the generator's latent code before the final VAE...
 
-### [Multi-Task Retrieval-Augmented Text Generation with Relevance Sampling](http://arxiv.org/abs/2207.03030v1)
-*Published: 2022-07-07*  
-**Authors:** Sebastian Hofstätter, Jiecao Chen, Karthik Raman, Hamed Zamani
+### [Instella: Fully Open Language Models with Stellar Performance](http://arxiv.org/abs/2511.10628v1)
+*Published: 2025-11-13*  
+**Authors:** Jiang Liu, Jialian Wu, Xiaodong Yu, Yusheng Su, Prakamya Mishra, Gowtham Ramesh, Sudhanshu Ranjan, Chaitanya Manem, Ximeng Sun, Ze Wang, Pratik Prabhanjan Brahma, Zicheng Liu, Emad Barsoum
 
-This paper studies multi-task training of retrieval-augmented generation models for knowledge-intensive tasks. We propose to clean the training set by utilizing a distinct property of knowledge-intensive generation: The connection of query-answer pairs to items in the knowledge base. We filter training examples via a threshold of confidence on the relevance labels, whether a pair is answerable by ...
+Large language models (LLMs) have demonstrated remarkable performance across a wide range of tasks, yet the majority of high-performing models remain closed-source or partially open, limiting transparency and reproducibility. In this work, we introduce Instella, a family of fully open three billion parameter language models trained entirely on openly available data and codebase. Powered by AMD Ins...
 
-### [Retrieval-Augmented Audio Deepfake Detection](http://arxiv.org/abs/2404.13892v2)
-*Published: 2024-04-22*  
-**Authors:** Zuheng Kang, Yayun He, Botao Zhao, Xiaoyang Qu, Junqing Peng, Jing Xiao, Jianzong Wang
+### [Global Solutions to Non-Convex Functional Constrained Problems with Hidden Convexity](http://arxiv.org/abs/2511.10626v1)
+*Published: 2025-11-13*  
+**Authors:** Ilyas Fatkhullin, Niao He, Guanghui Lan, Florian Wolf
 
-With recent advances in speech synthesis including text-to-speech (TTS) and voice conversion (VC) systems enabling the generation of ultra-realistic audio deepfakes, there is growing concern about their potential misuse. However, most deepfake (DF) detection methods rely solely on the fuzzy knowledge learned by a single model, resulting in performance bottlenecks and transparency issues. Inspired ...
+Constrained non-convex optimization is fundamentally challenging, as global solutions are generally intractable and constraint qualifications may not hold. However, in many applications, including safe policy optimization in control and reinforcement learning, such problems possess hidden convexity, meaning they can be reformulated as convex programs via a nonlinear invertible transformation. Typi...
 
-### [Tree of Reviews: A Tree-based Dynamic Iterative Retrieval Framework for Multi-hop Question Answering](http://arxiv.org/abs/2404.14464v1)
-*Published: 2024-04-22*  
-**Authors:** Li Jiapeng, Liu Runze, Li Yabo, Zhou Tong, Li Mingling, Chen Xiang
+### [Verification of Sequential Convex Programming for Parametric Non-convex Optimization](http://arxiv.org/abs/2511.10622v1)
+*Published: 2025-11-13*  
+**Authors:** Rajiv Sambharya, Nikolai Matni, George Pappas
 
-Multi-hop question answering is a knowledge-intensive complex problem. Large Language Models (LLMs) use their Chain of Thoughts (CoT) capability to reason complex problems step by step, and retrieval-augmentation can effectively alleviate factual errors caused by outdated and unknown knowledge in LLMs. Recent works have introduced retrieval-augmentation in the CoT reasoning to solve multi-hop ques...
+We introduce a verification framework to exactly verify the worst-case performance of sequential convex programming (SCP) algorithms for parametric non-convex optimization. The verification problem is formulated as an optimization problem that maximizes a performance metric (e.g., the suboptimality after a given number of iterations) over parameters constrained to be in a parameter set and iterate...
 
-### [Retrieval-Augmented Generation in Industry: An Interview Study on Use Cases, Requirements, Challenges, and Evaluation](http://arxiv.org/abs/2508.14066v1)
-*Published: 2025-08-11*  
-**Authors:** Lorenz Brehme, Benedikt Dornauer, Thomas Ströhle, Maximilian Ehrhart, Ruth Breu
+### [Know Your Limits: Entropy Estimation Modeling for Compression and Generalization](http://arxiv.org/abs/2511.10618v1)
+*Published: 2025-11-13*  
+**Authors:** Benjamin L. Badger, Matthew Neligeorge
 
-Retrieval-Augmented Generation (RAG) is a well-established and rapidly evolving field within AI that enhances the outputs of large language models by integrating relevant information retrieved from external knowledge sources. While industry adoption of RAG is now beginning, there is a significant lack of research on its practical application in industrial contexts. To address this gap, we conducte...
+Language prediction is constrained by informational entropy intrinsic to language, such that there exists a limit to how accurate any language model can become and equivalently a lower bound to language compression. The most efficient language compression algorithms today are causal (next token prediction) large language models, but the use of these models to form accurate estimates of language en...
 
-### [Intelligent Interaction Strategies for Context-Aware Cognitive Augmentation](http://arxiv.org/abs/2504.13684v1)
-*Published: 2025-04-18*  
-**Authors:** Xiangrong, Zhu, Yuan Xu, Tianjian Liu, Jingwei Sun, Yu Zhang, Xin Tong
+### [Dark Matter from Holography](http://arxiv.org/abs/2511.10617v1)
+*Published: 2025-11-13*  
+**Authors:** Oem Trivedi, Robert J. Scherrer
 
-Human cognition is constrained by processing limitations, leading to cognitive overload and inefficiencies in knowledge synthesis and decision-making. Large Language Models (LLMs) present an opportunity for cognitive augmentation, but their current reactive nature limits their real-world applicability. This position paper explores the potential of context-aware cognitive augmentation, where LLMs d...
+Previous studies have examined the holographic principle as a means of producing dark energy. Here we propose instead the possibility of holographic dark matter. In this case, dark matter does not arise in the framework of particle physics but is derived from the infrared cutoff set by the horizon scale. Using the Ricci cutoff, and a universe containing only baryons and radiation, we can account f...
 
 ---
 ## 🔍 Computer Vision
 
-### [WiCV 2019: The Sixth Women In Computer Vision Workshop](http://arxiv.org/abs/1909.10225v1)
-*Published: 2019-09-23*  
-**Authors:** Irene Amerini, Elena Balashova, Sayna Ebrahimi, Kathryn Leonard, Arsha Nagrani, Amaia Salvador
+### [Enhancing the Outcome Reward-based RL Training of MLLMs with Self-Consistency Sampling](http://arxiv.org/abs/2511.10648v1)
+*Published: 2025-11-13*  
+**Authors:** Jiahao Wang, Weiye Xu, Aijun Yang, Wengang Zhou, Lewei Lu, Houqiang Li, Xiaohua Wang, Jinguo Zhu
 
-In this paper we present the Women in Computer Vision Workshop - WiCV 2019, organized in conjunction with CVPR 2019. This event is meant for increasing the visibility and inclusion of women researchers in the computer vision field. Computer vision and machine learning have made incredible progress over the past years, but the number of female researchers is still low both in academia and in indust...
+Outcome-reward reinforcement learning (RL) is a common and increasingly significant way to refine the step-by-step reasoning of multimodal large language models (MLLMs). In the multiple-choice setting - a dominant format for multimodal reasoning benchmarks - the paradigm faces a significant yet often overlooked obstacle: unfaithful trajectories that guess the correct option after a faulty chain of...
 
-### [Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination](http://arxiv.org/abs/2205.04675v2)
-*Published: 2022-05-10*  
-**Authors:** Malika Nisal Ratnayake, Don Chathurika Amarathunga, Asaduz Zaman, Adrian G. Dyer, Alan Dorin
+### [Depth Anything 3: Recovering the Visual Space from Any Views](http://arxiv.org/abs/2511.10647v1)
+*Published: 2025-11-13*  
+**Authors:** Haotong Lin, Sili Chen, Junhao Liew, Donny Y. Chen, Zhenyu Li, Guang Shi, Jiashi Feng, Bingyi Kang
 
-Insects are the most important global pollinator of crops and play a key role in maintaining the sustainability of natural ecosystems. Insect pollination monitoring and management are therefore essential for improving crop production and food security. Computer vision facilitated pollinator monitoring can intensify data collection over what is feasible using manual approaches. The new data it gene...
+We present Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses. In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization, and a singular depth-ray prediction target obviates...
 
-### [Global Adaptive Filtering Layer for Computer Vision](http://arxiv.org/abs/2010.01177v4)
-*Published: 2020-10-02*  
-**Authors:** Viktor Shipitsin, Iaroslav Bespalov, Dmitry V. Dylov
+### [ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference](http://arxiv.org/abs/2511.10645v1)
+*Published: 2025-11-13*  
+**Authors:** Yesheng Liang, Haisheng Chen, Song Han, Zhijian Liu
 
-We devise a universal adaptive neural layer to "learn" optimal frequency filter for each image together with the weights of the base neural network that performs some computer vision task. The proposed approach takes the source image in the spatial domain, automatically selects the best frequencies from the frequency domain, and transmits the inverse-transform image to the main neural network. Rem...
+Weight-only post-training quantization (PTQ) compresses the weights of Large Language Models (LLMs) into low-precision representations to reduce memory footprint and accelerate inference. However, the presence of outliers in weights and activations often leads to large quantization errors and severe accuracy degradation, especially in recent reasoning LLMs where errors accumulate across long chain...
 
-### [What Does TERRA-REF's High Resolution, Multi Sensor Plant Sensing Public Domain Data Offer the Computer Vision Community?](http://arxiv.org/abs/2107.14072v2)
-*Published: 2021-07-29*  
-**Authors:** David LeBauer, Max Burnette, Noah Fahlgren, Rob Kooper, Kenton McHenry, Abby Stylianou
+### [Black-Box On-Policy Distillation of Large Language Models](http://arxiv.org/abs/2511.10643v1)
+*Published: 2025-11-13*  
+**Authors:** Tianzhu Ye, Li Dong, Zewen Chi, Xun Wu, Shaohan Huang, Furu Wei
 
-A core objective of the TERRA-REF project was to generate an open-access reference dataset for the evaluation of sensing technologies to study plants under field conditions. The TERRA-REF program deployed a suite of high-resolution, cutting edge technology sensors on a gantry system with the aim of scanning 1 hectare (10$^4$) at around 1 mm$^2$ spatial resolution multiple times per week. The syste...
+Black-box distillation creates student large language models (LLMs) by learning from a proprietary teacher model's text outputs alone, without access to its internal logits or parameters. In this work, we introduce Generative Adversarial Distillation (GAD), which enables on-policy and black-box distillation. GAD frames the student LLM as a generator and trains a discriminator to distinguish its re...
 
-### [The Informed Sampler: A Discriminative Approach to Bayesian Inference in Generative Computer Vision Models](http://arxiv.org/abs/1402.0859v3)
-*Published: 2014-02-04*  
-**Authors:** Varun Jampani, Sebastian Nowozin, Matthew Loper, Peter V. Gehler
+### [Asymptotic Simplicity and Scattering in General Relativity from Quantum Field Theory](http://arxiv.org/abs/2511.10637v1)
+*Published: 2025-11-13*  
+**Authors:** Stefano De Angelis, Aidan Herderschee, Radu Roiban, Fei Teng
 
-Computer vision is hard because of a large variability in lighting, shape, and texture; in addition the image signal is non-additive due to occlusion. Generative models promised to account for this variability by accurately modelling the image formation process as a function of latent variables with prior beliefs. Bayesian posterior inference could then, in principle, explain the observation. Whil...
+We investigate the fate of asymptotic simplicity in physically relevant settings of compact-object scattering. Using the stress tensor of a two-body system as a source, we compute the spacetime metric in General Relativity at finite observer distance in an asymptotic expansion. To do so, we relate the metric to the final-state graviton one-point function in momentum space, which is computed using ...
 
-### [Novel Convolution Kernels for Computer Vision and Shape Analysis based on Electromagnetism](http://arxiv.org/abs/1806.07996v1)
-*Published: 2018-06-20*  
-**Authors:** Dominique Beaini, Sofiane Achiche, Yann-Seing Law-Kam Cio, Maxime Raison
+### [Robot Crash Course: Learning Soft and Stylized Falling](http://arxiv.org/abs/2511.10635v1)
+*Published: 2025-11-13*  
+**Authors:** Pascal Strauch, David Müller, Sammy Christen, Agon Serifi, Ruben Grandia, Espen Knoop, Moritz Bächer
 
-Computer vision is a growing field with a lot of new applications in automation and robotics, since it allows the analysis of images and shapes for the generation of numerical or analytical information. One of the most used method of information extraction is image filtering through convolution kernels, with each kernel specialized for specific applications. The objective of this paper is to prese...
+Despite recent advances in robust locomotion, bipedal robots operating in the real world remain at risk of falling. While most research focuses on preventing such events, we instead concentrate on the phenomenon of falling itself. Specifically, we aim to reduce physical damage to the robot while providing users with control over a robot's end pose. To this end, we propose a robot agnostic reward f...
 
-### [Vision Based Game Development Using Human Computer Interaction](http://arxiv.org/abs/1002.2191v1)
-*Published: 2010-02-10*  
-**Authors:** S. Sumathi, S. K. Srivatsa, M. Uma Maheswari
+### [Impacts of Decoder Latency on Utility-Scale Quantum Computer Architectures](http://arxiv.org/abs/2511.10633v1)
+*Published: 2025-11-13*  
+**Authors:** Abdullah Khalid, Allyson Silva, Gebremedhin A. Dagnew, Tom Dvir, Oded Wertheim, Motty Gruda, Xiangzhou Kong, Mia Kramer, Zak Webb, Artur Scherer, Masoud Mohseni, Yonatan Cohen, Pooya Ronagh
 
-A Human Computer Interface (HCI) System for playing games is designed here for more natural communication with the machines. The system presented here is a vision-based system for detection of long voluntary eye blinks and interpretation of blink patterns for communication between man and machine. This system replaces the mouse with the human face as a new way to interact with the computer. Facial...
+The speed of a fault-tolerant quantum computer is dictated by the reaction time of its classical electronics, that is, the total time required by decoders and controllers to determine the outcome of a logical measurement and execute subsequent conditional logical operations. Despite its importance, the reaction time and its impact on the design of the logical microarchitecture of a quantum compute...
 
-### [Crowdsourcing in Computer Vision](http://arxiv.org/abs/1611.02145v1)
-*Published: 2016-11-07*  
-**Authors:** Adriana Kovashka, Olga Russakovsky, Li Fei-Fei, Kristen Grauman
+### [A Bayesian Perspective on Evidence for Evolving Dark Energy](http://arxiv.org/abs/2511.10631v1)
+*Published: 2025-11-13*  
+**Authors:** Dily Duan Yi Ong, David Yallup, Will Handley
 
-Computer vision systems require large amounts of manually annotated data to properly learn challenging visual concepts. Crowdsourcing platforms offer an inexpensive method to capture human knowledge and understanding, for a vast number of visual perception tasks. In this survey, we describe the types of annotations computer vision researchers have collected using crowdsourcing, and how they have e...
+The DESI collaboration reports a significant preference for a dynamic dark energy model ($w_0w_a$CDM) over the cosmological constant ($Λ$CDM) when their data are combined with other frontier cosmological probes. We present a direct Bayesian model comparison using nested sampling to compute the Bayesian evidence, revealing a contrasting conclusion: for the key combination of the DESI DR2 BAO and th...
 
-### [FedCV: A Federated Learning Framework for Diverse Computer Vision Tasks](http://arxiv.org/abs/2111.11066v1)
-*Published: 2021-11-22*  
-**Authors:** Chaoyang He, Alay Dilipbhai Shah, Zhenheng Tang, Di Fan1Adarshan Naiynar Sivashunmugam, Keerti Bhogaraju, Mita Shimpi, Li Shen, Xiaowen Chu, Mahdi Soltanolkotabi, Salman Avestimehr
+### [One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models](http://arxiv.org/abs/2511.10629v1)
+*Published: 2025-11-13*  
+**Authors:** Aleksandr Razin, Danil Kazantsev, Ilya Makarov
 
-Federated Learning (FL) is a distributed learning paradigm that can learn a global or personalized model from decentralized datasets on edge devices. However, in the computer vision domain, model performance in FL is far behind centralized training due to the lack of exploration in diverse tasks with a unified FL framework. FL has rarely been demonstrated effectively in advanced computer vision ta...
+Diffusion models struggle to scale beyond their training resolutions, as direct high-resolution sampling is slow and costly, while post-hoc image super-resolution (ISR) introduces artifacts and additional latency by operating after decoding. We present the Latent Upscaler Adapter (LUA), a lightweight module that performs super-resolution directly on the generator's latent code before the final VAE...
 
-### [Second Croatian Computer Vision Workshop (CCVW 2013)](http://arxiv.org/abs/1310.0319v3)
-*Published: 2013-10-01*  
-**Authors:** Sven Lončarić, Siniša Šegvić
+### [Instella: Fully Open Language Models with Stellar Performance](http://arxiv.org/abs/2511.10628v1)
+*Published: 2025-11-13*  
+**Authors:** Jiang Liu, Jialian Wu, Xiaodong Yu, Yusheng Su, Prakamya Mishra, Gowtham Ramesh, Sudhanshu Ranjan, Chaitanya Manem, Ximeng Sun, Ze Wang, Pratik Prabhanjan Brahma, Zicheng Liu, Emad Barsoum
 
-Proceedings of the Second Croatian Computer Vision Workshop (CCVW 2013, http://www.fer.unizg.hr/crv/ccvw2013) held September 19, 2013, in Zagreb, Croatia. Workshop was organized by the Center of Excellence for Computer Vision of the University of Zagreb....
+Large language models (LLMs) have demonstrated remarkable performance across a wide range of tasks, yet the majority of high-performing models remain closed-source or partially open, limiting transparency and reproducibility. In this work, we introduce Instella, a family of fully open three billion parameter language models trained entirely on openly available data and codebase. Powered by AMD Ins...
 
-### [The Evolution of First Person Vision Methods: A Survey](http://arxiv.org/abs/1409.1484v3)
-*Published: 2014-09-04*  
-**Authors:** Alejandro Betancourt, Pietro Morerio, Carlo S. Regazzoni, Matthias Rauterberg
+### [Querying Labeled Time Series Data with Scenario Programs](http://arxiv.org/abs/2511.10627v1)
+*Published: 2025-11-13*  
+**Authors:** Edward Kim, Devan Shanker, Varun Bharadwaj, Hongbeen Park, Jinkyu Kim, Hazem Torfah, Daniel J Fremont, Sanjit A Seshia
 
-The emergence of new wearable technologies such as action cameras and smart-glasses has increased the interest of computer vision scientists in the First Person perspective. Nowadays, this field is attracting attention and investments of companies aiming to develop commercial devices with First Person Vision recording capabilities. Due to this interest, an increasing demand of methods to process t...
+Simulation-based testing has become a crucial complement to road testing for ensuring the safety of cyber physical systems (CPS). As a result, significant research efforts have been directed toward identifying failure scenarios within simulation environments. However, a critical question remains. Are the AV failure scenarios discovered in simulation reproducible on actual systems in the real world...
 
-### [A Comparative Study of Graph Matching Algorithms in Computer Vision](http://arxiv.org/abs/2207.00291v2)
-*Published: 2022-07-01*  
-**Authors:** Stefan Haller, Lorenz Feineis, Lisa Hutschenreiter, Florian Bernard, Carsten Rother, Dagmar Kainmüller, Paul Swoboda, Bogdan Savchynskyy
+### [Global Solutions to Non-Convex Functional Constrained Problems with Hidden Convexity](http://arxiv.org/abs/2511.10626v1)
+*Published: 2025-11-13*  
+**Authors:** Ilyas Fatkhullin, Niao He, Guanghui Lan, Florian Wolf
 
-The graph matching optimization problem is an essential component for many tasks in computer vision, such as bringing two deformable objects in correspondence. Naturally, a wide range of applicable algorithms have been proposed in the last decades. Since a common standard benchmark has not been developed, their performance claims are often hard to verify as evaluation on differing problem instance...
+Constrained non-convex optimization is fundamentally challenging, as global solutions are generally intractable and constraint qualifications may not hold. However, in many applications, including safe policy optimization in control and reinforcement learning, such problems possess hidden convexity, meaning they can be reformulated as convex programs via a nonlinear invertible transformation. Typi...
 
-### [Deep Learning vs. Traditional Computer Vision](http://arxiv.org/abs/1910.13796v1)
-*Published: 2019-10-30*  
-**Authors:** Niall O' Mahony, Sean Campbell, Anderson Carvalho, Suman Harapanahalli, Gustavo Velasco-Hernandez, Lenka Krpalkova, Daniel Riordan, Joseph Walsh
+### [Model-oriented Graph Distances via Partially Ordered Sets](http://arxiv.org/abs/2511.10625v1)
+*Published: 2025-11-13*  
+**Authors:** Armeen Taeb, F. Richard Guo, Leonard Henckel
 
-Deep Learning has pushed the limits of what was possible in the domain of Digital Image Processing. However, that is not to say that the traditional computer vision techniques which had been undergoing progressive development in years prior to the rise of DL have become obsolete. This paper will analyse the benefits and drawbacks of each approach. The aim of this paper is to promote a discussion o...
+A well-defined distance on the parameter space is key to evaluating estimators, ensuring consistency, and building confidence sets. While there are typically standard distances to adopt in a continuous space, this is not the case for combinatorial parameters such as graphs that represent statistical models. Existing proposals like the structural Hamming distance are defined on the graphs rather th...
 
-### [Food for thought: Ethical considerations of user trust in computer vision](http://arxiv.org/abs/1905.12487v1)
-*Published: 2019-05-29*  
-**Authors:** Kaylen J. Pfisterer, Jennifer Boger, Alexander Wong
+### [SSR: Socratic Self-Refine for Large Language Model Reasoning](http://arxiv.org/abs/2511.10621v1)
+*Published: 2025-11-13*  
+**Authors:** Haizhou Shi, Ye Liu, Bo Pang, Zeyu Leo Liu, Hao Wang, Silvio Savarese, Caiming Xiong, Yingbo Zhou, Semih Yavuz
 
-In computer vision research, especially when novel applications of tools are developed, ethical implications around user perceptions of trust in the underlying technology should be considered and supported. Here, we describe an example of the incorporation of such considerations within the long-term care sector for tracking resident food and fluid intake. We highlight our recent user study conduct...
+Large Language Models (LLMs) have demonstrated remarkable reasoning abilities, yet existing test-time frameworks often rely on coarse self-verification and self-correction, limiting their effectiveness on complex tasks. In this paper, we propose Socratic Self-Refine (SSR), a novel framework for fine-grained evaluation and precise refinement of LLM reasoning. Our proposed SSR decomposes model respo...
 
-### [Computer Vision Systems in Road Vehicles: A Review](http://arxiv.org/abs/1310.0315v1)
-*Published: 2013-10-01*  
-**Authors:** Kristian Kovačić, Edouard Ivanjko, Hrvoje Gold
+### [Algorithm Design and Stronger Guarantees for the Improving Multi-Armed Bandits Problem](http://arxiv.org/abs/2511.10619v1)
+*Published: 2025-11-13*  
+**Authors:** Avrim Blum, Marten Garicano, Kavya Ravichandran, Dravyansh Sharma
 
-The number of road vehicles significantly increased in recent decades. This trend accompanied a build-up of road infrastructure and development of various control systems to increase road traffic safety, road capacity and travel comfort. In traffic safety significant development has been made and today's systems more and more include cameras and computer vision methods. Cameras are used as part of...
+The improving multi-armed bandits problem is a formal model for allocating effort under uncertainty, motivated by scenarios such as investing research effort into new technologies, performing clinical trials, and hyperparameter selection from learning curves. Each pull of an arm provides reward that increases monotonically with diminishing returns. A growing line of work has designed algorithms fo...
 
 ---
