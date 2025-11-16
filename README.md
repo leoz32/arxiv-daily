@@ -1,6 +1,6 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-15
+**Last update:** 2025-11-16
 
 ---
 ## 🔍 RAG
