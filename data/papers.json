@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_update": "2025-11-16T03:22:10Z",
+    "last_update": "2025-11-17T03:20:45Z",
     "keywords": [
       "RAG",
       "Retrieval-Augmented Generation",
@@ -14,6 +14,62 @@
   },
   "data": {
     "RAG": [
+      {
+        "title": "Privacy Challenges and Solutions in Retrieval-Augmented Generation-Enhanced LLMs for Healthcare Chatbots: A Review of Applications, Risks, and Future Directions",
+        "authors": [
+          "Shaowei Guan",
+          "Hin Chi Kwok",
+          "Ngai Fong Law",
+          "Gregor Stiglic",
+          "Vivian Hui"
+        ],
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11347v1",
+        "summary": "Retrieval-augmented generation (RAG) has rapidly emerged as a transformative approach for integrating large language models into clinical and biomedical workflows. However, privacy risks, such as protected health information (PHI) exposure, remain inconsistently mitigated. This review provides a thorough analysis of the current landscape of RAG applications in healthcare, including (i) sensitive d..."
+      },
+      {
+        "title": "Multimodal Peer Review Simulation with Actionable To-Do Recommendations for Community-Aware Manuscript Revisions",
+        "authors": [
+          "Mengze Hong",
+          "Di Jiang",
+          "Weiwei Zhao",
+          "Yawen Li",
+          "Yihang Wang",
+          "Xinyuan Luo",
+          "Yanjie Sun",
+          "Chen Jason Zhang"
+        ],
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.10902v1",
+        "summary": "While large language models (LLMs) offer promising capabilities for automating academic workflows, existing systems for academic peer review remain constrained by text-only inputs, limited contextual grounding, and a lack of actionable feedback. In this work, we present an interactive web-based system for multimodal, community-aware peer review simulation to enable effective manuscript revisions b..."
+      },
+      {
+        "title": "Expert-Guided Prompting and Retrieval-Augmented Generation for Emergency Medical Service Question Answering",
+        "authors": [
+          "Xueren Ge",
+          "Sahil Murtaza",
+          "Anthony Cortez",
+          "Homa Alemzadeh"
+        ],
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.10900v1",
+        "summary": "Large language models (LLMs) have shown promise in medical question answering, yet they often overlook the domain-specific expertise that professionals depend on, such as the clinical subject areas (e.g., trauma, airway) and the certification level (e.g., EMT, Paramedic). Existing approaches typically apply general-purpose prompting or retrieval strategies without leveraging this structured contex..."
+      },
+      {
+        "title": "Sabiá: Um Chatbot de Inteligência Artificial Generativa para Suporte no Dia a Dia do Ensino Superior",
+        "authors": [
+          "Guilherme Biava Rodrigues",
+          "Franciele Beal",
+          "Marlon Marcon",
+          "Alinne Cristinne Corrêa Souza",
+          "André Roberto Ortoncelli",
+          "Francisco Carlos Monteiro Souza",
+          "Rodolfo Adamshuk Silva"
+        ],
+        "published": "2025-11-13",
+        "link": "http://arxiv.org/abs/2511.10787v1",
+        "summary": "Students often report difficulties in accessing day-to-day academic information, which is usually spread across numerous institutional documents and websites. This fragmentation results in a lack of clarity and causes confusion about routine university information. This project proposes the development of a chatbot using Generative Artificial Intelligence (GenAI) and Retrieval-Augmented Generation..."
+      },
       {
         "title": "Convomem Benchmark: Why Your First 150 Conversations Don't Need RAG",
         "authors": [
@@ -146,469 +202,408 @@
         "published": "2025-11-12",
         "link": "http://arxiv.org/abs/2511.09803v1",
         "summary": "Retrieval-Augmented Generation (RAG) improves factuality but retrieving for every query often hurts quality while inflating tokens and latency. We propose Training-free Adaptive Retrieval Gating (TARG), a single-shot policy that decides when to retrieve using only a short, no-context draft from the base model. From the draft's prefix logits, TARG computes lightweight uncertainty scores: mean token..."
-      },
-      {
-        "title": "Practical RAG Evaluation: A Rarity-Aware Set-Based Metric and Cost-Latency-Quality Trade-offs",
-        "authors": [
-          "Etienne Dallaire"
-        ],
-        "published": "2025-11-12",
-        "link": "http://arxiv.org/abs/2511.09545v1",
-        "summary": "This paper addresses the guessing game in building production RAG. Classical rank-centric IR metrics (nDCG/MAP/MRR) are a poor fit for RAG, where LLMs consume a set of passages rather than a browsed list; position discounts and prevalence-blind aggregation miss what matters: whether the prompt at cutoff K contains the decisive evidence. Second, there is no standardized, reproducible way to build a..."
-      },
-      {
-        "title": "Vendor-Aware Industrial Agents: RAG-Enhanced LLMs for Secure On-Premise PLC Code Generation",
-        "authors": [
-          "Joschka Kersting",
-          "Michael Rummel",
-          "Gesa Benndorf"
-        ],
-        "published": "2025-11-12",
-        "link": "http://arxiv.org/abs/2511.09122v1",
-        "summary": "Programmable Logic Controllers are operated by proprietary code dialects; this makes it challenging to train coding assistants. Current LLMs are trained on large code datasets and are capable of writing IEC 61131-3 compatible code out of the box, but they neither know specific function blocks, nor related project code. Moreover, companies like Mitsubishi Electric and their customers do not trust c..."
-      },
-      {
-        "title": "Thinking Forward and Backward: Multi-Objective Reinforcement Learning for Retrieval-Augmented Reasoning",
-        "authors": [
-          "Wenda Wei",
-          "Yu-An Liu",
-          "Ruqing Zhang",
-          "Jiafeng Guo",
-          "Lixin Su",
-          "Shuaiqiang Wang",
-          "Dawei Yin",
-          "Maarten de Rijke",
-          "Xueqi Cheng"
-        ],
-        "published": "2025-11-12",
-        "link": "http://arxiv.org/abs/2511.09109v2",
-        "summary": "Retrieval-augmented generation (RAG) has proven to be effective in mitigating hallucinations in large language models, yet its effectiveness remains limited in complex, multi-step reasoning scenarios. Recent efforts have incorporated search-based interactions into RAG, enabling iterative reasoning with real-time retrieval. Most approaches rely on outcome-based supervision, offering no explicit gui..."
-      },
-      {
-        "title": "AI Founding Fathers: A Case Study of GIS Search in Multi-Agent Pipelines",
-        "authors": [
-          "Alvin Chauhan"
-        ],
-        "published": "2025-11-12",
-        "link": "http://arxiv.org/abs/2511.09005v1",
-        "summary": "Although Large Language Models (LLMs) show exceptional fluency, efforts persist to extract stronger reasoning capabilities from them. Drawing on search-based interpretations of LLM computation, this paper advances a systematic framework for understanding LLM reasoning and optimization. Namely, that enhancing reasoning is best achieved by structuring a multi-agent pipeline to ensure a traversal of ..."
       }
     ],
     "Retrieval-Augmented Generation": [
       {
-        "title": "Enhancing the Outcome Reward-based RL Training of MLLMs with Self-Consistency Sampling",
+        "title": "Implicit inference of the reionization history with higher-order statistics of the 21-cm signal",
         "authors": [
-          "Jiahao Wang",
-          "Weiye Xu",
-          "Aijun Yang",
-          "Wengang Zhou",
-          "Lewei Lu",
-          "Houqiang Li",
-          "Xiaohua Wang",
-          "Jinguo Zhu"
+          "Nicolas Cerardi",
+          "Sambit K. Giri",
+          "Michele Bianco",
+          "Davide Piras",
+          "Emmanuel de Salis",
+          "Massimo De Santis",
+          "Merve Selcuk-Simsek",
+          "Philipp Denzel",
+          "Kelley M. Hess",
+          "M. Carmen Toribio",
+          "Franz Kirsten",
+          "Hatem Ghorbel"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10648v1",
-        "summary": "Outcome-reward reinforcement learning (RL) is a common and increasingly significant way to refine the step-by-step reasoning of multimodal large language models (MLLMs). In the multiple-choice setting - a dominant format for multimodal reasoning benchmarks - the paradigm faces a significant yet often overlooked obstacle: unfaithful trajectories that guess the correct option after a faulty chain of..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11568v1",
+        "summary": "The Epoch of Reionization (EoR), when the first luminous sources ionised the intergalactic medium, represents a new frontier in cosmology. The Square Kilometre Array Observatory (SKAO) will offer unprecedented insights into this era through observations of the redshifted 21-cm signal, enabling constraints on the Universe's reionization history. We investigate the information content of the average..."
       },
       {
-        "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+        "title": "Estimating Total Effects in Bipartite Experiments with Spillovers and Partial Eligibility",
         "authors": [
-          "Haotong Lin",
-          "Sili Chen",
-          "Junhao Liew",
-          "Donny Y. Chen",
-          "Zhenyu Li",
-          "Guang Shi",
-          "Jiashi Feng",
-          "Bingyi Kang"
+          "Albert Tan",
+          "Mohsen Bayati",
+          "James Nordlund",
+          "Roman Istomin"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10647v1",
-        "summary": "We present Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses. In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization, and a singular depth-ray prediction target obviates..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11564v1",
+        "summary": "We study randomized experiments in bipartite systems where only a subset of treatment-side units are eligible for assignment while all units continue to interact, generating interference. We formalize eligibility-constrained bipartite experiments and define estimands aligned with full deployment: the Primary Total Treatment Effect (PTTE) on eligible units and the Secondary Total Treatment Effect (..."
       },
       {
-        "title": "Ordinary lattice defects as probes of topology",
+        "title": "LARM: A Large Articulated-Object Reconstruction Model",
         "authors": [
-          "Aiden J. Mains",
-          "Jia-Xin Zhong",
-          "Yun Jing",
-          "Bitan Roy"
+          "Sylvia Yuan",
+          "Ruoxi Shi",
+          "Xinyue Wei",
+          "Xiaoshuai Zhang",
+          "Hao Su",
+          "Minghua Liu"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10646v1",
-        "summary": "In addition to topological lattice defects such as dislocations and disclinations, crystals are also accompanied by unavoidable ordinary defects, devoid of any non-trivial geometry or topology, among which vacancies, Schottky defects, substitutions, interstitials, and Frenkel pairs are the most common. In this work, we demonstrate that these ubiquitous ordinary lattice defects, though topologicall..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11563v1",
+        "summary": "Modeling 3D articulated objects with realistic geometry, textures, and kinematics is essential for a wide range of applications. However, existing optimization-based reconstruction methods often require dense multi-view inputs and expensive per-instance optimization, limiting their scalability. Recent feedforward approaches offer faster alternatives but frequently produce coarse geometry, lack tex..."
       },
       {
-        "title": "Black-Box On-Policy Distillation of Large Language Models",
+        "title": "Two Useful Facts About Generating Functions",
         "authors": [
-          "Tianzhu Ye",
-          "Li Dong",
-          "Zewen Chi",
-          "Xun Wu",
-          "Shaohan Huang",
-          "Furu Wei"
+          "Alex Kasman",
+          "Robert Milson"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10643v1",
-        "summary": "Black-box distillation creates student large language models (LLMs) by learning from a proprietary teacher model's text outputs alone, without access to its internal logits or parameters. In this work, we introduce Generative Adversarial Distillation (GAD), which enables on-policy and black-box distillation. GAD frames the student LLM as a generator and trains a discriminator to distinguish its re..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11559v1",
+        "summary": "Sequences are often conveniently encoded in the form of a generating function depending on a formal variable. This note presents two observations that allow one to draw conclusions about the generated sequence from the generating function. The first constructively produces \"recursion relations\" for the sequence from differential operators in the formal variable having the generating function as an..."
       },
       {
-        "title": "Flexible Simulation Based Inference for Galaxy Photometric Fitting with Synthesizer",
+        "title": "Human-AI collaborative autonomous synthesis with pulsed laser deposition for remote epitaxy",
         "authors": [
-          "Thomas Harvey",
-          "Christopher C. Lovell",
-          "Sophie Newman",
-          "Christopher J. Conselice",
-          "Duncan Austin",
-          "Aswin P. Vijayan",
-          "Stephen M. Wilkins",
-          "Vadim Rusakov",
-          "Qiong Li",
-          "Nathan Adams",
-          "Kai Magdwick",
-          "Matthew Ho"
+          "Asraful Haque",
+          "Daniel T. Yimam",
+          "Jawad Chowdhury",
+          "Ralph Bulanadi",
+          "Ivan Vlassiouk",
+          "John Lasseter",
+          "Sujoy Ghosh",
+          "Christopher M. Rouleau",
+          "Kai Xiao",
+          "Yongtao Liu",
+          "Eva Zarkadoula",
+          "Rama K. Vasudevan",
+          "Sumner B. Harris"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10640v1",
-        "summary": "We introduce Synference, a new, flexible Python framework for galaxy SED fitting using simulation-based inference (SBI). Synference leverages the Synthesizer package for flexible forward-modelling of galaxy SEDs and integrates the LtU-ILI package to ensure best practices in model training and validation. In this work we demonstrate Synference by training a neural posterior estimator on $10^6$ simu..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11558v1",
+        "summary": "Autonomous laboratories typically rely on data-driven decision-making, occasionally with human-in-the-loop oversight to inject domain expertise. Fully leveraging AI agents, however, requires tightly coupled, collaborative workflows spanning hypothesis generation, experimental planning, execution, and interpretation. To address this, we develop and deploy a human-AI collaborative (HAIC) workflow th..."
       },
       {
-        "title": "Emergent spin order and steady-state superradiance in one-dimensional baths",
+        "title": "Building far-from-equilibrium effective field theories using shift symmetries",
         "authors": [
-          "Silvia Cardenas-Lopez",
-          "Edgar Guardiola-Navarrete",
-          "Ana Asenjo-Garcia"
+          "Xin An",
+          "Robbe Brants",
+          "Michal P. Heller",
+          "Yi Yin"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10638v1",
-        "summary": "Spontaneous collective decay in driven atomic ensembles can generate coherence far from equilibrium, as illustrated by superradiant lasers where decay into a single-mode cavity synchronizes atomic phases into a macroscopic dipole and yields superradiant emission of light with an ultranarrow spectrum. Whether similar ordering persists in multimode reservoirs with propagation and competing collectiv..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11555v1",
+        "summary": "Contemporary understanding of thermalization in quantum field theory stems largely from understanding properties of transient excitations of equilibria. These nonhydrodynamic excitations are known to structurally differ between weakly- and strongly-coupled quantum field theories with no known results at intermediate values of the interaction strength. We demonstrate that all the known behaviors of..."
       },
       {
-        "title": "Asymptotic Simplicity and Scattering in General Relativity from Quantum Field Theory",
+        "title": "Testing the cosmological Euler equation: viscosity, equivalence principle, and gravity beyond general relativity",
         "authors": [
-          "Stefano De Angelis",
-          "Aidan Herderschee",
-          "Radu Roiban",
-          "Fei Teng"
+          "Ziyang Zheng",
+          "Malte Schneider",
+          "Luca Amendola"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10637v1",
-        "summary": "We investigate the fate of asymptotic simplicity in physically relevant settings of compact-object scattering. Using the stress tensor of a two-body system as a source, we compute the spacetime metric in General Relativity at finite observer distance in an asymptotic expansion. To do so, we relate the metric to the final-state graviton one-point function in momentum space, which is computed using ..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11554v1",
+        "summary": "We investigate how the cosmological Euler equation can be tested in the presence of viscous dark matter, violations of the equivalence principle (EP), and modifications of gravity, while relying on minimal theoretical assumptions. Extending the previous analysis, we generalize the observable $E_P$, which quantifies EP violation, to $\\tilde{E}_P$, discuss the degeneracy between bulk and shear visco..."
       },
       {
-        "title": "Eigenfunctions of deformed Schrödinger equations",
+        "title": "DocLens : A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding",
         "authors": [
-          "Matijn François",
-          "Alba Grassi",
-          "Tommaso Pedroni"
+          "Dawei Zhu",
+          "Rui Meng",
+          "Jiefeng Chen",
+          "Sujian Li",
+          "Tomas Pfister",
+          "Jinsung Yoon"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10636v1",
-        "summary": "We study the spectral problems associated with the finite-difference operators $H_N = 2 \\cosh(p) + V_N(x)$, where $V_N(x)$ is an arbitrary polynomial potential of degree $N$. These systems can be regarded as a solvable deformation of the standard Schrödinger operators $p^2 + V_N(x)$, and they arise naturally from the quantization of the Seiberg-Witten curve of four-dimensional, $\\mathcal{N} = 2$, ..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11552v1",
+        "summary": "Comprehending long visual documents, where information is distributed across extensive pages of text and visual elements, is a critical but challenging task for modern Vision-Language Models (VLMs). Existing approaches falter on a fundamental challenge: evidence localization. They struggle to retrieve relevant pages and overlook fine-grained details within visual elements, leading to limited perfo..."
       },
       {
-        "title": "Non-stationary noise in gravitational wave analyses: The wavelet domain noise covariance matrix",
+        "title": "Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping",
         "authors": [
-          "Neil J. Cornish"
+          "Dena Mujtaba",
+          "Brian Hu",
+          "Anthony Hoogs",
+          "Arslan Basharat"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10632v1",
-        "summary": "Gravitational wave detectors produce time series of the gravitational wave strain co-added with instrument noise. For evenly sampled data, such as from laser interferometers, it has been traditional to Fourier transform the data and perform analyses in the frequency domain. The motivation being that the Fourier domain noise covariance matrix will be diagonal if the noise properties are constant in..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11551v1",
+        "summary": "The deployment of decision-making AI agents presents a critical challenge in maintaining alignment with human values or guidelines while operating in complex, dynamic environments. Agents trained solely to achieve their objectives may adopt harmful behavior, exposing a key trade-off between maximizing the reward function and maintaining the alignment. For the pre-trained agents, ensuring alignment..."
       },
       {
-        "title": "One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models",
+        "title": "$CPT$-Symmetric Kähler-Dirac Fermions",
         "authors": [
-          "Aleksandr Razin",
-          "Danil Kazantsev",
-          "Ilya Makarov"
+          "Latham Boyle",
+          "Wei-Ning Deng"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10629v1",
-        "summary": "Diffusion models struggle to scale beyond their training resolutions, as direct high-resolution sampling is slow and costly, while post-hoc image super-resolution (ISR) introduces artifacts and additional latency by operating after decoding. We present the Latent Upscaler Adapter (LUA), a lightweight module that performs super-resolution directly on the generator's latent code before the final VAE..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11548v1",
+        "summary": "Kähler-Dirac (KD) spinors have generated excitement in the lattice gauge theory community, as a way to (i) deal with the ``fermion doubling\" problems that plague ordinary (Dirac, Majorana, or Weyl) spinors when discretized on a lattice, and (ii) help explain the structure of the standard model. But if one naively quantizes this theory in Lorentzian signature, problems arise: half the KD fields hav..."
       },
       {
-        "title": "Instella: Fully Open Language Models with Stellar Performance",
+        "title": "The Number of Solvabilizers in Finite Groups",
         "authors": [
-          "Jiang Liu",
-          "Jialian Wu",
-          "Xiaodong Yu",
-          "Yusheng Su",
-          "Prakamya Mishra",
-          "Gowtham Ramesh",
-          "Sudhanshu Ranjan",
-          "Chaitanya Manem",
-          "Ximeng Sun",
-          "Ze Wang",
-          "Pratik Prabhanjan Brahma",
-          "Zicheng Liu",
-          "Emad Barsoum"
+          "Banafsheh Akbari",
+          "Ethan Han",
+          "Sasha Lin",
+          "Benjamin Vakil"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10628v1",
-        "summary": "Large language models (LLMs) have demonstrated remarkable performance across a wide range of tasks, yet the majority of high-performing models remain closed-source or partially open, limiting transparency and reproducibility. In this work, we introduce Instella, a family of fully open three billion parameter language models trained entirely on openly available data and codebase. Powered by AMD Ins..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11544v1",
+        "summary": "Considering a finite group $G$, for any element $x\\in G$, the solvabilizer of $x$ in $G$ is defined as $Sol_G(x)=\\{y \\in G : \\langle x, y \\rangle \\text{ is solvable}\\}$. In this paper, we introduce $Solv(G)$ as the number of distinct solvabilizers of elements in $G$. A group is called $n$-solvabilizer if $|Solv(G)|=n$. We compute $|Solv(G)|$ for various classes of non-abelian simple groups, includ..."
       },
       {
-        "title": "Global Solutions to Non-Convex Functional Constrained Problems with Hidden Convexity",
+        "title": "Generalizing Fair Clustering to Multiple Groups: Algorithms and Applications",
         "authors": [
-          "Ilyas Fatkhullin",
-          "Niao He",
-          "Guanghui Lan",
-          "Florian Wolf"
+          "Diptarka Chakraborty",
+          "Kushagra Chatterjee",
+          "Debarati Das",
+          "Tien-Long Nguyen"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10626v1",
-        "summary": "Constrained non-convex optimization is fundamentally challenging, as global solutions are generally intractable and constraint qualifications may not hold. However, in many applications, including safe policy optimization in control and reinforcement learning, such problems possess hidden convexity, meaning they can be reformulated as convex programs via a nonlinear invertible transformation. Typi..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11539v1",
+        "summary": "Clustering is a fundamental task in machine learning and data analysis, but it frequently fails to provide fair representation for various marginalized communities defined by multiple protected attributes -- a shortcoming often caused by biases in the training data. As a result, there is a growing need to enhance the fairness of clustering outcomes, ideally by making minimal modifications, possibl..."
       },
       {
-        "title": "Verification of Sequential Convex Programming for Parametric Non-convex Optimization",
+        "title": "Probing the era of giant collisions: millimeter observations of the HD 166191 system",
         "authors": [
-          "Rajiv Sambharya",
-          "Nikolai Matni",
-          "George Pappas"
+          "Kadin Worthen",
+          "Christine H. Chen",
+          "A. Meredith Hughes",
+          "Brandon C. Johnson",
+          "Isabel Rebollido",
+          "Diego E. Garcia",
+          "Jamar Kittling",
+          "Carey M. Lisse"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10622v1",
-        "summary": "We introduce a verification framework to exactly verify the worst-case performance of sequential convex programming (SCP) algorithms for parametric non-convex optimization. The verification problem is formulated as an optimization problem that maximizes a performance metric (e.g., the suboptimality after a given number of iterations) over parameters constrained to be in a parameter set and iterate..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11535v1",
+        "summary": "We present non-simultaneous ALMA band 7 and SMA observations of the HD 166191 disk, which was recently thought to have a collision in its terrestrial planet zone. Both observations detect dust continuum emission and the ALMA observations detect the 12CO J=3-2 line from the circumstellar disk. We do not detect SiO, a potential indicator of giant collisions, but place a limit on the total SiO mass i..."
       },
       {
-        "title": "Know Your Limits: Entropy Estimation Modeling for Compression and Generalization",
+        "title": "Mutated Hilltop Inflation in the Era of Present and Future CMB Experiments",
         "authors": [
-          "Benjamin L. Badger",
-          "Matthew Neligeorge"
+          "Barun Kumar Pal"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10618v1",
-        "summary": "Language prediction is constrained by informational entropy intrinsic to language, such that there exists a limit to how accurate any language model can become and equivalently a lower bound to language compression. The most efficient language compression algorithms today are causal (next token prediction) large language models, but the use of these models to form accurate estimates of language en..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11534v1",
+        "summary": "In this article we confront both large-field and small-field sectors of mutated hilltop inflation model with the recent observational results. We begin with confrontation of predictions from mutated hilltop inflation with the joint analysis of Planck-2018 and BICEP/Keck-2018 data. Subsequently, we extend our analysis by incorporating the ACT-DR6 data in combination with Planck-2018, BICEP/Keck-201..."
       },
       {
-        "title": "Dark Matter from Holography",
+        "title": "Exploring the Zipf Distribution Through the Lens of Mixtures",
         "authors": [
-          "Oem Trivedi",
-          "Robert J. Scherrer"
+          "Marta Pérez-Casany",
+          "Ariel Duarte-López",
+          "Jordi Valero"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10617v1",
-        "summary": "Previous studies have examined the holographic principle as a means of producing dark energy. Here we propose instead the possibility of holographic dark matter. In this case, dark matter does not arise in the framework of particle physics but is derived from the infrared cutoff set by the horizon scale. Using the Ricci cutoff, and a universe containing only baryons and radiation, we can account f..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11530v1",
+        "summary": "The Zipf distribution is a probability distribution widely used by scientists from various disciplines due to its ubiquity. Some of these areas include linguistics, physics, genetics, and sociology, among others. In this paper, it is proved that the Zipf distribution is both a mixture of geometric distributions and a mixture of zero-truncated Poisson distributions. It is also shown that it is not ..."
       }
     ],
     "Computer Vision": [
       {
-        "title": "Enhancing the Outcome Reward-based RL Training of MLLMs with Self-Consistency Sampling",
+        "title": "Optimizing Mixture of Block Attention",
         "authors": [
-          "Jiahao Wang",
-          "Weiye Xu",
-          "Aijun Yang",
-          "Wengang Zhou",
-          "Lewei Lu",
-          "Houqiang Li",
-          "Xiaohua Wang",
-          "Jinguo Zhu"
+          "Guangxuan Xiao",
+          "Junxian Guo",
+          "Kasra Mazaheri",
+          "Song Han"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10648v1",
-        "summary": "Outcome-reward reinforcement learning (RL) is a common and increasingly significant way to refine the step-by-step reasoning of multimodal large language models (MLLMs). In the multiple-choice setting - a dominant format for multimodal reasoning benchmarks - the paradigm faces a significant yet often overlooked obstacle: unfaithful trajectories that guess the correct option after a faulty chain of..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11571v1",
+        "summary": "Mixture of Block Attention (MoBA) (Lu et al., 2025) is a promising building block for efficiently processing long contexts in LLMs by enabling queries to sparsely attend to a small subset of key-value blocks, drastically reducing computational cost. However, the design principles governing MoBA's performance are poorly understood, and it lacks an efficient GPU implementation, hindering its practic..."
       },
       {
-        "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+        "title": "Private Frequency Estimation Via Residue Number Systems",
         "authors": [
-          "Haotong Lin",
-          "Sili Chen",
-          "Junhao Liew",
-          "Donny Y. Chen",
-          "Zhenyu Li",
-          "Guang Shi",
-          "Jiashi Feng",
-          "Bingyi Kang"
+          "Héber H. Arcolezi"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10647v1",
-        "summary": "We present Depth Anything 3 (DA3), a model that predicts spatially consistent geometry from an arbitrary number of visual inputs, with or without known camera poses. In pursuit of minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) is sufficient as a backbone without architectural specialization, and a singular depth-ray prediction target obviates..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11569v1",
+        "summary": "We present \\textsf{ModularSubsetSelection} (MSS), a new algorithm for locally differentially private (LDP) frequency estimation. Given a universe of size $k$ and $n$ users, our $\\varepsilon$-LDP mechanism encodes each input via a Residue Number System (RNS) over $\\ell$ pairwise-coprime moduli $m_0, \\ldots, m_{\\ell-1}$, and reports a randomly chosen index $j \\in [\\ell]$ along with the perturbed res..."
       },
       {
-        "title": "ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference",
+        "title": "Estimating Total Effects in Bipartite Experiments with Spillovers and Partial Eligibility",
         "authors": [
-          "Yesheng Liang",
-          "Haisheng Chen",
-          "Song Han",
-          "Zhijian Liu"
+          "Albert Tan",
+          "Mohsen Bayati",
+          "James Nordlund",
+          "Roman Istomin"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10645v1",
-        "summary": "Weight-only post-training quantization (PTQ) compresses the weights of Large Language Models (LLMs) into low-precision representations to reduce memory footprint and accelerate inference. However, the presence of outliers in weights and activations often leads to large quantization errors and severe accuracy degradation, especially in recent reasoning LLMs where errors accumulate across long chain..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11564v1",
+        "summary": "We study randomized experiments in bipartite systems where only a subset of treatment-side units are eligible for assignment while all units continue to interact, generating interference. We formalize eligibility-constrained bipartite experiments and define estimands aligned with full deployment: the Primary Total Treatment Effect (PTTE) on eligible units and the Secondary Total Treatment Effect (..."
       },
       {
-        "title": "Black-Box On-Policy Distillation of Large Language Models",
+        "title": "LARM: A Large Articulated-Object Reconstruction Model",
         "authors": [
-          "Tianzhu Ye",
-          "Li Dong",
-          "Zewen Chi",
-          "Xun Wu",
-          "Shaohan Huang",
-          "Furu Wei"
+          "Sylvia Yuan",
+          "Ruoxi Shi",
+          "Xinyue Wei",
+          "Xiaoshuai Zhang",
+          "Hao Su",
+          "Minghua Liu"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10643v1",
-        "summary": "Black-box distillation creates student large language models (LLMs) by learning from a proprietary teacher model's text outputs alone, without access to its internal logits or parameters. In this work, we introduce Generative Adversarial Distillation (GAD), which enables on-policy and black-box distillation. GAD frames the student LLM as a generator and trains a discriminator to distinguish its re..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11563v1",
+        "summary": "Modeling 3D articulated objects with realistic geometry, textures, and kinematics is essential for a wide range of applications. However, existing optimization-based reconstruction methods often require dense multi-view inputs and expensive per-instance optimization, limiting their scalability. Recent feedforward approaches offer faster alternatives but frequently produce coarse geometry, lack tex..."
       },
       {
-        "title": "Asymptotic Simplicity and Scattering in General Relativity from Quantum Field Theory",
+        "title": "PRBench: Large-Scale Expert Rubrics for Evaluating High-Stakes Professional Reasoning",
         "authors": [
-          "Stefano De Angelis",
-          "Aidan Herderschee",
-          "Radu Roiban",
-          "Fei Teng"
+          "Afra Feyza Akyürek",
+          "Advait Gosai",
+          "Chen Bo Calvin Zhang",
+          "Vipul Gupta",
+          "Jaehwan Jeong",
+          "Anisha Gunjal",
+          "Tahseen Rabbani",
+          "Maria Mazzone",
+          "David Randolph",
+          "Mohammad Mahmoudi Meymand",
+          "Gurshaan Chattha",
+          "Paula Rodriguez",
+          "Diego Mares",
+          "Pavit Singh",
+          "Michael Liu",
+          "Subodh Chawla",
+          "Pete Cline",
+          "Lucy Ogaz",
+          "Ernesto Hernandez",
+          "Zihao Wang",
+          "Pavi Bhatter",
+          "Marcos Ayestaran",
+          "Bing Liu",
+          "Yunzhong He"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10637v1",
-        "summary": "We investigate the fate of asymptotic simplicity in physically relevant settings of compact-object scattering. Using the stress tensor of a two-body system as a source, we compute the spacetime metric in General Relativity at finite observer distance in an asymptotic expansion. To do so, we relate the metric to the final-state graviton one-point function in momentum space, which is computed using ..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11562v1",
+        "summary": "Frontier model progress is often measured by academic benchmarks, which offer a limited view of performance in real-world professional contexts. Existing evaluations often fail to assess open-ended, economically consequential tasks in high-stakes domains like Legal and Finance, where practical returns are paramount. To address this, we introduce Professional Reasoning Bench (PRBench), a realistic,..."
       },
       {
-        "title": "Robot Crash Course: Learning Soft and Stylized Falling",
+        "title": "A Unified Convergence Analysis for Semi-Decentralized Learning: Sampled-to-Sampled vs. Sampled-to-All Communication",
         "authors": [
-          "Pascal Strauch",
-          "David Müller",
-          "Sammy Christen",
-          "Agon Serifi",
-          "Ruben Grandia",
-          "Espen Knoop",
-          "Moritz Bächer"
+          "Angelo Rodio",
+          "Giovanni Neglia",
+          "Zheng Chen",
+          "Erik G. Larsson"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10635v1",
-        "summary": "Despite recent advances in robust locomotion, bipedal robots operating in the real world remain at risk of falling. While most research focuses on preventing such events, we instead concentrate on the phenomenon of falling itself. Specifically, we aim to reduce physical damage to the robot while providing users with control over a robot's end pose. To this end, we propose a robot agnostic reward f..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11560v1",
+        "summary": "In semi-decentralized federated learning, devices primarily rely on device-to-device communication but occasionally interact with a central server. Periodically, a sampled subset of devices uploads their local models to the server, which computes an aggregate model. The server can then either (i) share this aggregate model only with the sampled clients (sampled-to-sampled, S2S) or (ii) broadcast i..."
       },
       {
-        "title": "Impacts of Decoder Latency on Utility-Scale Quantum Computer Architectures",
+        "title": "Human-AI collaborative autonomous synthesis with pulsed laser deposition for remote epitaxy",
         "authors": [
-          "Abdullah Khalid",
-          "Allyson Silva",
-          "Gebremedhin A. Dagnew",
-          "Tom Dvir",
-          "Oded Wertheim",
-          "Motty Gruda",
-          "Xiangzhou Kong",
-          "Mia Kramer",
-          "Zak Webb",
-          "Artur Scherer",
-          "Masoud Mohseni",
-          "Yonatan Cohen",
-          "Pooya Ronagh"
+          "Asraful Haque",
+          "Daniel T. Yimam",
+          "Jawad Chowdhury",
+          "Ralph Bulanadi",
+          "Ivan Vlassiouk",
+          "John Lasseter",
+          "Sujoy Ghosh",
+          "Christopher M. Rouleau",
+          "Kai Xiao",
+          "Yongtao Liu",
+          "Eva Zarkadoula",
+          "Rama K. Vasudevan",
+          "Sumner B. Harris"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10633v1",
-        "summary": "The speed of a fault-tolerant quantum computer is dictated by the reaction time of its classical electronics, that is, the total time required by decoders and controllers to determine the outcome of a logical measurement and execute subsequent conditional logical operations. Despite its importance, the reaction time and its impact on the design of the logical microarchitecture of a quantum compute..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11558v1",
+        "summary": "Autonomous laboratories typically rely on data-driven decision-making, occasionally with human-in-the-loop oversight to inject domain expertise. Fully leveraging AI agents, however, requires tightly coupled, collaborative workflows spanning hypothesis generation, experimental planning, execution, and interpretation. To address this, we develop and deploy a human-AI collaborative (HAIC) workflow th..."
       },
       {
-        "title": "A Bayesian Perspective on Evidence for Evolving Dark Energy",
+        "title": "Drone Swarm Energy Management",
         "authors": [
-          "Dily Duan Yi Ong",
-          "David Yallup",
-          "Will Handley"
+          "Michael Z. Zgurovsky",
+          "Pavlo O. Kasyanov",
+          "Liliia S. Paliichuk"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10631v1",
-        "summary": "The DESI collaboration reports a significant preference for a dynamic dark energy model ($w_0w_a$CDM) over the cosmological constant ($Λ$CDM) when their data are combined with other frontier cosmological probes. We present a direct Bayesian model comparison using nested sampling to compute the Bayesian evidence, revealing a contrasting conclusion: for the key combination of the DESI DR2 BAO and th..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11557v1",
+        "summary": "This note presents an analytical framework for decision-making in drone swarm systems operating under uncertainty, based on the integration of Partially Observable Markov Decision Processes (POMDP) with Deep Deterministic Policy Gradient (DDPG) reinforcement learning. The proposed approach enables adaptive control and cooperative behavior of unmanned aerial vehicles (UAVs) within a cognitive AI pl..."
       },
       {
-        "title": "One Small Step in Latent, One Giant Leap for Pixels: Fast Latent Upscale Adapter for Your Diffusion Models",
+        "title": "Multistability of Self-Attention Dynamics in Transformers",
         "authors": [
-          "Aleksandr Razin",
-          "Danil Kazantsev",
-          "Ilya Makarov"
+          "Claudio Altafini"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10629v1",
-        "summary": "Diffusion models struggle to scale beyond their training resolutions, as direct high-resolution sampling is slow and costly, while post-hoc image super-resolution (ISR) introduces artifacts and additional latency by operating after decoding. We present the Latent Upscaler Adapter (LUA), a lightweight module that performs super-resolution directly on the generator's latent code before the final VAE..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11553v1",
+        "summary": "In machine learning, a self-attention dynamics is a continuous-time multiagent-like model of the attention mechanisms of transformers. In this paper we show that such dynamics is related to a multiagent version of the Oja flow, a dynamical system that computes the principal eigenvector of a matrix corresponding for transformers to the value matrix. We classify the equilibria of the ``single-head''..."
       },
       {
-        "title": "Instella: Fully Open Language Models with Stellar Performance",
+        "title": "DocLens : A Tool-Augmented Multi-Agent Framework for Long Visual Document Understanding",
         "authors": [
-          "Jiang Liu",
-          "Jialian Wu",
-          "Xiaodong Yu",
-          "Yusheng Su",
-          "Prakamya Mishra",
-          "Gowtham Ramesh",
-          "Sudhanshu Ranjan",
-          "Chaitanya Manem",
-          "Ximeng Sun",
-          "Ze Wang",
-          "Pratik Prabhanjan Brahma",
-          "Zicheng Liu",
-          "Emad Barsoum"
+          "Dawei Zhu",
+          "Rui Meng",
+          "Jiefeng Chen",
+          "Sujian Li",
+          "Tomas Pfister",
+          "Jinsung Yoon"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10628v1",
-        "summary": "Large language models (LLMs) have demonstrated remarkable performance across a wide range of tasks, yet the majority of high-performing models remain closed-source or partially open, limiting transparency and reproducibility. In this work, we introduce Instella, a family of fully open three billion parameter language models trained entirely on openly available data and codebase. Powered by AMD Ins..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11552v1",
+        "summary": "Comprehending long visual documents, where information is distributed across extensive pages of text and visual elements, is a critical but challenging task for modern Vision-Language Models (VLMs). Existing approaches falter on a fundamental challenge: evidence localization. They struggle to retrieve relevant pages and overlook fine-grained details within visual elements, leading to limited perfo..."
       },
       {
-        "title": "Querying Labeled Time Series Data with Scenario Programs",
+        "title": "Aligning Machiavellian Agents: Behavior Steering via Test-Time Policy Shaping",
         "authors": [
-          "Edward Kim",
-          "Devan Shanker",
-          "Varun Bharadwaj",
-          "Hongbeen Park",
-          "Jinkyu Kim",
-          "Hazem Torfah",
-          "Daniel J Fremont",
-          "Sanjit A Seshia"
+          "Dena Mujtaba",
+          "Brian Hu",
+          "Anthony Hoogs",
+          "Arslan Basharat"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10627v1",
-        "summary": "Simulation-based testing has become a crucial complement to road testing for ensuring the safety of cyber physical systems (CPS). As a result, significant research efforts have been directed toward identifying failure scenarios within simulation environments. However, a critical question remains. Are the AV failure scenarios discovered in simulation reproducible on actual systems in the real world..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11551v1",
+        "summary": "The deployment of decision-making AI agents presents a critical challenge in maintaining alignment with human values or guidelines while operating in complex, dynamic environments. Agents trained solely to achieve their objectives may adopt harmful behavior, exposing a key trade-off between maximizing the reward function and maintaining the alignment. For the pre-trained agents, ensuring alignment..."
       },
       {
-        "title": "Global Solutions to Non-Convex Functional Constrained Problems with Hidden Convexity",
+        "title": "CertiA360: Enhance Compliance Agility in Aerospace Software Development",
         "authors": [
-          "Ilyas Fatkhullin",
-          "Niao He",
-          "Guanghui Lan",
-          "Florian Wolf"
+          "J. Antonio Dantas Macedo",
+          "Hugo Fernandes",
+          "J. Eduardo Ferreira Ribeiro"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10626v1",
-        "summary": "Constrained non-convex optimization is fundamentally challenging, as global solutions are generally intractable and constraint qualifications may not hold. However, in many applications, including safe policy optimization in control and reinforcement learning, such problems possess hidden convexity, meaning they can be reformulated as convex programs via a nonlinear invertible transformation. Typi..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11550v1",
+        "summary": "Agile methods are characterised by iterative and incremental processes with a strong focus on flexibility and accommodating changing requirements based on either technical, regulatory, or stakeholder feedback. However, integrating Agile methods into safety-critical system development in the aerospace industry presents substantial challenges due to its strict compliance requirements, such as those ..."
       },
       {
-        "title": "Model-oriented Graph Distances via Partially Ordered Sets",
+        "title": "HetDAPAC: Leveraging Attribute Heterogeneity in Distributed Attribute-Based Private Access Control",
         "authors": [
-          "Armeen Taeb",
-          "F. Richard Guo",
-          "Leonard Henckel"
+          "Shreya Meel",
+          "Sennur Ulukus"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10625v1",
-        "summary": "A well-defined distance on the parameter space is key to evaluating estimators, ensuring consistency, and building confidence sets. While there are typically standard distances to adopt in a continuous space, this is not the case for combinatorial parameters such as graphs that represent statistical models. Existing proposals like the structural Hamming distance are defined on the graphs rather th..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11549v1",
+        "summary": "Verifying user attributes to provide fine-grained access control to databases is fundamental to attribute-based authentication. Either a single (central) authority verifies all the attributes, or multiple independent authorities verify the attributes distributedly. In the central setup, the authority verifies all user attributes, and the user downloads only the authorized record. While this is com..."
       },
       {
-        "title": "SSR: Socratic Self-Refine for Large Language Model Reasoning",
+        "title": "Parameterized complexity of the f-Critical Set problem",
         "authors": [
-          "Haizhou Shi",
-          "Ye Liu",
-          "Bo Pang",
-          "Zeyu Leo Liu",
-          "Hao Wang",
-          "Silvio Savarese",
-          "Caiming Xiong",
-          "Yingbo Zhou",
-          "Semih Yavuz"
+          "Thiago Marcilon",
+          "Murillo Inácio da Costa Silva"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10621v1",
-        "summary": "Large Language Models (LLMs) have demonstrated remarkable reasoning abilities, yet existing test-time frameworks often rely on coarse self-verification and self-correction, limiting their effectiveness on complex tasks. In this paper, we propose Socratic Self-Refine (SSR), a novel framework for fine-grained evaluation and precise refinement of LLM reasoning. Our proposed SSR decomposes model respo..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11546v1",
+        "summary": "Given a graph $G=(V,E)$ and a function $f:V(G) \\rightarrow \\mathbb{N}$, an $f$-reversible process on $G$ is a dynamical system such that, given an initial vertex labeling $c_0 : V(G) \\rightarrow \\{0,1\\}$, every vertex $v$ changes its label if and only if it has at least $f(v)$ neighbors with the opposite label. The updates occur synchronously in discrete time steps $t=0,1,2,\\ldots$. An $f$-critica..."
       },
       {
-        "title": "Algorithm Design and Stronger Guarantees for the Improving Multi-Armed Bandits Problem",
+        "title": "Incremental Data-Driven Policy Synthesis via Game Abstractions",
         "authors": [
-          "Avrim Blum",
-          "Marten Garicano",
-          "Kavya Ravichandran",
-          "Dravyansh Sharma"
+          "Irmak Sağlam",
+          "Mahdi Nazeri",
+          "Alessandro Abate",
+          "Sadegh Soudjani",
+          "Anne-Kathrin Schmuck"
         ],
-        "published": "2025-11-13",
-        "link": "http://arxiv.org/abs/2511.10619v1",
-        "summary": "The improving multi-armed bandits problem is a formal model for allocating effort under uncertainty, motivated by scenarios such as investing research effort into new technologies, performing clinical trials, and hyperparameter selection from learning curves. Each pull of an arm provides reward that increases monotonically with diminishing returns. A growing line of work has designed algorithms fo..."
+        "published": "2025-11-14",
+        "link": "http://arxiv.org/abs/2511.11545v1",
+        "summary": "We address the synthesis of control policies for unknown discrete-time stochastic dynamical systems to satisfy temporal logic objectives. We present a data-driven, abstraction-based control framework that integrates online learning with novel incremental game-solving. Under appropriate continuity assumptions, our method abstracts the system dynamics into a finite stochastic (2.5-player) game graph..."
       }
     ]
   }
