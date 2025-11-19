@@ -1,9 +1,57 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-18
+**Last update:** 2025-11-19
 
 ---
 ## 🔍 RAG
+
+### [Streamlining Industrial Contract Management with Retrieval-Augmented LLMs](http://arxiv.org/abs/2511.14671v1)
+*Published: 2025-11-18*  
+**Authors:** Kristi Topollai, Tolga Dimlioglu, Anna Choromanska, Simon Odie, Reginald Hui
+
+Contract management involves reviewing and negotiating provisions, individual clauses that define rights, obligations, and terms of agreement. During this process, revisions to provisions are proposed and iteratively refined, some of which may be problematic or unacceptable. Automating this workflow is challenging due to the scarcity of labeled data and the abundance of unstructured legacy contrac...
+
+### [LiveRAG: A diverse Q&A dataset with varying difficulty level for RAG evaluation](http://arxiv.org/abs/2511.14531v1)
+*Published: 2025-11-18*  
+**Authors:** David Carmel, Simone Filice, Guy Horowitz, Yoelle Maarek, Alex Shtoff, Oren Somekh, Ran Tavory
+
+With Retrieval Augmented Generation (RAG) becoming more and more prominent in generative AI solutions, there is an emerging need for systematically evaluating their effectiveness. We introduce the LiveRAG benchmark, a publicly available dataset of 895 synthetic questions and answers designed to support systematic evaluation of RAG-based Q&A systems. This synthetic benchmark is derived from the one...
+
+### [Tell Me: An LLM-powered Mental Well-being Assistant with RAG, Synthetic Dialogue Generation, and Agentic Planning](http://arxiv.org/abs/2511.14445v1)
+*Published: 2025-11-18*  
+**Authors:** Trishala Jayesh Ahalpara
+
+We present Tell Me, a mental well-being system that leverages advances in large language models to provide accessible, context-aware support for users and researchers. The system integrates three components: (i) a retrieval-augmented generation (RAG) assistant for personalized, knowledge-grounded dialogue; (ii) a synthetic client-therapist dialogue generator conditioned on client profiles to facil...
+
+### [SciRAG: Adaptive, Citation-Aware, and Outline-Guided Retrieval and Synthesis for Scientific Literature](http://arxiv.org/abs/2511.14362v1)
+*Published: 2025-11-18*  
+**Authors:** Hang Ding, Yilun Zhao, Tiansheng Hu, Manasi Patwardhan, Arman Cohan
+
+The accelerating growth of scientific publications has intensified the need for scalable, trustworthy systems to synthesize knowledge across diverse literature. While recent retrieval-augmented generation (RAG) methods have improved access to scientific information, they often overlook citation graph structure, adapt poorly to complex queries, and yield fragmented, hard-to-verify syntheses. We int...
+
+### [WebRec: Enhancing LLM-based Recommendations with Attention-guided RAG from Web](http://arxiv.org/abs/2511.14182v1)
+*Published: 2025-11-18*  
+**Authors:** Zihuai Zhao, Yujuan Ding, Wenqi Fan, Qing Li
+
+Recommender systems play a vital role in alleviating information overload and enriching users' online experience. In the era of large language models (LLMs), LLM-based recommender systems have emerged as a prevalent paradigm for advancing personalized recommendations. Recently, retrieval-augmented generation (RAG) has drawn growing interest to facilitate the recommendation capability of LLMs, inco...
+
+### [NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval](http://arxiv.org/abs/2511.14096v1)
+*Published: 2025-11-18*  
+**Authors:** Junchen Li, Rongzheng Wang, Yihong Huang, Qizhi Chen, Jiasheng Zhang, Shuang Liang
+
+Retrieval-augmented generation (RAG) greatly enhances large language models (LLMs) performance in knowledge-intensive tasks. However, naive RAG methods struggle with multi-hop question answering due to their limited capacity to capture complex dependencies across documents. Recent studies employ graph-based RAG to capture document connections. However, these approaches often result in a loss of se...
+
+### [Knowledge-Grounded Agentic Large Language Models for Multi-Hazard Understanding from Reconnaissance Reports](http://arxiv.org/abs/2511.14010v1)
+*Published: 2025-11-18*  
+**Authors:** Chenchen Kuai, Zihao Li, Braden Rosen, Stephanie Paan, Navid Jafari, Jean-Louis Briaud, Yunlong Zhang, Youssef M. A. Hashash, Yang Zhou
+
+Post-disaster reconnaissance reports contain critical evidence for understanding multi-hazard interactions, yet their unstructured narratives make systematic knowledge transfer difficult. Large language models (LLMs) offer new potential for analyzing these reports, but often generate unreliable or hallucinated outputs when domain grounding is absent. This study introduces the Mixture-of-Retrieval ...
+
+### [Artificial Intelligence Agents in Music Analysis: An Integrative Perspective Based on Two Use Cases](http://arxiv.org/abs/2511.13987v1)
+*Published: 2025-11-17*  
+**Authors:** Antonio Manuel Martínez-Heredia, Dolores Godrid Rodríguez, Andrés Ortiz García
+
+This paper presents an integrative review and experimental validation of artificial intelligence (AI) agents applied to music analysis and education. We synthesize the historical evolution from rule-based models to contemporary approaches involving deep learning, multi-agent architectures, and retrieval-augmented generation (RAG) frameworks. The pedagogical implications are evaluated through a dua...
 
 ### [Automated Construction of Medical Indicator Knowledge Graphs Using Retrieval Augmented Large Language Models](http://arxiv.org/abs/2511.13526v1)
 *Published: 2025-11-17*  
@@ -47,238 +95,190 @@ Retrieval-Augmented Generation (RAG) is a critical paradigm for building reliabl
 
 Retrieval-Augmented Generation (RAG) improves large language models by retrieving external knowledge, often truncated into smaller chunks due to the input context window, which leads to information loss, resulting in response hallucinations and broken reasoning chains. Moreover, traditional RAG retrieves unstructured knowledge, introducing irrelevant details that hinder accurate reasoning. To addr...
 
-### [Mobile-Agent-RAG: Driving Smart Multi-Agent Coordination with Contextual Knowledge Empowerment for Long-Horizon Mobile Automation](http://arxiv.org/abs/2511.12254v1)
-*Published: 2025-11-15*  
-**Authors:** Yuxiang Zhou, Jichang Li, Yanhao Zhang, Haonan Lu, Guanbin Li
-
-Mobile agents show immense potential, yet current state-of-the-art (SoTA) agents exhibit inadequate success rates on real-world, long-horizon, cross-application tasks. We attribute this bottleneck to the agents' excessive reliance on static, internal knowledge within MLLMs, which leads to two critical failure points: 1) strategic hallucinations in high-level planning and 2) operational errors duri...
-
-### [MME-RAG: Multi-Manager-Expert Retrieval-Augmented Generation for Fine-Grained Entity Recognition in Task-Oriented Dialogues](http://arxiv.org/abs/2511.12213v1)
-*Published: 2025-11-15*  
-**Authors:** Liang Xue, Haoyu Liu, Yajun Tian, Xinyu Zhong, Yang Liu
-
-Fine-grained entity recognition is crucial for reasoning and decision-making in task-oriented dialogues, yet current large language models (LLMs) continue to face challenges in domain adaptation and retrieval controllability. We introduce MME-RAG, a Multi-Manager-Expert Retrieval-Augmented Generation framework that decomposes entity recognition into two coordinated stages: type-level judgment by l...
-
-### [Debate over Mixed-knowledge: A Robust Multi-Agent Framework for Incomplete Knowledge Graph Question Answering](http://arxiv.org/abs/2511.12208v1)
-*Published: 2025-11-15*  
-**Authors:** Jilong Liu, Pengyang Shao, Wei Qin, Fei Liu, Yonghui Yang, Richang Hong
-
-Knowledge Graph Question Answering (KGQA) aims to improve factual accuracy by leveraging structured knowledge. However, real-world Knowledge Graphs (KGs) are often incomplete, leading to the problem of Incomplete KGQA (IKGQA). A common solution is to incorporate external data to fill knowledge gaps, but existing methods lack the capacity to adaptively and contextually fuse multiple sources, failin...
-
-### [MAVIS: A Benchmark for Multimodal Source Attribution in Long-form Visual Question Answering](http://arxiv.org/abs/2511.12142v1)
-*Published: 2025-11-15*  
-**Authors:** Seokwon Song, Minsu Park, Gunhee Kim
-
-Source attribution aims to enhance the reliability of AI-generated answers by including references for each statement, helping users validate the provided answers. However, existing work has primarily focused on text-only scenario and largely overlooked the role of multimodality. We introduce MAVIS, the first benchmark designed to evaluate multimodal source attribution systems that understand user...
-
-### [BudgetLeak: Membership Inference Attacks on RAG Systems via the Generation Budget Side Channel](http://arxiv.org/abs/2511.12043v1)
-*Published: 2025-11-15*  
-**Authors:** Hao Li, Jiajun He, Guangshuo Wang, Dengguo Feng, Zheng Li, Min Zhang
-
-Retrieval-Augmented Generation (RAG) enhances large language models by integrating external knowledge, but reliance on proprietary or sensitive corpora poses various data risks, including privacy leakage and unauthorized data usage. Membership inference attacks (MIAs) are a common technique to assess such risks, yet existing approaches underperform in RAG due to black-box constraints and the absen...
-
-### [Look As You Think: Unifying Reasoning and Visual Evidence Attribution for Verifiable Document RAG via Reinforcement Learning](http://arxiv.org/abs/2511.12003v1)
-*Published: 2025-11-15*  
-**Authors:** Shuochen Liu, Pengfei Luo, Chao Zhang, Yuhao Chen, Haotian Zhang, Qi Liu, Xin Kou, Tong Xu, Enhong Chen
-
-Aiming to identify precise evidence sources from visual documents, visual evidence attribution for visual document retrieval-augmented generation (VD-RAG) ensures reliable and verifiable predictions from vision-language models (VLMs) in multimodal question answering. Most existing methods adopt end-to-end training to facilitate intuitive answer verification. However, they lack fine-grained supervi...
-
-### [Improving Autoformalization Using Direct Dependency Retrieval](http://arxiv.org/abs/2511.11990v1)
-*Published: 2025-11-15*  
-**Authors:** Shaoqi Wang, Lu Yu, Chunjie Yang
-
-The convergence of deep learning and formal mathematics has spurred research in formal verification. Statement autoformalization, a crucial first step in this process, aims to translate informal descriptions into machine-verifiable representations but remains a significant challenge. The core difficulty lies in the fact that existing methods often suffer from a lack of contextual awareness, leadin...
-
-### [Phase-Coded Memory and Morphological Resonance: A Next-Generation Retrieval-Augmented Generator Architecture](http://arxiv.org/abs/2511.11848v1)
-*Published: 2025-11-14*  
-**Authors:** Denis V. Saklakov
-
-This paper introduces a cognitive Retrieval-Augmented Generator (RAG) architecture that transcends transformer context-length limitations through phase-coded memory and morphological-semantic resonance. Instead of token embeddings, the system encodes meaning as complex wave patterns with amplitude-phase structure. A three-tier design is presented: a Morphological Mapper that transforms inputs into...
-
 ---
 ## 🔍 Retrieval-Augmented Generation
 
-### [In-memory phononic learning toward cognitive mechanical intelligence](http://arxiv.org/abs/2511.13543v1)
-*Published: 2025-11-17*  
-**Authors:** Yuning Zhang, K. W. Wang
+### [ARC Is a Vision Problem!](http://arxiv.org/abs/2511.14761v1)
+*Published: 2025-11-18*  
+**Authors:** Keya Hu, Ali Cy, Linlu Qiu, Xiaoman Delores Ding, Runqian Wang, Yeyin Eva Zhu, Jacob Andreas, Kaiming He
 
-Modern autonomous systems are driving the critical need for next-generation adaptive materials and structures with embodied intelligence, i.e., the embodiment of memory, perception, learning, and decision-making within the mechanical domain. A fundamental challenge is the seamless and efficient integration of memory with information processing in a physically interpretable way that enables cogniti...
+The Abstraction and Reasoning Corpus (ARC) is designed to promote research on abstract reasoning, a fundamental aspect of human intelligence. Common approaches to ARC treat it as a language-oriented problem, addressed by large language models (LLMs) or recurrent reasoning models. However, although the puzzle-like tasks in ARC are inherently visual, existing research has rarely approached the probl...
 
-### [Graph Out-of-Distribution Detection via Test-Time Calibration with Dual Dynamic Dictionaries](http://arxiv.org/abs/2511.13541v1)
-*Published: 2025-11-17*  
-**Authors:** Yue Hou, Ruomei Liu, Yingke Su, Junran Wu, Ke Xu
+### [UniGen-1.5: Enhancing Image Generation and Editing through Reward Unification in Reinforcement Learning](http://arxiv.org/abs/2511.14760v1)
+*Published: 2025-11-18*  
+**Authors:** Rui Tian, Mingfei Gao, Haiming Gang, Jiasen Lu, Zhe Gan, Yinfei Yang, Zuxuan Wu, Afshin Dehghan
 
-A key challenge in graph out-of-distribution (OOD) detection lies in the absence of ground-truth OOD samples during training. Existing methods are typically optimized to capture features within the in-distribution (ID) data and calculate OOD scores, which often limits pre-trained models from representing distributional boundaries, leading to unreliable OOD detection. Moreover, the latent structure...
+We present UniGen-1.5, a unified multimodal large language model (MLLM) for advanced image understanding, generation and editing. Building upon UniGen, we comprehensively enhance the model architecture and training pipeline to strengthen the image understanding and generation capabilities while unlocking strong image editing ability. Especially, we propose a unified Reinforcement Learning (RL) str...
 
-### [Fairness-Aware Graph Representation Learning with Limited Demographic Information](http://arxiv.org/abs/2511.13540v1)
-*Published: 2025-11-17*  
-**Authors:** Zichong Wang, Zhipeng Yin, Liping Yang, Jun Zhuang, Rui Yu, Qingzhao Kong, Wenbin Zhang
+### [$π^{*}_{0.6}$: a VLA That Learns From Experience](http://arxiv.org/abs/2511.14759v1)
+*Published: 2025-11-18*  
+**Authors:** Ali Amin, Raichelle Aniceto, Ashwin Balakrishna, Kevin Black, Ken Conley, Grace Connors, James Darpinian, Karan Dhabalia, Jared DiCarlo, Danny Driess, Michael Equi, Adnan Esmail, Yunhao Fang, Chelsea Finn, Catherine Glossop, Thomas Godden, Ivan Goryachev, Lachy Groom, Hunter Hancock, Karol Hausman, Gashon Hussein, Brian Ichter, Szymon Jakubczak, Rowan Jen, Tim Jones, Ben Katz, Liyiming Ke, Chandra Kuchi, Marinda Lamb, Devin LeBlanc, Sergey Levine, Adrian Li-Bell, Yao Lu, Vishnu Mano, Mohith Mothukuri, Suraj Nair, Karl Pertsch, Allen Z. Ren, Charvi Sharma, Lucy Xiaoyang Shi, Laura Smith, Jost Tobias Springenberg, Kyle Stachowicz, Will Stoeckle, Alex Swerdlow, James Tanner, Marcel Torne, Quan Vuong, Anna Walling, Haohuan Wang, Blake Williams, Sukwon Yoo, Lili Yu, Ury Zhilinsky, Zhiyuan Zhou
 
-Ensuring fairness in Graph Neural Networks is fundamental to promoting trustworthy and socially responsible machine learning systems. In response, numerous fair graph learning methods have been proposed in recent years. However, most of them assume full access to demographic information, a requirement rarely met in practice due to privacy, legal, or regulatory restrictions. To this end, this paper...
+We study how vision-language-action (VLA) models can improve through real-world deployments via reinforcement learning (RL). We present a general-purpose method, RL with Experience and Corrections via Advantage-conditioned Policies (RECAP), that provides for RL training of VLAs via advantage conditioning. Our method incorporates heterogeneous data into the self-improvement process, including demon...
 
-### [Full range of infinite point blow-up exponents for the critical generalized KdV equation](http://arxiv.org/abs/2511.13538v1)
-*Published: 2025-11-17*  
-**Authors:** Nailya Manatova
+### [Robust Verification of Controllers under State Uncertainty via Hamilton-Jacobi Reachability Analysis](http://arxiv.org/abs/2511.14755v1)
+*Published: 2025-11-18*  
+**Authors:** Albert Lin, Alessandro Pinto, Somil Bansal
 
-For the quintic, mass critical generalized Korteweg-de Vries equation, for any $ν\in (\frac{1}{2}, 1)$, we prove the existence of solutions in the energy space that blow up in finite time $T>0$ with the blow-up rate $\|\partial_x u(t)\|_{L^2} \sim (T-t)^{-ν}$ (infinite point blow-up). These solutions are constructed arbitrarily close to the family of solitons and correspond to the concentration of...
+As perception-based controllers for autonomous systems become increasingly popular in the real world, it is important that we can formally verify their safety and performance despite perceptual uncertainty. Unfortunately, the verification of such systems remains challenging, largely due to the complexity of the controllers, which are often nonlinear, nonconvex, learning-based, and/or black-box. Pr...
 
-### [Geometry of Adjoint Hypersurfaces for Polytopes](http://arxiv.org/abs/2511.13537v1)
-*Published: 2025-11-17*  
-**Authors:** Clemens Brüser, Julian Weigert
+### [Covering Barbasch-Vogan duality and wavefront sets of genuine representations](http://arxiv.org/abs/2511.14750v1)
+*Published: 2025-11-18*  
+**Authors:** Fan Gao, Baiying Liu, Chi-Heng Lo, Freydoon Shahidi
 
-In this article we prove that the adjoint polynomial of arbitrary convex polytopes is up to scaling uniquely determined by vanishing to the right order on the polytopes residual arrangement. This answers a problem posed by Kohn and Ranestad and generalizes their main theorem to non-simple polytopes. We furthermore prove that the adjoint polynomial is already characterized by vanishing to the right...
+In this paper, we start by defining a covering Barbasch-Vogan duality and prove some of its properties. Then, for genuine representations of $p$-adic covering groups we formulate an upper bound conjecture for their wavefront sets using this covering Barbasch-Vogan duality and reduce it to anti-discrete representations. The formulation generalizes that of Ciubotaru-Kim and Hazeltine-Liu-Lo-Shahidi ...
 
-### [Cofinality via Weighted Colimits](http://arxiv.org/abs/2511.13536v1)
-*Published: 2025-11-17*  
-**Authors:** Shai Keidar, Lior Yanovski
+### [Cloud-Native Vector Search: A Comprehensive Performance Analysis](http://arxiv.org/abs/2511.14748v1)
+*Published: 2025-11-18*  
+**Authors:** Zhaoheng Li, Wei Ding, Silu Huang, Zikang Wang, Yuanjin Lin, Ke Wu, Yongjoo Park, Jianjun Chen
 
-We prove a refinement of Quillen's Theorem A, providing necessary and sufficient conditions for a functor to be cofinal with respect to diagrams valued in a fixed $\infty$-category. We deduce this from a general duality phenomenon for weighted colimits, which is of independent interest. As a sample application, due to Betts and Dan-Cohen, we describe a simplified formula for the free $\mathbb{E}_\...
+Vector search has been widely employed in recommender system and retrieval-augmented-generation pipelines, commonly performed with vector indexes to efficiently find similar items in large datasets. Recent growths in both data and task complexity have motivated placing vector indexes onto remote storage -- cloud-native vector search, which cloud providers have recently introduced services for. Yet...
 
-### [Automated Construction of Medical Indicator Knowledge Graphs Using Retrieval Augmented Large Language Models](http://arxiv.org/abs/2511.13526v1)
-*Published: 2025-11-17*  
-**Authors:** Zhengda Wang, Daqian Shi, Jingyi Zhao, Xiaolei Diao, Xiongfeng Tang, Yanguo Qin
+### [Pseudo-Poisson Distributions with Nonlinear Conditional Rates](http://arxiv.org/abs/2511.14741v1)
+*Published: 2025-11-18*  
+**Authors:** Jared N. Lakhani
 
-Artificial intelligence (AI) is reshaping modern healthcare by advancing disease diagnosis, treatment decision-making, and biomedical research. Among AI technologies, large language models (LLMs) have become especially impactful, enabling deep knowledge extraction and semantic reasoning from complex medical texts. However, effective clinical decision support requires knowledge in structured, inter...
+Arnold & Manjunath (2021) claim that the bivariate pseudo-Poisson distribution is well suited to bivariate count data with one equidispersed and one overdispersed marginal, owing to its parsimonious structure and straightforward parameter estimation. In the formulation of Leiter & Hamdan (1973), the conditional mean of $X_2$ was specified as a function of $X_1$; Arnold & Manjunath (2021) subsequen...
 
-### [FreeAskWorld: An Interactive and Closed-Loop Simulator for Human-Centric Embodied AI](http://arxiv.org/abs/2511.13524v1)
-*Published: 2025-11-17*  
-**Authors:** Yuhang Peng, Yizhou Pan, Xinning He, Jihaoyu Yang, Xinyu Yin, Han Wang, Xiaoji Zheng, Chao Gao, Jiangtao Gong
+### [LAUD: Integrating Large Language Models with Active Learning for Unlabeled Data](http://arxiv.org/abs/2511.14738v1)
+*Published: 2025-11-18*  
+**Authors:** Tzu-Hsuan Chou, Chun-Nan Chou
 
-As embodied intelligence emerges as a core frontier in artificial intelligence research, simulation platforms must evolve beyond low-level physical interactions to capture complex, human-centered social behaviors. We introduce FreeAskWorld, an interactive simulation framework that integrates large language models (LLMs) for high-level behavior planning and semantically grounded interaction, inform...
+Large language models (LLMs) have shown a remarkable ability to generalize beyond their pre-training data, and fine-tuning LLMs can elevate performance to human-level and beyond. However, in real-world scenarios, lacking labeled data often prevents practitioners from obtaining well-performing models, thereby forcing practitioners to highly rely on prompt-based approaches that are often tedious, in...
 
-### [On the General Projective Theory of Matter and Gravitation](http://arxiv.org/abs/2511.13521v1)
-*Published: 2025-11-17*  
-**Authors:** Michael J. Connolly
+### [Squeezing-Enhanced Photon-Number Measurements for GKP State Generation](http://arxiv.org/abs/2511.14737v1)
+*Published: 2025-11-18*  
+**Authors:** Paul Renault, Patrick Yard, Raphael Pooser, Hussain Zaidi
 
-We develop a generalized projective gauge theory of gravity and spinorial matter, incorporating both non-metricity and torsion. The work is divided into three parts. Part I provides a thorough review of General Relativity, Metric-Affine gauge theory and Thomas-Whitehead (TW) Gravity. Part II constructs a gauge gravitational theory based on the Projective General Linear Group, wherein the newly fou...
+We present an architecture for the generation of GKP states in which quadrature squeezing operations are used to control the average photon number statistics of probabilistic photon number measurements on Gaussian resource states. Specifically, we present an architecture employing a teleportation-based squeezing protocol and polynomial-gate applications integrated into a time-multiplexed multi-mod...
 
-### [Towards Quantum Software for Quantum Simulation](http://arxiv.org/abs/2511.13520v1)
-*Published: 2025-11-17*  
-**Authors:** Maja Franz, Lukas Schmidbauer, Joshua Ammermann, Ina Schaefer, Wolfgang Mauerer
+### [Optimal bounds for sums of bounded arithmetic functions](http://arxiv.org/abs/2511.14736v1)
+*Published: 2025-11-18*  
+**Authors:** Andrés Chirre, Harald Andrés Helfgott
 
-Quantum simulation is a leading candidate for demonstrating practical quantum advantage over classical computation, as it is believed to provide exponentially more compute power than any classical system. It offers new means of studying the behaviour of complex physical systems, for which conventionally software-intensive simulation codes based on numerical high-performance computing are used. Ins...
+Let $A(s) = \sum_n a_n n^{-s}$ be a Dirichlet series with meromorphic continuation. Say we are given information on the poles of $A(s)$ with $|\Im s| \leq T$ for some large constant $T$. What is the best way to use such finite spectral data to give explicit estimates on sums $\sum_{n\leq x} a_n$?   The problem of giving explicit bounds on the Mertens function $M(x) = \sum_{n\leq x} μ(n)$ illustrat...
 
-### [Formation of HNC and HCN isomers in molecular plasmas revealed by frequency comb and quantum cascade laser spectroscopy](http://arxiv.org/abs/2511.13519v1)
-*Published: 2025-11-17*  
-**Authors:** Ibrahim Sadiek, Simona Di Bernardo, Uwe Macherius, Jean-Pierre H. van Helden
+### [Heterogeneous Multi-Agent Proximal Policy Optimization for Power Distribution System Restoration](http://arxiv.org/abs/2511.14730v1)
+*Published: 2025-11-18*  
+**Authors:** Parya Dolatyabi, Mahdi Khodayar
 
-Hydrogen cyanide (HCN) is a well-known product in combustion, astrophysical, and plasma environments, but its isomer, hydrogen isocyanide (HNC), remains unexplored in molecular plasmas. Here, we report on the detection and quantification of both HNC and HCN isomers in low-temperature plasmas generated from N$_2$/H$_2$/CH$_4$ mixtures using quantum cascade laser and frequency comb absorption spectr...
+Restoring power distribution systems (PDS) after large-scale outages requires sequential switching operations that reconfigure feeder topology and coordinate distributed energy resources (DERs) under nonlinear constraints such as power balance, voltage limits, and thermal ratings. These challenges make conventional optimization and value-based RL approaches computationally inefficient and difficul...
 
-### [Interpretable Ransomware Detection Using Hybrid Large Language Models: A Comparative Analysis of BERT, RoBERTa, and DeBERTa Through LIME and SHAP](http://arxiv.org/abs/2511.13517v1)
-*Published: 2025-11-17*  
-**Authors:** Elodie Mutombo Ngoie, Mike Nkongolo Wa Nkongolo, Peace Azugo, Mahmut Tokmak
+### [An Adaptive Proximal Point Method for Nonsmooth and Nonconvex Optimization on Hadamard Manifolds](http://arxiv.org/abs/2511.14724v1)
+*Published: 2025-11-18*  
+**Authors:** Vitaliano S. Amaral, Marcio Antônio de A. Bortoloti, Jurandir O. Lopes, Gilson N. Silva
 
-Ransomware continues to evolve in complexity, making early and explainable detection a critical requirement for modern cybersecurity systems. This study presents a comparative analysis of three Transformer-based Large Language Models (LLMs) (BERT, RoBERTa, and DeBERTa) for ransomware detection using two structured datasets: UGRansome and Process Memory (PM). Since LLMs are primarily designed for n...
+This paper addresses a class of nonsmooth and nonconvex optimization problems defined on complete Riemannian manifolds. The objective function has a composite structure, combining convex, differentiable, and lower semicontinuous terms, thereby generalizing the classical framework of difference-of-convex programming. Motivated by recent advances in proximal point methods in Euclidean and Riemannian...
 
-### [The Liquid Buffer: Multi-Year Storage for Defossilization and Energy Security under Climate Uncertainty](http://arxiv.org/abs/2511.13513v1)
-*Published: 2025-11-17*  
-**Authors:** Leonard Göke, Jan Wohland, Stefano Moret, André Bardow
+### [When AI Democratizes Exploitation: LLM-Assisted Strategic Manipulation of Fair Division Algorithms](http://arxiv.org/abs/2511.14722v1)
+*Published: 2025-11-18*  
+**Authors:** Priyanka Verma, Balagopal Unnikrishnan
 
-The climate-driven uncertainty of renewable generation and electricity demand challenges energy security in net-zero energy systems. By introducing a scalable stochastic model that implicitly accounts for 51'840 climate years, this paper identifies multi-year storage of liquid hydrocarbons as a key option for managing climate uncertainty and ensuring energy security. In Europe, multi-year storage ...
+Fair resource division algorithms, like those implemented in Spliddit platform, have traditionally been considered difficult for the end users to manipulate due to its complexities. This paper demonstrates how Large Language Models (LLMs) can dismantle these protective barriers by democratizing access to strategic expertise. Through empirical analysis of rent division scenarios on Spliddit algorit...
 
-### [Effective equidistribution of random walks on simple homogeneous spaces](http://arxiv.org/abs/2511.13512v1)
-*Published: 2025-11-17*  
-**Authors:** Timothée Bénard, Weikun He
+### [AdamHD: Decoupled Huber Decay Regularization for Language Model Pre-Training](http://arxiv.org/abs/2511.14721v1)
+*Published: 2025-11-18*  
+**Authors:** Fu-Ming Guo, Yingfang Fan
 
-We consider a random walk on a homogeneous space $G/Λ$ where $G$ is a non-compact simple Lie group and $Λ$ is a lattice. The walk is driven by a probability measure $μ$ on $G$ whose support generates a Zariski-dense subgroup. We show that the random walk equidistributes toward the Haar measure unless it is trapped in a finite $μ$-invariant set. Moreover, under arithmetic assumptions on the pair $(...
+Adaptive optimizers with decoupled weight decay, such as AdamW, are the de facto standard for pre-training large transformer-based generative models. Yet the quadratic nature of the $\ell_2$ penalty embedded in weight decay drives all parameters toward the origin at the same rate, making the update vulnerable to rare but extreme gradient directions and often over-penalizing well-conditioned coordi...
 
-### [Stable Self- Similar Blow- Up In Nonlinear Wave Equations With Quadratic Time-Derivative Nonlinearities](http://arxiv.org/abs/2511.13504v1)
-*Published: 2025-11-17*  
-**Authors:** Faiq Raees, Jie Liu
+### [Zero-shot Synthetic Video Realism Enhancement via Structure-aware Denoising](http://arxiv.org/abs/2511.14719v1)
+*Published: 2025-11-18*  
+**Authors:** Yifan Wang, Liya Ji, Zhanghan Ke, Harry Yang, Ser-Nam Lim, Qifeng Chen
 
-We study singularity formation in two one-dimensional nonlinear wave models with quadratic time-derivative nonlinearities. The non-null model violates the null condition and typically develops finite-time blow-up; the null-form model is Lorentz-invariant and enjoys small-data global existence, yet still admits blow-up for large data. Building on our earlier work on spatial-derivative nonlinearitie...
+We propose an approach to enhancing synthetic video realism, which can re-render synthetic videos from a simulator in photorealistic fashion. Our realism enhancement approach is a zero-shot framework that focuses on preserving the multi-level structures from synthetic videos into the enhanced one in both spatial and temporal domains, built upon a diffusion video foundational model without further ...
 
 ---
 ## 🔍 Computer Vision
 
-### [Robust Defense Strategies for Multimodal Contrastive Learning: Efficient Fine-tuning Against Backdoor Attacks](http://arxiv.org/abs/2511.13545v1)
-*Published: 2025-11-17*  
-**Authors:** Md. Iqbal Hossain, Afia Sajeeda, Neeresh Kumar Perla, Ming Shao
+### [ARC Is a Vision Problem!](http://arxiv.org/abs/2511.14761v1)
+*Published: 2025-11-18*  
+**Authors:** Keya Hu, Ali Cy, Linlu Qiu, Xiaoman Delores Ding, Runqian Wang, Yeyin Eva Zhu, Jacob Andreas, Kaiming He
 
-The advent of multimodal deep learning models, such as CLIP, has unlocked new frontiers in a wide range of applications, from image-text understanding to classification tasks. However, these models are not safe for adversarial attacks, particularly backdoor attacks, which can subtly manipulate model behavior. Moreover, existing defense methods typically involve training from scratch or fine-tuning...
+The Abstraction and Reasoning Corpus (ARC) is designed to promote research on abstract reasoning, a fundamental aspect of human intelligence. Common approaches to ARC treat it as a language-oriented problem, addressed by large language models (LLMs) or recurrent reasoning models. However, although the puzzle-like tasks in ARC are inherently visual, existing research has rarely approached the probl...
 
-### [In-memory phononic learning toward cognitive mechanical intelligence](http://arxiv.org/abs/2511.13543v1)
-*Published: 2025-11-17*  
-**Authors:** Yuning Zhang, K. W. Wang
+### [UniGen-1.5: Enhancing Image Generation and Editing through Reward Unification in Reinforcement Learning](http://arxiv.org/abs/2511.14760v1)
+*Published: 2025-11-18*  
+**Authors:** Rui Tian, Mingfei Gao, Haiming Gang, Jiasen Lu, Zhe Gan, Yinfei Yang, Zuxuan Wu, Afshin Dehghan
 
-Modern autonomous systems are driving the critical need for next-generation adaptive materials and structures with embodied intelligence, i.e., the embodiment of memory, perception, learning, and decision-making within the mechanical domain. A fundamental challenge is the seamless and efficient integration of memory with information processing in a physically interpretable way that enables cogniti...
+We present UniGen-1.5, a unified multimodal large language model (MLLM) for advanced image understanding, generation and editing. Building upon UniGen, we comprehensively enhance the model architecture and training pipeline to strengthen the image understanding and generation capabilities while unlocking strong image editing ability. Especially, we propose a unified Reinforcement Learning (RL) str...
 
-### [Making Evidence Actionable in Adaptive Learning Closing the Diagnostic Pedagogical Loop](http://arxiv.org/abs/2511.13542v1)
-*Published: 2025-11-17*  
-**Authors:** Amirreza Mehrabi, Jason Wade Morphew, Breejha Quezada, N. Sanjay Rebello
+### [$π^{*}_{0.6}$: a VLA That Learns From Experience](http://arxiv.org/abs/2511.14759v1)
+*Published: 2025-11-18*  
+**Authors:** Ali Amin, Raichelle Aniceto, Ashwin Balakrishna, Kevin Black, Ken Conley, Grace Connors, James Darpinian, Karan Dhabalia, Jared DiCarlo, Danny Driess, Michael Equi, Adnan Esmail, Yunhao Fang, Chelsea Finn, Catherine Glossop, Thomas Godden, Ivan Goryachev, Lachy Groom, Hunter Hancock, Karol Hausman, Gashon Hussein, Brian Ichter, Szymon Jakubczak, Rowan Jen, Tim Jones, Ben Katz, Liyiming Ke, Chandra Kuchi, Marinda Lamb, Devin LeBlanc, Sergey Levine, Adrian Li-Bell, Yao Lu, Vishnu Mano, Mohith Mothukuri, Suraj Nair, Karl Pertsch, Allen Z. Ren, Charvi Sharma, Lucy Xiaoyang Shi, Laura Smith, Jost Tobias Springenberg, Kyle Stachowicz, Will Stoeckle, Alex Swerdlow, James Tanner, Marcel Torne, Quan Vuong, Anna Walling, Haohuan Wang, Blake Williams, Sukwon Yoo, Lili Yu, Ury Zhilinsky, Zhiyuan Zhou
 
-Adaptive learning often diagnoses precisely yet intervenes weakly, producing help that is mistimed or misaligned. This study presents evidence supporting an instructor-governed feedback loop that converts concept-level assessment evidence into vetted microinterventions. The adaptive learning algorithm includes three safeguards: adequacy as a hard guarantee of gap closure, attention as a budgeted l...
+We study how vision-language-action (VLA) models can improve through real-world deployments via reinforcement learning (RL). We present a general-purpose method, RL with Experience and Corrections via Advantage-conditioned Policies (RECAP), that provides for RL training of VLAs via advantage conditioning. Our method incorporates heterogeneous data into the self-improvement process, including demon...
 
-### [Graph Out-of-Distribution Detection via Test-Time Calibration with Dual Dynamic Dictionaries](http://arxiv.org/abs/2511.13541v1)
-*Published: 2025-11-17*  
-**Authors:** Yue Hou, Ruomei Liu, Yingke Su, Junran Wu, Ke Xu
+### [NeuCLIRBench: A Modern Evaluation Collection for Monolingual, Cross-Language, and Multilingual Information Retrieval](http://arxiv.org/abs/2511.14758v1)
+*Published: 2025-11-18*  
+**Authors:** Dawn Lawrie, James Mayfield, Eugene Yang, Andrew Yates, Sean MacAvaney, Ronak Pradeep, Scott Miller, Paul McNamee, Luca Soldani
 
-A key challenge in graph out-of-distribution (OOD) detection lies in the absence of ground-truth OOD samples during training. Existing methods are typically optimized to capture features within the in-distribution (ID) data and calculate OOD scores, which often limits pre-trained models from representing distributional boundaries, leading to unreliable OOD detection. Moreover, the latent structure...
+To measure advances in retrieval, test collections with relevance judgments that can faithfully distinguish systems are required. This paper presents NeuCLIRBench, an evaluation collection for cross-language and multilingual retrieval. The collection consists of documents written natively in Chinese, Persian, and Russian, as well as those same documents machine translated into English. The collect...
 
-### [Fairness-Aware Graph Representation Learning with Limited Demographic Information](http://arxiv.org/abs/2511.13540v1)
-*Published: 2025-11-17*  
-**Authors:** Zichong Wang, Zhipeng Yin, Liping Yang, Jun Zhuang, Rui Yu, Qingzhao Kong, Wenbin Zhang
+### [HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation](http://arxiv.org/abs/2511.14756v1)
+*Published: 2025-11-18*  
+**Authors:** Lai Wei, Xuanbin Peng, Ri-Zhao Qiu, Tianshu Huang, Xuxin Cheng, Xiaolong Wang
 
-Ensuring fairness in Graph Neural Networks is fundamental to promoting trustworthy and socially responsible machine learning systems. In response, numerous fair graph learning methods have been proposed in recent years. However, most of them assume full access to demographic information, a requirement rarely met in practice due to privacy, legal, or regulatory restrictions. To this end, this paper...
+Learning from real-world robot demonstrations holds promise for interacting with complex real-world environments. However, the complexity and variability of interaction dynamics often cause purely positional controllers to struggle with contacts or varying payloads. To address this, we propose a Heterogeneous Meta-Control (HMC) framework for Loco-Manipulation that adaptively stitches multiple cont...
 
-### [BootOOD: Self-Supervised Out-of-Distribution Detection via Synthetic Sample Exposure under Neural Collapse](http://arxiv.org/abs/2511.13539v1)
-*Published: 2025-11-17*  
-**Authors:** Yuanchao Wang, Tian Qin, Eduardo Valle, Bruno Abrahao
+### [Robust Verification of Controllers under State Uncertainty via Hamilton-Jacobi Reachability Analysis](http://arxiv.org/abs/2511.14755v1)
+*Published: 2025-11-18*  
+**Authors:** Albert Lin, Alessandro Pinto, Somil Bansal
 
-Out-of-distribution (OOD) detection is critical for deploying image classifiers in safety-sensitive environments, yet existing detectors often struggle when OOD samples are semantically similar to the in-distribution (ID) classes. We present BootOOD, a fully self-supervised OOD detection framework that bootstraps exclusively from ID data and is explicitly designed to handle semantically challengin...
+As perception-based controllers for autonomous systems become increasingly popular in the real world, it is important that we can formally verify their safety and performance despite perceptual uncertainty. Unfortunately, the verification of such systems remains challenging, largely due to the complexity of the controllers, which are often nonlinear, nonconvex, learning-based, and/or black-box. Pr...
 
-### [Accuracy is Not Enough: Poisoning Interpretability in Federated Learning via Color Skew](http://arxiv.org/abs/2511.13535v1)
-*Published: 2025-11-17*  
-**Authors:** Farhin Farhad Riya, Shahinul Hoque, Jinyuan Stella Sun, Olivera Kotevska
+### [SparseST: Exploiting Data Sparsity in Spatiotemporal Modeling and Prediction](http://arxiv.org/abs/2511.14753v1)
+*Published: 2025-11-18*  
+**Authors:** Junfeng Wu, Hadjer Benmeziane, Kaoutar El Maghraoui, Liu Liu, Yinan Wang
 
-As machine learning models are increasingly deployed in safety-critical domains, visual explanation techniques have become essential tools for supporting transparency. In this work, we reveal a new class of attacks that compromise model interpretability without affecting accuracy. Specifically, we show that small color perturbations applied by adversarial clients in a federated learning setting ca...
+Spatiotemporal data mining (STDM) has a wide range of applications in various complex physical systems (CPS), i.e., transportation, manufacturing, healthcare, etc. Among all the proposed methods, the Convolutional Long Short-Term Memory (ConvLSTM) has proved to be generalizable and extendable in different applications and has multiple variants achieving state-of-the-art performance in various STDM...
 
-### [Effects of the Next-Nearest-Neighbor Hopping on the Low-Dimensional Hubbard Model: Ferromagnetism, Antiferromagnetism, and Superconductivity](http://arxiv.org/abs/2511.13534v1)
-*Published: 2025-11-17*  
-**Authors:** Luhang Yang, Adrian E. Feiguin, Thomas P. Devereaux, Elbio Dagotto
+### [A Sequential Operator-Splitting Framework for Exploration of Nonconvex Trajectory Optimization Solution Spaces](http://arxiv.org/abs/2511.14752v1)
+*Published: 2025-11-18*  
+**Authors:** Justin Ganiban, Natalia Pavlasek, Behcet Acikmese
 
-The Hubbard model has attracted considerable interest due to its prototypical role in describing strongly interacting electronic systems, such as high-critical-temperature superconductors as well as many novel quantum materials. By introducing next-nearest-neighbor (NNN) hoppings to the Hubbard model, the phase diagram becomes richer, and fascinating phenomena arise in both, one-dimensional chains...
+Trajectory optimization methods provide an efficient and reliable means of computing feasible trajectories in nonconvex solution spaces. However, a well-known limitation of these algorithms is that they are inherently local in nature, and typically converge to a solution in the neighborhood of their initial guess. This paper presents a sequential operator-splitting framework, based on the alternat...
 
-### [Minimax Multi-Target Conformal Prediction with Applications to Imaging Inverse Problems](http://arxiv.org/abs/2511.13533v1)
-*Published: 2025-11-17*  
-**Authors:** Jeffrey Wen, Rizwan Ahmad, Philip Schniter
+### [Co-Me: Confidence-Guided Token Merging for Visual Geometric Transformers](http://arxiv.org/abs/2511.14751v1)
+*Published: 2025-11-18*  
+**Authors:** Yutian Chen, Yuheng Qiu, Ruogu Li, Ali Agha, Shayegan Omidshafiei, Jay Patrikar, Sebastian Scherer
 
-In ill-posed imaging inverse problems, uncertainty quantification remains a fundamental challenge, especially in safety-critical applications. Recently, conformal prediction has been used to quantify the uncertainty that the inverse problem contributes to downstream tasks like image classification, image quality assessment, fat mass quantification, etc. While existing works handle only a scalar es...
+We propose Confidence-Guided Token Merging (Co-Me), an acceleration mechanism for visual geometric transformers without retraining or finetuning the base model. Co-Me distilled a light-weight confidence predictor to rank tokens by uncertainty and selectively merge low-confidence ones, effectively reducing computation while maintaining spatial coverage. Compared to similarity-based merging or pruni...
 
-### [Simultaneous variances of Pauli strings, weighted independence numbers, and a new kind of perfection of graphs](http://arxiv.org/abs/2511.13531v1)
-*Published: 2025-11-17*  
-**Authors:** Zhen-Peng Xu, Jie Wang, Qi Ye, Gereon Koßmann, René Schwonnek, Andreas Winter
+### [Vision Large Language Models Are Good Noise Handlers in Engagement Analysis](http://arxiv.org/abs/2511.14749v1)
+*Published: 2025-11-18*  
+**Authors:** Alexander Vedernikov, Puneet Kumar, Haoyu Chen, Tapio Seppänen, Xiaobai Li
 
-A set of Pauli stings is well characterized by the graph that encodes its commutatitivity structure, i.e., by its frustration graph. This graph provides a natural interface between graph theory and quantum information, which we explore in this work. We investigate all aspects of this interface for a special class of graphs that bears tight connections between the groundstate structures of a spin s...
+Engagement recognition in video datasets, unlike traditional image classification tasks, is particularly challenged by subjective labels and noise limiting model performance. To overcome the challenges of subjective and noisy engagement labels, we propose a framework leveraging Vision Large Language Models (VLMs) to refine annotations and guide the training process. Our framework uses a questionna...
 
-### [Towards Affect-Adaptive Human-Robot Interaction: A Protocol for Multimodal Dataset Collection on Social Anxiety](http://arxiv.org/abs/2511.13530v1)
-*Published: 2025-11-17*  
-**Authors:** Vesna Poprcova, Iulia Lefter, Matthias Wieser, Martijn Warnier, Frances Brazier
+### [Cloud-Native Vector Search: A Comprehensive Performance Analysis](http://arxiv.org/abs/2511.14748v1)
+*Published: 2025-11-18*  
+**Authors:** Zhaoheng Li, Wei Ding, Silu Huang, Zikang Wang, Yuanjin Lin, Ke Wu, Yongjoo Park, Jianjun Chen
 
-Social anxiety is a prevalent condition that affects interpersonal interactions and social functioning. Recent advances in artificial intelligence and social robotics offer new opportunities to examine social anxiety in the human-robot interaction context. Accurate detection of affective states and behaviours associated with social anxiety requires multimodal datasets, where each signal modality p...
+Vector search has been widely employed in recommender system and retrieval-augmented-generation pipelines, commonly performed with vector indexes to efficiently find similar items in large datasets. Recent growths in both data and task complexity have motivated placing vector indexes onto remote storage -- cloud-native vector search, which cloud providers have recently introduced services for. Yet...
 
-### [Toward Conversational Hungarian Speech Recognition: Introducing the BEA-Large and BEA-Dialogue Datasets](http://arxiv.org/abs/2511.13529v1)
-*Published: 2025-11-17*  
-**Authors:** Máté Gedeon, Piroska Zsófia Barta, Péter Mihajlik, Tekla Etelka Gráczi, Anna Kohári, Katalin Mády
+### [Look-Ahead Reasoning on Learning Platforms](http://arxiv.org/abs/2511.14745v1)
+*Published: 2025-11-18*  
+**Authors:** Haiqing Zhu, Tijana Zrnic, Celestine Mendler-Dünner
 
-The advancement of automatic speech recognition (ASR) has been largely enhanced by extensive datasets in high-resource languages, while languages such as Hungarian remain underrepresented due to limited spontaneous and conversational corpora. To address this gap, we introduce two new datasets -- BEA-Large and BEA-Dialogue -- constructed from the previously unprocessed portions of the Hungarian spe...
+On many learning platforms, the optimization criteria guiding model training reflect the priorities of the designer rather than those of the individuals they affect. Consequently, users may act strategically to obtain more favorable outcomes, effectively contesting the platform's predictions. While past work has studied strategic user behavior on learning platforms, the focus has largely been on s...
 
-### [Rankwidth of Graphs with Balanced Separations: Expansion for Dense Graphs](http://arxiv.org/abs/2511.13528v1)
-*Published: 2025-11-17*  
-**Authors:** Emile Anand
+### [Measuring AI Progress in Drug Discovery: A Reproducible Leaderboard for the Tox21 Challenge](http://arxiv.org/abs/2511.14744v1)
+*Published: 2025-11-18*  
+**Authors:** Antonia Ebner, Christoph Bartmann, Sonja Topf, Sohvi Luukkonen, Johannes Schimunek, Günter Klambauer
 
-We prove that every graph of rankwidth at least $72r$ contains an induced subgraph whose minimum balanced cutrank is at least $r$, which implies a vertex subset where every balanced separation has $\mathbb{F}_2$-cutrank at least $r$. This implies a novel relation between rankwidth and a well-linkedness measure, defined entirely by balanced vertex cuts. As a byproduct, our result supports the notio...
+Deep learning's rise since the early 2010s has transformed fields like computer vision and natural language processing and strongly influenced biomedical research. For drug discovery specifically, a key inflection - akin to vision's "ImageNet moment" - arrived in 2015, when deep neural networks surpassed traditional approaches on the Tox21 Data Challenge. This milestone accelerated the adoption of...
 
-### [Mitigating Spurious Correlations in Patch-wise Tumor Classification on High-Resolution Multimodal Images](http://arxiv.org/abs/2511.13527v1)
-*Published: 2025-11-17*  
-**Authors:** Ihab Asaad, Maha Shadaydeh, Joachim Denzler
+### [Beyond Means: A Dynamic Framework for Predicting Customer Satisfaction](http://arxiv.org/abs/2511.14743v1)
+*Published: 2025-11-18*  
+**Authors:** Christof Naumzik, Abdurahman Maarouf, Stefan Feuerriegel, Markus Weinmann
 
-Patch-wise multi-label classification provides an efficient alternative to full pixel-wise segmentation on high-resolution images, particularly when the objective is to determine the presence or absence of target objects within a patch rather than their precise spatial extent. This formulation substantially reduces annotation cost, simplifies training, and allows flexible patch sizing aligned with...
+Online ratings influence customer decision-making, yet standard aggregation methods, such as the sample mean, fail to adapt to quality changes over time and ignore review heterogeneity (e.g., review sentiment, a review's helpfulness). To address these challenges, we demonstrate the value of using the Gaussian process (GP) framework for rating aggregation. Specifically, we present a tailored GP mod...
 
-### [Automated Construction of Medical Indicator Knowledge Graphs Using Retrieval Augmented Large Language Models](http://arxiv.org/abs/2511.13526v1)
-*Published: 2025-11-17*  
-**Authors:** Zhengda Wang, Daqian Shi, Jingyi Zhao, Xiaolei Diao, Xiongfeng Tang, Yanguo Qin
+### [A Neural Field-Based Approach for View Computation & Data Exploration in 3D Urban Environments](http://arxiv.org/abs/2511.14742v1)
+*Published: 2025-11-18*  
+**Authors:** Stefan Cobeli, Kazi Shahrukh Omar, Rodrigo Valença, Nivan Ferreira, Fabio Miranda
 
-Artificial intelligence (AI) is reshaping modern healthcare by advancing disease diagnosis, treatment decision-making, and biomedical research. Among AI technologies, large language models (LLMs) have become especially impactful, enabling deep knowledge extraction and semantic reasoning from complex medical texts. However, effective clinical decision support requires knowledge in structured, inter...
+Despite the growing availability of 3D urban datasets, extracting insights remains challenging due to computational bottlenecks and the complexity of interacting with data. In fact, the intricate geometry of 3D urban environments results in high degrees of occlusion and requires extensive manual viewpoint adjustments that make large-scale exploration inefficient. To address this, we propose a view...
 
 ---
