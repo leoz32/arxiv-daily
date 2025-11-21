@@ -1,9 +1,63 @@
 # 📰 Daily Papers
 
-**Last update:** 2025-11-20
+**Last update:** 2025-11-21
 
 ---
 ## 🔍 RAG
+
+### [Comparison of Text-Based and Image-Based Retrieval in Multimodal Retrieval Augmented Generation Large Language Model Systems](http://arxiv.org/abs/2511.16654v1)
+*Published: 2025-11-20*  
+**Authors:** Elias Lumer, Alex Cardenas, Matt Melich, Myles Mason, Sara Dieter, Vamse Kumar Subbiah, Pradeep Honaganahalli Basavaraju, Roberto Hernandez
+
+Recent advancements in Retrieval-Augmented Generation (RAG) have enabled Large Language Models (LLMs) to access multimodal knowledge bases containing both text and visual information such as charts, diagrams, and tables in financial documents. However, existing multimodal RAG systems rely on LLM-based summarization to convert images into text during preprocessing, storing only text representations...
+
+### [SurvAgent: Hierarchical CoT-Enhanced Case Banking and Dichotomy-Based Multi-Agent System for Multimodal Survival Prediction](http://arxiv.org/abs/2511.16635v1)
+*Published: 2025-11-20*  
+**Authors:** Guolin Huang, Wenting Chen, Jiaqi Yang, Xinheng Lyu, Xiaoling Luo, Sen Yang, Xiaohan Xing, Linlin Shen
+
+Survival analysis is critical for cancer prognosis and treatment planning, yet existing methods lack the transparency essential for clinical adoption. While recent pathology agents have demonstrated explainability in diagnostic tasks, they face three limitations for survival prediction: inability to integrate multimodal data, ineffective region-of-interest exploration, and failure to leverage expe...
+
+### [CorrectHDL: Agentic HDL Design with LLMs Leveraging High-Level Synthesis as Reference](http://arxiv.org/abs/2511.16395v1)
+*Published: 2025-11-20*  
+**Authors:** Kangwei Xu, Grace Li Zhang, Ulf Schlichtmann, Bing Li
+
+Large Language Models (LLMs) have demonstrated remarkable potential in hardware front-end design using hardware description languages (HDLs). However, their inherent tendency toward hallucination often introduces functional errors into the generated HDL designs. To address this issue, we propose the framework CorrectHDL that leverages high-level synthesis (HLS) results as functional references to ...
+
+### [ARK: Answer-Centric Retriever Tuning via KG-augmented Curriculum Learning](http://arxiv.org/abs/2511.16326v1)
+*Published: 2025-11-20*  
+**Authors:** Jiawei Zhou, Hang Ding, Haiyun Jiang
+
+Retrieval-Augmented Generation (RAG) has emerged as a powerful framework for knowledge-intensive tasks, yet its effectiveness in long-context scenarios is often bottlenecked by the retriever's inability to distinguish sparse yet crucial evidence. Standard retrievers, optimized for query-document similarity, frequently fail to align with the downstream goal of generating a precise answer. To bridge...
+
+### [MuISQA: Multi-Intent Retrieval-Augmented Generation for Scientific Question Answering](http://arxiv.org/abs/2511.16283v1)
+*Published: 2025-11-20*  
+**Authors:** Zhiyuan Li, Haisheng Yu, Guangchuan Guo, Nan Zhou, Jiajun Zhang
+
+Complex scientific questions often entail multiple intents, such as identifying gene mutations and linking them to related diseases. These tasks require evidence from diverse sources and multi-hop reasoning, while conventional retrieval-augmented generation (RAG) systems are usually single-intent oriented, leading to incomplete evidence coverage. To assess this limitation, we introduce the Multi-I...
+
+### [Beyond Code Similarity: Benchmarking the Plausibility, Efficiency, and Complexity of LLM-Generated Smart Contracts](http://arxiv.org/abs/2511.16224v1)
+*Published: 2025-11-20*  
+**Authors:** Francesco Salzano, Simone Scalabrino, Rocco Oliveto, Simone Scalabrino
+
+Smart Contracts are critical components of blockchain ecosystems, with Solidity as the dominant programming language. While LLMs excel at general-purpose code generation, the unique constraints of Smart Contracts, such as gas consumption, security, and determinism, raise open questions about the reliability of LLM-generated Solidity code. Existing studies lack a comprehensive evaluation of these c...
+
+### [Operon: Incremental Construction of Ragged Data via Named Dimensions](http://arxiv.org/abs/2511.16080v1)
+*Published: 2025-11-20*  
+**Authors:** Sungbin Moon, Jiho Park, Suyoung Hwang, Donghyun Koh, Seunghyun Moon, Minhyeong Lee
+
+Modern data processing workflows frequently encounter ragged data: collections with variable-length elements that arise naturally in domains like natural language processing, scientific measurements, and autonomous AI agents. Existing workflow engines lack native support for tracking the shapes and dependencies inherent to ragged data, forcing users to manage complex indexing and dependency bookke...
+
+### [CARE-RAG - Clinical Assessment and Reasoning in RAG](http://arxiv.org/abs/2511.15994v1)
+*Published: 2025-11-20*  
+**Authors:** Deepthi Potluri, Aby Mammen Mathew, Jeffrey B DeWitt, Alexander L. Rasgon, Yide Hao, Junyuan Hong, Ying Ding
+
+Access to the right evidence does not guarantee that large language models (LLMs) will reason with it correctly. This gap between retrieval and reasoning is especially concerning in clinical settings, where outputs must align with structured protocols. We study this gap using Written Exposure Therapy (WET) guidelines as a testbed. In evaluating model responses to curated clinician-vetted questions...
+
+### [KRAL: Knowledge and Reasoning Augmented Learning for LLM-assisted Clinical Antimicrobial Therapy](http://arxiv.org/abs/2511.15974v1)
+*Published: 2025-11-20*  
+**Authors:** Zhe Li, Yehan Qiu, Yujie Chen, Xiang Zhou
+
+Clinical antimicrobial therapy requires the dynamic integration of pathogen profiles, host factors, pharmacological properties of antimicrobials, and the severity of infection.This complexity imposes fundamental limitations on the applicability of Large Language Models (LLMs) in high-stakes clinical decision-making including knowledge gaps, data privacy concerns, high deployment costs, and limited...
 
 ### [HV-Attack: Hierarchical Visual Attack for Multimodal Retrieval Augmented Generation](http://arxiv.org/abs/2511.15435v1)
 *Published: 2025-11-19*  
@@ -17,11 +71,23 @@ Advanced multimodal Retrieval-Augmented Generation (MRAG) techniques have been w
 
 We introduce HEAD-QA v2, an expanded and updated version of a Spanish/English healthcare multiple-choice reasoning dataset originally released by Vilares and Gómez-Rodríguez (2019). The update responds to the growing need for high-quality datasets that capture the linguistic and conceptual complexity of healthcare reasoning. We extend the dataset to over 12,000 questions from ten years of Spanish ...
 
+### [Securing AI Agents Against Prompt Injection Attacks](http://arxiv.org/abs/2511.15759v1)
+*Published: 2025-11-19*  
+**Authors:** Badrinath Ramakrishnan, Akshaya Balaji
+
+Retrieval-augmented generation (RAG) systems have become widely used for enhancing large language model capabilities, but they introduce significant security vulnerabilities through prompt injection attacks. We present a comprehensive benchmark for evaluating prompt injection risks in RAG-enabled AI agents and propose a multi-layered defense framework. Our benchmark includes 847 adversarial test c...
+
 ### [ItemRAG: Item-Based Retrieval-Augmented Generation for LLM-Based Recommendation](http://arxiv.org/abs/2511.15141v1)
 *Published: 2025-11-19*  
 **Authors:** Sunwoo Kim, Geon Lee, Kyungho Kim, Jaemin Yoo, Kijung Shin
 
 Recently, large language models (LLMs) have been widely used as recommender systems, owing to their strong reasoning capability and their effectiveness in handling cold-start items. To better adapt LLMs for recommendation, retrieval-augmented generation (RAG) has been incorporated. Most existing RAG methods are user-based, retrieving purchase patterns of users similar to the target user and provid...
+
+### [Build AI Assistants using Large Language Models and Agents to Enhance the Engineering Education of Biomechanics](http://arxiv.org/abs/2511.15752v1)
+*Published: 2025-11-19*  
+**Authors:** Hanzhi Yan, Qin Lu, Xianqiao Wang, Xiaoming Zhai, Tianming Liu, He Li
+
+While large language models (LLMs) have demonstrated remarkable versatility across a wide range of general tasks, their effectiveness often diminishes in domain-specific applications due to inherent knowledge gaps. Moreover, their performance typically declines when addressing complex problems that require multi-step reasoning and analysis. In response to these challenges, we propose leveraging bo...
 
 ### [Knowledge-Informed Automatic Feature Extraction via Collaborative Large Language Model Agents](http://arxiv.org/abs/2511.15074v1)
 *Published: 2025-11-19*  
@@ -29,256 +95,190 @@ Recently, large language models (LLMs) have been widely used as recommender syst
 
 The performance of machine learning models on tabular data is critically dependent on high-quality feature engineering. While Large Language Models (LLMs) have shown promise in automating feature extraction (AutoFE), existing methods are often limited by monolithic LLM architectures, simplistic quantitative feedback, and a failure to systematically integrate external domain knowledge. This paper i...
 
-### [Large Language Model Driven Analysis of General Coordinates Network (GCN) Circulars](http://arxiv.org/abs/2511.14858v1)
-*Published: 2025-11-18*  
-**Authors:** Vidushi Sharma, Ronit Agarwala, Judith L. Racusin, Leo P. Singer, Tyler Barna, Eric Burns, Michael W. Coughlin, Dakota Dutko, Courey Elliott, Rahul Gupta, Ashish Mahabal, Nikhil Mukund
-
-The General Coordinates Network (GCN) is NASA's time-domain and multi-messenger alert system. GCN distributes two data products - automated ``Notices,'' and human-generated ``Circulars,'' that report the observations of high-energy and multi-messenger astronomical transients. The flexible and non-structured format of GCN Circulars, comprising of more than 40500 Circulars accumulated over three dec...
-
-### [Streamlining Industrial Contract Management with Retrieval-Augmented LLMs](http://arxiv.org/abs/2511.14671v1)
-*Published: 2025-11-18*  
-**Authors:** Kristi Topollai, Tolga Dimlioglu, Anna Choromanska, Simon Odie, Reginald Hui
-
-Contract management involves reviewing and negotiating provisions, individual clauses that define rights, obligations, and terms of agreement. During this process, revisions to provisions are proposed and iteratively refined, some of which may be problematic or unacceptable. Automating this workflow is challenging due to the scarcity of labeled data and the abundance of unstructured legacy contrac...
-
-### [LiveRAG: A diverse Q&A dataset with varying difficulty level for RAG evaluation](http://arxiv.org/abs/2511.14531v1)
-*Published: 2025-11-18*  
-**Authors:** David Carmel, Simone Filice, Guy Horowitz, Yoelle Maarek, Alex Shtoff, Oren Somekh, Ran Tavory
-
-With Retrieval Augmented Generation (RAG) becoming more and more prominent in generative AI solutions, there is an emerging need for systematically evaluating their effectiveness. We introduce the LiveRAG benchmark, a publicly available dataset of 895 synthetic questions and answers designed to support systematic evaluation of RAG-based Q&A systems. This synthetic benchmark is derived from the one...
-
-### [Tell Me: An LLM-powered Mental Well-being Assistant with RAG, Synthetic Dialogue Generation, and Agentic Planning](http://arxiv.org/abs/2511.14445v1)
-*Published: 2025-11-18*  
-**Authors:** Trishala Jayesh Ahalpara
-
-We present Tell Me, a mental well-being system that leverages advances in large language models to provide accessible, context-aware support for users and researchers. The system integrates three components: (i) a retrieval-augmented generation (RAG) assistant for personalized, knowledge-grounded dialogue; (ii) a synthetic client-therapist dialogue generator conditioned on client profiles to facil...
-
-### [SciRAG: Adaptive, Citation-Aware, and Outline-Guided Retrieval and Synthesis for Scientific Literature](http://arxiv.org/abs/2511.14362v1)
-*Published: 2025-11-18*  
-**Authors:** Hang Ding, Yilun Zhao, Tiansheng Hu, Manasi Patwardhan, Arman Cohan
-
-The accelerating growth of scientific publications has intensified the need for scalable, trustworthy systems to synthesize knowledge across diverse literature. While recent retrieval-augmented generation (RAG) methods have improved access to scientific information, they often overlook citation graph structure, adapt poorly to complex queries, and yield fragmented, hard-to-verify syntheses. We int...
-
-### [WebRec: Enhancing LLM-based Recommendations with Attention-guided RAG from Web](http://arxiv.org/abs/2511.14182v1)
-*Published: 2025-11-18*  
-**Authors:** Zihuai Zhao, Yujuan Ding, Wenqi Fan, Qing Li
-
-Recommender systems play a vital role in alleviating information overload and enriching users' online experience. In the era of large language models (LLMs), LLM-based recommender systems have emerged as a prevalent paradigm for advancing personalized recommendations. Recently, retrieval-augmented generation (RAG) has drawn growing interest to facilitate the recommendation capability of LLMs, inco...
-
-### [NeuroPath: Neurobiology-Inspired Path Tracking and Reflection for Semantically Coherent Retrieval](http://arxiv.org/abs/2511.14096v1)
-*Published: 2025-11-18*  
-**Authors:** Junchen Li, Rongzheng Wang, Yihong Huang, Qizhi Chen, Jiasheng Zhang, Shuang Liang
-
-Retrieval-augmented generation (RAG) greatly enhances large language models (LLMs) performance in knowledge-intensive tasks. However, naive RAG methods struggle with multi-hop question answering due to their limited capacity to capture complex dependencies across documents. Recent studies employ graph-based RAG to capture document connections. However, these approaches often result in a loss of se...
-
-### [Knowledge-Grounded Agentic Large Language Models for Multi-Hazard Understanding from Reconnaissance Reports](http://arxiv.org/abs/2511.14010v2)
-*Published: 2025-11-18*  
-**Authors:** Chenchen Kuai, Zihao Li, Braden Rosen, Stephanie Paal, Navid Jafari, Jean-Louis Briaud, Yunlong Zhang, Youssef M. A. Hashash, Yang Zhou
-
-Post-disaster reconnaissance reports contain critical evidence for understanding multi-hazard interactions, yet their unstructured narratives make systematic knowledge transfer difficult. Large language models (LLMs) offer new potential for analyzing these reports, but often generate unreliable or hallucinated outputs when domain grounding is absent. This study introduces the Mixture-of-Retrieval ...
-
-### [Artificial Intelligence Agents in Music Analysis: An Integrative Perspective Based on Two Use Cases](http://arxiv.org/abs/2511.13987v1)
-*Published: 2025-11-17*  
-**Authors:** Antonio Manuel Martínez-Heredia, Dolores Godrid Rodríguez, Andrés Ortiz García
-
-This paper presents an integrative review and experimental validation of artificial intelligence (AI) agents applied to music analysis and education. We synthesize the historical evolution from rule-based models to contemporary approaches involving deep learning, multi-agent architectures, and retrieval-augmented generation (RAG) frameworks. The pedagogical implications are evaluated through a dua...
-
-### [Automated Construction of Medical Indicator Knowledge Graphs Using Retrieval Augmented Large Language Models](http://arxiv.org/abs/2511.13526v1)
-*Published: 2025-11-17*  
-**Authors:** Zhengda Wang, Daqian Shi, Jingyi Zhao, Xiaolei Diao, Xiongfeng Tang, Yanguo Qin
-
-Artificial intelligence (AI) is reshaping modern healthcare by advancing disease diagnosis, treatment decision-making, and biomedical research. Among AI technologies, large language models (LLMs) have become especially impactful, enabling deep knowledge extraction and semantic reasoning from complex medical texts. However, effective clinical decision support requires knowledge in structured, inter...
-
-### [PolicyBot - Reliable Question Answering over Policy Documents](http://arxiv.org/abs/2511.13489v1)
-*Published: 2025-11-17*  
-**Authors:** Gautam Nagarajan, Omir Kumar, Sudarsun Santhiappan
-
-All citizens of a country are affected by the laws and policies introduced by their government. These laws and policies serve essential functions for citizens. Such as granting them certain rights or imposing specific obligations. However, these documents are often lengthy, complex, and difficult to navigate, making it challenging for citizens to locate and understand relevant information. This wo...
-
 ---
 ## 🔍 Retrieval-Augmented Generation
 
-### [GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization](http://arxiv.org/abs/2511.15705v1)
-*Published: 2025-11-19*  
-**Authors:** Yikun Wang, Zuyan Liu, Ziyi Wang, Pengfei Liu, Han Hu, Yongming Rao
+### [Dataset Distillation for Pre-Trained Self-Supervised Vision Models](http://arxiv.org/abs/2511.16674v1)
+*Published: 2025-11-20*  
+**Authors:** George Cazenavette, Antonio Torralba, Vincent Sitzmann
 
-Current research on agentic visual reasoning enables deep multimodal understanding but primarily focuses on image manipulation tools, leaving a gap toward more general-purpose agentic models. In this work, we revisit the geolocalization task, which requires not only nuanced visual grounding but also web search to confirm or refine hypotheses during reasoning. Since existing geolocalization benchma...
+The task of dataset distillation aims to find a small set of synthetic images such that training a model on them reproduces the performance of the same model trained on a much larger dataset of real samples. Existing distillation methods focus on synthesizing datasets that enable training randomly initialized models. In contrast, state-of-the-art vision approaches are increasingly building on larg...
 
-### [Think Visually, Reason Textually: Vision-Language Synergy in ARC](http://arxiv.org/abs/2511.15703v1)
-*Published: 2025-11-19*  
-**Authors:** Beichen Zhang, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
+### [EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards](http://arxiv.org/abs/2511.16672v1)
+*Published: 2025-11-20*  
+**Authors:** Omkat Thawakar, Shravan Venkatraman, Ritesh Thawkar, Abdelrahman Shaker, Hisham Cholakkal, Rao Muhammad Anwer, Salman Khan, Fahad Khan
 
-Abstract reasoning from minimal examples remains a core unsolved problem for frontier foundation models such as GPT-5 and Grok 4. These models still fail to infer structured transformation rules from a handful of examples, which is a key hallmark of human intelligence. The Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) provides a rigorous testbed for this capability...
+Recent advances in large multimodal models (LMMs) have enabled impressive reasoning and perception abilities, yet most existing training pipelines still depend on human-curated data or externally verified reward models, limiting their autonomy and scalability. In this work, we strive to improve LMM reasoning capabilities in a purely unsupervised fashion (without any annotated data or reward distil...
 
-### [First Frame Is the Place to Go for Video Content Customization](http://arxiv.org/abs/2511.15700v1)
-*Published: 2025-11-19*  
-**Authors:** Jingxi Chen, Zongxia Li, Zhichao Liu, Guangyao Shi, Xiyang Wu, Fuxiao Liu, Cornelia Fermuller, Brandon Y. Feng, Yiannis Aloimonos
+### [Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation](http://arxiv.org/abs/2511.16671v1)
+*Published: 2025-11-20*  
+**Authors:** Ziyu Guo, Renrui Zhang, Hongyu Li, Manyuan Zhang, Xinyan Chen, Sifan Wang, Yan Feng, Peng Pei, Pheng-Ann Heng
 
-What role does the first frame play in video generation models? Traditionally, it's viewed as the spatial-temporal starting point of a video, merely a seed for subsequent animation. In this work, we reveal a fundamentally different perspective: video models implicitly treat the first frame as a conceptual memory buffer that stores visual entities for later reuse during generation. Leveraging this ...
+Recent advances in visual generation have increasingly explored the integration of reasoning capabilities. They incorporate textual reasoning, i.e., think, either before (as pre-planning) or after (as post-refinement) the generation process, yet they lack on-the-fly multimodal interaction during the generation itself. In this preliminary study, we introduce Thinking-while-Generating (TwiG), the fi...
 
-### [Joint Semantic-Channel Coding and Modulation for Token Communications](http://arxiv.org/abs/2511.15699v1)
-*Published: 2025-11-19*  
-**Authors:** Jingkai Ying, Zhijin Qin, Yulong Feng, Liejun Wang, Xiaoming Tao
+### [Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO](http://arxiv.org/abs/2511.16669v1)
+*Published: 2025-11-20*  
+**Authors:** Junhao Cheng, Liang Hou, Xin Tao, Jing Liao
 
-In recent years, the Transformer architecture has achieved outstanding performance across a wide range of tasks and modalities. Token is the unified input and output representation in Transformer-based models, which has become a fundamental information unit. In this work, we consider the problem of token communication, studying how to transmit tokens efficiently and reliably. Point cloud, a prevai...
+While language models have become impactful in many real-world applications, video generation remains largely confined to entertainment. Motivated by video's inherent capacity to demonstrate physical-world information that is difficult to convey through language alone (e.g., imagine teaching someone to tie a tie using only text), we identify an underutilized opportunity to extend video as a new an...
 
-### [Assessing Power Flow Controllability via Variable Line Reactance](http://arxiv.org/abs/2511.15685v1)
-*Published: 2025-11-19*  
-**Authors:** Eric Haag, Yuhao Chen, Giri Venkataramanan, Manish K. Singh
+### [V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generation Models](http://arxiv.org/abs/2511.16668v1)
+*Published: 2025-11-20*  
+**Authors:** Yang Luo, Xuanlei Zhao, Baijiong Lin, Lingting Zhu, Liyao Tang, Yuqi Liu, Ying-Cong Chen, Shengju Qian, Xin Wang, Yang You
 
-The rapid growth of large data center loads and inverter-based generation is increasing the stress on transmission networks, while expanding grid capacity at the required pace remains challenging. Power flow controllers (PFCs) that adjust effective line reactances to redistribute flows are often viewed as an interim solution to improve transmission network utilization. Traditional flexibility metr...
+Recent progress in generative video models, such as Veo-3, has shown surprising zero-shot reasoning abilities, creating a growing need for systematic and reliable evaluation. We introduce V-ReasonBench, a benchmark designed to assess video reasoning across four key dimensions: structured problem-solving, spatial cognition, pattern-based inference, and physical dynamics. The benchmark is built from...
 
-### [Front-door Reducibility: Reducing ADMGs to the Standard Front-door Setting via a Graphical Criterion](http://arxiv.org/abs/2511.15679v1)
-*Published: 2025-11-19*  
-**Authors:** Jianqiao Mao, Max A. Little
+### [SceneDesigner: Controllable Multi-Object Image Generation with 9-DoF Pose Manipulation](http://arxiv.org/abs/2511.16666v1)
+*Published: 2025-11-20*  
+**Authors:** Zhenyuan Qin, Xincheng Shuai, Henghui Ding
 
-Front-door adjustment provides a simple closed-form identification formula under the classical front-door criterion, but its applicability is often viewed as narrow and strict. Although ID algorithm is very useful and is proved effective for causal relation identification in general causal graphs (if it is identifiable), performing ID algorithm does not guarantee to obtain a practical, easy-to-est...
+Controllable image generation has attracted increasing attention in recent years, enabling users to manipulate visual content such as identity and style. However, achieving simultaneous control over the 9D poses (location, size, and orientation) of multiple objects remains an open challenge. Despite recent progress, existing methods often suffer from limited controllability and degraded quality, f...
 
-### [Intrinsic quantum disorder in Yb2Ti2O7 and the quantum S=1/2 pyrochlore phase diagram](http://arxiv.org/abs/2511.15678v1)
-*Published: 2025-11-19*  
-**Authors:** Shang-Shun Zhang, Anish Bhardwaj, S. M. Koohpayeh, D. M. Pajerowski, Jeffrey G. Rau, Hitesh J. Changlani, Allen Scheie
+### [Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter](http://arxiv.org/abs/2511.16665v1)
+*Published: 2025-11-20*  
+**Authors:** Qinghao Hu, Shang Yang, Junxian Guo, Xiaozhe Yao, Yujun Lin, Yuxian Gu, Han Cai, Chuang Gan, Ana Klimovic, Song Han
 
-We present an experimental and theoretical study of the anisotropic pyrochlore phase diagram. Inelastic field-dependent neutron scattering on Yb$_2$Ti$_2$O$_7$ shows intrinsic broadening and a flat low-energy magnon mode which is partially captured by interacting magnon models. Exact diagonalization reveals the existence of an emergent quantum phase between ferromagnetism and antiferromagnetism, i...
+The emergence of Large Language Models (LLMs) with strong reasoning capabilities marks a significant milestone, unlocking new frontiers in complex problem-solving. However, training these reasoning models, typically using Reinforcement Learning (RL), encounters critical efficiency bottlenecks: response generation during RL training exhibits a persistent long-tail distribution, where a few very lon...
 
-### [Nonlinear scalar field equations with a critical Hardy potential](http://arxiv.org/abs/2511.15668v1)
-*Published: 2025-11-19*  
-**Authors:** Bartosz Bieganowski, Daniel Strzelecki
+### [Worldline Localization](http://arxiv.org/abs/2511.16663v1)
+*Published: 2025-11-20*  
+**Authors:** Changha Choi, Leon A. Takhtajan
 
-We study the existence of solutions for the nonlinear scalar field equation $$-Δu - \frac{(N-2)^2}{4|x|^2} u = g(u), \quad \mbox{in } \mathbb{R}^N \setminus \{0\},$$ where the potential $-\frac{(N-2)^2}{4|x|^2}$ is the critical Hardy potential and $N \geq 3$. The nonlinearity $g$ is continuous and satisfies general subcritical growth assumptions of the Berestycki-Lions type. The problem is approac...
+We show that two elementary worldline path integrals-the thermal partition function of the harmonic oscillator and the one-loop effective action of scalar QED in a constant field strength-exhibit a natural form of supersymmetric localization. The mechanism relies on hidden fermionic symmetries of the worldline BRST formulation, rather than on standard BRST structure or physical supersymmetry. Thes...
 
-### [Localizing AlAdS$_5$ black holes and the SUSY index on $S^1 \times M_3$](http://arxiv.org/abs/2511.15666v1)
-*Published: 2025-11-19*  
-**Authors:** Jaeha Park
+### [TriDiff-4D: Fast 4D Generation through Diffusion-based Triplane Re-posing](http://arxiv.org/abs/2511.16662v1)
+*Published: 2025-11-20*  
+**Authors:** Eddie Pokming Sheung, Qihao Liu, Wufei Ma, Prakhar Kaushik, Jianwen Xie, Alan Yuille
 
-We consider complex, supersymmetric, non-extremal Euclidean black holes that are asymptotically locally AdS$_5$, with $S^1 \times M_3$ conformal boundary. We study field theory backgrounds consisting of various $M_3$, and explicitly construct Killing spinors that are anti-periodic around the Euclidean time circle. Focussing on elliptically/biaxially squashed three-spheres and Lens spaces, we compu...
+With the increasing demand for 3D animation, generating high-fidelity, controllable 4D avatars from textual descriptions remains a significant challenge. Despite notable efforts in 4D generative modeling, existing methods exhibit fundamental limitations that impede their broader applicability, including temporal and geometric inconsistencies, perceptual artifacts, motion irregularities, high compu...
 
-### [Quantum-Guided Test Case Minimization for LLM-Based Code Generation](http://arxiv.org/abs/2511.15665v1)
-*Published: 2025-11-19*  
-**Authors:** Huixiang Zhang, Mahzabeen Emu
+### [PartUV: Part-Based UV Unwrapping of 3D Meshes](http://arxiv.org/abs/2511.16659v1)
+*Published: 2025-11-20*  
+**Authors:** Zhaoning Wang, Xinyue Wei, Ruoxi Shi, Xiaoshuai Zhang, Hao Su, Minghua Liu
 
-Precisely controlling Large Language Models (LLMs) to generate efficient and concise code is a central challenge in software engineering. We introduce a framework based on Test-Driven Development (TDD) that transforms code specification into a combinatorial optimization task. The framework first prompts an LLM to generate a test suite, then formulates the Test Case Minimization (TCM) problem as a ...
+UV unwrapping flattens 3D surfaces to 2D with minimal distortion, often requiring the complex surface to be decomposed into multiple charts. Although extensively studied, existing UV unwrapping methods frequently struggle with AI-generated meshes, which are typically noisy, bumpy, and poorly conditioned. These methods often produce highly fragmented charts and suboptimal boundaries, introducing ar...
 
-### [Exponential Suppression of Transport in Electric Quantum Walks](http://arxiv.org/abs/2511.15664v1)
-*Published: 2025-11-19*  
-**Authors:** Houssam Abdul-Rahman, Christopher Cedzich, Günter Stolz, Albert H. Werner
+### [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](http://arxiv.org/abs/2511.16657v1)
+*Published: 2025-11-20*  
+**Authors:** Juan C. King, Jose M. Amigo
 
-We establish exact scalings for the maximal group velocity of translation-invariant quantum walks in periodic electric fields. Our main result shows that the maximal group velocity decays exponentially with the period of the field in the whole parameter range, thus affirming a conjecture of arXiv:2302.01869 and at the same time augmenting it to an exact equality. We further demonstrate explicit re...
+This paper presents the implementation of an advanced artificial intelligence-based algorithmic trading system specifically designed for the EUR-USD pair within the high-frequency environment of the Forex market. The methodological approach centers on integrating a holistic set of input features: key fundamental macroeconomic variables (for example, Gross Domestic Product and Unemployment Rate) co...
 
-### [Generalized Borel Sets](http://arxiv.org/abs/2511.15663v1)
-*Published: 2025-11-19*  
-**Authors:** Claudio Agostini, Nick Chapman, Luca Motto Ros, Beatrice Pitton
+### [Comparison of Text-Based and Image-Based Retrieval in Multimodal Retrieval Augmented Generation Large Language Model Systems](http://arxiv.org/abs/2511.16654v1)
+*Published: 2025-11-20*  
+**Authors:** Elias Lumer, Alex Cardenas, Matt Melich, Myles Mason, Sara Dieter, Vamse Kumar Subbiah, Pradeep Honaganahalli Basavaraju, Roberto Hernandez
 
-Generalizing classical descriptive set theory opens foundational questions about the Borel hierarchy. In this paper we systematically study those questions, working in the general framework of Polish-like spaces relative to an uncountable cardinal $κ$, possibly singular, satisfying $2^{<κ}=κ$. We provide fundamental properties of the $κ^+$-Borel hierarchy of any regular Hausdorff space of weight a...
+Recent advancements in Retrieval-Augmented Generation (RAG) have enabled Large Language Models (LLMs) to access multimodal knowledge bases containing both text and visual information such as charts, diagrams, and tables in financial documents. However, existing multimodal RAG systems rely on LLM-based summarization to convert images into text during preprocessing, storing only text representations...
 
-### [VisPlay: Self-Evolving Vision-Language Models from Images](http://arxiv.org/abs/2511.15661v1)
-*Published: 2025-11-19*  
-**Authors:** Yicheng He, Chengsong Huang, Zongxia Li, Jiaxin Huang, Yonghui Yang
+### [Evolution Strategies at the Hyperscale](http://arxiv.org/abs/2511.16652v1)
+*Published: 2025-11-20*  
+**Authors:** Bidipta Sarkar, Mattie Fellows, Juan Agustin Duque, Alistair Letcher, Antonio León Villares, Anya Sims, Dylan Cope, Jarek Liesen, Lukas Seier, Theo Wolf, Uljad Berdica, Alexander David Goldie, Aaron Courville, Karin Sevegnani, Shimon Whiteson, Jakob Nicolaus Foerster
 
-Reinforcement learning (RL) provides a principled framework for improving Vision-Language Models (VLMs) on complex reasoning tasks. However, existing RL approaches often rely on human-annotated labels or task-specific heuristics to define verifiable rewards, both of which are costly and difficult to scale. We introduce VisPlay, a self-evolving RL framework that enables VLMs to autonomously improve...
+We introduce Evolution Guided General Optimization via Low-rank Learning (EGGROLL), an evolution strategies (ES) algorithm designed to scale backprop-free optimization to large population sizes for modern large neural network architectures with billions of parameters. ES is a set of powerful blackbox optimisation methods that can handle non-differentiable or noisy objectives with excellent scaling...
 
-### [Fantômas: An analysis of parton distributions in a pion with Bézier parametrizations](http://arxiv.org/abs/2511.15657v1)
-*Published: 2025-11-19*  
-**Authors:** Lucas Kotz, Aurore Courtoy, Pavel Nadolsky, Fredrick Olness, Maximiliano Ponce-Chavez
+### [InternData-A1: Pioneering High-Fidelity Synthetic Data for Pre-training Generalist Policy](http://arxiv.org/abs/2511.16651v1)
+*Published: 2025-11-20*  
+**Authors:** Yang Tian, Yuyin Yang, Yiman Xie, Zetao Cai, Xu Shi, Ning Gao, Hangxu Liu, Xuekun Jiang, Zherui Qiu, Feng Yuan, Yaping Li, Ping Wang, Junhao Cai, Jia Zeng, Hao Dong, Jiangmiao Pang
 
-We systematically explore the parametrization dependence of the Parton Distribution Functions (PDFs) to better quantify the true uncertainty from global QCD analyses. To achieve this, we employ a novel technique that automates the generation of polynomial parametrizations for PDFs using Bézier curves. This technique is implemented in a C++ module, named Fantômas, which is now included within the x...
+Recent works explore how real and synthetic data contribute to Vision-Language-Action (VLA) models' generalization. While current VLA models have shown the strong effectiveness of large-scale real-robot pre-training, synthetic data has not previously demonstrated comparable capability at scale. This paper provides the first evidence that synthetic data alone can match the performance of the strong...
 
-### [Material processing by laser-plasma-filament-guided high voltage discharges](http://arxiv.org/abs/2511.15651v1)
-*Published: 2025-11-19*  
-**Authors:** Kristian Cvecek, Markus Döring, Alexander Romboy, Johannes Heberle, Michael Schmidt
+### [The metric theory of small gaps for a sequence of real numbers](http://arxiv.org/abs/2511.16647v1)
+*Published: 2025-11-20*  
+**Authors:** Jewel Mahajan
 
-We investigate ablation experiments performed by laser-plasma-filament guided electrical discharges at high-voltages of up to 145 kV. The guiding was accomplished via fs-laser-generated plasma filaments across a gap of 201 mm of air onto steel 1.3343 samples. This method combines remote material processing and enables the steering and deflection of high voltage discharges with the ease-of-use of r...
+Let $(a_n)_{n \geq 1}$ be a sequence of distinct positive integers. The metric theory of minimal gaps for the sequence $\{αa_n \text{ mod }1, 1\leq n \leq N\}$ as $N \to \infty$ was initiated by Rudnick, who established that the minimal gap admits an asymptotic upper bound expressible in terms of the additive energy of $\{a_1,\ldots,a_N\}$ for almost every $α$. Later, Aistleitner, El-Baz, and Muns...
 
 ---
 ## 🔍 Computer Vision
 
-### [Tokenisation over Bounded Alphabets is Hard](http://arxiv.org/abs/2511.15709v1)
-*Published: 2025-11-19*  
-**Authors:** Violeta Kastreva, Philip Whittington, Dennis Komm, Tiago Pimentel
+### [Dataset Distillation for Pre-Trained Self-Supervised Vision Models](http://arxiv.org/abs/2511.16674v1)
+*Published: 2025-11-20*  
+**Authors:** George Cazenavette, Antonio Torralba, Vincent Sitzmann
 
-Recent works have shown that tokenisation is NP-complete. However, these works assume tokenisation is applied to inputs with unboundedly large alphabets -- an unrealistic assumption, given that in practice tokenisers operate over fixed-size alphabets, such as bytes or Unicode characters. We close this gap by analysing tokenisation over bounded $n$-ary alphabets, considering two natural variants: b...
+The task of dataset distillation aims to find a small set of synthetic images such that training a model on them reproduces the performance of the same model trained on a much larger dataset of real samples. Existing distillation methods focus on synthesizing datasets that enable training randomly initialized models. In contrast, state-of-the-art vision approaches are increasingly building on larg...
 
-### [RoMa v2: Harder Better Faster Denser Feature Matching](http://arxiv.org/abs/2511.15706v1)
-*Published: 2025-11-19*  
-**Authors:** Johan Edstedt, David Nordström, Yushan Zhang, Georg Bökman, Jonathan Astermark, Viktor Larsson, Anders Heyden, Fredrik Kahl, Mårten Wadenbäck, Michael Felsberg
+### [EvoLMM: Self-Evolving Large Multimodal Models with Continuous Rewards](http://arxiv.org/abs/2511.16672v1)
+*Published: 2025-11-20*  
+**Authors:** Omkat Thawakar, Shravan Venkatraman, Ritesh Thawkar, Abdelrahman Shaker, Hisham Cholakkal, Rao Muhammad Anwer, Salman Khan, Fahad Khan
 
-Dense feature matching aims to estimate all correspondences between two images of a 3D scene and has recently been established as the gold-standard due to its high accuracy and robustness. However, existing dense matchers still fail or perform poorly for many hard real-world scenarios, and high-precision models are often slow, limiting their applicability. In this paper, we attack these weaknesses...
+Recent advances in large multimodal models (LMMs) have enabled impressive reasoning and perception abilities, yet most existing training pipelines still depend on human-curated data or externally verified reward models, limiting their autonomy and scalability. In this work, we strive to improve LMM reasoning capabilities in a purely unsupervised fashion (without any annotated data or reward distil...
 
-### [GeoVista: Web-Augmented Agentic Visual Reasoning for Geolocalization](http://arxiv.org/abs/2511.15705v1)
-*Published: 2025-11-19*  
-**Authors:** Yikun Wang, Zuyan Liu, Ziyi Wang, Pengfei Liu, Han Hu, Yongming Rao
+### [NoPo-Avatar: Generalizable and Animatable Avatars from Sparse Inputs without Human Poses](http://arxiv.org/abs/2511.16673v1)
+*Published: 2025-11-20*  
+**Authors:** Jing Wen, Alexander G. Schwing, Shenlong Wang
 
-Current research on agentic visual reasoning enables deep multimodal understanding but primarily focuses on image manipulation tools, leaving a gap toward more general-purpose agentic models. In this work, we revisit the geolocalization task, which requires not only nuanced visual grounding but also web search to confirm or refine hypotheses during reasoning. Since existing geolocalization benchma...
+We tackle the task of recovering an animatable 3D human avatar from a single or a sparse set of images. For this task, beyond a set of images, many prior state-of-the-art methods use accurate "ground-truth" camera poses and human poses as input to guide reconstruction at test-time. We show that pose-dependent reconstruction degrades results significantly if pose estimates are noisy. To overcome th...
 
-### [In-N-On: Scaling Egocentric Manipulation with in-the-wild and on-task Data](http://arxiv.org/abs/2511.15704v1)
-*Published: 2025-11-19*  
-**Authors:** Xiongyi Cai, Ri-Zhao Qiu, Geng Chen, Lai Wei, Isabella Liu, Tianshu Huang, Xuxin Cheng, Xiaolong Wang
+### [Thinking-while-Generating: Interleaving Textual Reasoning throughout Visual Generation](http://arxiv.org/abs/2511.16671v1)
+*Published: 2025-11-20*  
+**Authors:** Ziyu Guo, Renrui Zhang, Hongyu Li, Manyuan Zhang, Xinyan Chen, Sifan Wang, Yan Feng, Peng Pei, Pheng-Ann Heng
 
-Egocentric videos are a valuable and scalable data source to learn manipulation policies. However, due to significant data heterogeneity, most existing approaches utilize human data for simple pre-training, which does not unlock its full potential. This paper first provides a scalable recipe for collecting and using egocentric data by categorizing human data into two categories: in-the-wild and on...
+Recent advances in visual generation have increasingly explored the integration of reasoning capabilities. They incorporate textual reasoning, i.e., think, either before (as pre-planning) or after (as post-refinement) the generation process, yet they lack on-the-fly multimodal interaction during the generation itself. In this preliminary study, we introduce Thinking-while-Generating (TwiG), the fi...
 
-### [Think Visually, Reason Textually: Vision-Language Synergy in ARC](http://arxiv.org/abs/2511.15703v1)
-*Published: 2025-11-19*  
-**Authors:** Beichen Zhang, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
+### [Learning to Think Fast and Slow for Visual Language Models](http://arxiv.org/abs/2511.16670v1)
+*Published: 2025-11-20*  
+**Authors:** Chenyu Lin, Cheng Chi, Jinlin Wu, Sharon Li, Kaiyang Zhou
 
-Abstract reasoning from minimal examples remains a core unsolved problem for frontier foundation models such as GPT-5 and Grok 4. These models still fail to infer structured transformation rules from a handful of examples, which is a key hallmark of human intelligence. The Abstraction and Reasoning Corpus for Artificial General Intelligence (ARC-AGI) provides a rigorous testbed for this capability...
+When confronted with complex problems, we tend to think slowly; conversely, for simple questions, we think quickly. Such a two-system thinking mechanism allows us to efficiently allocate cognitive resources, enabling quick decision-making for straightforward issues while reserving deeper analytical thinking for more intricate challenges. However, existing reasoning-oriented visual language models ...
 
-### [First Frame Is the Place to Go for Video Content Customization](http://arxiv.org/abs/2511.15700v1)
-*Published: 2025-11-19*  
-**Authors:** Jingxi Chen, Zongxia Li, Zhichao Liu, Guangyao Shi, Xiyang Wu, Fuxiao Liu, Cornelia Fermuller, Brandon Y. Feng, Yiannis Aloimonos
+### [Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO](http://arxiv.org/abs/2511.16669v1)
+*Published: 2025-11-20*  
+**Authors:** Junhao Cheng, Liang Hou, Xin Tao, Jing Liao
 
-What role does the first frame play in video generation models? Traditionally, it's viewed as the spatial-temporal starting point of a video, merely a seed for subsequent animation. In this work, we reveal a fundamentally different perspective: video models implicitly treat the first frame as a conceptual memory buffer that stores visual entities for later reuse during generation. Leveraging this ...
+While language models have become impactful in many real-world applications, video generation remains largely confined to entertainment. Motivated by video's inherent capacity to demonstrate physical-world information that is difficult to convey through language alone (e.g., imagine teaching someone to tie a tie using only text), we identify an underutilized opportunity to extend video as a new an...
 
-### [Joint Semantic-Channel Coding and Modulation for Token Communications](http://arxiv.org/abs/2511.15699v1)
-*Published: 2025-11-19*  
-**Authors:** Jingkai Ying, Zhijin Qin, Yulong Feng, Liejun Wang, Xiaoming Tao
+### [V-ReasonBench: Toward Unified Reasoning Benchmark Suite for Video Generation Models](http://arxiv.org/abs/2511.16668v1)
+*Published: 2025-11-20*  
+**Authors:** Yang Luo, Xuanlei Zhao, Baijiong Lin, Lingting Zhu, Liyao Tang, Yuqi Liu, Ying-Cong Chen, Shengju Qian, Xin Wang, Yang You
 
-In recent years, the Transformer architecture has achieved outstanding performance across a wide range of tasks and modalities. Token is the unified input and output representation in Transformer-based models, which has become a fundamental information unit. In this work, we consider the problem of token communication, studying how to transmit tokens efficiently and reliably. Point cloud, a prevai...
+Recent progress in generative video models, such as Veo-3, has shown surprising zero-shot reasoning abilities, creating a growing need for systematic and reliable evaluation. We introduce V-ReasonBench, a benchmark designed to assess video reasoning across four key dimensions: structured problem-solving, spatial cognition, pattern-based inference, and physical dynamics. The benchmark is built from...
 
-### [RescueLens: LLM-Powered Triage and Action on Volunteer Feedback for Food Rescue](http://arxiv.org/abs/2511.15698v1)
-*Published: 2025-11-19*  
-**Authors:** Naveen Raman, Jingwu Tang, Zhiyu Chen, Zheyuan Ryan Shi, Sean Hudson, Ameesh Kapoor, Fei Fang
+### [SceneDesigner: Controllable Multi-Object Image Generation with 9-DoF Pose Manipulation](http://arxiv.org/abs/2511.16666v1)
+*Published: 2025-11-20*  
+**Authors:** Zhenyuan Qin, Xincheng Shuai, Henghui Ding
 
-Food rescue organizations simultaneously tackle food insecurity and waste by working with volunteers to redistribute food from donors who have excess to recipients who need it. Volunteer feedback allows food rescue organizations to identify issues early and ensure volunteer satisfaction. However, food rescue organizations monitor feedback manually, which can be cumbersome and labor-intensive, maki...
+Controllable image generation has attracted increasing attention in recent years, enabling users to manipulate visual content such as identity and style. However, achieving simultaneous control over the 9D poses (location, size, and orientation) of multiple objects remains an open challenge. Despite recent progress, existing methods often suffer from limited controllability and degraded quality, f...
 
-### [The Impact of Quantization on Large Reasoning Model Reinforcement Learning](http://arxiv.org/abs/2511.15694v1)
-*Published: 2025-11-19*  
-**Authors:** Medha Kumar, Zifei Xu, Xin Wang, Tristan Webb
+### [Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter](http://arxiv.org/abs/2511.16665v1)
+*Published: 2025-11-20*  
+**Authors:** Qinghao Hu, Shang Yang, Junxian Guo, Xiaozhe Yao, Yujun Lin, Yuxian Gu, Han Cai, Chuang Gan, Ana Klimovic, Song Han
 
-Strong reasoning capabilities can now be achieved by large-scale reinforcement learning (RL) without any supervised fine-tuning. Although post-training quantization (PTQ) and quantization-aware training (QAT) are well studied in the context of fine-tuning, how quantization impacts RL in large reasoning models (LRMs) remains an open question. To answer this question, we conducted systematic experim...
+The emergence of Large Language Models (LLMs) with strong reasoning capabilities marks a significant milestone, unlocking new frontiers in complex problem-solving. However, training these reasoning models, typically using Reinforcement Learning (RL), encounters critical efficiency bottlenecks: response generation during RL training exhibits a persistent long-tail distribution, where a few very lon...
 
-### [Hyperspectral Image Classification using Spectral-Spatial Mixer Network](http://arxiv.org/abs/2511.15692v1)
-*Published: 2025-11-19*  
-**Authors:** Mohammed Q. Alkhatib
+### [Nemotron Elastic: Towards Efficient Many-in-One Reasoning LLMs](http://arxiv.org/abs/2511.16664v1)
+*Published: 2025-11-20*  
+**Authors:** Ali Taghibakhshi, Sharath Turuvekere Sreenivas, Saurav Muralidharan, Ruisi Cai, Marcin Chochowski, Ameya Sunil Mahabaleshwarkar, Yoshi Suhara, Oluwatobi Olabiyi, Daniel Korzekwa, Mostofa Patwary, Mohammad Shoeybi, Jan Kautz, Bryan Catanzaro, Ashwath Aithal, Nima Tajbakhsh, Pavlo Molchanov
 
-This paper introduces SS-MixNet, a lightweight and effective deep learning model for hyperspectral image (HSI) classification. The architecture integrates 3D convolutional layers for local spectral-spatial feature extraction with two parallel MLP-style mixer blocks that capture long-range dependencies in spectral and spatial dimensions. A depthwise convolution-based attention mechanism is employed...
+Training a family of large language models targeting multiple scales and deployment objectives is prohibitively expensive, requiring separate training runs for each different size. Recent work on model compression through pruning and knowledge distillation has reduced this cost; however, this process still incurs hundreds of billions of tokens worth of training cost per compressed model. In this p...
 
-### [MoDES: Accelerating Mixture-of-Experts Multimodal Large Language Models via Dynamic Expert Skipping](http://arxiv.org/abs/2511.15690v1)
-*Published: 2025-11-19*  
-**Authors:** Yushi Huang, Zining Wang, Zhihang Yuan, Yifu Ding, Ruihao Gong, Jinyang Guo, Xianglong Liu, Jun Zhang
+### [Worldline Localization](http://arxiv.org/abs/2511.16663v1)
+*Published: 2025-11-20*  
+**Authors:** Changha Choi, Leon A. Takhtajan
 
-Mixture-of-Experts (MoE) Multimodal large language models (MLLMs) excel at vision-language tasks, but they suffer from high computational inefficiency. To reduce inference overhead, expert skipping methods have been proposed to deactivate redundant experts based on the current input tokens. However, we find that applying these methods-originally designed for unimodal large language models (LLMs)-t...
+We show that two elementary worldline path integrals-the thermal partition function of the harmonic oscillator and the one-loop effective action of scalar QED in a constant field strength-exhibit a natural form of supersymmetric localization. The mechanism relies on hidden fermionic symmetries of the worldline BRST formulation, rather than on standard BRST structure or physical supersymmetry. Thes...
 
-### [Impact of cosmic expansion on gravitational wave spectra from strongly supercooled first-order phase transitions](http://arxiv.org/abs/2511.15687v1)
-*Published: 2025-11-19*  
-**Authors:** Marek Lewicki, Ville Vaskonen
+### [TriDiff-4D: Fast 4D Generation through Diffusion-based Triplane Re-posing](http://arxiv.org/abs/2511.16662v1)
+*Published: 2025-11-20*  
+**Authors:** Eddie Pokming Sheung, Qihao Liu, Wufei Ma, Prakhar Kaushik, Jianwen Xie, Alan Yuille
 
-We compute the gravitational wave spectra from strongly supercooled first-order phase transitions, explicitly incorporating the evolution of the background metric across the transition from thermal inflation to radiation domination. We find that the spectral shape remains largely unchanged apart from a causality-induced super-horizon tail. However, in contrast to standard expectations, for slow tr...
+With the increasing demand for 3D animation, generating high-fidelity, controllable 4D avatars from textual descriptions remains a significant challenge. Despite notable efforts in 4D generative modeling, existing methods exhibit fundamental limitations that impede their broader applicability, including temporal and geometric inconsistencies, perceptual artifacts, motion irregularities, high compu...
 
-### [Walrus: A Cross-Domain Foundation Model for Continuum Dynamics](http://arxiv.org/abs/2511.15684v1)
-*Published: 2025-11-19*  
-**Authors:** Michael McCabe, Payel Mukhopadhyay, Tanya Marwah, Bruno Regaldo-Saint Blancard, Francois Rozet, Cristiana Diaconu, Lucas Meyer, Kaze W. K. Wong, Hadi Sotoudeh, Alberto Bietti, Irina Espejo, Rio Fear, Siavash Golkar, Tom Hehir, Keiya Hirashima, Geraud Krawezik, Francois Lanusse, Rudy Morel, Ruben Ohana, Liam Parker, Mariel Pettee, Jeff Shen, Kyunghyun Cho, Miles Cranmer, Shirley Ho
+### [Dexterity from Smart Lenses: Multi-Fingered Robot Manipulation with In-the-Wild Human Demonstrations](http://arxiv.org/abs/2511.16661v1)
+*Published: 2025-11-20*  
+**Authors:** Irmak Guzey, Haozhi Qi, Julen Urain, Changhao Wang, Jessica Yin, Krishna Bodduluri, Mike Lambeta, Lerrel Pinto, Akshara Rai, Jitendra Malik, Tingfan Wu, Akash Sharma, Homanga Bharadhwaj
 
-Foundation models have transformed machine learning for language and vision, but achieving comparable impact in physical simulation remains a challenge. Data heterogeneity and unstable long-term dynamics inhibit learning from sufficiently diverse dynamics, while varying resolutions and dimensionalities challenge efficient training on modern hardware. Through empirical and theoretical analysis, we ...
+Learning multi-fingered robot policies from humans performing daily tasks in natural environments has long been a grand goal in the robotics community. Achieving this would mark significant progress toward generalizable robot manipulation in human environments, as it would reduce the reliance on labor-intensive robot data collection. Despite substantial efforts, progress toward this goal has been ...
 
-### [Quantum measurement tomography with mini-batch stochastic gradient descent](http://arxiv.org/abs/2511.15682v1)
-*Published: 2025-11-19*  
-**Authors:** Akshay Gaikwad, Manuel Sebastian Torres, Anton Frisk Kockum
+### [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](http://arxiv.org/abs/2511.16660v1)
+*Published: 2025-11-20*  
+**Authors:** Priyanka Kargupta, Shuyue Stella Li, Haocheng Wang, Jinu Lee, Shan Chen, Orevaoghene Ahia, Dean Light, Thomas L. Griffiths, Max Kleiman-Weiner, Jiawei Han, Asli Celikyilmaz, Yulia Tsvetkov
 
-Drawing inspiration from gradient-descent methods developed for data processing in quantum state tomography [\href{https://iopscience.iop.org/article/10.1088/2058-9565/ae0baa}{Quantum Sci.~Technol.~\textbf{10} 045055 (2025)}] and quantum process tomography [\href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.150402}{Phys.~Rev.~Lett.~\textbf{130}, 150402 (2023)}], we introduce stoch...
+Large language models solve complex problems yet fail on simpler variants, suggesting they achieve correct outputs through mechanisms fundamentally different from human reasoning. We synthesize cognitive science research into a taxonomy of 28 cognitive elements spanning computational constraints, meta-cognitive controls, knowledge representations, and transformation operations, then analyze their ...
 
-### [Infrastructuring Pop-Up Cities with "Social Layer": Designing Serendipitous Co-Livings for Temporary Intentional Communities](http://arxiv.org/abs/2511.15680v1)
-*Published: 2025-11-19*  
-**Authors:** Danwen Ji, Botao 'Amber' Hu
+### [PartUV: Part-Based UV Unwrapping of 3D Meshes](http://arxiv.org/abs/2511.16659v1)
+*Published: 2025-11-20*  
+**Authors:** Zhaoning Wang, Xinyue Wei, Ruoxi Shi, Xiaoshuai Zhang, Hao Su, Minghua Liu
 
-After the pandemic, a new form of "pop-up city" has emerged -- co-living gatherings of 100-200 people for 4-8 weeks that differ from conferences and hack houses. These temporary intentional communities leverages existing urban infrastructure, blending daily life (housing, meals, care) with self-organized activities like learning, creating, and socializing. They coordinate bottom-up programming thr...
+UV unwrapping flattens 3D surfaces to 2D with minimal distortion, often requiring the complex surface to be decomposed into multiple charts. Although extensively studied, existing UV unwrapping methods frequently struggle with AI-generated meshes, which are typically noisy, bumpy, and poorly conditioned. These methods often produce highly fragmented charts and suboptimal boundaries, introducing ar...
 
 ---
